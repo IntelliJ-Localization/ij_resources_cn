@@ -357,11 +357,11 @@
     <option name="version" hit="Current version" />
     <option name="iu-172" hit="IU-172.SNAPSHOT" />
     <option name="snapshot" hit="IU-172.SNAPSHOT" />
-    <option name="2" hit="IntelliJ IDEA 2017.2.3" />
-    <option name="2017" hit="IntelliJ IDEA 2017.2.3" />
-    <option name="3" hit="IntelliJ IDEA 2017.2.3" />
-    <option name="idea" hit="IntelliJ IDEA 2017.2.3" />
-    <option name="intellij" hit="IntelliJ IDEA 2017.2.3" />
+    <option name="2" hit="IntelliJ IDEA 2017.2.4" />
+    <option name="2017" hit="IntelliJ IDEA 2017.2.4" />
+    <option name="4" hit="IntelliJ IDEA 2017.2.4" />
+    <option name="idea" hit="IntelliJ IDEA 2017.2.4" />
+    <option name="intellij" hit="IntelliJ IDEA 2017.2.4" />
     <option name="checked" hit="Last checked" />
     <option name="last" hit="Last checked" />
     <option name="channel" hit="Please note that this channel is less stable than your current one." />
@@ -27003,7 +27003,7 @@
     <option name="protected" hit="Protected branches:" />
     <option name="executable" hit="SSH executable:" />
     <option name="ssh" hit="SSH executable:" />
-    <option name="test" hit="Test" />
+    <option name="test" hit="Test " />
     <option name="method" hit="Update method:" />
     <option name="update" hit="Update method:" />
     <option name="about" hit="Warn if CRLF line separators are about to be committed" />
@@ -28018,10 +28018,9 @@
     <option name="connections" hit="Can accept external connections" />
     <option name="external" hit="Can accept external connections" />
     <option name="click" hit="Click" />
-    <option name="connection" hit="Debug connection timeout (s)" />
-    <option name="debug" hit="Debug connection timeout (s)" />
-    <option name="s" hit="Debug connection timeout (s)" />
-    <option name="timeout" hit="Debug connection timeout (s)" />
+    <option name="connection" hit="Debug connection timeout" />
+    <option name="debug" hit="Debug connection timeout" />
+    <option name="timeout" hit="Debug connection timeout" />
     <option name="debugger" hit="Debugger" />
     <option name="disable" hit="Disable JIT" />
     <option name="jit" hit="Disable JIT" />
@@ -28057,6 +28056,8 @@
     <option name="kill" hit="Kill the debug process immediately" />
     <option name="process" hit="Kill the debug process immediately" />
     <option name="the" hit="Kill the debug process immediately" />
+    <option name="limit" hit="Memory limit" />
+    <option name="memory" hit="Memory limit" />
     <option name="port" hit="Port:" />
     <option name="0" hit="Read frames of non-suspended threads (not supported for Ruby 2.0)" />
     <option name="2" hit="Read frames of non-suspended threads (not supported for Ruby 2.0)" />
@@ -28088,10 +28089,18 @@
     <option name="on" hit="Show debug window on breakpoint" />
     <option name="show" hit="Show debug window on breakpoint" />
     <option name="window" hit="Show debug window on breakpoint" />
+    <option name="limit" hit="Time limit" />
+    <option name="time" hit="Time limit" />
+    <option name="evaluation" hit="Trace `to_s` evaluation" />
+    <option name="to_s" hit="Trace `to_s` evaluation" />
+    <option name="trace" hit="Trace `to_s` evaluation" />
     <option name="transport" hit="Transport:" />
     <option name="debugger" hit="Verbose debugger output" />
     <option name="output" hit="Verbose debugger output" />
     <option name="verbose" hit="Verbose debugger output" />
+    <option name="megabytes" hit="megabytes" />
+    <option name="milliseconds" hit="milliseconds" />
+    <option name="seconds" hit="seconds" />
   </configurable>
   <configurable id="debugger.dataViews" configurable_name="Data Views">
     <option name="data" hit="Data Views" />
