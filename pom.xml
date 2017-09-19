@@ -9,7 +9,7 @@
 
 	<name>idea-resources-cn</name>
 
-    <description>idea china Chinese support, idea v2017.2.4</description>
+    <description>idea china Chinese support, idea v2017.2.3</description>
 
     <developers>
         <developer>
@@ -19,9 +19,10 @@
     </developers>
     <url>https://github.com/Yihy/resources_cn</url>
 
-    <build>
-        <finalName>resources_cn</finalName>
-    </build>
+	<build>
+		<finalName>resources_cn</finalName>
+	</build>
+
 
 
 </project>
