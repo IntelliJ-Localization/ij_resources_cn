@@ -1,7 +1,7 @@
 # resources_cn
 
 
-> 对于IntelliJ IDEA 2017.2.3版本进行中文化,全平台支持.现在已基本完成汉化.
+> 对于IntelliJ IDEA 2017.2.4版本进行中文化,全平台支持.现在已基本完成汉化.
 
 新版的的idea逐渐抽取出资源,放在 '$IDEA_HOME$/lib/resources_en.jar' 中,这对进行中文化提供了优雅的方案.
 
