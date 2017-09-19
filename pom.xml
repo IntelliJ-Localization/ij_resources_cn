@@ -9,6 +9,16 @@
 
 	<name>idea-resources-cn</name>
 
+    <description>idea china Chinese support, idea v2017.2.3</description>
+
+    <developers>
+        <developer>
+            <name>念去去云</name>
+            <email>2100087178@qq.com</email>
+        </developer>
+    </developers>
+    <url>https://github.com/Yihy/resources_cn</url>
+
 	<build>
 		<finalName>resources_cn</finalName>
 	</build>
