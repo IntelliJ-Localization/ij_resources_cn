@@ -357,11 +357,11 @@
     <option name="version" hit="Current version" />
     <option name="iu-172" hit="IU-172.SNAPSHOT" />
     <option name="snapshot" hit="IU-172.SNAPSHOT" />
-    <option name="2" hit="IntelliJ IDEA 2017.2.4" />
-    <option name="2017" hit="IntelliJ IDEA 2017.2.4" />
-    <option name="4" hit="IntelliJ IDEA 2017.2.4" />
-    <option name="idea" hit="IntelliJ IDEA 2017.2.4" />
-    <option name="intellij" hit="IntelliJ IDEA 2017.2.4" />
+    <option name="2" hit="IntelliJ IDEA 2017.2.5" />
+    <option name="2017" hit="IntelliJ IDEA 2017.2.5" />
+    <option name="5" hit="IntelliJ IDEA 2017.2.5" />
+    <option name="idea" hit="IntelliJ IDEA 2017.2.5" />
+    <option name="intellij" hit="IntelliJ IDEA 2017.2.5" />
     <option name="checked" hit="Last checked" />
     <option name="last" hit="Last checked" />
     <option name="channel" hit="Please note that this channel is less stable than your current one." />
@@ -917,6 +917,11 @@
     <option name="property" path="ActionManager" hit="Add Property to Resource Bundle" />
     <option name="resource" path="ActionManager" hit="Add Property to Resource Bundle" />
     <option name="to" path="ActionManager" hit="Add Property to Resource Bundle" />
+    <option name="add" path="ActionManager" hit="Add RTL Support Where Possible..." />
+    <option name="possible" path="ActionManager" hit="Add RTL Support Where Possible..." />
+    <option name="rtl" path="ActionManager" hit="Add RTL Support Where Possible..." />
+    <option name="support" path="ActionManager" hit="Add RTL Support Where Possible..." />
+    <option name="where" path="ActionManager" hit="Add RTL Support Where Possible..." />
     <option name="add" path="ActionManager" hit="Add Rectangular Selection on Mouse Drag" />
     <option name="drag" path="ActionManager" hit="Add Rectangular Selection on Mouse Drag" />
     <option name="mouse" path="ActionManager" hit="Add Rectangular Selection on Mouse Drag" />
@@ -1173,6 +1178,12 @@
     <option name="path" path="ActionManager" hit="Add path to excluded ones to avoid downloading or uploading anything to or from it or its children." />
     <option name="to" path="ActionManager" hit="Add path to excluded ones to avoid downloading or uploading anything to or from it or its children." />
     <option name="uploading" path="ActionManager" hit="Add path to excluded ones to avoid downloading or uploading anything to or from it or its children." />
+    <option name="add" path="ActionManager" hit="Add right-to-left (RTL) support where possible" />
+    <option name="possible" path="ActionManager" hit="Add right-to-left (RTL) support where possible" />
+    <option name="right-to-left" path="ActionManager" hit="Add right-to-left (RTL) support where possible" />
+    <option name="rtl" path="ActionManager" hit="Add right-to-left (RTL) support where possible" />
+    <option name="support" path="ActionManager" hit="Add right-to-left (RTL) support where possible" />
+    <option name="where" path="ActionManager" hit="Add right-to-left (RTL) support where possible" />
     <option name="add" path="ActionManager" hit="Add rule" />
     <option name="rule" path="ActionManager" hit="Add rule" />
     <option name="add" path="ActionManager" hit="Add section rule" />
@@ -27003,7 +27014,7 @@
     <option name="protected" hit="Protected branches:" />
     <option name="executable" hit="SSH executable:" />
     <option name="ssh" hit="SSH executable:" />
-    <option name="test" hit="Test " />
+    <option name="test" hit="Test" />
     <option name="method" hit="Update method:" />
     <option name="update" hit="Update method:" />
     <option name="about" hit="Warn if CRLF line separators are about to be committed" />
