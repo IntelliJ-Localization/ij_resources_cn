@@ -3,11 +3,11 @@
 
 > 对于IntelliJ IDEA 2017.2.5版本进行中文化,全平台支持.现在已基本完成汉化.
 
-| 版本     | 是否支持    | 描述    |
+| 版本     | 是否支持    | 下载地址    |
 | -       | :-:       |  :-:   |
-|2017.2.3 | 支持       |        |
-|2017.2.4 |  支持    |         |
-|2017.2.5 |  支持    |         |
+|2017.2.3 | 支持       |   [下载](https://github.com/Yihy/resources_cn/releases/download/v2017.2.3/resources_cn-v2017.2.3-beta1.jar)   |
+|2017.2.4 |  支持    |   [下载](https://github.com/Yihy/resources_cn/releases/download/v2017.2.4/resources_cn-v2017.2.4-beta1.jar)  |
+|2017.2.5 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/download/v2017.2.5/resources_cn-beta1.jar)     |
 
 
 
