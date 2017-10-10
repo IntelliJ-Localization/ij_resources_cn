@@ -21,6 +21,22 @@
 
 	<build>
 		<finalName>resources_cn</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<excludes>
+						<exclude>fileTemplates_cn/**</exclude>
+						<exclude>inspectionDescriptions/**</exclude>
+						<exclude>intentionDescriptions/**</exclude>
+						<exclude>search/**</exclude>
+						<exclude>tips/**</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 
 
