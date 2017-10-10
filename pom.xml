@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>cc.yihy</groupId>
-    <artifactId>idea-resources-cn</artifactId>
-    <version>1.0.0</version>
-    <packaging>jar</packaging>
+	<groupId>cc.yihy</groupId>
+	<artifactId>idea-resources-cn</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
 
-    <name>idea-resources-cn</name>
+	<name>idea-resources-cn</name>
 
     <description>idea china Chinese support, idea v2017.2.4</description>
 
@@ -19,8 +19,25 @@
     </developers>
     <url>https://github.com/Yihy/resources_cn</url>
 
-    <build>
-        <finalName>resources_cn</finalName>
-    </build>
+	<build>
+		<finalName>resources_cn</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<excludes>
+						<exclude>fileTemplates_cn/**</exclude>
+						<exclude>inspectionDescriptions/**</exclude>
+						<exclude>intentionDescriptions/**</exclude>
+						<exclude>search/**</exclude>
+						<exclude>tips/**</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 
 </project>
