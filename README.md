@@ -14,9 +14,11 @@
 
 | 版本     | 是否支持    | 下载地址    |
 | -       | :-:       |  :-:   |
-|2017.2.3 | 支持       |   [下载](https://github.com/Yihy/resources_cn/releases/download/v2017.2.3/resources_cn-v2017.2.3-beta1.jar)   |
-|2017.2.4 |  支持    |   [下载](https://github.com/Yihy/resources_cn/releases/download/v2017.2.4/resources_cn-v2017.2.4-beta1.jar)  |
-|2017.2.5 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/download/v2017.2.5/resources_cn-beta1.jar)     |
+|2017.2.3 | 支持       |   [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2.3-beta2)   |
+|2017.2.4 |  支持    |   [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2.4-beta2)  |
+|2017.2.5 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2.5-beta2)     |
+
+**最新版本** : [点击前往](https://github.com/Yihy/resources_cn/releases)
 
 ## 拷贝内容
 将下载的包改名为resources_cn.jar,拷贝到 `$IDEA_HOME$/lib/` 目录下
