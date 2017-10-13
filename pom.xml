@@ -19,42 +19,40 @@
     </developers>
     <url>https://github.com/Yihy/resources_cn</url>
 
-	<build>
-		<finalName>resources_cn-${current.time}</finalName>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.4</version>
-				<configuration>
-					<excludes>
-						<exclude>fileTemplates_cn/**</exclude>
-						<exclude>inspectionDescriptions/**</exclude>
-						<exclude>intentionDescriptions/**</exclude>
-						<exclude>search/**</exclude>
-						<exclude>tips/**</exclude>
-					</excludes>
-				</configuration>
-			</plugin>
+    <build>
+        <finalName>resources_cn-${timestamp}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <excludes>
+                        <exclude>fileTemplates_cn/**</exclude>
+                        <exclude>inspectionDescriptions/**</exclude>
+                        <exclude>intentionDescriptions/**</exclude>
+                        <exclude>search/**</exclude>
+                        <exclude>tips/**</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
-                <artifactId>build-helper-maven-plugin</artifactId>
-                <version>1.9.1</version>
+                <artifactId>buildnumber-maven-plugin</artifactId>
+                <version>1.4</version>
+                <configuration>
+                    <timestampFormat>yyyyMMdd-HHmmss</timestampFormat>
+                </configuration>
                 <executions>
                     <execution>
-                        <id>timestamp-property</id>
                         <goals>
-                            <goal>timestamp-property</goal>
+                            <goal>create-timestamp</goal>
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <name>current.time</name>
-                    <pattern>yyyyMMdd-HHmmss</pattern>
-                    <timeZone>GMT+8</timeZone>
-                </configuration>
+                <inherited>false</inherited>
             </plugin>
-		</plugins>
-	</build>
+        </plugins>
+    </build>
 
 </project>
