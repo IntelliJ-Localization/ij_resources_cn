@@ -14,10 +14,10 @@
 
 | 版本     | 是否支持    | 下载地址    |
 | -       | :-:       |  :-:   |
-|2017.2.3 | 支持       |   [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2.3-beta2)   |
-|2017.2.4 |  支持    |   [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2.4-beta2)  |
-|2017.2.5 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2.5-beta2)     |
-|2017.2.6 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2.6-beta2)     |
+|2017.2.3 | 支持       |   [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2-beta4)   |
+|2017.2.4 |  支持    |   [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2-beta4)  |
+|2017.2.5 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2-beta4)     |
+|2017.2.6 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2-beta4)     |
 
 **最新版本** : [点击前往](https://github.com/Yihy/resources_cn/releases/latest)
 
