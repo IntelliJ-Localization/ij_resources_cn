@@ -25,5 +25,5 @@ before_deploy:
 deploy:
   provider: releases
   api_key: "$api_key"
-  file: "target/resources_cn-*.jar"
+  file: "target/resources_cn.jar"
   skip_cleanup: true

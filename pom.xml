@@ -20,7 +20,8 @@
     <url>https://github.com/Yihy/resources_cn</url>
 
     <build>
-        <finalName>resources_cn-${timestamp}</finalName>
+        <!--<finalName>resources_cn-${timestamp}</finalName>-->
+        <finalName>resources_cn</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -36,22 +37,22 @@
                     </excludes>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>buildnumber-maven-plugin</artifactId>
-                <version>1.4</version>
-                <configuration>
-                    <timestampFormat>yyyyMMdd-HHmmss</timestampFormat>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>create-timestamp</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <inherited>false</inherited>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.codehaus.mojo</groupId>-->
+                <!--<artifactId>buildnumber-maven-plugin</artifactId>-->
+                <!--<version>1.4</version>-->
+                <!--<configuration>-->
+                    <!--<timestampFormat>yyyyMMdd-HHmmss</timestampFormat>-->
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<goals>-->
+                            <!--<goal>create-timestamp</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+                <!--<inherited>false</inherited>-->
+            <!--</plugin>-->
         </plugins>
     </build>
 
