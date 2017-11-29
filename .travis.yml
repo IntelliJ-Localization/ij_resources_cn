@@ -1,19 +1,6 @@
 language: java 
 jdk:
   - openjdk7
-
-cache:
-  directories:
-    - $HOME/.m2
-before_cache:
-  - rm -rf $HOME/.m2/repository/
-before_install:
-  - wget http://apache.claz.org/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
-  - tar zxvf apache-maven-3.3.9-bin.tar.gz
-  - chmod +x apache-maven-3.3.9/bin/mvn
-  - export M2_HOME=$PWD/apache-maven-3.3.9
-  - export PATH=$PWD/apache-maven-3.3.9/bin:${PATH}
-  - hash -r
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
