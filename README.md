@@ -1,7 +1,6 @@
 # **resources_cn** 开发工具IDEA 汉化(中文化)![build-Status](https://api.travis-ci.org/Yihy/resources_cn.svg?branch=master)
 >IDEA 全称 IntelliJ IDEA，是java语言开发的集成环境，IntelliJ在业界被公认为最好的java开发工具之一，尤其在智能代码助手、代码自动提示、重构、J2EE支持、各类版本工具(git、svn、github等)、JUnit、CVS整合、代码分析、 创新的GUI设计等方面的功能可以说是超常的。IDEA是JetBrains公司的产品，这家公司总部位于捷克共和国的首都布拉格，开发人员以严谨著称的东欧程序员为主。它的旗舰版本还支持HTML，CSS，PHP，MySQL，Python等。免费版只支持Java等少数语言。
 
-
 本人从IDEA 2017.2.3版本开始,跟随它的更新,进行中文化的翻译.
 - 有关中文化的教程,请参考本人的翻译的[IDEA官方指南](http://www.jianshu.com/p/96459aa977d9)
 - 项目地址 [GitHub](https://github.com/Yihy/resources_cn)
