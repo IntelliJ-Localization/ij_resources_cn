@@ -1,4 +1,5 @@
-# **resources_cn** 开发工具IDEA 汉化(中文化)![build-Status](https://api.travis-ci.org/Yihy/resources_cn.svg?branch=master)
+# **resources_cn** 开发工具IDEA 汉化(中文化)[![Build Status](https://travis-ci.org/Yihy/resources_cn.png?branch=master)](https://travis-ci.org/Yihy/resources_cn)
+
 >IDEA 全称 IntelliJ IDEA，是java语言开发的集成环境，IntelliJ在业界被公认为最好的java开发工具之一，尤其在智能代码助手、代码自动提示、重构、J2EE支持、各类版本工具(git、svn、github等)、JUnit、CVS整合、代码分析、 创新的GUI设计等方面的功能可以说是超常的。IDEA是JetBrains公司的产品，这家公司总部位于捷克共和国的首都布拉格，开发人员以严谨著称的东欧程序员为主。它的旗舰版本还支持HTML，CSS，PHP，MySQL，Python等。免费版只支持Java等少数语言。
 
 本人从IDEA 2017.2.3版本开始,跟随它的更新,进行中文化的翻译.
@@ -13,10 +14,11 @@
 
 | 版本     | 是否支持    | 下载地址    |
 | -       | :-:       |  :-:   |
-|2017.2.3 | 支持       |   [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2-beta4)   |
-|2017.2.4 |  支持    |   [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2-beta4)  |
-|2017.2.5 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2-beta4)     |
-|2017.2.6 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/tag/v2017.2-beta4)     |
+|2017.2.3 | 支持       |   [下载](https://github.com/Yihy/resources_cn/releases/latest)   |
+|2017.2.4 |  支持    |   [下载](https://github.com/Yihy/resources_cn/releases/latest)  |
+|2017.2.5 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/latest)     |
+|2017.2.6 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/latest)     |
+|2017.3 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/latest)     |
 
 **最新版本** : [点击前往](https://github.com/Yihy/resources_cn/releases/latest)
 
