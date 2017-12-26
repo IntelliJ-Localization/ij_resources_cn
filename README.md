@@ -19,6 +19,7 @@
 |2017.2.5 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/latest)     |
 |2017.2.6 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/latest)     |
 |2017.3 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/latest)     |
+|2017.3.1 |  支持    |     [下载](https://github.com/Yihy/resources_cn/releases/latest)     |
 
 **最新版本** : [点击前往](https://github.com/Yihy/resources_cn/releases/latest)
 
