@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id 'maven'
+    id 'com.github.kt3k.coveralls' version '2.8.2'
+
+    id 'org.intellij.l10n' version "0.0.1"
+}
+
+import org.apache.tools.ant.filters.EscapeUnicode
+
+group = 'cc.yihy'
+version = "1.0.0"
+description = """IDEA chinese translation"""
+
+//author = '念去去云'
+//email = '2100087178@qq.com'
+
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+
+jar {
+    baseName = "resources_cn"
+    exclude("fileTemplates_cn/**")
+    exclude("inspectionDescriptions/**")
+    exclude("intentionDescriptions/**")
+    exclude("search/**")
+    exclude("tips/**")
+
+    filteringCharset = 'UTF-8'
+
+    filter(EscapeUnicode)
+}
+
+repositories {
+    maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+coverage {
+    outputDir = "$project.buildDir"
+    packagePrefix = ""
+    dir = "$project.buildDir/resources/main"
+}
+
+tasks.coveralls {
+    dependsOn "localizationCoverageReport"
+}
+
+coveralls {
+    sourceDirs += ['src/main/resources']
+}
