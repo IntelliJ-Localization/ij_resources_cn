@@ -1,8 +1,10 @@
 language: java 
 jdk:
   - openjdk7
-install:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+install: true
+
+script:
+  - ./gradlew build
 
 before_deploy:
   # Set up git user name and tag this commit
@@ -12,5 +14,5 @@ before_deploy:
 deploy:
   provider: releases
   api_key: "$api_key"
-  file: "target/resources_cn.jar"
+  file: "build/libs/resources_cn.jar"
   skip_cleanup: true

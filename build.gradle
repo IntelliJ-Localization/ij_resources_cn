@@ -9,7 +9,6 @@ plugins {
 import org.apache.tools.ant.filters.EscapeUnicode
 
 group = 'cc.yihy'
-version = "1.0.0"
 description = """IDEA chinese translation"""
 
 //author = '念去去云'
