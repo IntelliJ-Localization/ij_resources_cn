@@ -9,7 +9,7 @@ plugins {
 import org.apache.tools.ant.filters.EscapeUnicode
 
 group = 'cc.yihy'
-description = """IDEA chinese translation"""
+description = """IDEA Chinese translation"""
 
 //author = '念去去云'
 //email = '2100087178@qq.com'
