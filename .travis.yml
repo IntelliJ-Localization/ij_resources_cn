@@ -16,3 +16,6 @@ deploy:
   api_key: "$api_key"
   file: "build/libs/resources_cn.jar"
   skip_cleanup: true
+
+after_success:
+  - ./gradlew coveralls
