@@ -1,7 +1,5 @@
 package translation.main;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import translation.bo.LanguageResource;
 import translation.bo.ResourceFile;
@@ -33,7 +31,7 @@ public class LocalizationMain {
     private static String CHS_JSON_FILE_NAME = "chs.json";
     private static String EN_JSON_FILE_NAME = "en.json";
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         String resourcePath = "src/main/resources";
         String enResourcePath = "/Users/t/workspace/idea_l10n/2018.2.5/resources_en";
         String storagePath = "/Users/t/workspace/idea_l10n/2018.2.5/test";
@@ -50,6 +48,9 @@ public class LocalizationMain {
     private static void generateResourceJar(String savePath, Path resouecePath) {
         Resources resources = JsonUtils.fromJson(Paths.get(resouecePath.toString(), ALL_JSON_FILE_NAME), Resources.class);
 
+        if (resources == null) {
+            throw new IllegalArgumentException("资源文件为空");
+        }
         Path diffPath = Paths.get(resouecePath.toString(), DIFF_JSON_FILE_NAME);
         if (Files.exists(diffPath)) {
             List<ResourceFile> diff = JsonUtils.fromJson(Paths.get(resouecePath.toString(), DIFF_JSON_FILE_NAME), new TypeToken<List<ResourceFile>>() {
@@ -73,7 +74,7 @@ public class LocalizationMain {
         saveObjToJson(Paths.get(stroageDir.toString(), DIFF_JSON_FILE_NAME), resources.getDiff());
     }
 
-    public static void generateFiles(Path storagePath, Resources resources) {
+    private static void generateFiles(Path storagePath, Resources resources) {
 
         List<ResourceFile> resourceFiles = resources.getResourceFiles();
         List<ResourceFile> diff = resources.getDiff();
@@ -100,13 +101,13 @@ public class LocalizationMain {
             Properties properties = new Properties();
             if (r.getProps() != null) {
                 Map<String, String> stringMap = r.getProps().stream()
-                    .filter(Objects::nonNull)
-                    .collect(Collectors.toMap(LanguageResource::getKey, l -> {
-                        if (isBlank(l.getCnValue())) {
-                            return l.getEnValue();
-                        }
-                        return l.getCnValue();
-                    }));
+                        .filter(Objects::nonNull)
+                        .collect(Collectors.toMap(LanguageResource::getKey, l -> {
+                            if (isBlank(l.getCnValue())) {
+                                return l.getEnValue();
+                            }
+                            return l.getCnValue();
+                        }));
                 properties.putAll(stringMap);
             }
             PropertiesUtils.saveProperties(path, properties);
@@ -125,15 +126,7 @@ public class LocalizationMain {
         }
     }
 
-    private static <K, V> void forEach(Map<K, V> map, BiConsumer<? super K, ? super V>... actions) {
-        map.forEach((k, v) -> {
-            for (BiConsumer<? super K, ? super V> action : actions) {
-                action.accept(k, v);
-            }
-        });
-    }
-
-    private static Resources buildResources(Map<String, Properties> cnProperties, Map<String, Properties> enProperties) throws IOException {
+    private static Resources buildResources(Map<String, Properties> cnProperties, Map<String, Properties> enProperties) {
         List<ResourceFile> resourceFileList = new ArrayList<>();
         List<ResourceFile> diff = new ArrayList<>();
 
@@ -157,20 +150,20 @@ public class LocalizationMain {
 
 
             enProp.stringPropertyNames()
-                .forEach(key -> {
-                    String cnValue = cnProp.getProperty(key);
-                    String enValue = enProp.getProperty(key);
+                    .forEach(key -> {
+                        String cnValue = cnProp.getProperty(key);
+                        String enValue = enProp.getProperty(key);
 
-                    LanguageResource languageResource = new LanguageResource();
-                    languageResource.setKey(key);
-                    languageResource.setEnValue(enValue);
-                    languageResource.setCnValue(cnValue);
-                    resourceFile.addProp(languageResource);
+                        LanguageResource languageResource = new LanguageResource();
+                        languageResource.setKey(key);
+                        languageResource.setEnValue(enValue);
+                        languageResource.setCnValue(cnValue);
+                        resourceFile.addProp(languageResource);
 
-                    if (isBlank(cnValue) || cnValue.equals(enValue)) {
-                        diffFile.addProp(languageResource);
-                    }
-                });
+                        if (isBlank(cnValue) || cnValue.equals(enValue)) {
+                            diffFile.addProp(languageResource);
+                        }
+                    });
             if (diffFile.getProps() == null || diffFile.getProps().isEmpty()) {
                 return;
             }

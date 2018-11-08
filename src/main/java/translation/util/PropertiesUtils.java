@@ -5,6 +5,7 @@ import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
@@ -34,7 +35,7 @@ public class PropertiesUtils {
         if (!Files.exists(path)) {
             Files.createFile(path);
         }
-        Files.write(path, json.getBytes("UTF-8"));
+        Files.write(path, json.getBytes(StandardCharsets.UTF_8));
     }
 
     public static Map<String, Properties> readTranslationMap(Path store) throws IOException {

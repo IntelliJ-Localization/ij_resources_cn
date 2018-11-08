@@ -15,7 +15,7 @@ import java.nio.file.Path;
  */
 public class JsonUtils {
 
-    private static Gson GSON = new GsonBuilder()
+    private static final Gson GSON = new GsonBuilder()
         .setPrettyPrinting()
         .disableHtmlEscaping()
         .serializeNulls()
