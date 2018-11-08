@@ -21,17 +21,13 @@ targetCompatibility = 1.8
 sourceSets {
     main {
         java { srcDirs = ["src/main/java"] }
-        resources { srcDirs = ["src/main/resources/cn"] }
+        resources { srcDirs = ["src/main/resources/"] }
     }
 }
 jar {
     baseName = "resources_cn"
-    exclude("fileTemplates_cn/**")
-    exclude("inspectionDescriptions/**")
-    exclude("intentionDescriptions/**")
-    exclude("search/**")
-    exclude("tips/**")
-
+    exclude("**.json")
+    exclude("translation/")
     
     filteringCharset = 'UTF-8'
 
