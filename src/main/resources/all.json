@@ -7552,7 +7552,7 @@
         },
         {
           "key": "0.is.1.and.will.not.be.accessible.from.2.in.the.target.class",
-          "cnValue": "0}{1},不会可以从{2}.",
+          "cnValue": "{0}为{1}, 无法从{2}访问.",
           "enValue": "{0} is {1} and will not be accessible from {2}."
         },
         {
@@ -47697,22 +47697,22 @@
         },
         {
           "key": "inspection.header.rename.fix",
-          "cnValue": "æ¹åå° ''{0}''",
+          "cnValue": "改变到 ''{0}''",
           "enValue": "Change to ''{0}''"
         },
         {
           "key": "header.main.class.invalid",
-          "cnValue": "mainç±»æ æ",
+          "cnValue": "main类无效",
           "enValue": "Invalid main class"
         },
         {
           "key": "inspection.header.remember.fix",
-          "cnValue": "å¢å  ''{0}'' å°èªå®ä¹æ é¢",
+          "cnValue": "增加 ''{0}'' 到自定义标题",
           "enValue": "Add ''{0}'' to custom headers"
         },
         {
           "key": "inspection.group",
-          "cnValue": "æ¸å",
+          "cnValue": "清单",
           "enValue": "Manifest"
         },
         {
@@ -47722,7 +47722,7 @@
         },
         {
           "key": "header.agent.class.invalid",
-          "cnValue": "ä»£çç±»æ æ",
+          "cnValue": "代理类无效",
           "enValue": "Invalid agent class"
         },
         {
@@ -47737,17 +47737,17 @@
         },
         {
           "key": "inspection.newline.message",
-          "cnValue": "æ¸åæä»¶ä¸ä½¿ç¨æ¢è¡ç¬¦ç»å°¾",
+          "cnValue": "清单文件不使用换行符结尾",
           "enValue": "Manifest file doesn't end with a final newline"
         },
         {
           "key": "inspection.header.ui.label",
-          "cnValue": "å½åæ é¢:",
+          "cnValue": "当前标题:",
           "enValue": "Custom headers:"
         },
         {
           "key": "inspection.header.message",
-          "cnValue": "æ é¢åç§°æªç¥ææ¼åéè¯¯",
+          "cnValue": "标题名称未知或拼写错误",
           "enValue": "Header name is unknown or spelled incorrectly"
         },
         {
@@ -47757,12 +47757,12 @@
         },
         {
           "key": "header.name.invalid",
-          "cnValue": "æ æçæ é¢",
+          "cnValue": "无效的标题",
           "enValue": "Invalid header name"
         },
         {
           "key": "inspection.newline.fix",
-          "cnValue": "æ·»å æ¢è¡ç¬¦",
+          "cnValue": "添加换行符",
           "enValue": "Add newline"
         }
       ]
@@ -51184,7 +51184,7 @@
         },
         {
           "key": "action.ToggleReadOnlyAttribute.dirs",
-          "cnValue": "Make {3,choice,1#Directory|2#Directories} {0,choice,0#Read-only|1#Writeable}",
+          "cnValue": "使 {3,choice,1#目录|2#目录} {0,choice,0#只读|1#可写}",
           "enValue": "Make {3,choice,1#Directory|2#Directories} {0,choice,0#Read-only|1#Writeable}"
         },
         {

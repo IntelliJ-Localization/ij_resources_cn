@@ -1878,7 +1878,7 @@
       },
       {
         "key": "combobox.crlf.windows",
-        "cnValue": "窗口 (\\r\\n)",
+        "cnValue": "Windows (\\r\\n)",
         "enValue": "Windows (\\r\\n)"
       },
       {
@@ -4481,7 +4481,7 @@
       },
       {
         "key": "inspection.redundant.comparator.comparing.fix.remove.name",
-        "cnValue": "Remove ''{0}()'' call",
+        "cnValue": "移除 ''{0}()'' 调用",
         "enValue": "Remove ''{0}()'' call"
       },
       {
