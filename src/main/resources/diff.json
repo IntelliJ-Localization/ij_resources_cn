@@ -26,7 +26,7 @@
     "props": [
       {
         "key": "settings.page.name",
-        "cnValue": "Images",
+        "cnValue": "图像",
         "enValue": "Images"
       },
       {
@@ -47,7 +47,7 @@
     "props": [
       {
         "key": "service.uses",
-        "cnValue": null,
+        "cnValue": "使用服务 <a href=\"#javaClass/{0}\">{0}</a><br><div style='margin-top: 5px'><font size='2'>点击导航</font></div>",
         "enValue": "Uses service <a href=\"#javaClass/{0}\">{0}</a><br><div style='margin-top: 5px'><font size='2'>Click to navigate</font></div>"
       },
       {
@@ -57,7 +57,7 @@
       },
       {
         "key": "service.provides",
-        "cnValue": null,
+        "cnValue": "提供服务 <a href=\"#javaClass/{0}\">{0}</a><br><div style='margin-top: 5px'><font size='2'>点击导航</font></div>",
         "enValue": "Provides service <a href=\"#javaClass/{0}\">{0}</a><br><div style='margin-top: 5px'><font size='2'>Click to navigate</font></div>"
       }
     ]
@@ -68,12 +68,12 @@
     "props": [
       {
         "key": "run.anything.main.list.empty.secondary.text",
-        "cnValue": null,
+        "cnValue": "输入 \"?\" 来查看所有命令",
         "enValue": "Type \"?\" to see all commands"
       },
       {
         "key": "run.anything.run.anything.title",
-        "cnValue": null,
+        "cnValue": "Run anything:",
         "enValue": "Run anything:"
       },
       {
@@ -88,12 +88,12 @@
       },
       {
         "key": "go.to.class.action.description",
-        "cnValue": null,
+        "cnValue": "按名称快速导航到 {0}",
         "enValue": "Quickly navigate to a {0} by name"
       },
       {
         "key": "third.party.plugins.privacy.note.message",
-        "cnValue": null,
+        "cnValue": "<html><body>使用第三方插件可能涉及插件供应商处理您的个人数据。<br>有关个人数据处理的详细信息，请查看插件供应商的文档。<br><br>JetBrains不对任何第三方插件供应商处理您的个人数据负责。</body></html>",
         "enValue": "<html><body>Using third-party plugins may involve a plugin vendor processing your personal data.<br>Please check the plugin vendor’s documentation for details concerning personal data processing.<br><br>JetBrains is not responsible for any processing of your personal data by any third-party plugin vendors.</body></html>"
       },
       {
@@ -143,7 +143,7 @@
       },
       {
         "key": "message.plugin.evaluation.license.expired.shutdown",
-        "cnValue": null,
+        "cnValue": "您的插件评估许可证已过期。插件{0}将被禁用。",
         "enValue": "Your plugin evaluation license has expired. Plugin {0} will be disabled."
       },
       {
@@ -153,67 +153,67 @@
       },
       {
         "key": "plugins.auto.disabled.notification.content",
-        "cnValue": null,
+        "cnValue": "{0}和{1}插件已禁用。",
         "enValue": "{0} and {1} plugins are disabled."
       },
       {
         "key": "updates.settings.channel.locked",
-        "cnValue": null,
+        "cnValue": "EAP版本只能从EAP渠道更新",
         "enValue": "EAP builds can only be updated from the EAP channel"
       },
       {
         "key": "run.anything.general.group.title",
-        "cnValue": null,
+        "cnValue": "General",
         "enValue": "General"
       },
       {
         "key": "update.ready.message",
-        "cnValue": null,
+        "cnValue": "IDE已准备好进行更新。 <a href=\"#\">重新启动</a>？",
         "enValue": "The IDE is ready for update. <a href=\"#\">Restart</a>?"
       },
       {
         "key": "run.anything.recent.group.title",
-        "cnValue": null,
+        "cnValue": "最近",
         "enValue": "Recent"
       },
       {
         "key": "run.anything.console.error.title",
-        "cnValue": null,
+        "cnValue": "无法运行命令",
         "enValue": "Cannot Run Command"
       },
       {
         "key": "plugins.auto.switch.action.name",
-        "cnValue": null,
+        "cnValue": "Undo",
         "enValue": "Undo"
       },
       {
         "key": "third.party.plugins.privacy.note.yes",
-        "cnValue": null,
+        "cnValue": "接受",
         "enValue": "Accept"
       },
       {
         "key": "searcheverywhere.nothing.found.for.all.anywhere",
-        "cnValue": null,
+        "cnValue": "未找到。",
         "enValue": "Nothing found."
       },
       {
         "key": "run.anything.help.list.empty.secondary.text",
-        "cnValue": null,
+        "cnValue": "选择命令",
         "enValue": "Select command"
       },
       {
         "key": "ibus.blocking.warn.message",
-        "cnValue": "IBus version lower than 1.5.11 may cause input problems.",
+        "cnValue": "IBus版本低于1.5.11可能会导致输入问题。",
         "enValue": "IBus version lower than 1.5.11 may cause input problems."
       },
       {
         "key": "run.anything.ad.run.action.with.default.settings",
-        "cnValue": null,
+        "cnValue": "按 {0} 以默认设置运行",
         "enValue": "Press {0} to run with default settings"
       },
       {
         "key": "run.anything.console.title",
-        "cnValue": null,
+        "cnValue": "Run anything command",
         "enValue": "Run anything command"
       },
       {
@@ -223,32 +223,32 @@
       },
       {
         "key": "searcheverywhere.found.matches.generated.code.title",
-        "cnValue": null,
+        "cnValue": "在生成的代码中找到 [{1}] 中模式 ''{0}'' 的匹配项",
         "enValue": "Found matches for pattern ''{0}'' in [{1}] in generated code"
       },
       {
         "key": "change.memory.integer",
-        "cnValue": null,
+        "cnValue": "该值应为整数。",
         "enValue": "The value should be an integer."
       },
       {
         "key": "third.party.plugins.privacy.note.no",
-        "cnValue": null,
+        "cnValue": "取消",
         "enValue": "Cancel"
       },
       {
         "key": "run.anything.run.in.context.debug.title",
-        "cnValue": null,
+        "cnValue": "使用Debug在Context中运行:",
         "enValue": "Run in Context with Debug:"
       },
       {
         "key": "change.memory.nofile",
-        "cnValue": null,
+        "cnValue": "找不到文件VMOptions。",
         "enValue": "File VMOptions can't be found."
       },
       {
         "key": "label.no.enabled.actions.found",
-        "cnValue": "No enabled actions found",
+        "cnValue": "未找到已启用的操作",
         "enValue": "No enabled actions found"
       },
       {
@@ -258,42 +258,42 @@
       },
       {
         "key": "predefined.scope.project.files.name",
-        "cnValue": null,
+        "cnValue": "项目文件",
         "enValue": "Project Files"
       },
       {
         "key": "plugins.changed.notification.title",
-        "cnValue": null,
+        "cnValue": "需要重启",
         "enValue": "Restart needed"
       },
       {
         "key": "searcheverywhere.nothing.found.for.contributor.anywhere",
-        "cnValue": null,
+        "cnValue": "未找到 {0} 。",
         "enValue": "No {0} found."
       },
       {
         "key": "run.anything.command.empty.list.title",
-        "cnValue": null,
+        "cnValue": "按 ENTER 执行输入命令",
         "enValue": "Press ENTER to execute input command"
       },
       {
         "key": "update.snap.message",
-        "cnValue": null,
+        "cnValue": "IDE已由Snap更新。",
         "enValue": "The IDE has been updated by Snap."
       },
       {
         "key": "run.anything.group.title.temporary",
-        "cnValue": null,
+        "cnValue": "临时配置",
         "enValue": "Temporary configurations"
       },
       {
         "key": "searcheverywhere.history.shortcuts.hint",
-        "cnValue": null,
+        "cnValue": "按 {0} 或 {1} 浏览搜索记录",
         "enValue": "Press {0} or {1} to navigate through the search history"
       },
       {
         "key": "file.nesting.feature.enabled.checkbox",
-        "cnValue": null,
+        "cnValue": "显示与嵌套相同名称的文件 (&S)",
         "enValue": "&Show files with the same names as nested"
       },
       {
@@ -303,7 +303,7 @@
       },
       {
         "key": "run.anything.group.title.permanent",
-        "cnValue": null,
+        "cnValue": "永久配置",
         "enValue": "Permanent configurations"
       },
       {
@@ -313,57 +313,57 @@
       },
       {
         "key": "updates.no.updates.unknown.message",
-        "cnValue": null,
+        "cnValue": "<html>所有插件都是最新的.<br> {0} 更新由 {1} 外部管理.</html>",
         "enValue": "<html>All plugins are up to date.<br> {0} updates are managed externally by {1}.</html>"
       },
       {
         "key": "run.anything.notification.warning.title",
-        "cnValue": null,
+        "cnValue": "命令执行失败",
         "enValue": "Failed Command Execution"
       },
       {
         "key": "change.memory.low",
-        "cnValue": null,
+        "cnValue": "该值应大于256.",
         "enValue": "The value should be greater than 256."
       },
       {
         "key": "file.nesting.table.title",
-        "cnValue": null,
+        "cnValue": "嵌套规则:",
         "enValue": "Nesting rules:"
       },
       {
         "key": "plugins.changed.notification.content",
-        "cnValue": null,
+        "cnValue": "插件列表已更改. 请重新启动IntelliJ IDEA以激活更改.",
         "enValue": "Plugins list changed. Please restart IntelliJ IDEA to activate changes."
       },
       {
         "key": "action.compact.directories.description",
-        "cnValue": null,
+        "cnValue": "如果第一个目录仅包含第二个目录，则将两个类似的目录合并到单个节点",
         "enValue": "Merge two similar directories to a single node if a first directory contains only a second directory"
       },
       {
         "key": "file.nesting.reset.to.default.button",
-        "cnValue": null,
+        "cnValue": "重置为默认 (&R)",
         "enValue": "&Reset to Default"
       },
       {
         "key": "searcheverywhere.switch.scope.hint",
-        "cnValue": null,
+        "cnValue": "Tab切换范围",
         "enValue": "Tab to switch scope"
       },
       {
         "key": "searcheverywhere.show.in.find.window.button.name",
-        "cnValue": null,
+        "cnValue": "在查找窗口中打开",
         "enValue": "Open in Find Window"
       },
       {
         "key": "predefined.scope.non.project.files.name",
-        "cnValue": null,
+        "cnValue": "非项目文件",
         "enValue": "Non-Project Files"
       },
       {
         "key": "updates.settings.checkbox.external",
-        "cnValue": null,
+        "cnValue": "自动检查插件更新",
         "enValue": "Automatically check for plugin updates"
       },
       {
@@ -373,7 +373,7 @@
       },
       {
         "key": "run.anything.custom.activity.rollback.action",
-        "cnValue": null,
+        "cnValue": "回滚",
         "enValue": "Rollback"
       },
       {
@@ -393,7 +393,7 @@
       },
       {
         "key": "run.anything.recent.project.command.placeholder",
-        "cnValue": null,
+        "cnValue": "打开 <项目名>",
         "enValue": "open <project name>"
       },
       {
