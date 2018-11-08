@@ -9,15 +9,21 @@ plugins {
 import org.apache.tools.ant.filters.EscapeUnicode
 
 group = 'cc.yihy'
-description = """IDEA Chinese translation"""
+description = "IDEA Chinese translation"
 
 //author = '念去去云'
 //email = '2100087178@qq.com'
 
 
-sourceCompatibility = 1.5
-targetCompatibility = 1.5
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
+sourceSets {
+    main {
+        java { srcDirs = ["src/main/java"] }
+        resources { srcDirs = ["src/main/resources/cn"] }
+    }
+}
 jar {
     baseName = "resources_cn"
     exclude("fileTemplates_cn/**")
@@ -26,6 +32,7 @@ jar {
     exclude("search/**")
     exclude("tips/**")
 
+    
     filteringCharset = 'UTF-8'
 
     filter(EscapeUnicode)
@@ -35,6 +42,9 @@ repositories {
     maven { url "http://repo.maven.apache.org/maven2" }
 }
 
+dependencies{
+    compile 'com.google.code.gson:gson:2.8.2'
+}
 coverage {
     outputDir = "$project.buildDir"
     packagePrefix = ""

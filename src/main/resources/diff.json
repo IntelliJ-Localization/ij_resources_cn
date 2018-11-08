@@ -1,0 +1,5535 @@
+[
+  {
+    "path": "/messages/CodeEditorBundle.properties",
+    "name": "CodeEditorBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/LangBundle.properties",
+    "name": "LangBundle.properties",
+    "props": [
+      {
+        "key": "java.terms.annotation.interface",
+        "cnValue": "@interface",
+        "enValue": "@interface"
+      },
+      {
+        "key": "jrt.node.short",
+        "cnValue": "[JRT]",
+        "enValue": "[JRT]"
+      }
+    ]
+  },
+  {
+    "path": "/org/intellij/images/ImagesBundle.properties",
+    "name": "ImagesBundle.properties",
+    "props": [
+      {
+        "key": "settings.page.name",
+        "cnValue": "Images",
+        "enValue": "Images"
+      },
+      {
+        "key": "icon.dimensions",
+        "cnValue": "{0,number}x{1,number}x{2,number}",
+        "enValue": "{0,number}x{1,number}x{2,number}"
+      },
+      {
+        "key": "image.info",
+        "cnValue": "{0}x{1} {2} ({3}-bit color) {4}",
+        "enValue": "{0}x{1} {2} ({3}-bit color) {4}"
+      }
+    ]
+  },
+  {
+    "path": "/messages/DaemonBundle.properties",
+    "name": "DaemonBundle.properties",
+    "props": [
+      {
+        "key": "service.uses",
+        "cnValue": null,
+        "enValue": "Uses service <a href=\"#javaClass/{0}\">{0}</a><br><div style='margin-top: 5px'><font size='2'>Click to navigate</font></div>"
+      },
+      {
+        "key": "import.popup.text",
+        "cnValue": "{0}?",
+        "enValue": "{0}?"
+      },
+      {
+        "key": "service.provides",
+        "cnValue": null,
+        "enValue": "Provides service <a href=\"#javaClass/{0}\">{0}</a><br><div style='margin-top: 5px'><font size='2'>Click to navigate</font></div>"
+      }
+    ]
+  },
+  {
+    "path": "/messages/IdeBundle.properties",
+    "name": "IdeBundle.properties",
+    "props": [
+      {
+        "key": "run.anything.main.list.empty.secondary.text",
+        "cnValue": null,
+        "enValue": "Type \"?\" to see all commands"
+      },
+      {
+        "key": "run.anything.run.anything.title",
+        "cnValue": null,
+        "enValue": "Run anything:"
+      },
+      {
+        "key": "browsers.opera",
+        "cnValue": "Opera",
+        "enValue": "Opera"
+      },
+      {
+        "key": "tab.structureview.baselanguage.view",
+        "cnValue": "{0}",
+        "enValue": "{0}"
+      },
+      {
+        "key": "go.to.class.action.description",
+        "cnValue": null,
+        "enValue": "Quickly navigate to a {0} by name"
+      },
+      {
+        "key": "third.party.plugins.privacy.note.message",
+        "cnValue": null,
+        "enValue": "<html><body>Using third-party plugins may involve a plugin vendor processing your personal data.<br>Please check the plugin vendor’s documentation for details concerning personal data processing.<br><br>JetBrains is not responsible for any processing of your personal data by any third-party plugin vendors.</body></html>"
+      },
+      {
+        "key": "run.anything.recent.project.completion.group.title",
+        "cnValue": "最近的项目",
+        "enValue": "Recent projects"
+      },
+      {
+        "key": "run.anything.notification.warning.content",
+        "cnValue": "命令 ''{0}'' 无法执行",
+        "enValue": "Command ''{0}'' failed to execute. "
+      },
+      {
+        "key": "idea.dark.look.and.feel",
+        "cnValue": "Darcula",
+        "enValue": "Darcula"
+      },
+      {
+        "key": "low.memory.notification.content",
+        "cnValue": "IDE的内存不足，这可能会影响性能。请考虑增加可用堆。",
+        "enValue": "The IDE is running low on memory and this might affect performance. Please consider increasing available heap."
+      },
+      {
+        "key": "run.anything.recent.project.help.group.title",
+        "cnValue": "最近的项目",
+        "enValue": "Recent projects"
+      },
+      {
+        "key": "about.box.open.source.software",
+        "cnValue": "开源软件",
+        "enValue": "open-source software"
+      },
+      {
+        "key": "sys.health.details",
+        "cnValue": "详情",
+        "enValue": "Details"
+      },
+      {
+        "key": "run.anything.ad.command.delete",
+        "cnValue": "删除最近的命令 {0}",
+        "enValue": "{0} to delete recent command"
+      },
+      {
+        "key": "create.default.library.type.action.name",
+        "cnValue": "Java",
+        "enValue": "Java"
+      },
+      {
+        "key": "message.plugin.evaluation.license.expired.shutdown",
+        "cnValue": null,
+        "enValue": "Your plugin evaluation license has expired. Plugin {0} will be disabled."
+      },
+      {
+        "key": "about.box.vm",
+        "cnValue": "JVM: {0} by {1}",
+        "enValue": "JVM: {0} by {1}"
+      },
+      {
+        "key": "plugins.auto.disabled.notification.content",
+        "cnValue": null,
+        "enValue": "{0} and {1} plugins are disabled."
+      },
+      {
+        "key": "updates.settings.channel.locked",
+        "cnValue": null,
+        "enValue": "EAP builds can only be updated from the EAP channel"
+      },
+      {
+        "key": "run.anything.general.group.title",
+        "cnValue": null,
+        "enValue": "General"
+      },
+      {
+        "key": "update.ready.message",
+        "cnValue": null,
+        "enValue": "The IDE is ready for update. <a href=\"#\">Restart</a>?"
+      },
+      {
+        "key": "run.anything.recent.group.title",
+        "cnValue": null,
+        "enValue": "Recent"
+      },
+      {
+        "key": "run.anything.console.error.title",
+        "cnValue": null,
+        "enValue": "Cannot Run Command"
+      },
+      {
+        "key": "plugins.auto.switch.action.name",
+        "cnValue": null,
+        "enValue": "Undo"
+      },
+      {
+        "key": "third.party.plugins.privacy.note.yes",
+        "cnValue": null,
+        "enValue": "Accept"
+      },
+      {
+        "key": "searcheverywhere.nothing.found.for.all.anywhere",
+        "cnValue": null,
+        "enValue": "Nothing found."
+      },
+      {
+        "key": "run.anything.help.list.empty.secondary.text",
+        "cnValue": null,
+        "enValue": "Select command"
+      },
+      {
+        "key": "ibus.blocking.warn.message",
+        "cnValue": "IBus version lower than 1.5.11 may cause input problems.",
+        "enValue": "IBus version lower than 1.5.11 may cause input problems."
+      },
+      {
+        "key": "run.anything.ad.run.action.with.default.settings",
+        "cnValue": null,
+        "enValue": "Press {0} to run with default settings"
+      },
+      {
+        "key": "run.anything.console.title",
+        "cnValue": null,
+        "enValue": "Run anything command"
+      },
+      {
+        "key": "label.plugin.vendor.email",
+        "cnValue": "E-mail:",
+        "enValue": "E-mail:"
+      },
+      {
+        "key": "searcheverywhere.found.matches.generated.code.title",
+        "cnValue": null,
+        "enValue": "Found matches for pattern ''{0}'' in [{1}] in generated code"
+      },
+      {
+        "key": "change.memory.integer",
+        "cnValue": null,
+        "enValue": "The value should be an integer."
+      },
+      {
+        "key": "third.party.plugins.privacy.note.no",
+        "cnValue": null,
+        "enValue": "Cancel"
+      },
+      {
+        "key": "run.anything.run.in.context.debug.title",
+        "cnValue": null,
+        "enValue": "Run in Context with Debug:"
+      },
+      {
+        "key": "change.memory.nofile",
+        "cnValue": null,
+        "enValue": "File VMOptions can't be found."
+      },
+      {
+        "key": "label.no.enabled.actions.found",
+        "cnValue": "No enabled actions found",
+        "enValue": "No enabled actions found"
+      },
+      {
+        "key": "node.projectview.jdk",
+        "cnValue": "JDK",
+        "enValue": "JDK"
+      },
+      {
+        "key": "predefined.scope.project.files.name",
+        "cnValue": null,
+        "enValue": "Project Files"
+      },
+      {
+        "key": "plugins.changed.notification.title",
+        "cnValue": null,
+        "enValue": "Restart needed"
+      },
+      {
+        "key": "searcheverywhere.nothing.found.for.contributor.anywhere",
+        "cnValue": null,
+        "enValue": "No {0} found."
+      },
+      {
+        "key": "run.anything.command.empty.list.title",
+        "cnValue": null,
+        "enValue": "Press ENTER to execute input command"
+      },
+      {
+        "key": "update.snap.message",
+        "cnValue": null,
+        "enValue": "The IDE has been updated by Snap."
+      },
+      {
+        "key": "run.anything.group.title.temporary",
+        "cnValue": null,
+        "enValue": "Temporary configurations"
+      },
+      {
+        "key": "searcheverywhere.history.shortcuts.hint",
+        "cnValue": null,
+        "enValue": "Press {0} or {1} to navigate through the search history"
+      },
+      {
+        "key": "file.nesting.feature.enabled.checkbox",
+        "cnValue": null,
+        "enValue": "&Show files with the same names as nested"
+      },
+      {
+        "key": "idea.default.look.and.feel",
+        "cnValue": "IDEA (4.5 default)",
+        "enValue": "IDEA (4.5 default)"
+      },
+      {
+        "key": "run.anything.group.title.permanent",
+        "cnValue": null,
+        "enValue": "Permanent configurations"
+      },
+      {
+        "key": "action.create.new.package-info.title",
+        "cnValue": "package-info.java",
+        "enValue": "package-info.java"
+      },
+      {
+        "key": "updates.no.updates.unknown.message",
+        "cnValue": null,
+        "enValue": "<html>All plugins are up to date.<br> {0} updates are managed externally by {1}.</html>"
+      },
+      {
+        "key": "run.anything.notification.warning.title",
+        "cnValue": null,
+        "enValue": "Failed Command Execution"
+      },
+      {
+        "key": "change.memory.low",
+        "cnValue": null,
+        "enValue": "The value should be greater than 256."
+      },
+      {
+        "key": "file.nesting.table.title",
+        "cnValue": null,
+        "enValue": "Nesting rules:"
+      },
+      {
+        "key": "plugins.changed.notification.content",
+        "cnValue": null,
+        "enValue": "Plugins list changed. Please restart IntelliJ IDEA to activate changes."
+      },
+      {
+        "key": "action.compact.directories.description",
+        "cnValue": null,
+        "enValue": "Merge two similar directories to a single node if a first directory contains only a second directory"
+      },
+      {
+        "key": "file.nesting.reset.to.default.button",
+        "cnValue": null,
+        "enValue": "&Reset to Default"
+      },
+      {
+        "key": "searcheverywhere.switch.scope.hint",
+        "cnValue": null,
+        "enValue": "Tab to switch scope"
+      },
+      {
+        "key": "searcheverywhere.show.in.find.window.button.name",
+        "cnValue": null,
+        "enValue": "Open in Find Window"
+      },
+      {
+        "key": "predefined.scope.non.project.files.name",
+        "cnValue": null,
+        "enValue": "Non-Project Files"
+      },
+      {
+        "key": "updates.settings.checkbox.external",
+        "cnValue": null,
+        "enValue": "Automatically check for plugin updates"
+      },
+      {
+        "key": "browsers.chrome",
+        "cnValue": "Chrome",
+        "enValue": "Chrome"
+      },
+      {
+        "key": "run.anything.custom.activity.rollback.action",
+        "cnValue": null,
+        "enValue": "Rollback"
+      },
+      {
+        "key": "checkbox.disabled.included",
+        "cnValue": "Include &disabled actions",
+        "enValue": "Include &disabled actions"
+      },
+      {
+        "key": "update.snap.message.with.blog.post",
+        "cnValue": null,
+        "enValue": "The IDE has been updated by Snap. <a href=\"{0}\">Blog post</a>."
+      },
+      {
+        "key": "about.box.powered.by",
+        "cnValue": null,
+        "enValue": "Powered by "
+      },
+      {
+        "key": "run.anything.recent.project.command.placeholder",
+        "cnValue": null,
+        "enValue": "open <project name>"
+      },
+      {
+        "key": "run.anything.ad.run.in.context",
+        "cnValue": null,
+        "enValue": "Press {0} to run in the current file context"
+      },
+      {
+        "key": "third.party.plugins.privacy.note.title",
+        "cnValue": null,
+        "enValue": "Third-party Plugins Privacy Note"
+      },
+      {
+        "key": "sys.health.acknowledge.action",
+        "cnValue": null,
+        "enValue": "Don't Show Again"
+      },
+      {
+        "key": "change.memory.title",
+        "cnValue": null,
+        "enValue": "Memory Settings Dialog"
+      },
+      {
+        "key": "run.anything.group.settings.title",
+        "cnValue": null,
+        "enValue": "Show ''{0}''"
+      },
+      {
+        "key": "searcheverywhere.nothing.found.for.all",
+        "cnValue": null,
+        "enValue": "Nothing found."
+      },
+      {
+        "key": "searcheverywhere.allelements.tab.name",
+        "cnValue": null,
+        "enValue": "All"
+      },
+      {
+        "key": "searcheverywhere.found.targets.title",
+        "cnValue": null,
+        "enValue": "Unsorted results"
+      },
+      {
+        "key": "updates.no.updates.toolbox.message",
+        "cnValue": null,
+        "enValue": "<html>All plugins are up to date.<br> {0} updates are managed by Toolbox App.<br> Launch it to check if updates are available.</html>"
+      },
+      {
+        "key": "go.to.class.kind.text",
+        "cnValue": null,
+        "enValue": "class"
+      },
+      {
+        "key": "message.plugin.license.expired.shutdown",
+        "cnValue": null,
+        "enValue": "Your plugin license has expired. Plugin {0} will be disabled."
+      },
+      {
+        "key": "browsers.safari",
+        "cnValue": "Safari",
+        "enValue": "Safari"
+      },
+      {
+        "key": "idea.intellij.look.and.feel",
+        "cnValue": "IntelliJ",
+        "enValue": "IntelliJ"
+      },
+      {
+        "key": "run.anything.run.debug.title",
+        "cnValue": null,
+        "enValue": "Debug:"
+      },
+      {
+        "key": "change.memory.large",
+        "cnValue": null,
+        "enValue": "The value should be less than 800 for 32 bit system."
+      },
+      {
+        "key": "plugins.auto.enabled.notification.content",
+        "cnValue": null,
+        "enValue": "{0} and {1} plugins are enabled."
+      },
+      {
+        "key": "run.anything.ad.run.with.debug",
+        "cnValue": null,
+        "enValue": "{0} to debug"
+      },
+      {
+        "key": "about.box.jre",
+        "cnValue": "JRE: {0} {1}",
+        "enValue": "JRE: {0} {1}"
+      },
+      {
+        "key": "low.memory.notification.title",
+        "cnValue": null,
+        "enValue": "Low Memory"
+      },
+      {
+        "key": "updates.no.updates.snaps.message",
+        "cnValue": null,
+        "enValue": "<html>All plugins are up to date.<br> {0} updates are managed by Snaps.<br> Run the 'snap refresh' command to check for updates.</html>"
+      },
+      {
+        "key": "run.anything.custom.activity.notification.group.id",
+        "cnValue": null,
+        "enValue": "Run Anything"
+      },
+      {
+        "key": "label.text.antialiasing.scope.ide",
+        "cnValue": "IDE:",
+        "enValue": "IDE:"
+      },
+      {
+        "key": "low.memory.notification.action",
+        "cnValue": null,
+        "enValue": "Configure"
+      },
+      {
+        "key": "browsers.explorer",
+        "cnValue": "Internet Explorer",
+        "enValue": "Internet Explorer"
+      },
+      {
+        "key": "browsers.firefox",
+        "cnValue": "Firefox",
+        "enValue": "Firefox"
+      },
+      {
+        "key": "run.anything.run.in.context.title",
+        "cnValue": null,
+        "enValue": "Run in Context:"
+      },
+      {
+        "key": "change.memory.usage",
+        "cnValue": null,
+        "enValue": "High memory usage detected (free {0} of {1} MB)"
+      },
+      {
+        "key": "plugins.auto.enabled.notification.title",
+        "cnValue": null,
+        "enValue": "Required plugins are enabled"
+      },
+      {
+        "key": "change.memory.restart",
+        "cnValue": null,
+        "enValue": "Memory settings will be applied after restart."
+      },
+      {
+        "key": "searcheverywhere.nothing.found.for.contributor",
+        "cnValue": null,
+        "enValue": "No {0} found."
+      },
+      {
+        "key": "title.plugin.evaluation.license.expired",
+        "cnValue": null,
+        "enValue": "Plugin {0} Evaluation License Expired"
+      },
+      {
+        "key": "run.anything.group.title.commands",
+        "cnValue": null,
+        "enValue": "Recent commands"
+      },
+      {
+        "key": "vmoptions.warn.message",
+        "cnValue": "Code cache size of {0} MB is too low. Increase it to {1} MB or more to avoid performance issues.",
+        "enValue": "Code cache size of {0} MB is too low. Increase it to {1} MB or more to avoid performance issues."
+      },
+      {
+        "key": "searcheverywhere.found.matches.title",
+        "cnValue": null,
+        "enValue": "Found matches for pattern ''{0}'' in [{1}]"
+      },
+      {
+        "key": "run.anything.actions.undefined",
+        "cnValue": null,
+        "enValue": "Undefined"
+      },
+      {
+        "key": "run.anything.console.process.finished",
+        "cnValue": null,
+        "enValue": "\nProcess finished with exit code {0}."
+      },
+      {
+        "key": "plugins.auto.disabled.notification.title",
+        "cnValue": null,
+        "enValue": "Dependent plugins are disabled"
+      },
+      {
+        "key": "checkboox.dark.window.headers",
+        "cnValue": null,
+        "enValue": "Use dark window headers"
+      },
+      {
+        "key": "run.anything.run.configurations.group.title",
+        "cnValue": null,
+        "enValue": "Run configurations"
+      },
+      {
+        "key": "checkbox.show.welcome.screen",
+        "cnValue": null,
+        "enValue": "Show Welcome screen"
+      },
+      {
+        "key": "title.plugin.license.expired",
+        "cnValue": null,
+        "enValue": "Plugin {0} License Expired"
+      },
+      {
+        "key": "new.plugin.manager.incompatible.deps.tooltip",
+        "cnValue": null,
+        "enValue": "Not loaded. The required {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} disabled."
+      },
+      {
+        "key": "updates.settings.external",
+        "cnValue": null,
+        "enValue": "IDE updates are managed externally by {0}"
+      },
+      {
+        "key": "run.anything.main.list.empty.primary.text",
+        "cnValue": null,
+        "enValue": "Run command or configuration"
+      },
+      {
+        "key": "action.create.new.module-info.title",
+        "cnValue": "module-info.java",
+        "enValue": "module-info.java"
+      },
+      {
+        "key": "tab.structureview.jsp.view",
+        "cnValue": "JSP",
+        "enValue": "JSP"
+      },
+      {
+        "key": "title.todo",
+        "cnValue": "TODO",
+        "enValue": "TODO"
+      },
+      {
+        "key": "action.compact.directories.text",
+        "cnValue": null,
+        "enValue": "Compact Directories"
+      },
+      {
+        "key": "ide.sigint.ignored.message",
+        "cnValue": "The IDE ignores SIGINT: the \"Stop\" button in run configurations may not work.",
+        "enValue": "The IDE ignores SIGINT: the \"Stop\" button in run configurations may not work."
+      },
+      {
+        "key": "vmoptions.edit.action",
+        "cnValue": "Edit Custom VM Options",
+        "enValue": "Edit Custom VM Options"
+      },
+      {
+        "key": "updates.version.info",
+        "cnValue": "{0} (build {1})",
+        "enValue": "{0} (build {1})"
+      }
+    ]
+  },
+  {
+    "path": "/messages/RefactoringBundle.properties",
+    "name": "RefactoringBundle.properties",
+    "props": [
+      {
+        "key": "related.file",
+        "cnValue": "Related file",
+        "enValue": "Related file"
+      },
+      {
+        "key": "type.cook.ratio.generified",
+        "cnValue": "{0,choice,-1#not calculated|0#{0,number} of {1}}",
+        "enValue": "{0,choice,-1#not calculated|0#{0,number} of {1}}"
+      },
+      {
+        "key": "encapsulate.fields.field.column.name",
+        "cnValue": "Field",
+        "enValue": "Field"
+      },
+      {
+        "key": "refactoring.extract.method.dialog.duplicates.pending",
+        "cnValue": null,
+        "enValue": "Searching for duplicates..."
+      },
+      {
+        "key": "interface.description",
+        "cnValue": null,
+        "enValue": "interface {0}"
+      },
+      {
+        "key": "refactoring.extract.method.dialog.duplicates.count",
+        "cnValue": null,
+        "enValue": "{0,choice, 1#One|2#{0,number}} duplicate code {0,choice, 1#fragment|2#fragments} can be replaced with the extracted method call"
+      },
+      {
+        "key": "encapsulate.fields.setter.column.name",
+        "cnValue": "Setter",
+        "enValue": "Setter"
+      },
+      {
+        "key": "refactoring.cannot.be.applied.to.native.methods",
+        "cnValue": null,
+        "enValue": "{0} refactoring cannot be applied to native methods"
+      },
+      {
+        "key": "auto.rename.module.entity",
+        "cnValue": null,
+        "enValue": "Java Module"
+      },
+      {
+        "key": "refactoring.extract.method.preview.group.duplicates",
+        "cnValue": null,
+        "enValue": "Duplicate code fragments"
+      },
+      {
+        "key": "refactoring.extract.method.dialog.duplicates.progress",
+        "cnValue": null,
+        "enValue": "Searching for Duplicates"
+      },
+      {
+        "key": "generate.module.descriptors.build.required.message",
+        "cnValue": null,
+        "enValue": "Couldn't generate module descriptors because the project hasn't been built yet"
+      },
+      {
+        "key": "generate.module.descriptors.preparing.message",
+        "cnValue": null,
+        "enValue": "Preparing Code"
+      },
+      {
+        "key": "enum.description",
+        "cnValue": null,
+        "enValue": "enum {0}"
+      },
+      {
+        "key": "refactoring.extract.method.preview.button.refactor",
+        "cnValue": null,
+        "enValue": "&Do Refactor"
+      },
+      {
+        "key": "auto.rename.module.dialog.description",
+        "cnValue": null,
+        "enValue": "Rename Java modules with the following names to:"
+      },
+      {
+        "key": "generate.module.descriptors.scanning.message",
+        "cnValue": null,
+        "enValue": "Scanning Compiler Output"
+      },
+      {
+        "key": "extractSuperInterface.javadoc",
+        "cnValue": "JavaDoc",
+        "enValue": "JavaDoc"
+      },
+      {
+        "key": "encapsulate.fields.getter.column.name",
+        "cnValue": "Getter",
+        "enValue": "Getter"
+      },
+      {
+        "key": "all.invocations.keep.the.method",
+        "cnValue": "Inline all and k&eep the method",
+        "enValue": "Inline all and k&eep the method"
+      },
+      {
+        "key": "generate.module.descriptors.title",
+        "cnValue": null,
+        "enValue": "Generate Module Descriptors"
+      },
+      {
+        "key": "safe.delete.conflict.title",
+        "cnValue": "Potentially unsafe to delete references found in code",
+        "enValue": "Potentially unsafe to delete references found in code"
+      },
+      {
+        "key": "generate.module.descriptors.analysing.message",
+        "cnValue": null,
+        "enValue": "Analysing Dependencies"
+      },
+      {
+        "key": "all.references.keep.field",
+        "cnValue": "Inline all and k&eep the field",
+        "enValue": "Inline all and k&eep the field"
+      },
+      {
+        "key": "generate.module.descriptors.no.suitable.modules.message",
+        "cnValue": null,
+        "enValue": "Found no modules which may contain module-info"
+      },
+      {
+        "key": "occurences.string",
+        "cnValue": "({0,choice,1#1 occurrence|2#{0,number} occurrences})",
+        "enValue": "({0,choice,1#1 occurrence|2#{0,number} occurrences})"
+      },
+      {
+        "key": "generate.module.descriptors.collecting.message",
+        "cnValue": null,
+        "enValue": "Collecting Dependencies"
+      },
+      {
+        "key": "occurrences.string",
+        "cnValue": "({0,choice,1#1 occurrence|2#{0,number} occurrences})",
+        "enValue": "({0,choice,1#1 occurrence|2#{0,number} occurrences})"
+      },
+      {
+        "key": "generate.module.descriptors.rebuild.message",
+        "cnValue": null,
+        "enValue": "The project needs to be built for better accuracy of dependencies calculation. \nStart the build before generating module-info descriptors?"
+      },
+      {
+        "key": "generate.module.descriptors.command.title",
+        "cnValue": null,
+        "enValue": "Generate module-info Descriptors"
+      },
+      {
+        "key": "refactoring.extract.method.preview.group.original",
+        "cnValue": null,
+        "enValue": "Original code fragment"
+      },
+      {
+        "key": "auto.rename.module.dialog.title",
+        "cnValue": null,
+        "enValue": "Rename Java Modules"
+      },
+      {
+        "key": "refactoring.extract.method.preview.button.rerun",
+        "cnValue": null,
+        "enValue": "R&erun Refactoring"
+      },
+      {
+        "key": "refactoring.extract.method.preview.group.method",
+        "cnValue": null,
+        "enValue": "Method to extract"
+      }
+    ]
+  },
+  {
+    "path": "/messages/XmlErrorMessages.properties",
+    "name": "XmlErrorMessages.properties",
+    "props": [
+      {
+        "key": "dtd.parser.message.name.or.entity.ref.expected",
+        "cnValue": "XML name or entity ref expected",
+        "enValue": "XML name or entity ref expected"
+      },
+      {
+        "key": "dtd.parser.message.literal.public.system.expected",
+        "cnValue": "Literal, PUBLIC or SYSTEM expected",
+        "enValue": "Literal, PUBLIC or SYSTEM expected"
+      },
+      {
+        "key": "dtd.parser.message.rbrace.expected",
+        "cnValue": ") expected",
+        "enValue": ") expected"
+      },
+      {
+        "key": "dtd.parser.message.left.paren.or.entityref.or.empty.or.any.expected",
+        "cnValue": "( or entity ref or EMPTY or ANY expected",
+        "enValue": "( or entity ref or EMPTY or ANY expected"
+      }
+    ]
+  },
+  {
+    "path": "/messages/OptionsBundle.properties",
+    "name": "OptionsBundle.properties",
+    "props": [
+      {
+        "key": "options.general.color.descriptor.vcs.diff.type.tag.prefix",
+        "cnValue": "Changed lines//",
+        "enValue": "Changed lines//"
+      },
+      {
+        "key": "configurable.group.other.settings.weight",
+        "cnValue": "-10",
+        "enValue": "-10"
+      },
+      {
+        "key": "options.java.attribute.descriptor.static.final.imported.field",
+        "cnValue": null,
+        "enValue": "Class Fields//Constant (static final imported field)"
+      },
+      {
+        "key": "exportable.XmlSettings.presentable.name",
+        "cnValue": "XML",
+        "enValue": "XML"
+      },
+      {
+        "key": "configurable.group.build.tools.settings.parent",
+        "cnValue": "build",
+        "enValue": "build"
+      },
+      {
+        "key": "title.for.new.projects",
+        "cnValue": null,
+        "enValue": "{0} for New {1}s"
+      },
+      {
+        "key": "configurable.group.editor.settings.help.topic",
+        "cnValue": "configurable.group.editor.help.topic",
+        "enValue": "configurable.group.editor.help.topic"
+      },
+      {
+        "key": "configurable.group.root.settings.display.name",
+        "cnValue": "ROOT GROUP",
+        "enValue": "ROOT GROUP"
+      },
+      {
+        "key": "options.language.defaults.reassigned.local.variable",
+        "cnValue": null,
+        "enValue": "Identifiers//Reassigned local variable"
+      },
+      {
+        "key": "configurable.group.project.settings.weight",
+        "cnValue": "40",
+        "enValue": "40"
+      },
+      {
+        "key": "options.general.color.descriptor.console.debug",
+        "cnValue": null,
+        "enValue": "Log Console//Debug"
+      },
+      {
+        "key": "options.general.color.descriptor.highlighted.folding.border",
+        "cnValue": null,
+        "enValue": "Text//Folded text with highlighting"
+      },
+      {
+        "key": "options.jsp.display.name",
+        "cnValue": "JSP",
+        "enValue": "JSP"
+      },
+      {
+        "key": "options.general.color.descriptor.console.info",
+        "cnValue": null,
+        "enValue": "Log Console//Info"
+      },
+      {
+        "key": "exportable.MultiLanguageDuplocatorSettings.presentable.name",
+        "cnValue": "Duplocator",
+        "enValue": "Duplocator"
+      },
+      {
+        "key": "options.java.display.name",
+        "cnValue": "Java",
+        "enValue": "Java"
+      },
+      {
+        "key": "configurable.group.build.tools.settings.weight",
+        "cnValue": "1000",
+        "enValue": "1000"
+      },
+      {
+        "key": "options.java.attribute.descriptor.runtime",
+        "cnValue": null,
+        "enValue": "Errors and Warnings//Runtime problem"
+      },
+      {
+        "key": "options.java.attribute.descriptor.static.imported.field",
+        "cnValue": null,
+        "enValue": "Class Fields//Static imported field"
+      },
+      {
+        "key": "configurable.group.build.settings.help.topic",
+        "cnValue": "configurable.group.build.help.topic",
+        "enValue": "configurable.group.build.help.topic"
+      },
+      {
+        "key": "exportable.DuplocatorSettings.presentable.name",
+        "cnValue": "Duplocator",
+        "enValue": "Duplocator"
+      },
+      {
+        "key": "configurable.group.appearance.settings.help.topic",
+        "cnValue": "configurable.group.appearance.help.topic",
+        "enValue": "configurable.group.appearance.help.topic"
+      },
+      {
+        "key": "configurable.group.editor.settings.weight",
+        "cnValue": "60",
+        "enValue": "60"
+      },
+      {
+        "key": "exportable.TodoConfiguration.presentable.name",
+        "cnValue": "Todo",
+        "enValue": "Todo"
+      },
+      {
+        "key": "exportable.CodeInsightSettings.presentable.name",
+        "cnValue": "CodeInsight",
+        "enValue": "CodeInsight"
+      },
+      {
+        "key": "options.java.attribute.descriptor.method.imported.call",
+        "cnValue": null,
+        "enValue": "Methods//Static imported method call"
+      },
+      {
+        "key": "configurable.group.language.settings.help.topic",
+        "cnValue": "configurable.group.language.help.topic",
+        "enValue": "configurable.group.language.help.topic"
+      },
+      {
+        "key": "exportable.EmmetOptions.presentable.name",
+        "cnValue": "Emmet",
+        "enValue": "Emmet"
+      },
+      {
+        "key": "options.html.display.name",
+        "cnValue": "HTML",
+        "enValue": "HTML"
+      },
+      {
+        "key": "configurable.group.tools.settings.weight",
+        "cnValue": "10",
+        "enValue": "10"
+      },
+      {
+        "key": "exportable.VcsApplicationSettings.presentable.name",
+        "cnValue": "VCS",
+        "enValue": "VCS"
+      },
+      {
+        "key": "configurable.group.build.settings.weight",
+        "cnValue": "30",
+        "enValue": "30"
+      },
+      {
+        "key": "options.java.attribute.descriptor.inline.parameter.hint.current",
+        "cnValue": null,
+        "enValue": "Inline parameter hints//Current"
+      },
+      {
+        "key": "options.language.defaults.reassigned.parameter",
+        "cnValue": null,
+        "enValue": "Identifiers//Reassigned parameter"
+      },
+      {
+        "key": "options.xml.display.name",
+        "cnValue": "XML",
+        "enValue": "XML"
+      },
+      {
+        "key": "configurable.group.appearance.settings.weight",
+        "cnValue": "70",
+        "enValue": "70"
+      },
+      {
+        "key": "configurable.group.tools.settings.help.topic",
+        "cnValue": "configurable.group.tools.help.topic",
+        "enValue": "configurable.group.tools.help.topic"
+      },
+      {
+        "key": "options.java.attribute.descriptor.smart.step.into.target",
+        "cnValue": null,
+        "enValue": "Smart step into target"
+      },
+      {
+        "key": "configurable.group.language.settings.weight",
+        "cnValue": "20",
+        "enValue": "20"
+      },
+      {
+        "key": "options.general.color.descriptor.console.verbose",
+        "cnValue": null,
+        "enValue": "Log Console//Verbose"
+      }
+    ]
+  },
+  {
+    "path": "/messages/FeatureStatisticsBundle.properties",
+    "name": "FeatureStatisticsBundle.properties",
+    "props": [
+      {
+        "key": "feature.statistics.not.applicable",
+        "cnValue": "N/A",
+        "enValue": "N/A"
+      },
+      {
+        "key": "feature.statistics.usage.count",
+        "cnValue": "{0,choice, 0#Never|1#Once|2#Twice|3#{0,number} times}",
+        "enValue": "{0,choice, 0#Never|1#Once|2#Twice|3#{0,number} times}"
+      }
+    ]
+  },
+  {
+    "path": "/messages/SSRBundle.properties",
+    "name": "SSRBundle.properties",
+    "props": [
+      {
+        "key": "predefined.configuration.assert.without.description",
+        "cnValue": null,
+        "enValue": "assert statement without description"
+      },
+      {
+        "key": "predefined.configuration.ejb.interface",
+        "cnValue": "ejb interface",
+        "enValue": "ejb interface"
+      },
+      {
+        "key": "predefined.configuration.deprecated.methods",
+        "cnValue": null,
+        "enValue": "deprecated methods"
+      },
+      {
+        "key": "predefined.configuration.lambdas",
+        "cnValue": "lambdas",
+        "enValue": "lambdas"
+      },
+      {
+        "key": "predefined.configuration.entity.ejb",
+        "cnValue": "entity ejb",
+        "enValue": "entity ejb"
+      },
+      {
+        "key": "var.constraints.reference.target.constraints.border",
+        "cnValue": null,
+        "enValue": "Reference target constraints"
+      },
+      {
+        "key": "predefined.configuration.block.dcls",
+        "cnValue": "block dcls",
+        "enValue": "block dcls"
+      },
+      {
+        "key": "search.script.problem",
+        "cnValue": null,
+        "enValue": "Structural Search script threw an exception: {0}"
+      },
+      {
+        "key": "predefined.configuration.instanceof",
+        "cnValue": "instanceof",
+        "enValue": "instanceof"
+      },
+      {
+        "key": "inspection.template.problem",
+        "cnValue": null,
+        "enValue": "Structural Search inspection problem in template ''{0}''"
+      },
+      {
+        "key": "predefined.configuration.servlets",
+        "cnValue": "servlets",
+        "enValue": "servlets"
+      },
+      {
+        "key": "error.argument.expected",
+        "cnValue": null,
+        "enValue": "Argument expected on ''{0}'' constraint"
+      },
+      {
+        "key": "min.occurs.tooltip.message",
+        "cnValue": "min occurs: {0}, max occurs: {1}",
+        "enValue": "min occurs: {0}, max occurs: {1}"
+      },
+      {
+        "key": "predefined.configuration.struts.1.1.actions",
+        "cnValue": "Struts 1.1 actions",
+        "enValue": "Struts 1.1 actions"
+      },
+      {
+        "key": "inspection.script.problem",
+        "cnValue": null,
+        "enValue": "{0}\n In Structural Search inspection template ''{1}''"
+      },
+      {
+        "key": "predefined.configuration.session.ejb",
+        "cnValue": "session ejb",
+        "enValue": "session ejb"
+      },
+      {
+        "key": "reference.target.tooltip.message",
+        "cnValue": null,
+        "enValue": "reference target{0} like: {1}"
+      },
+      {
+        "key": "error.empty.quantifier",
+        "cnValue": null,
+        "enValue": "Empty quantifier"
+      },
+      {
+        "key": "predefined.configuration.try.without.resources",
+        "cnValue": null,
+        "enValue": "try statements without resources and catch blocks"
+      },
+      {
+        "key": "predefined.configuration.labeled.break",
+        "cnValue": null,
+        "enValue": "labeled break statements"
+      },
+      {
+        "key": "predefined.configuration.deprecated.method.calls",
+        "cnValue": null,
+        "enValue": "method calls to deprecated methods"
+      },
+      {
+        "key": "predefined.configuration.switch.with.branches",
+        "cnValue": null,
+        "enValue": "switch statements with few branches"
+      },
+      {
+        "key": "predefined.configuration.classes.interfaces.enums",
+        "cnValue": null,
+        "enValue": "classes, interfaces \\& enums"
+      },
+      {
+        "key": "error.expected.digit",
+        "cnValue": null,
+        "enValue": "Digit expected"
+      },
+      {
+        "key": "predefined.configuration.generic.constructors",
+        "cnValue": null,
+        "enValue": "generic constructors"
+      },
+      {
+        "key": "predefined.configuration.casts",
+        "cnValue": "casts",
+        "enValue": "casts"
+      },
+      {
+        "key": "predefined.configuration.method.returns.bounded.wildcard",
+        "cnValue": null,
+        "enValue": "method returns bounded wildcard"
+      },
+      {
+        "key": "search.template.problem",
+        "cnValue": null,
+        "enValue": "Structural Search: {0}"
+      },
+      {
+        "key": "predefined.configuration.switches",
+        "cnValue": "switches",
+        "enValue": "switches"
+      }
+    ]
+  },
+  {
+    "path": "/messages/ExecutionBundle.properties",
+    "name": "ExecutionBundle.properties",
+    "props": [
+      {
+        "key": "run.dashboard.group.by.action.name",
+        "cnValue": null,
+        "enValue": "Group By"
+      },
+      {
+        "key": "application.configuration.include.provided.scope",
+        "cnValue": null,
+        "enValue": "Include dependencies with \"Provided\" scope"
+      },
+      {
+        "key": "junit.configuration.display.name",
+        "cnValue": "JUnit",
+        "enValue": "JUnit"
+      },
+      {
+        "key": "applet.configuration.url.label",
+        "cnValue": "&URL",
+        "enValue": "&URL"
+      },
+      {
+        "key": "junit.runing.info.failed.count.message",
+        "cnValue": "F:{0}",
+        "enValue": "F:{0}"
+      },
+      {
+        "key": "empty.run.configuration.panel.text.label2",
+        "cnValue": "<html><a href=\"add{1}\"><img src=\"{0}\" border=\"0\"></a></html>",
+        "enValue": "<html><a href=\"add{1}\"><img src=\"{0}\" border=\"0\"></a></html>"
+      },
+      {
+        "key": "junit.runing.info.errors.count.message",
+        "cnValue": "E:{0}",
+        "enValue": "E:{0}"
+      },
+      {
+        "key": "run.configuration.jre.label",
+        "cnValue": "&JRE:",
+        "enValue": "&JRE:"
+      },
+      {
+        "key": "junit.runing.info.ignored.count.message",
+        "cnValue": "I:{0}",
+        "enValue": "I:{0}"
+      },
+      {
+        "key": "junit.running.info.status.completed.from.total",
+        "cnValue": "{0} of {1}",
+        "enValue": "{0} of {1}"
+      },
+      {
+        "key": "applet.configuration.url.border",
+        "cnValue": "URL",
+        "enValue": "URL"
+      },
+      {
+        "key": "add.new.run.configuration.action2.name",
+        "cnValue": null,
+        "enValue": "Add New Configuration"
+      },
+      {
+        "key": "junit.runing.info.passed.count.message",
+        "cnValue": "P:{0}",
+        "enValue": "P:{0}"
+      }
+    ]
+  },
+  {
+    "path": "/messages/VfsBundle.properties",
+    "name": "VfsBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/DiffBundle.properties",
+    "name": "DiffBundle.properties",
+    "props": [
+      {
+        "key": "merge.version.title.base",
+        "cnValue": null,
+        "enValue": "Base version"
+      },
+      {
+        "key": "merge.version.title.merged",
+        "cnValue": null,
+        "enValue": "Merged version"
+      },
+      {
+        "key": "merge.version.title.their.with.revision",
+        "cnValue": null,
+        "enValue": "Changes from server (revision {0})"
+      },
+      {
+        "key": "merge.version.title.their",
+        "cnValue": null,
+        "enValue": "Changes from server"
+      },
+      {
+        "key": "merge.version.title.our",
+        "cnValue": null,
+        "enValue": "Your version"
+      },
+      {
+        "key": "merge.version.title.merged.result",
+        "cnValue": null,
+        "enValue": "Result"
+      },
+      {
+        "key": "diff.inactive.count.differences.status.text",
+        "cnValue": null,
+        "enValue": "({0} inactive)"
+      }
+    ]
+  },
+  {
+    "path": "/com/intellij/spellchecker/util/SpellCheckerBundle.properties",
+    "name": "SpellCheckerBundle.properties",
+    "props": [
+      {
+        "key": "use.single.dictionary",
+        "cnValue": null,
+        "enValue": "Use single dictionary for saving words"
+      },
+      {
+        "key": "save.0.to.1",
+        "cnValue": null,
+        "enValue": "Save {0} to {1}"
+      },
+      {
+        "key": "no.custom.dictionaries",
+        "cnValue": null,
+        "enValue": "No custom dictionaries"
+      },
+      {
+        "key": "add.dictionary.description",
+        "cnValue": null,
+        "enValue": "Add custom dictionaries: plain text word lists"
+      },
+      {
+        "key": "add.custom.dictionaries",
+        "cnValue": null,
+        "enValue": "Add custom dictionaries"
+      },
+      {
+        "key": "words.list.dictionary",
+        "cnValue": null,
+        "enValue": "word list"
+      },
+      {
+        "key": "show.changes.action.title",
+        "cnValue": null,
+        "enValue": "Open dictionary"
+      },
+      {
+        "key": "dictionary.filetype.description",
+        "cnValue": null,
+        "enValue": "Spell Checker Dictionary"
+      },
+      {
+        "key": "revert.action.title",
+        "cnValue": null,
+        "enValue": "Revert"
+      },
+      {
+        "key": "advanced.settings",
+        "cnValue": null,
+        "enValue": "Advanced settings"
+      },
+      {
+        "key": "0.in.qoutes",
+        "cnValue": null,
+        "enValue": "''{0}''"
+      },
+      {
+        "key": "dictionary.not.found.title",
+        "cnValue": null,
+        "enValue": "Dictionary Is Not Found"
+      },
+      {
+        "key": "user.dictionaries.title",
+        "cnValue": null,
+        "enValue": "User Dictionaries"
+      },
+      {
+        "key": "custom.dictionary.title",
+        "cnValue": null,
+        "enValue": "Custom Dictionary"
+      },
+      {
+        "key": "max.number.of.corrections",
+        "cnValue": null,
+        "enValue": "Maximum number of suggestions"
+      },
+      {
+        "key": "select.dictionary.title",
+        "cnValue": null,
+        "enValue": "Select dictionary"
+      },
+      {
+        "key": "app.dictionary",
+        "cnValue": null,
+        "enValue": "Application-level dictionary"
+      },
+      {
+        "key": "dictionary.filetype.name",
+        "cnValue": null,
+        "enValue": "Dictionary"
+      },
+      {
+        "key": "custom.dictionary.not.found",
+        "cnValue": null,
+        "enValue": "Custom dictionary is not found at path {0}"
+      },
+      {
+        "key": "changed.dict.title",
+        "cnValue": null,
+        "enValue": "{0} dictionary is changed"
+      },
+      {
+        "key": "built.in.dictionary",
+        "cnValue": null,
+        "enValue": "built-in"
+      },
+      {
+        "key": "bundled.dictionaries.title",
+        "cnValue": null,
+        "enValue": "Bundled Dictionaries"
+      },
+      {
+        "key": "spellchecker",
+        "cnValue": null,
+        "enValue": "Spellchecker"
+      },
+      {
+        "key": "hunspell.description",
+        "cnValue": null,
+        "enValue": "hunspell dictionaries"
+      },
+      {
+        "key": "custom.dictionaries.title",
+        "cnValue": null,
+        "enValue": "Custom Dictionaries"
+      },
+      {
+        "key": "custom.dictionary.not.found.title",
+        "cnValue": null,
+        "enValue": "Custom Dictionary Is Not Found"
+      },
+      {
+        "key": "edit.custom.dictionary",
+        "cnValue": null,
+        "enValue": "Edit custom dictionary"
+      },
+      {
+        "key": "dictionary.not.found",
+        "cnValue": null,
+        "enValue": "Dictionary is not found at path {0}"
+      },
+      {
+        "key": "project.dictionary",
+        "cnValue": null,
+        "enValue": "Project-level dictionary"
+      },
+      {
+        "key": "remove.custom.dictionaries",
+        "cnValue": null,
+        "enValue": "Remove custom dictionaries"
+      },
+      {
+        "key": "new.word.description",
+        "cnValue": null,
+        "enValue": "''{0}'' is added to {1} dictionary"
+      }
+    ]
+  },
+  {
+    "path": "/messages/XDebuggerBundle.properties",
+    "name": "XDebuggerBundle.properties",
+    "props": [
+      {
+        "key": "xdebugger.attach.action.description",
+        "cnValue": null,
+        "enValue": "Attach to process with an available debugger"
+      },
+      {
+        "key": "message.confirm.breakpoint.removal.message.log",
+        "cnValue": null,
+        "enValue": "<br>log expression:<br><pre>{0}</pre>"
+      },
+      {
+        "key": "message.confirm.breakpoint.removal.title",
+        "cnValue": null,
+        "enValue": "Confirm Removal"
+      },
+      {
+        "key": "xdebugger.attach.action.collectingItems",
+        "cnValue": null,
+        "enValue": "Collecting Attach Items..."
+      },
+      {
+        "key": "xbreakpoints.log.stack.checkbox",
+        "cnValue": null,
+        "enValue": "Stac&k trace"
+      },
+      {
+        "key": "message.confirm.breakpoint.removal.message.condition",
+        "cnValue": null,
+        "enValue": "<br>condition:<br><pre>{0}</pre>"
+      },
+      {
+        "key": "xdebugger.attach.toRemote.popup.title",
+        "cnValue": null,
+        "enValue": "Show {0} processes"
+      },
+      {
+        "key": "xdebugger.attach.host.popup.title",
+        "cnValue": null,
+        "enValue": "View {0} processes"
+      },
+      {
+        "key": "xbreakpoints.log.message.label",
+        "cnValue": null,
+        "enValue": "Log:"
+      },
+      {
+        "key": "xdebugger.attach.action.items.error.message",
+        "cnValue": null,
+        "enValue": "Failed to get list of processes running on the host"
+      },
+      {
+        "key": "xdebugger.attach.popup.selectDebugger.title",
+        "cnValue": null,
+        "enValue": "Debugger"
+      },
+      {
+        "key": "debugger.hotswap.display.name",
+        "cnValue": "HotSwap",
+        "enValue": "HotSwap"
+      },
+      {
+        "key": "settings.confirm.breakpoint.removal",
+        "cnValue": null,
+        "enValue": "Confirm removal of conditional or logging breakpoints"
+      },
+      {
+        "key": "xdebugger.attach.popup.emptyText",
+        "cnValue": null,
+        "enValue": "No processes to attach to"
+      },
+      {
+        "key": "message.confirm.breakpoint.removal.message",
+        "cnValue": null,
+        "enValue": "<html>Breakpoint contains"
+      },
+      {
+        "key": "xdebugger.attach.popup.title.default",
+        "cnValue": null,
+        "enValue": "Attach To"
+      },
+      {
+        "key": "xdebugger.shortcuts.text.delimiter",
+        "cnValue": null,
+        "enValue": " or "
+      },
+      {
+        "key": "xbreakpoints.restore.label",
+        "cnValue": null,
+        "enValue": "Restore previous breakpoint"
+      },
+      {
+        "key": "xbreakpoint.tooltip.log.stack",
+        "cnValue": null,
+        "enValue": "Log stack: yes"
+      },
+      {
+        "key": "xdebugger.attach.popup.recent",
+        "cnValue": null,
+        "enValue": "Recent"
+      },
+      {
+        "key": "xdebugger.attach.popup.title",
+        "cnValue": null,
+        "enValue": "Attach with {0} To"
+      },
+      {
+        "key": "xdebugger.attach.action.items.error.title",
+        "cnValue": null,
+        "enValue": "Failed to get processes"
+      },
+      {
+        "key": "xdebugger.attach.action",
+        "cnValue": null,
+        "enValue": "Attach to Process..."
+      }
+    ]
+  },
+  {
+    "path": "/messages/FileTypesBundle.properties",
+    "name": "FileTypesBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/com/intellij/json/JsonBundle.properties",
+    "name": "JsonBundle.properties",
+    "props": [
+      {
+        "key": "json.schema.conflicting.mappings",
+        "cnValue": null,
+        "enValue": "Warning: conflicting mappings. <a href=\"#\">Show details</a>"
+      },
+      {
+        "key": "inspection.compliance.msg.trailing.comma",
+        "cnValue": "JSON standard does not allow trailing comma",
+        "enValue": "JSON standard does not allow trailing comma"
+      },
+      {
+        "key": "surround.with.object.literal.desc",
+        "cnValue": "object literal",
+        "enValue": "object literal"
+      },
+      {
+        "key": "syntax.error.illegal.unicode.escape.sequence",
+        "cnValue": "Illegal unicode escape sequence",
+        "enValue": "Illegal unicode escape sequence"
+      },
+      {
+        "key": "json.schema.inspection.case.insensitive.enum",
+        "cnValue": null,
+        "enValue": "Case insensitive matching for enum values"
+      },
+      {
+        "key": "settings.json.schema.remove.mapping",
+        "cnValue": null,
+        "enValue": "Remove mapping"
+      },
+      {
+        "key": "inspection.compliance.option.trailing.comma",
+        "cnValue": null,
+        "enValue": "Warn about trailing commas"
+      },
+      {
+        "key": "inspection.compliance.option.multiple.top.level.values",
+        "cnValue": "Warn about multiple top-level values",
+        "enValue": "Warn about multiple top-level values"
+      },
+      {
+        "key": "settings.json.schema.edit.mapping",
+        "cnValue": null,
+        "enValue": "Edit mapping"
+      },
+      {
+        "key": "formatter.align.properties.caption",
+        "cnValue": "Align",
+        "enValue": "Align"
+      },
+      {
+        "key": "json.schema.file.selector.title",
+        "cnValue": null,
+        "enValue": "Schema file or URL:"
+      },
+      {
+        "key": "json.template.context.type",
+        "cnValue": "JSON",
+        "enValue": "JSON"
+      },
+      {
+        "key": "json.schema.add.schema.chooser.title",
+        "cnValue": "Select JSON Schema File",
+        "enValue": "Select JSON Schema File"
+      },
+      {
+        "key": "inspection.compliance.name",
+        "cnValue": "Compliance with JSON standard",
+        "enValue": "Compliance with JSON standard"
+      },
+      {
+        "key": "quickfix.add.double.quotes.desc",
+        "cnValue": "Wrap with double quotes",
+        "enValue": "Wrap with double quotes"
+      },
+      {
+        "key": "json.schema.file.not.found",
+        "cnValue": null,
+        "enValue": "File not found"
+      },
+      {
+        "key": "formatter.align.properties.on.colon",
+        "cnValue": "On colon",
+        "enValue": "On colon"
+      },
+      {
+        "key": "inspection.compliance.msg.single.quoted.strings",
+        "cnValue": "JSON standard does not allow single quoted strings",
+        "enValue": "JSON standard does not allow single quoted strings"
+      },
+      {
+        "key": "inspection.compliance.option.comments",
+        "cnValue": "Warn about comments",
+        "enValue": "Warn about comments"
+      },
+      {
+        "key": "formatter.align.properties.none",
+        "cnValue": "Do not align",
+        "enValue": "Do not align"
+      },
+      {
+        "key": "json.copy.to.clipboard",
+        "cnValue": null,
+        "enValue": "Copy {0} to clipboard"
+      },
+      {
+        "key": "syntax.error.illegal.floating.point.literal",
+        "cnValue": "Illegal floating point literal",
+        "enValue": "Illegal floating point literal"
+      },
+      {
+        "key": "inspection.compliance.option.nan.infinity",
+        "cnValue": null,
+        "enValue": "Warn about NaN and Infinity/-Infinity numeric values"
+      },
+      {
+        "key": "inspection.compliance.msg.illegal.property.key",
+        "cnValue": "JSON standard allows only double quoted string as property key",
+        "enValue": "JSON standard allows only double quoted string as property key"
+      },
+      {
+        "key": "settings.json.schema.add.mapping",
+        "cnValue": null,
+        "enValue": "Add mapping"
+      },
+      {
+        "key": "inspection.compliance.msg.bad.token",
+        "cnValue": "JSON standard does not allow such tokens",
+        "enValue": "JSON standard does not allow such tokens"
+      },
+      {
+        "key": "inspection.duplicate.keys.msg.duplicate.keys",
+        "cnValue": "Object contains duplicate keys \"{0}\"",
+        "enValue": "Object contains duplicate keys \"{0}\""
+      },
+      {
+        "key": "inspection.duplicate.keys.name",
+        "cnValue": "Duplicate keys in object literals",
+        "enValue": "Duplicate keys in object literals"
+      },
+      {
+        "key": "json.schema.inspection.compliance.name",
+        "cnValue": null,
+        "enValue": "Compliance with JSON schema"
+      },
+      {
+        "key": "formatter.align.properties.on.value",
+        "cnValue": "On value",
+        "enValue": "On value"
+      },
+      {
+        "key": "inspection.compliance5.name",
+        "cnValue": null,
+        "enValue": "Compliance with JSON5 standard"
+      },
+      {
+        "key": "json.array",
+        "cnValue": "array",
+        "enValue": "array"
+      },
+      {
+        "key": "syntax.error.illegal.escape.sequence",
+        "cnValue": "Illegal escape sequence",
+        "enValue": "Illegal escape sequence"
+      },
+      {
+        "key": "syntax.error.missing.closing.quote",
+        "cnValue": "Missing closing quote",
+        "enValue": "Missing closing quote"
+      },
+      {
+        "key": "json.object",
+        "cnValue": "object",
+        "enValue": "object"
+      },
+      {
+        "key": "inspection.compliance.msg.comments",
+        "cnValue": "JSON standard does not allow comments. Use JSMin or similar tool to remove comments before parsing.",
+        "enValue": "JSON standard does not allow comments. Use JSMin or similar tool to remove comments before parsing."
+      },
+      {
+        "key": "json.schema.annotation.not.allowed.property",
+        "cnValue": "Property ''{0}'' is not allowed",
+        "enValue": "Property ''{0}'' is not allowed"
+      },
+      {
+        "key": "inspection.compliance.msg.multiple.top.level.values",
+        "cnValue": "JSON standard allows only one top-level value",
+        "enValue": "JSON standard allows only one top-level value"
+      },
+      {
+        "key": "json.property",
+        "cnValue": "property",
+        "enValue": "property"
+      }
+    ]
+  },
+  {
+    "path": "/messages/DupLocatorBundle.properties",
+    "name": "DupLocatorBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/DiagnosticBundle.properties",
+    "name": "DiagnosticBundle.properties",
+    "props": [
+      {
+        "key": "error.dialog.notice.label.expanded",
+        "cnValue": null,
+        "enValue": "<html><b>Privacy policy</b></html>"
+      },
+      {
+        "key": "error.list.message.submitting",
+        "cnValue": null,
+        "enValue": "Submitting..."
+      },
+      {
+        "key": "error.dialog.foreign.plugin.warning.vendor",
+        "cnValue": null,
+        "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>{0}</a>.</html>"
+      },
+      {
+        "key": "error.report.impossible.action",
+        "cnValue": null,
+        "enValue": "Report exception"
+      },
+      {
+        "key": "error.dialog.disable.plugin.no.restart",
+        "cnValue": null,
+        "enValue": "Please restart the IDE to apply changes in plugin configuration."
+      },
+      {
+        "key": "error.dialog.notice.anonymous",
+        "cnValue": null,
+        "enValue": "<html>I agree to my hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains improve its products and to provide you with support service in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data.</html>"
+      },
+      {
+        "key": "error.dialog.notice.named",
+        "cnValue": null,
+        "enValue": "<html>I agree to my names, email address, username, password, hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains associate the reported data with my account in JetBrains Exception Analyzer and make it available to me in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data except those listed above.</html>"
+      },
+      {
+        "key": "error.report.impossible.tooltip",
+        "cnValue": null,
+        "enValue": "The plugin vendor didn't implement the exception reporting component."
+      },
+      {
+        "key": "error.dialog.submit.named",
+        "cnValue": null,
+        "enValue": "<html>Submit as <b>{0}</b> or <a>change account</a></html>"
+      },
+      {
+        "key": "error.dialog.foreign.plugin.warning",
+        "cnValue": null,
+        "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to plugin vendor.</html>"
+      },
+      {
+        "key": "error.dialog.attachments.prompt",
+        "cnValue": null,
+        "enValue": "<html>Please review the data included in this exception report:</html>"
+      },
+      {
+        "key": "error.dialog.disable.prompt.deps",
+        "cnValue": null,
+        "enValue": "Functionality provided by this and dependent plugins will no longer be available."
+      },
+      {
+        "key": "error.dialog.disable.plugin.can.restart",
+        "cnValue": null,
+        "enValue": "Changes in plugin configuration will take an effect after restart."
+      },
+      {
+        "key": "diagnostic.out.of.memory.dump",
+        "cnValue": "Memory Dump",
+        "enValue": "Memory Dump"
+      },
+      {
+        "key": "error.dialog.disable.prompt",
+        "cnValue": null,
+        "enValue": "Are you sure you want to disable plugin <b>{0}</b>?"
+      },
+      {
+        "key": "error.dialog.submit.anonymous",
+        "cnValue": null,
+        "enValue": "<html>Submit anonymously or use <a>JetBrains Account</a></html>"
+      },
+      {
+        "key": "error.dialog.foreign.plugin.warning.unknown",
+        "cnValue": null,
+        "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>plugin vendor</a>.</html>"
+      },
+      {
+        "key": "error.dialog.disable.prompt.lone",
+        "cnValue": null,
+        "enValue": "Functionality provided by the plugin will no longer be available."
+      },
+      {
+        "key": "error.dialog.notice.label",
+        "cnValue": null,
+        "enValue": "<html><b>By submitting this report, you agree to the terms and conditions of the privacy policy</b></html>"
+      }
+    ]
+  },
+  {
+    "path": "/messages/JamBundle.properties",
+    "name": "JamBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/com/intellij/tasks/TaskBundle.properties",
+    "name": "TaskBundle.properties",
+    "props": [
+      {
+        "key": "youtrack.default.query",
+        "cnValue": "for: me sort by: updated #Unresolved",
+        "enValue": "for: me sort by: updated #Unresolved"
+      }
+    ]
+  },
+  {
+    "path": "/messages/StatisticsBundle.properties",
+    "name": "StatisticsBundle.properties",
+    "props": [
+      {
+        "key": "stats.notification.content",
+        "cnValue": "<html>To improve your experience, we would like to collect data on the plugins and features you use. No personal data will be collected. An archive of a few kilobytes will be sent weekly.",
+        "enValue": "<html>To improve your experience, we would like to collect data on the plugins and features you use. No personal data will be collected. An archive of a few kilobytes will be sent weekly."
+      },
+      {
+        "key": "stats.notification.title",
+        "cnValue": "<html>Help Make {0} Better",
+        "enValue": "<html>Help Make {0} Better"
+      }
+    ]
+  },
+  {
+    "path": "/messages/KeyMapBundle.properties",
+    "name": "KeyMapBundle.properties",
+    "props": [
+      {
+        "key": "dialog.mouse.pad.shortcut.text",
+        "cnValue": "<html><center> <br>{0}<br><br>",
+        "enValue": "<html><center> <br>{0}<br><br>"
+      },
+      {
+        "key": "prefer.key.position",
+        "cnValue": "Prefer key position over key char with national layout",
+        "enValue": "Prefer key position over key char with national layout"
+      }
+    ]
+  },
+  {
+    "path": "/messages/ApplicationBundle.properties",
+    "name": "ApplicationBundle.properties",
+    "props": [
+      {
+        "key": "wrapping.try.resources",
+        "cnValue": "'try-with-resources'",
+        "enValue": "'try-with-resources'"
+      },
+      {
+        "key": "label.use.custom.soft.wraps.indent",
+        "cnValue": "Additional shift:",
+        "enValue": "Additional shift:"
+      },
+      {
+        "key": "editbox.ms",
+        "cnValue": "ms",
+        "enValue": "ms"
+      },
+      {
+        "key": "combobox.force.braces.for",
+        "cnValue": "for ():",
+        "enValue": "for ():"
+      },
+      {
+        "key": "color.scheme.theme.change.confirmation.title",
+        "cnValue": null,
+        "enValue": "Change {0} Theme"
+      },
+      {
+        "key": "checkbox.collapse.entities",
+        "cnValue": "XML entities",
+        "enValue": "XML entities"
+      },
+      {
+        "key": "combobox.force.braces.if",
+        "cnValue": "if ():",
+        "enValue": "if ():"
+      },
+      {
+        "key": "settings.soft.margins.empty.list",
+        "cnValue": "None",
+        "enValue": "None"
+      },
+      {
+        "key": "title.xml",
+        "cnValue": "XML",
+        "enValue": "XML"
+      },
+      {
+        "key": "checkbox.collapse.data.uri",
+        "cnValue": "Data URIs",
+        "enValue": "Data URIs"
+      },
+      {
+        "key": "ligatures.jre.warning",
+        "cnValue": "<html>The JRE you are running {0} with<br>is known to have performance issues<br>related to ligatures support.<br>Use <a href=\"https://confluence.jetbrains.com/display/IDEADEV/JetBrains+Runtime+Environment\">JetBrains Runtime</a> instead to enable ligatures.",
+        "enValue": "<html>The JRE you are running {0} with<br>is known to have performance issues<br>related to ligatures support.<br>Use <a href=\"https://confluence.jetbrains.com/display/IDEADEV/JetBrains+Runtime+Environment\">JetBrains Runtime</a> instead to enable ligatures."
+      },
+      {
+        "key": "editbox.blanklines.before.class.end",
+        "cnValue": null,
+        "enValue": "Before class end:"
+      },
+      {
+        "key": "editor.appearance.show.chain.call.type.hints.toggle.off",
+        "cnValue": null,
+        "enValue": "Hide hints for chain calls"
+      },
+      {
+        "key": "checkbox.spaces.before.colon.in.foreach",
+        "cnValue": null,
+        "enValue": "Space before colon in foreach"
+      },
+      {
+        "key": "editor.appearance.show.chain.call.type.hints.toggle.on",
+        "cnValue": null,
+        "enValue": "Show hints for chain calls"
+      },
+      {
+        "key": "checkbox.show.file.extension.in.editor.tabs",
+        "cnValue": null,
+        "enValue": "Show file extension"
+      },
+      {
+        "key": "title.naming.functional.expressions",
+        "cnValue": "Lambda Body",
+        "enValue": "Lambda Body"
+      },
+      {
+        "key": "combobox.force.braces.while",
+        "cnValue": "while ():",
+        "enValue": "while ():"
+      },
+      {
+        "key": "editor.appearance.show.inferred.annotations",
+        "cnValue": null,
+        "enValue": "Show inferred annotations inline"
+      },
+      {
+        "key": "settings.code.style.general.default.options",
+        "cnValue": "Default Options",
+        "enValue": "Default Options"
+      },
+      {
+        "key": "file.status.color.menu.reset.to.default",
+        "cnValue": "Default",
+        "enValue": "Default"
+      },
+      {
+        "key": "checkbox.tab.exists.brackets.and.quotes",
+        "cnValue": null,
+        "enValue": "Jump outside closing bracket/quote with Tab"
+      },
+      {
+        "key": "color.scheme.theme.change.confirmation",
+        "cnValue": null,
+        "enValue": "Looks like you have set a {0} editor color scheme.\nWould you like to set {0} theme for entire {1}?"
+      },
+      {
+        "key": "tabs.close.button.placement",
+        "cnValue": null,
+        "enValue": "Close button position:"
+      },
+      {
+        "key": "combobox.crlf.mac",
+        "cnValue": "Classic Mac (\\r)",
+        "enValue": "Classic Mac (\\r)"
+      },
+      {
+        "key": "file.status.color.menu.choose.color",
+        "cnValue": "Custom...",
+        "enValue": "Custom..."
+      },
+      {
+        "key": "editbox.autopopup.javadoc.in",
+        "cnValue": null,
+        "enValue": "Show the documentation popup in"
+      },
+      {
+        "key": "editor.appearance.show.chain.call.type.hints",
+        "cnValue": null,
+        "enValue": "Show chain call type hints"
+      },
+      {
+        "key": "settings.editor.console.font.overwrite",
+        "cnValue": "Use console font instead of the",
+        "enValue": "Use console font instead of the"
+      },
+      {
+        "key": "combobox.force.braces.do.while",
+        "cnValue": "do ... while():",
+        "enValue": "do ... while():"
+      },
+      {
+        "key": "settings.default.value.prefix",
+        "cnValue": "Default: {0}",
+        "enValue": "Default: {0}"
+      },
+      {
+        "key": "editbox.scheme.type.name",
+        "cnValue": "Scheme",
+        "enValue": "Scheme"
+      },
+      {
+        "key": "checkbox.collapse.suppress.warnings",
+        "cnValue": "<html>@SuppressWarnings</html>",
+        "enValue": "<html>@SuppressWarnings</html>"
+      },
+      {
+        "key": "checkbox.show.directory.for.non.unique.files",
+        "cnValue": null,
+        "enValue": "Show directory for non-unique file names"
+      },
+      {
+        "key": "combobox.crlf.windows",
+        "cnValue": "Windows (\\r\\n)",
+        "enValue": "Windows (\\r\\n)"
+      },
+      {
+        "key": "title.vcs",
+        "cnValue": "VCS",
+        "enValue": "VCS"
+      },
+      {
+        "key": "wrapping.case.statements.on.one.line",
+        "cnValue": "'case' on new line",
+        "enValue": "'case' on new line"
+      },
+      {
+        "key": "wrapping.force.braces",
+        "cnValue": "Force braces",
+        "enValue": "Force braces"
+      },
+      {
+        "key": "editor.appearance.show.external.annotations",
+        "cnValue": null,
+        "enValue": "Show external annotations inline"
+      },
+      {
+        "key": "title.html",
+        "cnValue": "HTML",
+        "enValue": "HTML"
+      },
+      {
+        "key": "settings.editor.font.overwrite",
+        "cnValue": "Use color scheme font instead of the",
+        "enValue": "Use color scheme font instead of the"
+      },
+      {
+        "key": "integer.field.value.default",
+        "cnValue": "Default",
+        "enValue": "Default"
+      },
+      {
+        "key": "title.javadoc",
+        "cnValue": "JavaDoc",
+        "enValue": "JavaDoc"
+      },
+      {
+        "key": "settings.code.style.general.indents.detection",
+        "cnValue": "Indents Detection",
+        "enValue": "Indents Detection"
+      },
+      {
+        "key": "checkbox.smart.tab.reuse.inline.help",
+        "cnValue": null,
+        "enValue": "When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes."
+      }
+    ]
+  },
+  {
+    "path": "/messages/ProjectBundle.properties",
+    "name": "ProjectBundle.properties",
+    "props": [
+      {
+        "key": "module.javadoc.title",
+        "cnValue": "JavaDoc",
+        "enValue": "JavaDoc"
+      },
+      {
+        "key": "dialog.text.enter.common.prefix.comment",
+        "cnValue": null,
+        "enValue": "<html>Modules are grouped in the IDE accordingly to their names; <br>if names of several modules have a common prefix they will be shown together.</html>"
+      },
+      {
+        "key": "sdk.table.settings",
+        "cnValue": "SDK Table",
+        "enValue": "SDK Table"
+      },
+      {
+        "key": "dialog.text.enter.common.prefix",
+        "cnValue": null,
+        "enValue": "Specify prefix for names of {0} selected modules:"
+      },
+      {
+        "key": "jdks.node.display.name",
+        "cnValue": "SDKs",
+        "enValue": "SDKs"
+      },
+      {
+        "key": "project.roots.jdks.node.text",
+        "cnValue": "JDK stands for the Java Development Kit, a software development package that is required to write, test and debug Java applications. JDK also contains classes and runtime environment that are used to execute the target application. <br><br>Mobile SDK contains emulator of mobile phone as well as embedded Java SDK to compile/pack/run/debug J2ME applications. <br><br>IntelliJ IDEA Plugin SDK contains idea's libraries and idea's embedded JRE to compile/pack/run/debug plugins for Intellij IDEA. <br><br>When you create a J2ME Module or Plugin Module, make sure that you have configured appropriate JDK for such a module.",
+        "enValue": "JDK stands for the Java Development Kit, a software development package that is required to write, test and debug Java applications. JDK also contains classes and runtime environment that are used to execute the target application. <br><br>Mobile SDK contains emulator of mobile phone as well as embedded Java SDK to compile/pack/run/debug J2ME applications. <br><br>IntelliJ IDEA Plugin SDK contains idea's libraries and idea's embedded JRE to compile/pack/run/debug plugins for Intellij IDEA. <br><br>When you create a J2ME Module or Plugin Module, make sure that you have configured appropriate JDK for such a module."
+      },
+      {
+        "key": "module.name.inspection.empty.name.is.not.allowed",
+        "cnValue": null,
+        "enValue": "Empty module names aren't allowed"
+      },
+      {
+        "key": "module.renaming.scheme.save.chooser.description",
+        "cnValue": null,
+        "enValue": "Choose file where current module renaming scheme will be stored."
+      },
+      {
+        "key": "module.renaming.scheme.load.button.text",
+        "cnValue": null,
+        "enValue": "&Load..."
+      },
+      {
+        "key": "module.name.inspection.too.few.lines",
+        "cnValue": null,
+        "enValue": "There are {0} modules in the project but only {1} lines here"
+      },
+      {
+        "key": "convert.module.groups.record.previous.names.text",
+        "cnValue": null,
+        "enValue": "&Record previous module names"
+      },
+      {
+        "key": "convert.module.groups.dialog.title",
+        "cnValue": null,
+        "enValue": "Convert Module Groups to Qualified Names"
+      },
+      {
+        "key": "project.roots.flatten.modules.action.description",
+        "cnValue": "Show modules in a flat list",
+        "enValue": "Show modules in a flat list"
+      },
+      {
+        "key": "module.renaming.scheme.unknown.module.error",
+        "cnValue": null,
+        "enValue": "unknown module ''{0}''"
+      },
+      {
+        "key": "error.message.module.name.prefix.contains.invalid.chars",
+        "cnValue": null,
+        "enValue": "A prefix must be composed of characters which can be used in a file name "
+      },
+      {
+        "key": "module.renaming.scheme.save.button.text",
+        "cnValue": null,
+        "enValue": "&Save..."
+      },
+      {
+        "key": "project.roots.classpath.format.default.descr",
+        "cnValue": "IntelliJ IDEA (.iml)",
+        "enValue": "IntelliJ IDEA (.iml)"
+      },
+      {
+        "key": "library.javadocs.node",
+        "cnValue": "JavaDocs",
+        "enValue": "JavaDocs"
+      },
+      {
+        "key": "error.message.module.name.cannot.be.empty",
+        "cnValue": null,
+        "enValue": "A module name cannot be empty"
+      },
+      {
+        "key": "multiple.facets.banner.0.1.facets",
+        "cnValue": "{0} {1} facets",
+        "enValue": "{0} {1} facets"
+      },
+      {
+        "key": "artifacts.add.copy.action",
+        "cnValue": "Add Copy of",
+        "enValue": "Add Copy of"
+      },
+      {
+        "key": "jdk.combo.box.none.item",
+        "cnValue": "<None>",
+        "enValue": "<None>"
+      },
+      {
+        "key": "action.description.change.module.names",
+        "cnValue": null,
+        "enValue": "Adjust automatic grouping of modules by changing the common prefix for their names"
+      },
+      {
+        "key": "module.renaming.scheme.cannot.load.error",
+        "cnValue": null,
+        "enValue": "Failed to load renaming scheme from {0}:\n{1}"
+      },
+      {
+        "key": "facet.banner.text",
+        "cnValue": "Facet ''{0}''",
+        "enValue": "Facet ''{0}''"
+      },
+      {
+        "key": "element.kind.name.facet",
+        "cnValue": "facet",
+        "enValue": "facet"
+      },
+      {
+        "key": "convert.module.groups.error.at.text",
+        "cnValue": null,
+        "enValue": "Error at line {0}: {1}"
+      },
+      {
+        "key": "dialog.title.change.module.names",
+        "cnValue": null,
+        "enValue": "Change Module Names"
+      },
+      {
+        "key": "choose.modules.dialog.description",
+        "cnValue": "Library ''{0}'' will be added to the selected modules.",
+        "enValue": "Library ''{0}'' will be added to the selected modules."
+      },
+      {
+        "key": "module.unknown.type.multiple.error",
+        "cnValue": "Cannot determine module type for the following modules:\n{0}\nAll mentioned modules will be treated as Unknown modules.",
+        "enValue": "Cannot determine module type for the following modules:\n{0}\nAll mentioned modules will be treated as Unknown modules."
+      },
+      {
+        "key": "jdk.missing.item",
+        "cnValue": "<No SDK>",
+        "enValue": "<No SDK>"
+      },
+      {
+        "key": "project.roots.jdk.banner.text",
+        "cnValue": "SDK ''{0}''",
+        "enValue": "SDK ''{0}''"
+      },
+      {
+        "key": "module.renaming.scheme.save.chooser.title",
+        "cnValue": null,
+        "enValue": "Save Module Renaming Scheme"
+      },
+      {
+        "key": "sdk.java.name",
+        "cnValue": "JDK",
+        "enValue": "JDK"
+      },
+      {
+        "key": "module.renaming.scheme.cannot.save.error",
+        "cnValue": null,
+        "enValue": "Failed to save renaming scheme:\n{0}"
+      },
+      {
+        "key": "module.name.inspection.duplicate.module.name",
+        "cnValue": null,
+        "enValue": "Duplicate module name ''{0}''"
+      },
+      {
+        "key": "module.name.inspection.display.name",
+        "cnValue": null,
+        "enValue": "Module names validation"
+      },
+      {
+        "key": "convert.module.groups.description.text",
+        "cnValue": null,
+        "enValue": "Each line in the text below corresponds to a module. Adjust module names if needed and press 'Convert' to rename modules and discard module groups."
+      },
+      {
+        "key": "convert.module.groups.action.description",
+        "cnValue": null,
+        "enValue": "Replace module groups by prefixes added to module names"
+      },
+      {
+        "key": "module.name.inspection.too.many.lines",
+        "cnValue": null,
+        "enValue": "There are {0} modules in the project so line {1} doesn''t correspond to a module"
+      },
+      {
+        "key": "error.message.module.name.prefix.contains.empty.string",
+        "cnValue": null,
+        "enValue": "A prefix must be a sequence of words separated by dots"
+      },
+      {
+        "key": "convert.module.groups.button.text",
+        "cnValue": null,
+        "enValue": "Convert"
+      },
+      {
+        "key": "external.annotations.suggestion.message",
+        "cnValue": "<html><body>If you do not want annotations in your code you may use external storage.<br> To configure external annotations please specify root directory where files with annotations would be placed</body></html>",
+        "enValue": "<html><body>If you do not want annotations in your code you may use external storage.<br> To configure external annotations please specify root directory where files with annotations would be placed</body></html>"
+      },
+      {
+        "key": "convert.module.groups.do.you.want.to.save.scheme",
+        "cnValue": null,
+        "enValue": "Do you want to save the current scheme?"
+      },
+      {
+        "key": "project.facets.display.name",
+        "cnValue": "Facets",
+        "enValue": "Facets"
+      },
+      {
+        "key": "convert.module.groups.record.previous.names.tooltip",
+        "cnValue": null,
+        "enValue": "All changes in module names will be recorded. {0} will use this data to automatically replace module names in workspace settings when other team members update the project from VCS."
+      },
+      {
+        "key": "action.text.change.module.names",
+        "cnValue": null,
+        "enValue": "Change Module Names..."
+      },
+      {
+        "key": "project.roots.library.banner.text",
+        "cnValue": "{1} ''{0}''",
+        "enValue": "{1} ''{0}''"
+      },
+      {
+        "key": "convert.module.groups.action.text",
+        "cnValue": null,
+        "enValue": "Convert Module Groups to Qualified Names..."
+      },
+      {
+        "key": "module.renaming.scheme.cannot.import.error.title",
+        "cnValue": null,
+        "enValue": "Cannot Import Module Names"
+      },
+      {
+        "key": "project.roots.javadoc.tab.description",
+        "cnValue": "<html>Manage external JavaDocs attached to this module. External JavaDoc override JavaDoc annotations you might have in your module.</html>",
+        "enValue": "<html>Manage external JavaDocs attached to this module. External JavaDoc override JavaDoc annotations you might have in your module.</html>"
+      }
+    ]
+  },
+  {
+    "path": "/com/intellij/dvcs/ui/DvcsBundle.properties",
+    "name": "DvcsBundle.properties",
+    "props": [
+      {
+        "key": "clone.destination.directory.error.invalid",
+        "cnValue": null,
+        "enValue": "Invalid directory path"
+      },
+      {
+        "key": "clone.repository.url.autocomplete.login.tooltip",
+        "cnValue": null,
+        "enValue": "Log in to see your repositories in the URL list"
+      },
+      {
+        "key": "clone.repository.url.test.success.message",
+        "cnValue": null,
+        "enValue": "Connection successful"
+      },
+      {
+        "key": "clone.repository.url.autocomplete.hint",
+        "cnValue": null,
+        "enValue": "{0} repositories completion available ( {1} )"
+      },
+      {
+        "key": "clone.repository.url.test.failed.message",
+        "cnValue": null,
+        "enValue": "Repository test failed<br/>{0}"
+      },
+      {
+        "key": "clone.destination.directory.browser.description",
+        "cnValue": null,
+        "enValue": "Select a parent directory for the clone"
+      },
+      {
+        "key": "clone.repository.url.label",
+        "cnValue": null,
+        "enValue": "URL:"
+      },
+      {
+        "key": "clone.repository.url.error.empty",
+        "cnValue": null,
+        "enValue": "Empty repository URL"
+      },
+      {
+        "key": "clone.repository.url.error.not.directory",
+        "cnValue": null,
+        "enValue": "Repository URL is not a directory"
+      },
+      {
+        "key": "clone.repository.url.error.invalid",
+        "cnValue": null,
+        "enValue": "Repository URL is a malformed URL or non-existent directory"
+      },
+      {
+        "key": "clone.destination.directory.error.access",
+        "cnValue": null,
+        "enValue": "Couldn't create destination directory<br/>Check your access rights"
+      },
+      {
+        "key": "clone.repository.url.test.title",
+        "cnValue": null,
+        "enValue": "Testing {0}"
+      },
+      {
+        "key": "executable.path.project.override",
+        "cnValue": null,
+        "enValue": "Set this path only for current project"
+      },
+      {
+        "key": "clone.repository.url.autocomplete.login.text",
+        "cnValue": null,
+        "enValue": "Log in to {0}..."
+      },
+      {
+        "key": "clone.destination.directory.browser.title",
+        "cnValue": null,
+        "enValue": "Destination Directory"
+      },
+      {
+        "key": "clone.repository.url.test.label",
+        "cnValue": null,
+        "enValue": "Test"
+      },
+      {
+        "key": "clone.destination.directory.error.exists",
+        "cnValue": null,
+        "enValue": "The directory already exists and it is not empty"
+      },
+      {
+        "key": "clone.destination.directory.error.not.directory",
+        "cnValue": null,
+        "enValue": "Destination is not a directory"
+      },
+      {
+        "key": "clone.destination.directory.label",
+        "cnValue": null,
+        "enValue": "Directory:"
+      }
+    ]
+  },
+  {
+    "path": "/com/intellij/webcore/WebCoreBundle.properties",
+    "name": "WebCoreBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/com/intellij/util/UltimateFeaturesBundle.properties",
+    "name": "UltimateFeaturesBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/AntBundle.properties",
+    "name": "AntBundle.properties",
+    "props": [
+      {
+        "key": "add.ant.file.action.name",
+        "cnValue": "Add",
+        "enValue": "Add"
+      },
+      {
+        "key": "remove.ant.file.action.description",
+        "cnValue": "Remove the selected build file from the list",
+        "enValue": "Remove the selected build file from the list"
+      },
+      {
+        "key": "ant.reference.bundled.ant.name",
+        "cnValue": "Bundled Ant",
+        "enValue": "Bundled Ant"
+      },
+      {
+        "key": "integer.attribute.has.invalid.value",
+        "cnValue": "Attribute ''{0}'' should have an integer value",
+        "enValue": "Attribute ''{0}'' should have an integer value"
+      },
+      {
+        "key": "project.jdk.not.specified.error.message",
+        "cnValue": "Project JDK not specified",
+        "enValue": "Project JDK not specified"
+      },
+      {
+        "key": "run.ant.file.or.target.action.name",
+        "cnValue": "Run",
+        "enValue": "Run"
+      },
+      {
+        "key": "remove.ant.file.action.name",
+        "cnValue": "Remove",
+        "enValue": "Remove"
+      },
+      {
+        "key": "remove.meta.targets.action.description",
+        "cnValue": "Remove selected meta target(s)",
+        "enValue": "Remove selected meta target(s)"
+      },
+      {
+        "key": "confirm.remove.dialog.title",
+        "cnValue": "Confirm Remove",
+        "enValue": "Confirm Remove"
+      },
+      {
+        "key": "build.finished.status.ant.build.completed.successfully",
+        "cnValue": "Ant build completed successfully in {0} at {1}",
+        "enValue": "Ant build completed successfully in {0} at {1}"
+      },
+      {
+        "key": "stop.ant.action.name",
+        "cnValue": "Stop",
+        "enValue": "Stop"
+      },
+      {
+        "key": "unnamed.string.presentation",
+        "cnValue": "<Unnamed>",
+        "enValue": "<Unnamed>"
+      },
+      {
+        "key": "ant.explorer.expand.all.nodes.action.description",
+        "cnValue": "Expand all build file nodes",
+        "enValue": "Expand all build file nodes"
+      },
+      {
+        "key": "ant.target.before.run.description",
+        "cnValue": "Run Ant target ''{0}''",
+        "enValue": "Run Ant target ''{0}''"
+      },
+      {
+        "key": "execute.target.before.run.debug.dialog.title",
+        "cnValue": "Execute Target Before Run/Debug",
+        "enValue": "Execute Target Before Run/Debug"
+      },
+      {
+        "key": "apache.ant.with.version.string.presentation",
+        "cnValue": "Apache Ant version {0}",
+        "enValue": "Apache Ant version {0}"
+      },
+      {
+        "key": "build.file.properties.close.message.view.checkbox",
+        "cnValue": "&Close message view if no error occurred",
+        "enValue": "&Close message view if no error occurred"
+      },
+      {
+        "key": "ant.role.ant.task",
+        "cnValue": "Ant task",
+        "enValue": "Ant task"
+      },
+      {
+        "key": "filter.ant.targets.action.description",
+        "cnValue": "Filter targets",
+        "enValue": "Filter targets"
+      },
+      {
+        "key": "ant.target.choser.title",
+        "cnValue": "Choose Ant Target to Execute",
+        "enValue": "Choose Ant Target to Execute"
+      },
+      {
+        "key": "button.remove",
+        "cnValue": "&Remove",
+        "enValue": "&Remove"
+      },
+      {
+        "key": "ant.task.message.node.prefix.text",
+        "cnValue": "Task:",
+        "enValue": "Task:"
+      },
+      {
+        "key": "ant.installation.not.configured.error.message",
+        "cnValue": "Ant installation is not configured. Check out Ant build file properties",
+        "enValue": "Ant installation is not configured. Check out Ant build file properties"
+      },
+      {
+        "key": "add.ant.file.action.description",
+        "cnValue": "Add an existing Ant build file to the list",
+        "enValue": "Add an existing Ant build file to the list"
+      },
+      {
+        "key": "ant.settings.name.label",
+        "cnValue": "&Name:",
+        "enValue": "&Name:"
+      },
+      {
+        "key": "could.not.start.process.error.dialog.title",
+        "cnValue": "Could Not Start Process",
+        "enValue": "Could Not Start Process"
+      },
+      {
+        "key": "button.move.down",
+        "cnValue": "Move &Down",
+        "enValue": "Move &Down"
+      },
+      {
+        "key": "intention.create.macrodef.family.name",
+        "cnValue": "Create macrodef",
+        "enValue": "Create macrodef"
+      },
+      {
+        "key": "cannot.add.ant.files.dialog.title",
+        "cnValue": "Cannot Add Files",
+        "enValue": "Cannot Add Files"
+      },
+      {
+        "key": "target.is.duplicated",
+        "cnValue": "Target ''{0}'' is duplicated",
+        "enValue": "Target ''{0}'' is duplicated"
+      },
+      {
+        "key": "background.button",
+        "cnValue": "&Background",
+        "enValue": "&Background"
+      },
+      {
+        "key": "ant.explorer.execute.on.action.group.name",
+        "cnValue": "Execute on",
+        "enValue": "Execute on"
+      },
+      {
+        "key": "ant.settings.home.label",
+        "cnValue": "&Home:",
+        "enValue": "&Home:"
+      },
+      {
+        "key": "cannot.start.build.name.error.message",
+        "cnValue": "Cannot start {0}",
+        "enValue": "Cannot start {0}"
+      },
+      {
+        "key": "save.meta.data.name.label",
+        "cnValue": "&Name:",
+        "enValue": "&Name:"
+      },
+      {
+        "key": "edit.ant.properties.additional.classpath.tab.display.name",
+        "cnValue": "Additional Classpath",
+        "enValue": "Additional Classpath"
+      },
+      {
+        "key": "ant.view.toggle.tree.text.action.name",
+        "cnValue": "Toggle tree/text mode",
+        "enValue": "Toggle tree/text mode"
+      },
+      {
+        "key": "build.file.properties.maximum.heap.size.label",
+        "cnValue": "Maximum &heap size (Mb):",
+        "enValue": "Maximum &heap size (Mb):"
+      },
+      {
+        "key": "ant.file.structure.narrow.down.the.list.on.typing.checkbox",
+        "cnValue": "&Narrow down the list on typing",
+        "enValue": "&Narrow down the list on typing"
+      },
+      {
+        "key": "select.ant.build.file.dialog.description",
+        "cnValue": "Select one or more build.xml files to be added to the list",
+        "enValue": "Select one or more build.xml files to be added to the list"
+      },
+      {
+        "key": "jdk.with.name.not.configured.error.message",
+        "cnValue": "JDK ({0}) needed to run this Ant target is not configured. Please update your settings in the Project Structure dialog.",
+        "enValue": "JDK ({0}) needed to run this Ant target is not configured. Please update your settings in the Project Structure dialog."
+      },
+      {
+        "key": "configure.ant.dialog.title",
+        "cnValue": "Configure Ant",
+        "enValue": "Configure Ant"
+      },
+      {
+        "key": "ant.build.progress.dialog.title",
+        "cnValue": "Ant Build Progress",
+        "enValue": "Ant Build Progress"
+      },
+      {
+        "key": "run.execution.tab.ant.command.line.hint",
+        "cnValue": "Use \"-J\" prefix to specify JVM arguments",
+        "enValue": "Use \"-J\" prefix to specify JVM arguments"
+      },
+      {
+        "key": "run.ant.target.action.name",
+        "cnValue": "Run Target",
+        "enValue": "Run Target"
+      },
+      {
+        "key": "ant.build.message.node.prefix.text",
+        "cnValue": "Build:",
+        "enValue": "Build:"
+      },
+      {
+        "key": "run.ant.file.or.target.action.description",
+        "cnValue": "Run the selected build file or selected target(s) with Ant",
+        "enValue": "Run the selected build file or selected target(s) with Ant"
+      },
+      {
+        "key": "register.ant.build.progress",
+        "cnValue": "Registering Ant Build File ''{0}''...",
+        "enValue": "Registering Ant Build File ''{0}''..."
+      },
+      {
+        "key": "run.filters.tab.targets.label",
+        "cnValue": "Targets:",
+        "enValue": "Targets:"
+      },
+      {
+        "key": "target.is.duplicated.in.imported.file",
+        "cnValue": "Target ''{0}'' is duplicated in file ''{1}''",
+        "enValue": "Target ''{0}'' is duplicated in file ''{1}''"
+      },
+      {
+        "key": "build.file.properties.action.name",
+        "cnValue": "Properties",
+        "enValue": "Properties"
+      },
+      {
+        "key": "executes.before.run.debug.acton.name",
+        "cnValue": "Before Run/Debug...",
+        "enValue": "Before Run/Debug..."
+      },
+      {
+        "key": "ant.create.target.intention.description",
+        "cnValue": "Create target ''{0}''",
+        "enValue": "Create target ''{0}''"
+      },
+      {
+        "key": "ant.jar.not.found.in.directory.error.message",
+        "cnValue": "ant.jar not found in directory ''{0}''",
+        "enValue": "ant.jar not found in directory ''{0}''"
+      },
+      {
+        "key": "using.definition.which.type.failed.to.load",
+        "cnValue": "Using definition which type failed to load",
+        "enValue": "Using definition which type failed to load"
+      },
+      {
+        "key": "add.action.name",
+        "cnValue": "Add",
+        "enValue": "Add"
+      },
+      {
+        "key": "remove.meta.target.action.name",
+        "cnValue": "Remove Meta Target",
+        "enValue": "Remove Meta Target"
+      },
+      {
+        "key": "ant.intention.create.target.family.name",
+        "cnValue": "Create Target",
+        "enValue": "Create Target"
+      },
+      {
+        "key": "ant.unknown.version.string.presentation",
+        "cnValue": "Unknown version",
+        "enValue": "Unknown version"
+      },
+      {
+        "key": "additional.classpath.tab.add.all.in.directory.button",
+        "cnValue": "Add A&ll in Directory",
+        "enValue": "Add A&ll in Directory"
+      },
+      {
+        "key": "create.property.quickfix.name",
+        "cnValue": "Create property ''{0}''",
+        "enValue": "Create property ''{0}''"
+      },
+      {
+        "key": "ant.element.role.scriptdef.element",
+        "cnValue": "Scriptdef element",
+        "enValue": "Scriptdef element"
+      },
+      {
+        "key": "edit.ant.properties.filters.tab.display.name",
+        "cnValue": "Filters",
+        "enValue": "Filters"
+      },
+      {
+        "key": "ant.substitution.not.allowed.error.message",
+        "cnValue": "Substitution not allowed",
+        "enValue": "Substitution not allowed"
+      },
+      {
+        "key": "edit.ant.properties.name.column.name",
+        "cnValue": "Name",
+        "enValue": "Name"
+      },
+      {
+        "key": "ant.explorer.assign.shortcut.action.name",
+        "cnValue": "Assign Shortcut...",
+        "enValue": "Assign Shortcut..."
+      },
+      {
+        "key": "run.ant.error.dialog.title",
+        "cnValue": "Run Ant",
+        "enValue": "Run Ant"
+      },
+      {
+        "key": "cancel.button",
+        "cnValue": "Cancel",
+        "enValue": "Cancel"
+      },
+      {
+        "key": "ant.execution.previous.error.warning.action.name",
+        "cnValue": "Previous Error/Warning",
+        "enValue": "Previous Error/Warning"
+      },
+      {
+        "key": "ant.missing.properties.file.inspection",
+        "cnValue": "Missing properties file",
+        "enValue": "Missing properties file"
+      },
+      {
+        "key": "meta.target.build.sequence.name.display.name",
+        "cnValue": "Build sequence {0}",
+        "enValue": "Build sequence {0}"
+      },
+      {
+        "key": "run.execution.tab.use.project.default.ant.radio",
+        "cnValue": "Use project &default Ant:",
+        "enValue": "Use project &default Ant:"
+      },
+      {
+        "key": "additional.classpath.tab.classpath.border",
+        "cnValue": "Class&path:",
+        "enValue": "Class&path:"
+      },
+      {
+        "key": "cannot.add.build.file.dialog.title",
+        "cnValue": "Cannot Add Build File",
+        "enValue": "Cannot Add Build File"
+      },
+      {
+        "key": "build.finished.status.ant.build.aborted",
+        "cnValue": "Ant build aborted in {0} at {1}",
+        "enValue": "Ant build aborted in {0} at {1}"
+      },
+      {
+        "key": "ant.actual.attribute.value.additional.info.to.xml.attribute.error.message",
+        "cnValue": "(actual attribute value''{0}'')",
+        "enValue": "(actual attribute value''{0}'')"
+      },
+      {
+        "key": "remove.the.reference.to.file.confirmation.text",
+        "cnValue": "Do you want to remove the reference to\n{0}?",
+        "enValue": "Do you want to remove the reference to\n{0}?"
+      },
+      {
+        "key": "ant.settings.classpath.label",
+        "cnValue": "&Classpath:",
+        "enValue": "&Classpath:"
+      },
+      {
+        "key": "jdk.with.name.bad.configured.error.message",
+        "cnValue": "JDK ({0}) needed to run this Ant target is incorrectly configured. Please update your settings in the Project Structure dialog.",
+        "enValue": "JDK ({0}) needed to run this Ant target is incorrectly configured. Please update your settings in the Project Structure dialog."
+      },
+      {
+        "key": "cant.run.ant.error.dialog.title",
+        "cnValue": "Cannot Run Ant",
+        "enValue": "Cannot Run Ant"
+      },
+      {
+        "key": "lib.directory.not.found.in.ant.path.error.message",
+        "cnValue": "lib directory not found in {0}",
+        "enValue": "lib directory not found in {0}"
+      },
+      {
+        "key": "edit.ant.properties.tab.display.name",
+        "cnValue": "Properties",
+        "enValue": "Properties"
+      },
+      {
+        "key": "save.meta.data.such.sequence.of.targets.already.exists.error.message",
+        "cnValue": "Such sequence of targets already exists",
+        "enValue": "Such sequence of targets already exists"
+      },
+      {
+        "key": "intention.create.property.family.name",
+        "cnValue": "Create property",
+        "enValue": "Create property"
+      },
+      {
+        "key": "ant.target.name.default.target",
+        "cnValue": "<default target>",
+        "enValue": "<default target>"
+      },
+      {
+        "key": "loading.ant.config.progress",
+        "cnValue": "Loading Ant Configuration...",
+        "enValue": "Loading Ant Configuration..."
+      },
+      {
+        "key": "user.inout.request.ant.build.input.dialog.title",
+        "cnValue": "Ant Build Input",
+        "enValue": "Ant Build Input"
+      },
+      {
+        "key": "ant.create.meta.target.action.description",
+        "cnValue": "Save selected targets as a meta-target",
+        "enValue": "Save selected targets as a meta-target"
+      },
+      {
+        "key": "ant.verbose.show.all.messages.action.name",
+        "cnValue": "Show All Messages",
+        "enValue": "Show All Messages"
+      },
+      {
+        "key": "attribute.is.not.allowed.here",
+        "cnValue": "Attribute ''{0}'' is not allowed here",
+        "enValue": "Attribute ''{0}'' is not allowed here"
+      },
+      {
+        "key": "build.file.properties.action.description",
+        "cnValue": "Show Ant build file properties dialog",
+        "enValue": "Show Ant build file properties dialog"
+      },
+      {
+        "key": "undefined.element",
+        "cnValue": "Element ''{0}'' is undefined",
+        "enValue": "Element ''{0}'' is undefined"
+      },
+      {
+        "key": "edit.ant.properties.execution.tab.display.name",
+        "cnValue": "Execution",
+        "enValue": "Execution"
+      },
+      {
+        "key": "cannot.resolve.refid",
+        "cnValue": "Cannot resolve ''{0}'' refid",
+        "enValue": "Cannot resolve ''{0}'' refid"
+      },
+      {
+        "key": "ant.intention.create.property.text",
+        "cnValue": "Add property definition ''{0}''",
+        "enValue": "Add property definition ''{0}''"
+      },
+      {
+        "key": "delete.selected.ant.configurations.confirmation.text",
+        "cnValue": "Delete selected Ant configurations?",
+        "enValue": "Delete selected Ant configurations?"
+      },
+      {
+        "key": "ant.build.started.status.message",
+        "cnValue": "Ant build started",
+        "enValue": "Ant build started"
+      },
+      {
+        "key": "run.ant.build.action.name",
+        "cnValue": "Run Build",
+        "enValue": "Run Build"
+      },
+      {
+        "key": "run.ant.targets.action.name",
+        "cnValue": "Run Targets",
+        "enValue": "Run Targets"
+      },
+      {
+        "key": "starting.ant.build.dialog.title",
+        "cnValue": "Starting Ant Build",
+        "enValue": "Starting Ant Build"
+      },
+      {
+        "key": "remove.meta.targets.action.name",
+        "cnValue": "Remove",
+        "enValue": "Remove"
+      },
+      {
+        "key": "intention.create.presetdef.family.name",
+        "cnValue": "Create presetdef",
+        "enValue": "Create presetdef"
+      },
+      {
+        "key": "build.file.properties.maximum.stack.size.label",
+        "cnValue": "Maximum &stack size (Mb):",
+        "enValue": "Maximum &stack size (Mb):"
+      },
+      {
+        "key": "ant.intention.create.property.family.name",
+        "cnValue": "Create property",
+        "enValue": "Create property"
+      },
+      {
+        "key": "please.specify.a.property",
+        "cnValue": "Please set a property here",
+        "enValue": "Please set a property here"
+      },
+      {
+        "key": "remove.selected.build.file.action.name",
+        "cnValue": "Remove Build File",
+        "enValue": "Remove Build File"
+      },
+      {
+        "key": "intention.create.target.family.name",
+        "cnValue": "Create target",
+        "enValue": "Create target"
+      },
+      {
+        "key": "build.file.properties.make.in.background.cjeclbox",
+        "cnValue": "Make build in &background",
+        "enValue": "Make build in &background"
+      },
+      {
+        "key": "ant.explorer.collapse.all.nodes.action.description",
+        "cnValue": "Collapse all build file nodes",
+        "enValue": "Collapse all build file nodes"
+      },
+      {
+        "key": "ant.element.role.macrodef.element",
+        "cnValue": "Macrodef element",
+        "enValue": "Macrodef element"
+      },
+      {
+        "key": "project.jdk.not.specified.list.column.value",
+        "cnValue": "Project JDK (not specified)",
+        "enValue": "Project JDK (not specified)"
+      },
+      {
+        "key": "ant.is.active.terminate.confirmation.text",
+        "cnValue": "Ant process from the same build file is active. Terminate it?",
+        "enValue": "Ant process from the same build file is active. Terminate it?"
+      },
+      {
+        "key": "ant.build.local.history.label",
+        "cnValue": "Running Ant: ''{0}''",
+        "enValue": "Running Ant: ''{0}''"
+      },
+      {
+        "key": "make.ant.runconfiguration.name",
+        "cnValue": "Create run configuration",
+        "enValue": "Create run configuration"
+      },
+      {
+        "key": "ant.element.role.user.task",
+        "cnValue": "User task",
+        "enValue": "User task"
+      },
+      {
+        "key": "remove.build.file.action.name",
+        "cnValue": "Remove",
+        "enValue": "Remove"
+      },
+      {
+        "key": "run.execution.tab.use.custom.ant.radio",
+        "cnValue": "Use c&ustom Ant:",
+        "enValue": "Use c&ustom Ant:"
+      },
+      {
+        "key": "path.to.ant.does.not.exist.error.message",
+        "cnValue": "Path {0} does not exist",
+        "enValue": "Path {0} does not exist"
+      },
+      {
+        "key": "ant.target",
+        "cnValue": "Target",
+        "enValue": "Target"
+      },
+      {
+        "key": "cannot.add.build.files.from.excluded.directories.error.message",
+        "cnValue": "Cannot add build files from excluded directories\n{0}",
+        "enValue": "Cannot add build files from excluded directories\n{0}"
+      },
+      {
+        "key": "file.type.xml.not.supported",
+        "cnValue": "''{0}'' has unsupported xml format. Probably missing doctype.",
+        "enValue": "''{0}'' has unsupported xml format. Probably missing doctype."
+      },
+      {
+        "key": "project.jdk.project.jdk.name.list.column.value",
+        "cnValue": "Project JDK ({0})",
+        "enValue": "Project JDK ({0})"
+      },
+      {
+        "key": "ant.target.before.run.description.empty",
+        "cnValue": "Run Ant target",
+        "enValue": "Run Ant target"
+      },
+      {
+        "key": "save.meta.data.targets.label",
+        "cnValue": "Targets:",
+        "enValue": "Targets:"
+      },
+      {
+        "key": "edit.ant.properties.description.column.name",
+        "cnValue": "Description",
+        "enValue": "Description"
+      },
+      {
+        "key": "ant.create.meta.target.action.name",
+        "cnValue": "Create Meta Target",
+        "enValue": "Create Meta Target"
+      },
+      {
+        "key": "ant.cant.resolve.property.error.message",
+        "cnValue": "Can''t resolve property: {0}",
+        "enValue": "Can''t resolve property: {0}"
+      },
+      {
+        "key": "ant.verbose.show.all.messages.action.description",
+        "cnValue": "Show all messages produces by ant build",
+        "enValue": "Show all messages produces by ant build"
+      },
+      {
+        "key": "ant.view.pause.output.action.name",
+        "cnValue": "Pause Output",
+        "enValue": "Pause Output"
+      },
+      {
+        "key": "select.ant.build.file.dialog.title",
+        "cnValue": "Select Ant Build File",
+        "enValue": "Select Ant Build File"
+      },
+      {
+        "key": "remove.action.name",
+        "cnValue": "Remove",
+        "enValue": "Remove"
+      },
+      {
+        "key": "cannot.resolve.target",
+        "cnValue": "Target ''{0}'' is unknown",
+        "enValue": "Target ''{0}'' is unknown"
+      },
+      {
+        "key": "ant.execution.next.error.warning.action.name",
+        "cnValue": "Next Error/Warning",
+        "enValue": "Next Error/Warning"
+      },
+      {
+        "key": "target.tag.name.status.text",
+        "cnValue": "Target: {0}",
+        "enValue": "Target: {0}"
+      },
+      {
+        "key": "ant.duplicate.imported.targets.inspection",
+        "cnValue": "Duplicate targets in imported files",
+        "enValue": "Duplicate targets in imported files"
+      },
+      {
+        "key": "cant.run.ant.ant.reference.is.not.configured.error.message",
+        "cnValue": "Ant ''{0}'' is not configured",
+        "enValue": "Ant ''{0}'' is not configured"
+      },
+      {
+        "key": "nested.element.is.not.allowed.here",
+        "cnValue": "Nested element ''{0}'' is not allowed here",
+        "enValue": "Nested element ''{0}'' is not allowed here"
+      },
+      {
+        "key": "build.finished.status.ant.build.completed.with.warnings",
+        "cnValue": "Ant build completed with {0, choice, 0#no warnings|1#one warning|2#{0} warnings} in {1} at {2}",
+        "enValue": "Ant build completed with {0, choice, 0#no warnings|1#one warning|2#{0} warnings} in {1} at {2}"
+      },
+      {
+        "key": "close.ant.build.messages.dialog.title",
+        "cnValue": "Close Ant Build Messages",
+        "enValue": "Close Ant Build Messages"
+      },
+      {
+        "key": "ant.jar.is.directory.error.message",
+        "cnValue": "{0} is directory",
+        "enValue": "{0} is directory"
+      },
+      {
+        "key": "intention.configure.highlighting.text",
+        "cnValue": "Configure highlighting",
+        "enValue": "Configure highlighting"
+      },
+      {
+        "key": "ant.role.ant.target",
+        "cnValue": "Ant target",
+        "enValue": "Ant target"
+      },
+      {
+        "key": "ant.role.ant.property",
+        "cnValue": "Ant property",
+        "enValue": "Ant property"
+      },
+      {
+        "key": "create.property.in.file.quickfix.name",
+        "cnValue": "Create property ''{0}'' in file ''{1}''",
+        "enValue": "Create property ''{0}'' in file ''{1}''"
+      },
+      {
+        "key": "ant.target.message.node.prefix.text",
+        "cnValue": "Target:",
+        "enValue": "Target:"
+      },
+      {
+        "key": "ant.properties.declaration.element.description",
+        "cnValue": "Ant properties declaration",
+        "enValue": "Ant properties declaration"
+      },
+      {
+        "key": "ant.element.role.ant.project.name",
+        "cnValue": "Ant project name",
+        "enValue": "Ant project name"
+      },
+      {
+        "key": "cant.run.ant.no.ant.configured.error.message",
+        "cnValue": "No Ant configured",
+        "enValue": "No Ant configured"
+      },
+      {
+        "key": "ant.process.is.active.terminate.confirmation.text",
+        "cnValue": "Ant Process is active. Terminate Ant process?",
+        "enValue": "Ant Process is active. Terminate Ant process?"
+      },
+      {
+        "key": "run.execution.tab.set.default.button",
+        "cnValue": "&Set Default...",
+        "enValue": "&Set Default..."
+      },
+      {
+        "key": "run.execution.tab.run.under.jdk.label",
+        "cnValue": "Run under &JDK:",
+        "enValue": "Run under &JDK:"
+      },
+      {
+        "key": "build.finished.status.ant.build.completed.with.errors.warnings",
+        "cnValue": "Ant build completed with {0, choice, 0#no errors|1#one error|2#{0} errors} and {1, choice, 0#no warnings|1#one warning|2#{1} warnings} in {2} at {3}",
+        "enValue": "Ant build completed with {0, choice, 0#no errors|1#one error|2#{0} errors} and {1, choice, 0#no warnings|1#one warning|2#{1} warnings} in {2} at {3}"
+      },
+      {
+        "key": "rerun.ant.action.name",
+        "cnValue": "Rerun",
+        "enValue": "Rerun"
+      },
+      {
+        "key": "ant.property.value.editor.insert.macro.tooltip.text",
+        "cnValue": "Insert Macro",
+        "enValue": "Insert Macro"
+      },
+      {
+        "key": "ant.duplicate.targets.inspection",
+        "cnValue": "Duplicate targets",
+        "enValue": "Duplicate targets"
+      },
+      {
+        "key": "intention.configure.highlighting.family.name",
+        "cnValue": "Configure highlighting",
+        "enValue": "Configure highlighting"
+      },
+      {
+        "key": "execute.target.wrong.name.format.error.message",
+        "cnValue": "Wrong name format: {0}",
+        "enValue": "Wrong name format: {0}"
+      },
+      {
+        "key": "canceled.by.user.error.message",
+        "cnValue": "Canceled by user",
+        "enValue": "Canceled by user"
+      },
+      {
+        "key": "ant.tree.structure.no.build.files.message",
+        "cnValue": "<The list of build files is empty>",
+        "enValue": "<The list of build files is empty>"
+      },
+      {
+        "key": "ant.build.tab.content.title",
+        "cnValue": "Ant Build",
+        "enValue": "Ant Build"
+      },
+      {
+        "key": "run.execution.tab.ant.command.line.label",
+        "cnValue": "Ant command &line:",
+        "enValue": "Ant command &line:"
+      },
+      {
+        "key": "unknown.macro.attribute",
+        "cnValue": "Macro attribute ''{0}'' is unknown",
+        "enValue": "Macro attribute ''{0}'' is unknown"
+      },
+      {
+        "key": "ant.event.before.compilation.presentable.name",
+        "cnValue": "Before Compilation",
+        "enValue": "Before Compilation"
+      },
+      {
+        "key": "filter.ant.targets.action.name",
+        "cnValue": "Filter targets",
+        "enValue": "Filter targets"
+      },
+      {
+        "key": "delete.selected.ant.configuration.confirmation.text",
+        "cnValue": "Delete selected Ant configuration?",
+        "enValue": "Delete selected Ant configuration?"
+      },
+      {
+        "key": "button.add",
+        "cnValue": "&Add",
+        "enValue": "&Add"
+      },
+      {
+        "key": "file.doesnt.exist",
+        "cnValue": "''{0}'' does not exist",
+        "enValue": "''{0}'' does not exist"
+      },
+      {
+        "key": "failed.to.load.types",
+        "cnValue": "Failed to load type(s)",
+        "enValue": "Failed to load type(s)"
+      },
+      {
+        "key": "remove.selected.meta.targets.action.name",
+        "cnValue": "Remove Meta Targets",
+        "enValue": "Remove Meta Targets"
+      },
+      {
+        "key": "run.execution.tab.ant.command.line.dialog.title",
+        "cnValue": "Ant Command Line",
+        "enValue": "Ant Command Line"
+      },
+      {
+        "key": "executing.task.tag.value.status.text",
+        "cnValue": "Executing task: {0}",
+        "enValue": "Executing task: {0}"
+      },
+      {
+        "key": "file.type.not.supported",
+        "cnValue": "''{0}'' has unsupported format",
+        "enValue": "''{0}'' has unsupported format"
+      },
+      {
+        "key": "edit.ant.properties.value.column.name",
+        "cnValue": "Value",
+        "enValue": "Value"
+      },
+      {
+        "key": "run.execution.tab.run.with.ant.border",
+        "cnValue": "Run with Ant:",
+        "enValue": "Run with Ant:"
+      },
+      {
+        "key": "ant.event.before.run.debug.presentable.name",
+        "cnValue": "Before Run/Debug",
+        "enValue": "Before Run/Debug"
+      },
+      {
+        "key": "unknown.property",
+        "cnValue": "Property ''{0}'' is unknown",
+        "enValue": "Property ''{0}'' is unknown"
+      },
+      {
+        "key": "ant.event.after.compilation.presentable.name",
+        "cnValue": "After Compilation",
+        "enValue": "After Compilation"
+      },
+      {
+        "key": "cant.add.file.error.message",
+        "cnValue": "Cannot add file {0}: {1}",
+        "enValue": "Cannot add file {0}: {1}"
+      },
+      {
+        "key": "cant.read.from.ant.jar.error.message",
+        "cnValue": "Can''t read from {0}",
+        "enValue": "Can''t read from {0}"
+      },
+      {
+        "key": "ant.implicit.ant.properties.property.declaration.name",
+        "cnValue": "implicit ant properties",
+        "enValue": "implicit ant properties"
+      },
+      {
+        "key": "ant.setup.dialog.title",
+        "cnValue": "Ant Setup",
+        "enValue": "Ant Setup"
+      },
+      {
+        "key": "button.move.up",
+        "cnValue": "Move &Up",
+        "enValue": "Move &Up"
+      },
+      {
+        "key": "build.file.properties.dialog.title",
+        "cnValue": "Build File Properties",
+        "enValue": "Build File Properties"
+      }
+    ]
+  },
+  {
+    "path": "/messages/XmlBundle.properties",
+    "name": "XmlBundle.properties",
+    "props": [
+      {
+        "key": "html.replace.tag.with.css.quickfix.family.name",
+        "cnValue": "Replace with CSS",
+        "enValue": "Replace with CSS"
+      },
+      {
+        "key": "label.edit.external.resource.uri",
+        "cnValue": "URI:",
+        "enValue": "URI:"
+      },
+      {
+        "key": "xml.inspections.group.name",
+        "cnValue": "XML",
+        "enValue": "XML"
+      },
+      {
+        "key": "xml.editor.options.misc.title",
+        "cnValue": "XML/HTML",
+        "enValue": "XML/HTML"
+      },
+      {
+        "key": "emmet.bem.title",
+        "cnValue": "BEM",
+        "enValue": "BEM"
+      },
+      {
+        "key": "web.editor.configuration.title",
+        "cnValue": "Web",
+        "enValue": "Web"
+      },
+      {
+        "key": "emmet.bem.class.name.modifier.separator.label",
+        "cnValue": "Class name's modifier separator:",
+        "enValue": "Class name's modifier separator:"
+      },
+      {
+        "key": "emmet.configuration.title",
+        "cnValue": "Emmet",
+        "enValue": "Emmet"
+      },
+      {
+        "key": "column.name.edit.external.resource.uri",
+        "cnValue": "URI",
+        "enValue": "URI"
+      },
+      {
+        "key": "emmet.bem.short.element.prefix.label",
+        "cnValue": "Short element prefix:",
+        "enValue": "Short element prefix:"
+      },
+      {
+        "key": "emmet.title",
+        "cnValue": "Emmet",
+        "enValue": "Emmet"
+      },
+      {
+        "key": "html.inspections.group.name",
+        "cnValue": "HTML",
+        "enValue": "HTML"
+      },
+      {
+        "key": "emmet.bem.class.name.element.separator.label",
+        "cnValue": "Class name's element separator:",
+        "enValue": "Class name's element separator:"
+      }
+    ]
+  },
+  {
+    "path": "/messages/DesignerBundle.properties",
+    "name": "DesignerBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/CompilerBundle.properties",
+    "name": "CompilerBundle.properties",
+    "props": [
+      {
+        "key": "dialog.message.compilation.of.unloaded.modules.failed",
+        "cnValue": "There are unloaded modules in the project which depend on changed files.<br>Compilation of these modules finished with errors.",
+        "enValue": "There are unloaded modules in the project which depend on changed files.<br>Compilation of these modules finished with errors."
+      },
+      {
+        "key": "compiler.eclipse.name",
+        "cnValue": "Eclipse",
+        "enValue": "Eclipse"
+      },
+      {
+        "key": "dialog.title.delete.old.outputs",
+        "cnValue": null,
+        "enValue": "Delete Old Output Directories"
+      },
+      {
+        "key": "notification.action.text.do.not.ask",
+        "cnValue": null,
+        "enValue": "Do not ask again"
+      },
+      {
+        "key": "generated.ant.build.custom.compilers.comment",
+        "cnValue": "Register Custom Compiler Taskdefs",
+        "enValue": "Register Custom Compiler Taskdefs"
+      },
+      {
+        "key": "compiler.javac.name",
+        "cnValue": "Javac",
+        "enValue": "Javac"
+      },
+      {
+        "key": "generate.ant.build.custom.compiler.conflict.message.row",
+        "cnValue": "<li>{0}</li>",
+        "enValue": "<li>{0}</li>"
+      },
+      {
+        "key": "dialog.text.delete.old.outputs",
+        "cnValue": null,
+        "enValue": "<html>The following {0, choice, 1#directory|2#directories} will be deleted. You will not be able to undo this operation!<br/>{1}</html>"
+      },
+      {
+        "key": "node.text.0.module.sources",
+        "cnValue": null,
+        "enValue": "''{0}'' sources"
+      },
+      {
+        "key": "compiler.ref.service.validation.task.name",
+        "cnValue": "",
+        "enValue": "Backward Reference Indices Validation"
+      },
+      {
+        "key": "notification.content.delete.old.output.directories",
+        "cnValue": null,
+        "enValue": "{0, choice, 1#An output directory which doesn''t|2#{0} output directories which don''''t} correspond to existing modules {0, choice, 1#is|2#are} found under {1}. You may delete {0, choice, 1#this directory|2#these directories} to save disk space."
+      },
+      {
+        "key": "notification.action.text.cleanup",
+        "cnValue": null,
+        "enValue": "Clean Up..."
+      },
+      {
+        "key": "element.type.name.module.source",
+        "cnValue": null,
+        "enValue": "Module Sources"
+      },
+      {
+        "key": "progress.text.deleting.directory",
+        "cnValue": null,
+        "enValue": "Deleting directory {0}..."
+      },
+      {
+        "key": "button.text.delete.old.outputs",
+        "cnValue": null,
+        "enValue": "Delete"
+      },
+      {
+        "key": "element.type.name.artifact",
+        "cnValue": "Artifact",
+        "enValue": "Artifact"
+      },
+      {
+        "key": "progress.text.synchronizing.output.directories",
+        "cnValue": null,
+        "enValue": "Synchronizing output directories..."
+      },
+      {
+        "key": "notification.title.delete.old.output.directories",
+        "cnValue": null,
+        "enValue": "Clean up old output directories"
+      }
+    ]
+  },
+  {
+    "path": "/messages/VcsBundle.properties",
+    "name": "VcsBundle.properties",
+    "props": [
+      {
+        "key": "lst.inactive.ranges.damaged.notification",
+        "cnValue": null,
+        "enValue": "Part of the changes were moved to active changelist"
+      },
+      {
+        "key": "executable.select.label",
+        "cnValue": null,
+        "enValue": "&Path to executable"
+      },
+      {
+        "key": "shelve.changes.progress.title",
+        "cnValue": "Shelving Changes...",
+        "enValue": "Shelving Changes..."
+      },
+      {
+        "key": "settings.partial.changelists.enable.checkbox",
+        "cnValue": null,
+        "enValue": "Track changed blocks in text files separately"
+      },
+      {
+        "key": "update.tree.node.size.statistics",
+        "cnValue": "{0,choice, 0#no items|1#1 item|2#{0, number} items}",
+        "enValue": "{0,choice, 0#no items|1#1 item|2#{0, number} items}"
+      },
+      {
+        "key": "vcs.shelf.store.base.content",
+        "cnValue": "Shelve base revisions of files under distributed version control systems",
+        "enValue": "Shelve base revisions of files under distributed version control systems"
+      },
+      {
+        "key": "column.name.configure.vcses.vcs",
+        "cnValue": "VCS",
+        "enValue": "VCS"
+      },
+      {
+        "key": "group.name.version.control",
+        "cnValue": "&VCS",
+        "enValue": "&VCS"
+      },
+      {
+        "key": "executable.project.override.reset.globalize",
+        "cnValue": null,
+        "enValue": "Set as Global"
+      },
+      {
+        "key": "executable.project.override",
+        "cnValue": null,
+        "enValue": "Set this path only for the current project"
+      },
+      {
+        "key": "file.status.name.suppressed",
+        "cnValue": "Suppressed",
+        "enValue": "Suppressed"
+      },
+      {
+        "key": "checkbox.show.changed.revisions.only",
+        "cnValue": "Changes only",
+        "enValue": "Changes only"
+      },
+      {
+        "key": "settings.highlight.files.from.non.active.changelist.checkbox",
+        "cnValue": null,
+        "enValue": "Highlight files from &non-active changelists"
+      },
+      {
+        "key": "settings.highlight.files.with.conflicts.checkbox",
+        "cnValue": null,
+        "enValue": "&Highlight files with changelist conflicts"
+      },
+      {
+        "key": "settings.show.conflict.resolve.dialog.checkbox",
+        "cnValue": null,
+        "enValue": "Show &dialog on attempt to edit file from non-active changelist"
+      },
+      {
+        "key": "settings.files.with.ignored.conflicts.list.title",
+        "cnValue": null,
+        "enValue": "Files with ignored conflicts"
+      },
+      {
+        "key": "annotation.wrong.line.number.notification.text",
+        "cnValue": "<html>Number of lines annotated by {0} is not equal to number of lines in the file. Check file encoding and line separators.</html>",
+        "enValue": "<html>Number of lines annotated by {0} is not equal to number of lines in the file. Check file encoding and line separators.</html>"
+      },
+      {
+        "key": "executable.select.description",
+        "cnValue": null,
+        "enValue": "Select executable file to be used for VCS operations"
+      },
+      {
+        "key": "commit.dialog.partial.commit.warning.title",
+        "cnValue": null,
+        "enValue": "Partial Commit Is Not Supported"
+      },
+      {
+        "key": "patch.apply.conflict.patched.somehow.version",
+        "cnValue": "Result",
+        "enValue": "Result"
+      },
+      {
+        "key": "vcs.shelf.move.text",
+        "cnValue": "Move shelves to the new location",
+        "enValue": "Move shelves to the new location"
+      },
+      {
+        "key": "commit.dialog.partial.commit.warning.body",
+        "cnValue": null,
+        "enValue": "Partial commit is not supported for ''{0}''.\nAll changes in the selected files will be committed."
+      },
+      {
+        "key": "column.name.revision.list.date",
+        "cnValue": "Date",
+        "enValue": "Date"
+      },
+      {
+        "key": "executable.project.override.reset.message",
+        "cnValue": null,
+        "enValue": "Path to executable configured for this project can be set as the global path for all projects or reverted to the current global executable"
+      },
+      {
+        "key": "executable.test",
+        "cnValue": null,
+        "enValue": "Test"
+      },
+      {
+        "key": "executable.project.override.reset.title",
+        "cnValue": null,
+        "enValue": "Project Executable"
+      },
+      {
+        "key": "executable.select.title",
+        "cnValue": null,
+        "enValue": "Select Executable"
+      },
+      {
+        "key": "patch.apply.conflict.patch",
+        "cnValue": "Patch",
+        "enValue": "Patch"
+      },
+      {
+        "key": "executable.project.override.reset.revert",
+        "cnValue": null,
+        "enValue": "Revert"
+      }
+    ]
+  },
+  {
+    "path": "/messages/DebuggerBundle.properties",
+    "name": "DebuggerBundle.properties",
+    "props": [
+      {
+        "key": "threads.export.attribute.label.object-id",
+        "cnValue": "<0x{0}> (a {1})",
+        "enValue": "<0x{0}> (a {1})"
+      },
+      {
+        "key": "status.thread.running",
+        "cnValue": "RUNNING",
+        "enValue": "RUNNING"
+      },
+      {
+        "key": "label.generic.debugger.parameters.patcher.configurable.socket",
+        "cnValue": "&Socket",
+        "enValue": "&Socket"
+      },
+      {
+        "key": "threads.export.attribute.label.priority",
+        "cnValue": "prio={0}",
+        "enValue": "prio={0}"
+      },
+      {
+        "key": "label.compound.renderer.configurable.ondemand",
+        "cnValue": "On-demand",
+        "enValue": "On-demand"
+      },
+      {
+        "key": "label.debugger.launching.configurable.force.classic.vm",
+        "cnValue": "Force Class&ic VM for JDK 1.3.x and earlier",
+        "enValue": "Force Class&ic VM for JDK 1.3.x and earlier"
+      },
+      {
+        "key": "error.class.circularity.error",
+        "cnValue": "Class circularity error : {0}",
+        "enValue": "Class circularity error : {0}"
+      },
+      {
+        "key": "transport.name.socket",
+        "cnValue": "socket",
+        "enValue": "socket"
+      },
+      {
+        "key": "breakpoint.properties.panel.option.caller.filter",
+        "cnValue": null,
+        "enValue": "Calle&r filters:"
+      },
+      {
+        "key": "action.maximizeContent.text",
+        "cnValue": "",
+        "enValue": ""
+      },
+      {
+        "key": "evaluation.error.cannot.find.source",
+        "cnValue": null,
+        "enValue": "Cannot find source class for {0}"
+      },
+      {
+        "key": "button.copy",
+        "cnValue": "Copy",
+        "enValue": "Copy"
+      },
+      {
+        "key": "progress.hot.swap.title",
+        "cnValue": "Hot Swap",
+        "enValue": "Hot Swap"
+      },
+      {
+        "key": "label.base.renderer.configurable.populate.throwable.stack",
+        "cnValue": null,
+        "enValue": "Auto populate Throwable object's stack trace"
+      },
+      {
+        "key": "frame.panel.thread.finished",
+        "cnValue": null,
+        "enValue": "Thread has finished execution"
+      },
+      {
+        "key": "status.thread.unknown",
+        "cnValue": "UNKNOWN",
+        "enValue": "UNKNOWN"
+      },
+      {
+        "key": "status.thread.not.started",
+        "cnValue": "NOT_STARTED",
+        "enValue": "NOT_STARTED"
+      },
+      {
+        "key": "label.compound.renderer.configurable.table.header.ondemand",
+        "cnValue": "On-demand",
+        "enValue": "On-demand"
+      },
+      {
+        "key": "threads.export.attribute.label.tid",
+        "cnValue": "tid=0x{0}",
+        "enValue": "tid=0x{0}"
+      },
+      {
+        "key": "frame.panel.async.stacktrace",
+        "cnValue": null,
+        "enValue": "Async stack trace"
+      },
+      {
+        "key": "message.node.toString",
+        "cnValue": "… toString()",
+        "enValue": "… toString()"
+      },
+      {
+        "key": "breakpoint.exception.breakpoint.display.name",
+        "cnValue": "''{0}''",
+        "enValue": "''{0}''"
+      },
+      {
+        "key": "label.base.renderer.configurable.show.val.fields.as.locals",
+        "cnValue": "$val fields as local &variables",
+        "enValue": "$val fields as local &variables"
+      },
+      {
+        "key": "exception.breakpoint.console.message.location.info",
+        "cnValue": "{0}:{1,number,#}",
+        "enValue": "{0}:{1,number,#}"
+      },
+      {
+        "key": "status.thread.monitor",
+        "cnValue": "MONITOR",
+        "enValue": "MONITOR"
+      },
+      {
+        "key": "caller.filters.dialog.title",
+        "cnValue": null,
+        "enValue": "Caller Filters"
+      },
+      {
+        "key": "status.thread.wait",
+        "cnValue": "WAIT",
+        "enValue": "WAIT"
+      },
+      {
+        "key": "status.thread.sleeping",
+        "cnValue": "SLEEPING",
+        "enValue": "SLEEPING"
+      },
+      {
+        "key": "filters.not.configured",
+        "cnValue": null,
+        "enValue": "No filters configured"
+      },
+      {
+        "key": "status.thread.zombie",
+        "cnValue": "ZOMBIE",
+        "enValue": "ZOMBIE"
+      },
+      {
+        "key": "value.none",
+        "cnValue": "<None>",
+        "enValue": "<None>"
+      },
+      {
+        "key": "label.debugger.launching.configurable.shmem",
+        "cnValue": "Shared &memory",
+        "enValue": "Shared &memory"
+      },
+      {
+        "key": "label.thread.node",
+        "cnValue": "\"{0}\"@{1}: {2}",
+        "enValue": "\"{0}\"@{1}: {2}"
+      },
+      {
+        "key": "status.thread.undefined",
+        "cnValue": "UNDEFINED",
+        "enValue": "UNDEFINED"
+      },
+      {
+        "key": "message.node.evaluate",
+        "cnValue": "… Evaluate",
+        "enValue": "… Evaluate"
+      },
+      {
+        "key": "error.throw.exception",
+        "cnValue": null,
+        "enValue": "Error while throwing exception: {0}"
+      },
+      {
+        "key": "threads.export.attribute.label.nid",
+        "cnValue": "nid={0}",
+        "enValue": "nid={0}"
+      }
+    ]
+  },
+  {
+    "path": "/messages/UsageView.properties",
+    "name": "UsageView.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/CodeInsightBundle.properties",
+    "name": "CodeInsightBundle.properties",
+    "props": [
+      {
+        "key": "unwrap.lambda",
+        "cnValue": "Unwrap 'lambda...'",
+        "enValue": "Unwrap 'lambda...'"
+      },
+      {
+        "key": "surround.with.runtime.type.template",
+        "cnValue": "((RuntimeType)expr)",
+        "enValue": "((RuntimeType)expr)"
+      },
+      {
+        "key": "intentions.category.ejb",
+        "cnValue": "EJB",
+        "enValue": "EJB"
+      },
+      {
+        "key": "surround.with.try.catch.template",
+        "cnValue": "try / catch",
+        "enValue": "try / catch"
+      },
+      {
+        "key": "macro.current.package",
+        "cnValue": "currentPackage()",
+        "enValue": "currentPackage()"
+      },
+      {
+        "key": "intention.create.test.dialog.java",
+        "cnValue": "Java",
+        "enValue": "Java"
+      },
+      {
+        "key": "deannotate.intention.action.text",
+        "cnValue": "Deannotate",
+        "enValue": "Deannotate"
+      },
+      {
+        "key": "template.shortcut.space",
+        "cnValue": "Space",
+        "enValue": "Space"
+      },
+      {
+        "key": "macro.qualified.class.name",
+        "cnValue": "qualifiedClassName()",
+        "enValue": "qualifiedClassName()"
+      },
+      {
+        "key": "macro.descendant.classes.enum",
+        "cnValue": "descendantClassesEnum(String)",
+        "enValue": "descendantClassesEnum(String)"
+      },
+      {
+        "key": "macro.suggest.index.name",
+        "cnValue": "suggestIndexName()",
+        "enValue": "suggestIndexName()"
+      },
+      {
+        "key": "surround.with.dowhile.template",
+        "cnValue": "do / while",
+        "enValue": "do / while"
+      },
+      {
+        "key": "macro.cast.to.left.side.type",
+        "cnValue": "castToLeftSideType()",
+        "enValue": "castToLeftSideType()"
+      },
+      {
+        "key": "macro.undescoresToCamelCase.string",
+        "cnValue": "underscoresToCamelCase(String)",
+        "enValue": "underscoresToCamelCase(String)"
+      },
+      {
+        "key": "macro.file.name.without.extension",
+        "cnValue": "fileNameWithoutExtension()",
+        "enValue": "fileNameWithoutExtension()"
+      },
+      {
+        "key": "annotate.intention.chooser.title",
+        "cnValue": null,
+        "enValue": "Choose annotation to add"
+      },
+      {
+        "key": "livetemplate.description.thr",
+        "cnValue": "throw new",
+        "enValue": "throw new"
+      },
+      {
+        "key": "generate.getter.template",
+        "cnValue": "&Getter template:",
+        "enValue": "&Getter template:"
+      },
+      {
+        "key": "macro.firstWord.string",
+        "cnValue": "firstWord(String)",
+        "enValue": "firstWord(String)"
+      },
+      {
+        "key": "macro.variable.of.type",
+        "cnValue": "variableOfType(Type)",
+        "enValue": "variableOfType(Type)"
+      },
+      {
+        "key": "surround.with.for.template",
+        "cnValue": "for",
+        "enValue": "for"
+      },
+      {
+        "key": "template.shortcut.custom",
+        "cnValue": "Custom",
+        "enValue": "Custom"
+      },
+      {
+        "key": "collapse.selection.overlapping.warning.cancel",
+        "cnValue": null,
+        "enValue": "Cancel"
+      },
+      {
+        "key": "surround.with.if.expression.template",
+        "cnValue": "if (expr) {...}",
+        "enValue": "if (expr) {...}"
+      },
+      {
+        "key": "collapse.selection.overlapping.warning.text",
+        "cnValue": null,
+        "enValue": "Overlapping fold region(s) exist"
+      },
+      {
+        "key": "templates.postfix.editable.description",
+        "cnValue": null,
+        "enValue": "User-defined postfix template"
+      },
+      {
+        "key": "collapse.selection.overlapping.warning.ok",
+        "cnValue": null,
+        "enValue": "Remove"
+      },
+      {
+        "key": "template.shortcut.tab",
+        "cnValue": "Tab",
+        "enValue": "Tab"
+      },
+      {
+        "key": "surround.with.if.template",
+        "cnValue": "if",
+        "enValue": "if"
+      },
+      {
+        "key": "macro.expected.type",
+        "cnValue": "expectedType()",
+        "enValue": "expectedType()"
+      },
+      {
+        "key": "macro.suggest.variable.name",
+        "cnValue": "suggestVariableName()",
+        "enValue": "suggestVariableName()"
+      },
+      {
+        "key": "macro.decapitalize.string",
+        "cnValue": "decapitalize(String)",
+        "enValue": "decapitalize(String)"
+      },
+      {
+        "key": "collapse.selection.overlapping.warning.title",
+        "cnValue": null,
+        "enValue": "Fold Selection"
+      },
+      {
+        "key": "collapse.selection.existing.autogenerated.region",
+        "cnValue": null,
+        "enValue": "Cannot remove auto-generated fold region"
+      },
+      {
+        "key": "generate.setter.template",
+        "cnValue": "&Setter template:",
+        "enValue": "&Setter template:"
+      },
+      {
+        "key": "macro.iterable.component.type",
+        "cnValue": "iterableComponentType(ArrayOrIterable)",
+        "enValue": "iterableComponentType(ArrayOrIterable)"
+      },
+      {
+        "key": "intention.create.test.dialog.tearDown",
+        "cnValue": "tear&Down/@After",
+        "enValue": "tear&Down/@After"
+      },
+      {
+        "key": "macro.methodname",
+        "cnValue": "methodName()",
+        "enValue": "methodName()"
+      },
+      {
+        "key": "macro.linenumber",
+        "cnValue": "lineNumber()",
+        "enValue": "lineNumber()"
+      },
+      {
+        "key": "surround.with.ifelse.expression.template",
+        "cnValue": "if (expr) {...} else {...}",
+        "enValue": "if (expr) {...} else {...}"
+      },
+      {
+        "key": "surround.with.try.finally.template",
+        "cnValue": "try / finally",
+        "enValue": "try / finally"
+      },
+      {
+        "key": "inspection.i18n.quickfix.annotate",
+        "cnValue": null,
+        "enValue": "Annotate..."
+      },
+      {
+        "key": "surround.with.while.template",
+        "cnValue": "while",
+        "enValue": "while"
+      },
+      {
+        "key": "intention.surround.with.ARM.block.template",
+        "cnValue": "try-with-resources",
+        "enValue": "try-with-resources"
+      },
+      {
+        "key": "macro.capitalize.string",
+        "cnValue": "capitalize(String)",
+        "enValue": "capitalize(String)"
+      },
+      {
+        "key": "macro.expression.type",
+        "cnValue": "expressionType(Expression)",
+        "enValue": "expressionType(Expression)"
+      },
+      {
+        "key": "change.uid.action.name",
+        "cnValue": null,
+        "enValue": "Randomly change 'serialVersionUID' initializer"
+      },
+      {
+        "key": "macro.suggest.first.variable.name",
+        "cnValue": "suggestFirstVariableName()",
+        "enValue": "suggestFirstVariableName()"
+      },
+      {
+        "key": "surround.with.parenthesis.template",
+        "cnValue": "(expr)",
+        "enValue": "(expr)"
+      },
+      {
+        "key": "macro.array.variable",
+        "cnValue": "arrayVariable()",
+        "enValue": "arrayVariable()"
+      },
+      {
+        "key": "macro.file.name",
+        "cnValue": "fileName()",
+        "enValue": "fileName()"
+      },
+      {
+        "key": "macro.capitalizeAndUnderscore.string",
+        "cnValue": "capitalizeAndUnderscore(String)",
+        "enValue": "capitalizeAndUnderscore(String)"
+      },
+      {
+        "key": "macro.iterable.variable",
+        "cnValue": "iterableVariable()",
+        "enValue": "iterableVariable()"
+      },
+      {
+        "key": "intention.create.test.dialog.setUp",
+        "cnValue": "set&Up/@Before",
+        "enValue": "set&Up/@Before"
+      },
+      {
+        "key": "surround.with.cast.template",
+        "cnValue": "((Type)expr)",
+        "enValue": "((Type)expr)"
+      },
+      {
+        "key": "surround.with.try.catch.finally.template",
+        "cnValue": "try / catch / finally",
+        "enValue": "try / catch / finally"
+      },
+      {
+        "key": "intention.extract.set.from.comparison.chain.duplicates",
+        "cnValue": "{0} has detected {1} code {1,choice,1#fragment|2#fragments} in this class that can be replaced using newly created Set. Would you like to replace {1,choice,1#it|2#them}?",
+        "enValue": "{0} has detected {1} code {1,choice,1#fragment|2#fragments} in this class that can be replaced using newly created Set. Would you like to replace {1,choice,1#it|2#them}?"
+      },
+      {
+        "key": "inlay.hints.blacklist.pattern.explanation",
+        "cnValue": "<html> No in-line parameter name hints will be shown for methods matching any of these patterns.<br> Patterns are matched on fully qualified method name, parameter count and parameter names. <ul> <li><code>java.lang</code> matches all methods from <em>java.lang</em> package</li> <li><code>java.lang.*(*, *)</code> matches all methods from the <em>java.lang</em> package with two parameters</li> <li><code>(*info)</code> matches all single parameter methods where the parameter name ends with <em>info</em></li> <li><code>(key, value)</code> matches all methods with parameters <em>key</em> and <em>value</em></li> <li><code>*.put(key, value)</code> matches all <em>put</em> methods with <em>key</em> and <em>value</em> parameters </ul> </html>",
+        "enValue": "<html> No in-line parameter name hints will be shown for methods matching any of these patterns.<br> Patterns are matched on fully qualified method name, parameter count and parameter names. <ul> <li><code>java.lang</code> matches all methods from <em>java.lang</em> package</li> <li><code>java.lang.*(*, *)</code> matches all methods from the <em>java.lang</em> package with two parameters</li> <li><code>(*info)</code> matches all single parameter methods where the parameter name ends with <em>info</em></li> <li><code>(key, value)</code> matches all methods with parameters <em>key</em> and <em>value</em></li> <li><code>*.put(key, value)</code> matches all <em>put</em> methods with <em>key</em> and <em>value</em> parameters </ul> </html>"
+      },
+      {
+        "key": "template.shortcut.enter",
+        "cnValue": "Enter",
+        "enValue": "Enter"
+      },
+      {
+        "key": "surround.with.runnable.template",
+        "cnValue": "Runnable",
+        "enValue": "Runnable"
+      },
+      {
+        "key": "template.shortcut.none",
+        "cnValue": "None",
+        "enValue": "None"
+      },
+      {
+        "key": "macro.groovy.script",
+        "cnValue": "groovyScript(\"groovy code\")",
+        "enValue": "groovyScript(\"groovy code\")"
+      },
+      {
+        "key": "macro.undescoresToSpaces.string",
+        "cnValue": "underscoresToSpaces(String)",
+        "enValue": "underscoresToSpaces(String)"
+      },
+      {
+        "key": "generate.equals.hashcode.template",
+        "cnValue": "&Template:",
+        "enValue": "&Template:"
+      },
+      {
+        "key": "macro.method.parameters",
+        "cnValue": "methodParameters()",
+        "enValue": "methodParameters()"
+      },
+      {
+        "key": "quickfix.i18n.command.name",
+        "cnValue": "I18nize",
+        "enValue": "I18nize"
+      },
+      {
+        "key": "macro.right.side.type",
+        "cnValue": "rightSideType()",
+        "enValue": "rightSideType()"
+      },
+      {
+        "key": "macro.component.type.of.array",
+        "cnValue": "componentTypeOf(Array)",
+        "enValue": "componentTypeOf(Array)"
+      },
+      {
+        "key": "surround.with.ifelse.template",
+        "cnValue": "if / else",
+        "enValue": "if / else"
+      },
+      {
+        "key": "livetemplate.description.prsf",
+        "cnValue": "private static final",
+        "enValue": "private static final"
+      },
+      {
+        "key": "macro.guess.element.type.of.container",
+        "cnValue": "guessElementType(Container)",
+        "enValue": "guessElementType(Container)"
+      },
+      {
+        "key": "inspection.i18n.quickfix.annotate.element",
+        "cnValue": null,
+        "enValue": "Annotate {0} ''{1}''..."
+      }
+    ]
+  },
+  {
+    "path": "/messages/DomBundle.properties",
+    "name": "DomBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/LicenseCommonBundle.properties",
+    "name": "LicenseCommonBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/UIBundle.properties",
+    "name": "UIBundle.properties",
+    "props": [
+      {
+        "key": "memory.usage.panel.message.text",
+        "cnValue": "{0,number,####} of {1,number,####}M",
+        "enValue": "{0,number,####} of {1,number,####}M"
+      },
+      {
+        "key": "tool.window.name.version.control",
+        "cnValue": "Version Control",
+        "enValue": "Version Control"
+      },
+      {
+        "key": "tool.window.name.todo",
+        "cnValue": "TODO",
+        "enValue": "TODO"
+      },
+      {
+        "key": "tool.window.name.ant.build",
+        "cnValue": "Ant Build",
+        "enValue": "Ant Build"
+      },
+      {
+        "key": "tool.window.name.cvs",
+        "cnValue": "CVS",
+        "enValue": "CVS"
+      },
+      {
+        "key": "welcome.screen.plugins.panel.learn.more.link",
+        "cnValue": "<html><body><u>...</u></body></html>",
+        "enValue": "<html><body><u>...</u></body></html>"
+      },
+      {
+        "key": "tool.window.name.extract.method",
+        "cnValue": null,
+        "enValue": "Extract Method"
+      },
+      {
+        "key": "tool.window.name.project",
+        "cnValue": "Project",
+        "enValue": "Project"
+      }
+    ]
+  },
+  {
+    "path": "/i18n/ExternalSystemBundle.properties",
+    "name": "ExternalSystemBundle.properties",
+    "props": [
+      {
+        "key": "local.history.remove.orphan.modules",
+        "cnValue": null,
+        "enValue": "Remove orphan modules after import"
+      },
+      {
+        "key": "orphan.modules.dialog.title",
+        "cnValue": null,
+        "enValue": "Orphan Modules"
+      },
+      {
+        "key": "debugger.status.connected",
+        "cnValue": null,
+        "enValue": "Connected to the VM started by ''{0}'' {1}"
+      },
+      {
+        "key": "orphan.modules.dialog.text",
+        "cnValue": null,
+        "enValue": "<html>The modules below were removed from the project.<br/>Select the ones you need to restore.<html>"
+      },
+      {
+        "key": "notification.project.build.fail.title",
+        "cnValue": null,
+        "enValue": "{0} ''{1}'' project build failed"
+      },
+      {
+        "key": "external.system.java.home.env",
+        "cnValue": "Use JAVA_HOME",
+        "enValue": "Use JAVA_HOME"
+      },
+      {
+        "key": "external.system.java.internal.jre",
+        "cnValue": "Use Internal JRE",
+        "enValue": "Use Internal JRE"
+      },
+      {
+        "key": "debugger.open.session.tab",
+        "cnValue": null,
+        "enValue": "Open the debugger session tab"
+      },
+      {
+        "key": "progress.update.text",
+        "cnValue": "{0}: {1}",
+        "enValue": "{0}: {1}"
+      }
+    ]
+  },
+  {
+    "path": "/messages/AnalysisScopeBundle.properties",
+    "name": "AnalysisScopeBundle.properties",
+    "props": [
+      {
+        "key": "package.dependencies.node.items.count",
+        "cnValue": "{0, choice, 1#1 entry|2#{0, number} entries}",
+        "enValue": "{0, choice, 1#1 entry|2#{0, number} entries}"
+      },
+      {
+        "key": "action.module.dependencies.tests",
+        "cnValue": "Include Test Dependencies",
+        "enValue": "Include Test Dependencies"
+      },
+      {
+        "key": "scope.option.uncommitted.files",
+        "cnValue": "&Uncommitted files",
+        "enValue": "&Uncommitted files"
+      }
+    ]
+  },
+  {
+    "path": "/messages/EditorBundle.properties",
+    "name": "EditorBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/PsiBundle.properties",
+    "name": "PsiBundle.properties",
+    "props": [
+      {
+        "key": "default.visibility.presentation",
+        "cnValue": "default",
+        "enValue": "default"
+      },
+      {
+        "key": "abstract.visibility.presentation",
+        "cnValue": "abstract",
+        "enValue": "abstract"
+      },
+      {
+        "key": "native.visibility.presentation",
+        "cnValue": "native",
+        "enValue": "native"
+      },
+      {
+        "key": "open.visibility.presentation",
+        "cnValue": "open",
+        "enValue": "open"
+      },
+      {
+        "key": "transient.visibility.presentation",
+        "cnValue": "transient",
+        "enValue": "transient"
+      },
+      {
+        "key": "transitive.visibility.presentation",
+        "cnValue": "transitive",
+        "enValue": "transitive"
+      },
+      {
+        "key": "volatile.visibility.presentation",
+        "cnValue": "volatile",
+        "enValue": "volatile"
+      },
+      {
+        "key": "public.visibility.presentation",
+        "cnValue": "public",
+        "enValue": "public"
+      },
+      {
+        "key": "static.visibility.presentation",
+        "cnValue": "static",
+        "enValue": "static"
+      },
+      {
+        "key": "private.visibility.presentation",
+        "cnValue": "private",
+        "enValue": "private"
+      },
+      {
+        "key": "packageLocal.visibility.presentation",
+        "cnValue": "package-private",
+        "enValue": "package-private"
+      },
+      {
+        "key": "strictfp.visibility.presentation",
+        "cnValue": "strictfp",
+        "enValue": "strictfp"
+      },
+      {
+        "key": "protected.visibility.presentation",
+        "cnValue": "protected",
+        "enValue": "protected"
+      },
+      {
+        "key": "synchronized.visibility.presentation",
+        "cnValue": "synchronized",
+        "enValue": "synchronized"
+      },
+      {
+        "key": "final.visibility.presentation",
+        "cnValue": "final",
+        "enValue": "final"
+      }
+    ]
+  },
+  {
+    "path": "/messages/InspectionsBundle.properties",
+    "name": "InspectionsBundle.properties",
+    "props": [
+      {
+        "key": "dataflow.message.arraystore",
+        "cnValue": null,
+        "enValue": "Storing element of type <code>{0}</code> to array of <code>{1}</code> elements may produce <code>java.lang.ArrayStoreException</code>"
+      },
+      {
+        "key": "dataflow.message.storing.array.nullable",
+        "cnValue": "Expression <code>#ref</code> might evaluate to null but is stored to an array of @NotNull elements",
+        "enValue": "Expression <code>#ref</code> might evaluate to null but is stored to an array of @NotNull elements"
+      },
+      {
+        "key": "inspection.wrapper.type.may.be.primitive.fix.name",
+        "cnValue": null,
+        "enValue": "Convert wrapper type to primitive"
+      },
+      {
+        "key": "inspection.capturing.cleaner",
+        "cnValue": null,
+        "enValue": "Runnable passed to Cleaner.register() captures ''{0}'' reference"
+      },
+      {
+        "key": "inspection.problem.descriptor.count",
+        "cnValue": "{0, choice, 0#|1#(1 item)|2#({0,number,integer} items)}",
+        "enValue": "{0, choice, 0#|1#(1 item)|2#({0,number,integer} items)}"
+      },
+      {
+        "key": "inspection.reference.default.package",
+        "cnValue": "<default>",
+        "enValue": "<default>"
+      },
+      {
+        "key": "inspection.class.getclass.fix.replace.name",
+        "cnValue": null,
+        "enValue": "Replace with 'Class.class'"
+      },
+      {
+        "key": "inspection.visibility.package.private.top.level.classes",
+        "cnValue": null,
+        "enValue": "Suggest package-private visibility level for top-level classes"
+      },
+      {
+        "key": "inspection.unused.symbol.check.accessors",
+        "cnValue": "Getters/setters",
+        "enValue": "Getters/setters"
+      },
+      {
+        "key": "inspection.visibility.option.constants",
+        "cnValue": null,
+        "enValue": "Suggest weaker visibility for constants"
+      },
+      {
+        "key": "inspection.fuse.stream.operations.option.strict.mode",
+        "cnValue": null,
+        "enValue": "Do not suggest 'toList()' or 'toSet()' collectors"
+      },
+      {
+        "key": "inspection.dead.code.option.applet",
+        "cnValue": "Applets",
+        "enValue": "Applets"
+      },
+      {
+        "key": "dataflow.message.immutable.modified",
+        "cnValue": null,
+        "enValue": "Immutable object is modified"
+      },
+      {
+        "key": "inspection.redundant.null.check.message",
+        "cnValue": null,
+        "enValue": "Redundant null-check: {0} is never null"
+      },
+      {
+        "key": "inspection.cast.can.be.removed.narrowing.variable.type.message",
+        "cnValue": null,
+        "enValue": "Cast may be removed by changing the type of ''{0}'' to ''{1}''"
+      },
+      {
+        "key": "inspection.common.if.parts.message.complete.duplicate.side.effect",
+        "cnValue": null,
+        "enValue": "Collapse 'if' statement and extract side effect"
+      },
+      {
+        "key": "inspection.redundant.comparator.comparing.message",
+        "cnValue": null,
+        "enValue": "Unnecessary ''{0}()'' call"
+      },
+      {
+        "key": "inspection.explicit.argument.can.be.lambda.message",
+        "cnValue": null,
+        "enValue": "Explicit argument can be converted to function"
+      },
+      {
+        "key": "inspection.annotate.overridden.method.and.self.quickfix.family.name",
+        "cnValue": "Annotate overridden methods and self",
+        "enValue": "Annotate overridden methods and self"
+      },
+      {
+        "key": "dataflow.too.complex.class",
+        "cnValue": "Class initializer is too complex to analyze by data flow algorithm",
+        "enValue": "Class initializer is too complex to analyze by data flow algorithm"
+      },
+      {
+        "key": "inspection.common.if.parts.message.complete.duplicate",
+        "cnValue": null,
+        "enValue": "Collapse 'if' statement {0}"
+      },
+      {
+        "key": "inspection.redundant.type.no.generics.method.reference.problem.descriptor",
+        "cnValue": null,
+        "enValue": "Type arguments are redundant for the non-generic method reference"
+      },
+      {
+        "key": "inspection.capturing.cleaner.description",
+        "cnValue": null,
+        "enValue": "Cleaner captures object reference"
+      },
+      {
+        "key": "redundant.backticks.around.raw.string.literal.display.name",
+        "cnValue": null,
+        "enValue": "Redundant backticks around raw string literal"
+      },
+      {
+        "key": "inspection.endless.stream.description",
+        "cnValue": null,
+        "enValue": "Non-short-circuit operation consumes the infinite stream"
+      },
+      {
+        "key": "inspection.common.if.parts.family.else.if",
+        "cnValue": null,
+        "enValue": "Merge 'else if' statement"
+      },
+      {
+        "key": "inspection.redundant.null.check.always.fail.message",
+        "cnValue": null,
+        "enValue": "Null-check will always fail: {0} is never null"
+      },
+      {
+        "key": "inspection.fold.expression.into.stream.fix.name",
+        "cnValue": null,
+        "enValue": "Fold expression into Stream chain"
+      },
+      {
+        "key": "inspection.charset.object.can.be.used.fix.family.name",
+        "cnValue": null,
+        "enValue": "Use Charset constant"
+      },
+      {
+        "key": "inspection.common.if.parts.message.with.variables.extract",
+        "cnValue": null,
+        "enValue": "Extract common part with variables from 'if' {0}"
+      },
+      {
+        "key": "inspection.common.if.parts.message.without.variables.extract",
+        "cnValue": null,
+        "enValue": "Extract common part from 'if' {0}"
+      },
+      {
+        "key": "inspection.charset.object.can.be.used.message",
+        "cnValue": null,
+        "enValue": "{0} can be used instead"
+      },
+      {
+        "key": "dataflow.message.immutable.passed",
+        "cnValue": null,
+        "enValue": "Immutable object is passed where mutable is expected"
+      },
+      {
+        "key": "inspection.reference.jsp.holder.method.anonymous.name",
+        "cnValue": "<% page content %>",
+        "enValue": "<% page content %>"
+      },
+      {
+        "key": "inspection.common.if.parts.description",
+        "cnValue": null,
+        "enValue": "'if' statement with common parts"
+      },
+      {
+        "key": "inspection.cast.can.be.removed.narrowing.variable.type.fix.family.name",
+        "cnValue": null,
+        "enValue": "Change variable type and remove cast"
+      },
+      {
+        "key": "inspection.wrapper.type.may.be.primitive.name",
+        "cnValue": null,
+        "enValue": "Type may be primitive"
+      },
+      {
+        "key": "inspection.redundant.comparator.comparing.fix.remove.name",
+        "cnValue": null,
+        "enValue": "Remove ''{0}()'' call"
+      },
+      {
+        "key": "group.names.language.level.specific.issues.and.migration.aids12",
+        "cnValue": null,
+        "enValue": "Java 12"
+      },
+      {
+        "key": "group.names.language.level.specific.issues.and.migration.aids10",
+        "cnValue": null,
+        "enValue": "Java 10"
+      },
+      {
+        "key": "inspection.redundant.stream.optional.call.explanation.parallel.single",
+        "cnValue": null,
+        "enValue": "stream created from single element will not be parallelized"
+      },
+      {
+        "key": "inspection.class.getclass.display.name",
+        "cnValue": null,
+        "enValue": "Class.getClass() call"
+      },
+      {
+        "key": "inspection.require.non.null.option.min.size",
+        "cnValue": null,
+        "enValue": "Minimal delta length when inspection will warn"
+      },
+      {
+        "key": "group.names.language.level.specific.issues.and.migration.aids9",
+        "cnValue": "Java 9",
+        "enValue": "Java 9"
+      },
+      {
+        "key": "group.names.language.level.specific.issues.and.migration.aids8",
+        "cnValue": "Java 8",
+        "enValue": "Java 8"
+      },
+      {
+        "key": "group.names.language.level.specific.issues.and.migration.aids7",
+        "cnValue": "Java 7",
+        "enValue": "Java 7"
+      },
+      {
+        "key": "group.names.language.level.specific.issues.and.migration.aids5",
+        "cnValue": "Java 5",
+        "enValue": "Java 5"
+      },
+      {
+        "key": "dataflow.message.redundant.assignment",
+        "cnValue": null,
+        "enValue": "Variable is already assigned to this value"
+      },
+      {
+        "key": "group.names.xml",
+        "cnValue": "XML",
+        "enValue": "XML"
+      },
+      {
+        "key": "inspection.duplicates.navigate.to.occurrences",
+        "cnValue": "Navigate to occurrences",
+        "enValue": "Navigate to occurrences"
+      },
+      {
+        "key": "inspection.redundant.type.no.generics.problem.descriptor",
+        "cnValue": null,
+        "enValue": "Type arguments are redundant for the non-generic method call"
+      },
+      {
+        "key": "inspection.require.non.null.no.warning.replacement.bigger",
+        "cnValue": null,
+        "enValue": "Don't warn if length of replacement bigger than original"
+      },
+      {
+        "key": "inspection.redundant.stream.optional.call.explanation.distinct.set",
+        "cnValue": null,
+        "enValue": "elements will be distinct anyways when collected to the Set"
+      },
+      {
+        "key": "inspection.redundant.stream.optional.call.explanation.sorted.twice",
+        "cnValue": null,
+        "enValue": "stream content is sorted again after that"
+      },
+      {
+        "key": "inspection.fold.expression.into.string.fix.name",
+        "cnValue": null,
+        "enValue": "Fold expression into 'String.join'"
+      },
+      {
+        "key": "dataflow.message.storing.array.null",
+        "cnValue": "<code>null</code> is stored to an array of @NotNull elements",
+        "enValue": "<code>null</code> is stored to an array of @NotNull elements"
+      },
+      {
+        "key": "inspection.explicit.argument.can.be.lambda.fix.name",
+        "cnValue": null,
+        "enValue": "Use ''{0}'' method with functional argument"
+      },
+      {
+        "key": "inspection.charset.object.can.be.used.fix.name",
+        "cnValue": null,
+        "enValue": "Replace with ''{0}''"
+      },
+      {
+        "key": "inspection.conditional.break.in.infinite.loop.description",
+        "cnValue": null,
+        "enValue": "Conditional break inside infinite loop"
+      },
+      {
+        "key": "inspection.redundant.comparator.comparing.display.name",
+        "cnValue": null,
+        "enValue": "Redundant Comparator.comparing"
+      },
+      {
+        "key": "inspection.visibility.option.package.private.members",
+        "cnValue": null,
+        "enValue": "Suggest package-private visibility level for class members"
+      },
+      {
+        "key": "inspection.redundant.stream.optional.call.fix.collect.to.ordered.family.name",
+        "cnValue": null,
+        "enValue": "Collect to 'LinkedHashSet'"
+      },
+      {
+        "key": "inspection.class.getclass.message",
+        "cnValue": null,
+        "enValue": "'getClass()' is called on Class instance"
+      },
+      {
+        "key": "inspection.common.if.parts.family",
+        "cnValue": null,
+        "enValue": "Extract common parts of 'if' statement"
+      },
+      {
+        "key": "inspection.charset.object.can.be.used.display.name",
+        "cnValue": null,
+        "enValue": "Standard Charset object can be used"
+      },
+      {
+        "key": "inspection.common.if.parts.message.variables.only",
+        "cnValue": null,
+        "enValue": "Extract variables from 'if' {0}"
+      },
+      {
+        "key": "inspection.suspicious.list.remove.display.name",
+        "cnValue": null,
+        "enValue": "Suspicious 'List.remove()' in the loop"
+      },
+      {
+        "key": "inspection.idempotent.loop.body",
+        "cnValue": null,
+        "enValue": "Idempotent loop body"
+      },
+      {
+        "key": "inspection.redundant.explicit.close",
+        "cnValue": null,
+        "enValue": "Redundant close"
+      },
+      {
+        "key": "inspection.redundant.stream.optional.call.explanation.at.most.one",
+        "cnValue": null,
+        "enValue": "stream contains at most one element"
+      },
+      {
+        "key": "inspection.explicit.argument.can.be.lambda.fix.family.name",
+        "cnValue": null,
+        "enValue": "Replace explicit argument with function"
+      },
+      {
+        "key": "inspection.fold.expression.into.stream.display.name",
+        "cnValue": null,
+        "enValue": "Expression can be folded into Stream chain"
+      },
+      {
+        "key": "inspection.duplicates.occurrences.view.title",
+        "cnValue": "Duplicates for ''{0}''",
+        "enValue": "Duplicates for ''{0}''"
+      },
+      {
+        "key": "inspection.conditional.break.in.infinite.loop.no.conversion.with.do.while",
+        "cnValue": null,
+        "enValue": "Don't suggest to replace with 'do while'"
+      },
+      {
+        "key": "inspection.require.non.null.description",
+        "cnValue": null,
+        "enValue": "Null check can be replaced with method call"
+      },
+      {
+        "key": "inspection.common.if.parts.message.whole.branch",
+        "cnValue": null,
+        "enValue": "Extract common part removing branch {0}"
+      },
+      {
+        "key": "inspection.optional.get.without.is.present.message",
+        "cnValue": null,
+        "enValue": "<code>{0}.#ref()</code> without ''isPresent()'' check"
+      },
+      {
+        "key": "inspection.require.non.null",
+        "cnValue": null,
+        "enValue": "Replace null check with Objects/Stream static call"
+      },
+      {
+        "key": "inspection.fold.expression.into.string.display.name",
+        "cnValue": null,
+        "enValue": "Expression can be folded into 'String.join'"
+      },
+      {
+        "key": "inspection.undeclared.service.usage.message",
+        "cnValue": null,
+        "enValue": "Usage of service ''{0}'' is not declared in module-info"
+      },
+      {
+        "key": "inspection.conditional.break.in.infinite.loop",
+        "cnValue": null,
+        "enValue": "Move condition to loop"
+      },
+      {
+        "key": "inspection.tool.in.browser.id.title",
+        "cnValue": "ID",
+        "enValue": "ID"
+      },
+      {
+        "key": "inspection.edit.severities.text",
+        "cnValue": null,
+        "enValue": "Edit severities..."
+      },
+      {
+        "key": "inspection.redundant.comparator.comparing.fix.replace.name",
+        "cnValue": null,
+        "enValue": "Remove ''{0}()'' call and use ''{1}()''"
+      },
+      {
+        "key": "inspection.visibility.private.inner.members",
+        "cnValue": null,
+        "enValue": "<html>Suggest private for inner class members when referenced from outer class only</html>"
+      },
+      {
+        "key": "inspection.dead.code.option.servlet",
+        "cnValue": "Servlets",
+        "enValue": "Servlets"
+      },
+      {
+        "key": "inspection.javadoc.option.tab.title.module",
+        "cnValue": "Module",
+        "enValue": "Module"
+      },
+      {
+        "key": "inspection.undeclared.service.usage.name",
+        "cnValue": null,
+        "enValue": "Usage of service not declared in module-info"
+      },
+      {
+        "key": "dataflow.message.contract.fail",
+        "cnValue": "The call to '#ref' always fails, according to its method contracts",
+        "enValue": "The call to '#ref' always fails, according to its method contracts"
+      },
+      {
+        "key": "inspection.redundant.null.check.fix.family.name",
+        "cnValue": null,
+        "enValue": "Remove redundant null-check"
+      },
+      {
+        "key": "inspection.redundant.explicit.close.fix.name",
+        "cnValue": null,
+        "enValue": "Remove redundant close"
+      },
+      {
+        "key": "inspection.redundant.comparator.comparing.fix.family.name",
+        "cnValue": null,
+        "enValue": "Remove redundant call"
+      },
+      {
+        "key": "inspection.cast.can.be.removed.narrowing.variable.type.name",
+        "cnValue": null,
+        "enValue": "Too weak variable type leads to unnecessary cast"
+      },
+      {
+        "key": "inspection.cast.can.be.removed.narrowing.variable.type.fix.name",
+        "cnValue": null,
+        "enValue": "Change type of ''{0}'' to ''{1}'' and remove cast"
+      },
+      {
+        "key": "inspection.class.getclass.fix.remove.name",
+        "cnValue": null,
+        "enValue": "Remove 'getClass()' call"
+      }
+    ]
+  },
+  {
+    "path": "/messages/SMTestsRunnerBundle.properties",
+    "name": "SMTestsRunnerBundle.properties",
+    "props": [
+      {
+        "key": "sm.test.runner.ui.tabs.statistics.columns.results.count.msg.errors",
+        "cnValue": "E:{0}",
+        "enValue": "E:{0}"
+      },
+      {
+        "key": "sm.test.runner.ui.tabs.statistics.columns.results.count.msg.passed",
+        "cnValue": "P:{0}",
+        "enValue": "P:{0}"
+      },
+      {
+        "key": "sm.test.runner.ui.tabs.statistics.columns.results.count.msg.failed",
+        "cnValue": "F:{0}",
+        "enValue": "F:{0}"
+      },
+      {
+        "key": "sm.test.runner.ui.tabs.statistics.columns.results.count.msg.ignored",
+        "cnValue": "I:{0}",
+        "enValue": "I:{0}"
+      },
+      {
+        "key": "sm.test.runner.ui.tests.tree.presentation.labels.all.but.ignored.passed",
+        "cnValue": null,
+        "enValue": "All Tests Passed (except ignored)"
+      }
+    ]
+  },
+  {
+    "path": "/messages/SshBundle.properties",
+    "name": "SshBundle.properties",
+    "props": [
+      {
+        "key": "auth.password",
+        "cnValue": null,
+        "enValue": "Password"
+      },
+      {
+        "key": "auth.keypair.note",
+        "cnValue": null,
+        "enValue": "OpenSSH or PuTTY"
+      },
+      {
+        "key": "auth.openssh",
+        "cnValue": null,
+        "enValue": "OpenSSH config and authentication agent"
+      },
+      {
+        "key": "auth.keypair",
+        "cnValue": null,
+        "enValue": "Key pair"
+      }
+    ]
+  },
+  {
+    "path": "/messages/FindBundle.properties",
+    "name": "FindBundle.properties",
+    "props": [
+      {
+        "key": "find.replace.this.file.action",
+        "cnValue": null,
+        "enValue": "Replace All in This &File"
+      },
+      {
+        "key": "find.context.presentation.scope.label",
+        "cnValue": " ({0})",
+        "enValue": " ({0})"
+      },
+      {
+        "key": "find.replace.skip.this.file.action",
+        "cnValue": null,
+        "enValue": "&Skip This File"
+      },
+      {
+        "key": "find.what.implicit.to.string.checkbox",
+        "cnValue": null,
+        "enValue": "I&mplicit calls"
+      },
+      {
+        "key": "find.recursively.hint",
+        "cnValue": null,
+        "enValue": "Search recursively in directory"
+      }
+    ]
+  },
+  {
+    "path": "/messages/ToolsBundle.properties",
+    "name": "ToolsBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/CommonBundle.properties",
+    "name": "CommonBundle.properties",
+    "props": [
+      {
+        "key": "button.decline",
+        "cnValue": null,
+        "enValue": "Decline"
+      },
+      {
+        "key": "format.file.size.kbytes",
+        "cnValue": "{0}Kb",
+        "enValue": "{0}Kb"
+      },
+      {
+        "key": "socks.proxy.type",
+        "cnValue": "SOCKS",
+        "enValue": "SOCKS"
+      },
+      {
+        "key": "http.proxy.type",
+        "cnValue": "HTTP",
+        "enValue": "HTTP"
+      },
+      {
+        "key": "format.file.size.mbytes",
+        "cnValue": "{0}Mb",
+        "enValue": "{0}Mb"
+      },
+      {
+        "key": "format.file.size.bytes",
+        "cnValue": "{0}b",
+        "enValue": "{0}b"
+      },
+      {
+        "key": "button.accept",
+        "cnValue": null,
+        "enValue": "Accept"
+      },
+      {
+        "key": "undo.conflicting.change.confirmation.message",
+        "cnValue": null,
+        "enValue": "Other files affected by this action have been already changed."
+      }
+    ]
+  },
+  {
+    "path": "/messages/LocalHistoryBundle.properties",
+    "name": "LocalHistoryBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/org/jetbrains/lang/manifest/ManifestBundle.properties",
+    "name": "ManifestBundle.properties",
+    "props": [
+      {
+        "key": "header.pre-main.class.invalid",
+        "cnValue": "Invalid pre-main class",
+        "enValue": "Invalid pre-main class"
+      },
+      {
+        "key": "header.reference.invalid",
+        "cnValue": "Invalid reference",
+        "enValue": "Invalid reference"
+      },
+      {
+        "key": "manifest.header.expected",
+        "cnValue": "Header expected",
+        "enValue": "Header expected"
+      },
+      {
+        "key": "manifest.colon.expected",
+        "cnValue": "':' expected",
+        "enValue": "':' expected"
+      },
+      {
+        "key": "manifest.whitespace.expected",
+        "cnValue": "Whitespace expected",
+        "enValue": "Whitespace expected"
+      }
+    ]
+  },
+  {
+    "path": "/messages/GraphBundle.properties",
+    "name": "GraphBundle.properties",
+    "props": null
+  },
+  {
+    "path": "/messages/ActionsBundle.properties",
+    "name": "ActionsBundle.properties",
+    "props": [
+      {
+        "key": "action.DelegateMethods.text",
+        "cnValue": "_Delegate Methods...",
+        "enValue": "_Delegate Methods..."
+      },
+      {
+        "key": "action.SilentCodeCleanup.text",
+        "cnValue": null,
+        "enValue": "Silent Code Cleanup"
+      },
+      {
+        "key": "action.GotoNextElementUnderCaretUsage.description",
+        "cnValue": null,
+        "enValue": "Navigate to the next highlighted element usage"
+      },
+      {
+        "key": "action.GenerateModuleDescriptors.description",
+        "cnValue": null,
+        "enValue": "Generate module-info files for all modules in the project (for Java 9 and higher)"
+      },
+      {
+        "key": "action.Debugger.ThrowException.description",
+        "cnValue": null,
+        "enValue": "Throw an exception"
+      },
+      {
+        "key": "action.GenerateEquals.text",
+        "cnValue": "equals() and hashCode()",
+        "enValue": "equals() and hashCode()"
+      },
+      {
+        "key": "action.WelcomeScreen.Configure.VMOptions.text",
+        "cnValue": null,
+        "enValue": "Edit Custom VM Options..."
+      },
+      {
+        "key": "action.CheckinFiles.description",
+        "cnValue": null,
+        "enValue": "Commit selected files or directories"
+      },
+      {
+        "key": "action.ExpandAllToLevel4.text",
+        "cnValue": "_4",
+        "enValue": "_4"
+      },
+      {
+        "key": "action.GenerateConstructor.text",
+        "cnValue": "Constructor",
+        "enValue": "Constructor"
+      },
+      {
+        "key": "action.ExpandToLevel4.text",
+        "cnValue": "_4",
+        "enValue": "_4"
+      },
+      {
+        "key": "action.SetShortcutAction.text",
+        "cnValue": null,
+        "enValue": "Add shortcut..."
+      },
+      {
+        "key": "action.GenerateSuperMethodCall.text",
+        "cnValue": "Super Method Call",
+        "enValue": "Super Method Call"
+      },
+      {
+        "key": "action.BraceOrQuoteOut.text",
+        "cnValue": null,
+        "enValue": "Jump Outside Current Bracket/Quote"
+      },
+      {
+        "key": "action.Debugger.RestoreBreakpoint.text",
+        "cnValue": null,
+        "enValue": "Restore Breakpoint"
+      },
+      {
+        "key": "action.GenerateGetterAndSetter.text",
+        "cnValue": "Getter and Setter",
+        "enValue": "Getter and Setter"
+      },
+      {
+        "key": "action.OverrideMethods.text",
+        "cnValue": "_Override Methods...",
+        "enValue": "_Override Methods..."
+      },
+      {
+        "key": "action.TemplateProjectStructure.description.template",
+        "cnValue": null,
+        "enValue": "Configure default structure for all new {0}s"
+      },
+      {
+        "key": "action.GotoNextElementUnderCaretUsage.text",
+        "cnValue": null,
+        "enValue": "Go to next highlighted element usage"
+      },
+      {
+        "key": "action.Debugger.ThrowException.text",
+        "cnValue": null,
+        "enValue": "Throw Exception"
+      },
+      {
+        "key": "action.GotoPrevElementUnderCaretUsage.description",
+        "cnValue": null,
+        "enValue": "Navigate to the previous highlighted element usage"
+      },
+      {
+        "key": "action.ExpandAllToLevel1.text",
+        "cnValue": "_1",
+        "enValue": "_1"
+      },
+      {
+        "key": "action.ExpandToLevel1.text",
+        "cnValue": "_1",
+        "enValue": "_1"
+      },
+      {
+        "key": "action.ToggleReadOnlyAttribute.dirs",
+        "cnValue": "Make {3,choice,1#Directory|2#Directories} {0,choice,0#Read-only|1#Writeable}",
+        "enValue": "Make {3,choice,1#Directory|2#Directories} {0,choice,0#Read-only|1#Writeable}"
+      },
+      {
+        "key": "action.Vcs.MoveChangedLinesToChangelist.description",
+        "cnValue": null,
+        "enValue": "Move changes in selected lines to another changelist"
+      },
+      {
+        "key": "action.Vcs.Diff.ExcludeChangedLinesFromCommit.text",
+        "cnValue": null,
+        "enValue": "Exclude Lines from Commit"
+      },
+      {
+        "key": "action.WelcomeScreen.Configure.Properties.text",
+        "cnValue": null,
+        "enValue": "Edit Custom Properties..."
+      },
+      {
+        "key": "action.ExpandAllToLevel3.text",
+        "cnValue": "_3",
+        "enValue": "_3"
+      },
+      {
+        "key": "action.ExpandToLevel3.text",
+        "cnValue": "_3",
+        "enValue": "_3"
+      },
+      {
+        "key": "action.TemplateProjectStructure.text.template",
+        "cnValue": null,
+        "enValue": "Structure for New {0}s..."
+      },
+      {
+        "key": "action.TemplateProjectProperties.description.template",
+        "cnValue": null,
+        "enValue": "Configure default settings for all new {0}s"
+      },
+      {
+        "key": "action.SwitchBootJdk.description",
+        "cnValue": null,
+        "enValue": "Allows to choose a Java version to start the IDE with."
+      },
+      {
+        "key": "action.ShowBlankDiffWindow.description",
+        "cnValue": null,
+        "enValue": "Open two editors side-by-side and compare their content"
+      },
+      {
+        "key": "action.SilentCodeCleanup.description",
+        "cnValue": null,
+        "enValue": "Run cleanup inspections and apply quick fixes with current inspection profile"
+      },
+      {
+        "key": "action.GenerateSetter.text",
+        "cnValue": "Setter",
+        "enValue": "Setter"
+      },
+      {
+        "key": "action.CaptureCPUUsageData.description.ext",
+        "cnValue": null,
+        "enValue": "Capture CPU usage data (hold SHIFT to use tracing instead of sampling)"
+      },
+      {
+        "key": "action.ExpandToLevel5.text",
+        "cnValue": "_5",
+        "enValue": "_5"
+      },
+      {
+        "key": "action.GenerateGetter.text",
+        "cnValue": "Getter",
+        "enValue": "Getter"
+      },
+      {
+        "key": "action.ShowRecentTests.text",
+        "cnValue": "Recent Tests",
+        "enValue": "Recent Tests"
+      },
+      {
+        "key": "action.GenerateModuleDescriptors.text",
+        "cnValue": null,
+        "enValue": "Generate module-info Descriptors"
+      },
+      {
+        "key": "action.GotoPrevElementUnderCaretUsage.text",
+        "cnValue": null,
+        "enValue": "Go to previous highlighted element usage"
+      },
+      {
+        "key": "action.Debugger.RestoreBreakpoint.description",
+        "cnValue": null,
+        "enValue": "Restore last deleted breakpoint"
+      },
+      {
+        "key": "action.ToggleReadOnlyAttribute.files",
+        "cnValue": "Make {2,choice,1#File|2#Files} {0,choice,0#Read-only|1#Writeable}",
+        "enValue": "Make {2,choice,1#File|2#Files} {0,choice,0#Read-only|1#Writeable}"
+      },
+      {
+        "key": "action.ImplementMethods.text",
+        "cnValue": "_Implement Methods...",
+        "enValue": "_Implement Methods..."
+      },
+      {
+        "key": "action.Vcs.MoveChangedLinesToChangelist.text",
+        "cnValue": null,
+        "enValue": "Move Lines to Another Changelist..."
+      },
+      {
+        "key": "action.ShowBlankDiffWindow.text",
+        "cnValue": null,
+        "enValue": "Open Blank Diff Window"
+      },
+      {
+        "key": "action.GenerateCreateUI.text",
+        "cnValue": "createUI(...)",
+        "enValue": "createUI(...)"
+      },
+      {
+        "key": "action.ExpandAllToLevel2.text",
+        "cnValue": "_2",
+        "enValue": "_2"
+      },
+      {
+        "key": "action.ExpandToLevel2.text",
+        "cnValue": "_2",
+        "enValue": "_2"
+      },
+      {
+        "key": "action.TemplateProjectProperties.text.template",
+        "cnValue": null,
+        "enValue": "{0} for New {1}s..."
+      },
+      {
+        "key": "action.ExpandAllToLevel5.text",
+        "cnValue": "_5",
+        "enValue": "_5"
+      }
+    ]
+  }
+]
