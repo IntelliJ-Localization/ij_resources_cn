@@ -125,12 +125,6 @@ public class LocalizationMain {
         }
     }
 
-    private static Gson GSON = new GsonBuilder()
-        .disableHtmlEscaping()
-        .serializeNulls()
-        .create();
-
-
     private static <K, V> void forEach(Map<K, V> map, BiConsumer<? super K, ? super V>... actions) {
         map.forEach((k, v) -> {
             for (BiConsumer<? super K, ? super V> action : actions) {

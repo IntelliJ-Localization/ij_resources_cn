@@ -22,8 +22,6 @@ public class PropertiesUtils {
     private static BiPredicate<Path, BasicFileAttributes> matcher = (t, u) -> t.getFileName().toString().endsWith("properties");
 
     public static void saveProperties(Path path, Properties properties) {
-
-
         try (OutputStream outputStream = Files.newOutputStream(path)) {
             properties.store(outputStream, "");
         } catch (IOException e) {
