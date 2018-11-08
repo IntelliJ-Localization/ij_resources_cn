@@ -153,7 +153,7 @@
       },
       {
         "key": "run.anything.group.settings.title",
-        "cnValue": "Show ''{0}''",
+        "cnValue": "显示 ''{0}''",
         "enValue": "Show ''{0}''"
       },
       {
@@ -1363,12 +1363,12 @@
     "props": [
       {
         "key": "json.schema.conflicting.mappings",
-        "cnValue": "Warning: conflicting mappings. <a href=\"#\">Show details</a>",
+        "cnValue": "警告：映射冲突. <a href=\"#\">显示详请</a>",
         "enValue": "Warning: conflicting mappings. <a href=\"#\">Show details</a>"
       },
       {
         "key": "inspection.compliance.msg.trailing.comma",
-        "cnValue": "JSON standard does not allow trailing comma",
+        "cnValue": "JSON标准不允许使用尾随逗号",
         "enValue": "JSON standard does not allow trailing comma"
       },
       {
@@ -1378,42 +1378,42 @@
       },
       {
         "key": "syntax.error.illegal.unicode.escape.sequence",
-        "cnValue": "Illegal unicode escape sequence",
+        "cnValue": "非法的unicode转义序列",
         "enValue": "Illegal unicode escape sequence"
       },
       {
         "key": "json.schema.inspection.case.insensitive.enum",
-        "cnValue": "Case insensitive matching for enum values",
+        "cnValue": "枚举值的不区分大小写匹配",
         "enValue": "Case insensitive matching for enum values"
       },
       {
         "key": "settings.json.schema.remove.mapping",
-        "cnValue": "Remove mapping",
+        "cnValue": "删除映射",
         "enValue": "Remove mapping"
       },
       {
         "key": "inspection.compliance.option.trailing.comma",
-        "cnValue": "Warn about trailing commas",
+        "cnValue": "警告尾随逗号",
         "enValue": "Warn about trailing commas"
       },
       {
         "key": "inspection.compliance.option.multiple.top.level.values",
-        "cnValue": "Warn about multiple top-level values",
+        "cnValue": "警告多个顶级值",
         "enValue": "Warn about multiple top-level values"
       },
       {
         "key": "settings.json.schema.edit.mapping",
-        "cnValue": "Edit mapping",
+        "cnValue": "编辑映射",
         "enValue": "Edit mapping"
       },
       {
         "key": "formatter.align.properties.caption",
-        "cnValue": "Align",
+        "cnValue": "对齐",
         "enValue": "Align"
       },
       {
         "key": "json.schema.file.selector.title",
-        "cnValue": "Schema file or URL:",
+        "cnValue": "Schema文件或URL:",
         "enValue": "Schema file or URL:"
       },
       {
@@ -1423,22 +1423,22 @@
       },
       {
         "key": "json.schema.add.schema.chooser.title",
-        "cnValue": "Select JSON Schema File",
+        "cnValue": "选择JSON Schema文件",
         "enValue": "Select JSON Schema File"
       },
       {
         "key": "inspection.compliance.name",
-        "cnValue": "Compliance with JSON standard",
+        "cnValue": "符合JSON标准",
         "enValue": "Compliance with JSON standard"
       },
       {
         "key": "quickfix.add.double.quotes.desc",
-        "cnValue": "Wrap with double quotes",
+        "cnValue": "用双引号括起来",
         "enValue": "Wrap with double quotes"
       },
       {
         "key": "json.schema.file.not.found",
-        "cnValue": "File not found",
+        "cnValue": "文件未找到",
         "enValue": "File not found"
       },
       {
@@ -1564,97 +1564,97 @@
     "props": [
       {
         "key": "error.dialog.notice.label.expanded",
-        "cnValue": "<html><b>Privacy policy</b></html>",
+        "cnValue": "<html><b>隐私政策</b></html>",
         "enValue": "<html><b>Privacy policy</b></html>"
       },
       {
         "key": "error.list.message.submitting",
-        "cnValue": "Submitting...",
+        "cnValue": "提交...",
         "enValue": "Submitting..."
       },
       {
         "key": "error.dialog.foreign.plugin.warning.vendor",
-        "cnValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>{0}</a>.</html>",
+        "cnValue": "<html>这个插件不是JetBrains的产品。请报告问题 <a>{0}</a>.</html>",
         "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>{0}</a>.</html>"
       },
       {
         "key": "error.report.impossible.action",
-        "cnValue": "Report exception",
+        "cnValue": "报告异常",
         "enValue": "Report exception"
       },
       {
         "key": "error.dialog.disable.plugin.no.restart",
-        "cnValue": "Please restart the IDE to apply changes in plugin configuration.",
+        "cnValue": "请重新启动IDE以应用插件配置中的更改.",
         "enValue": "Please restart the IDE to apply changes in plugin configuration."
       },
       {
         "key": "error.dialog.notice.anonymous",
-        "cnValue": "<html>I agree to my hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains improve its products and to provide you with support service in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data.</html>",
+        "cnValue": "<html>我同意我的硬件配置, 软件配置, 产品信息以及JetBrains s.r.o使用的上述错误详细信息. (\"JetBrains\") 让JetBrains改进其产品, 并根据<a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains异常分析器</a>. 报告的异常数据预计不包含任何个人数据.</html>",
         "enValue": "<html>I agree to my hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains improve its products and to provide you with support service in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data.</html>"
       },
       {
         "key": "error.dialog.notice.named",
-        "cnValue": "<html>I agree to my names, email address, username, password, hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains associate the reported data with my account in JetBrains Exception Analyzer and make it available to me in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data except those listed above.</html>",
+        "cnValue": "<html>我同意我的姓名, 电子邮件地址, 用户名, 密码, 硬件配置, 软件配置, 产品信息以及JetBrains s.r.o使用的上述错误详细信息. (\"JetBrains \")让JetBrains将报告的数据与我在JetBrains Exception Analyzer中的帐户相关联，并根据<a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains异常分析器</a>. 报告的异常数据预计不包含除上面列出的任何个人数据. </html>",
         "enValue": "<html>I agree to my names, email address, username, password, hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains associate the reported data with my account in JetBrains Exception Analyzer and make it available to me in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data except those listed above.</html>"
       },
       {
         "key": "error.report.impossible.tooltip",
-        "cnValue": "The plugin vendor didn't implement the exception reporting component.",
+        "cnValue": "插件供应商未实现异常报告组件.",
         "enValue": "The plugin vendor didn't implement the exception reporting component."
       },
       {
         "key": "error.dialog.submit.named",
-        "cnValue": "<html>Submit as <b>{0}</b> or <a>change account</a></html>",
+        "cnValue": "<html>提交为 <b>{0}</b> or <a>变更账户</a></html>",
         "enValue": "<html>Submit as <b>{0}</b> or <a>change account</a></html>"
       },
       {
         "key": "error.dialog.foreign.plugin.warning",
-        "cnValue": "<html>This plugin is not a production of JetBrains. Please report the problem to plugin vendor.</html>",
+        "cnValue": "<html>这个插件不是JetBrains的产品。请将问题报告给插件供应商.</html>",
         "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to plugin vendor.</html>"
       },
       {
         "key": "error.dialog.attachments.prompt",
-        "cnValue": "<html>Please review the data included in this exception report:</html>",
+        "cnValue": "<html>请查看此异常报告中包含的数据:</html>",
         "enValue": "<html>Please review the data included in this exception report:</html>"
       },
       {
         "key": "error.dialog.disable.prompt.deps",
-        "cnValue": "Functionality provided by this and dependent plugins will no longer be available.",
+        "cnValue": "此插件和相关插件提供的功能将不再可用.",
         "enValue": "Functionality provided by this and dependent plugins will no longer be available."
       },
       {
         "key": "error.dialog.disable.plugin.can.restart",
-        "cnValue": "Changes in plugin configuration will take an effect after restart.",
+        "cnValue": "插件配置的更改将在重新启动后生效.",
         "enValue": "Changes in plugin configuration will take an effect after restart."
       },
       {
         "key": "diagnostic.out.of.memory.dump",
-        "cnValue": "Memory Dump",
+        "cnValue": "内存转储",
         "enValue": "Memory Dump"
       },
       {
         "key": "error.dialog.disable.prompt",
-        "cnValue": "Are you sure you want to disable plugin <b>{0}</b>?",
+        "cnValue": "您确定要禁用插件吗 <b>{0}</b>?",
         "enValue": "Are you sure you want to disable plugin <b>{0}</b>?"
       },
       {
         "key": "error.dialog.submit.anonymous",
-        "cnValue": "<html>Submit anonymously or use <a>JetBrains Account</a></html>",
+        "cnValue": "<html>匿名提交或使用 <a>JetBrains账户</a></html>",
         "enValue": "<html>Submit anonymously or use <a>JetBrains Account</a></html>"
       },
       {
         "key": "error.dialog.foreign.plugin.warning.unknown",
-        "cnValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>plugin vendor</a>.</html>",
+        "cnValue": "<html>这个插件不是JetBrains的产品。请将问题报告给<a>插件供应商</a>.</html>",
         "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>plugin vendor</a>.</html>"
       },
       {
         "key": "error.dialog.disable.prompt.lone",
-        "cnValue": "Functionality provided by the plugin will no longer be available.",
+        "cnValue": "插件提供的功能将不再可用.",
         "enValue": "Functionality provided by the plugin will no longer be available."
       },
       {
         "key": "error.dialog.notice.label",
-        "cnValue": "<html><b>By submitting this report, you agree to the terms and conditions of the privacy policy</b></html>",
+        "cnValue": "<html><b>提交此报告即表示您同意隐私政策的条款和条件</b></html>",
         "enValue": "<html><b>By submitting this report, you agree to the terms and conditions of the privacy policy</b></html>"
       }
     ]
@@ -1676,12 +1676,12 @@
     "props": [
       {
         "key": "stats.notification.content",
-        "cnValue": "<html>To improve your experience, we would like to collect data on the plugins and features you use. No personal data will be collected. An archive of a few kilobytes will be sent weekly.",
+        "cnValue": "<html>为了改善您的体验, 我们希望收集有关您使用的插件和功能的数据. 不会收集任何个人数据. 每周将发送几千字节的存档.",
         "enValue": "<html>To improve your experience, we would like to collect data on the plugins and features you use. No personal data will be collected. An archive of a few kilobytes will be sent weekly."
       },
       {
         "key": "stats.notification.title",
-        "cnValue": "<html>Help Make {0} Better",
+        "cnValue": "<html>帮助使{0}更好",
         "enValue": "<html>Help Make {0} Better"
       }
     ]
@@ -1697,7 +1697,7 @@
       },
       {
         "key": "prefer.key.position",
-        "cnValue": "Prefer key position over key char with national layout",
+        "cnValue": "首选关键字符位置与国家布局的关键字符",
         "enValue": "Prefer key position over key char with national layout"
       }
     ]
@@ -1728,12 +1728,12 @@
       },
       {
         "key": "color.scheme.theme.change.confirmation.title",
-        "cnValue": "Change {0} Theme",
+        "cnValue": "更改{0}主题",
         "enValue": "Change {0} Theme"
       },
       {
         "key": "checkbox.collapse.entities",
-        "cnValue": "XML entities",
+        "cnValue": "XML实体",
         "enValue": "XML entities"
       },
       {
@@ -1768,22 +1768,22 @@
       },
       {
         "key": "editor.appearance.show.chain.call.type.hints.toggle.off",
-        "cnValue": "Hide hints for chain calls",
+        "cnValue": "隐藏链式调用的提示",
         "enValue": "Hide hints for chain calls"
       },
       {
         "key": "checkbox.spaces.before.colon.in.foreach",
-        "cnValue": "Space before colon in foreach",
+        "cnValue": "foreach冒号前的空格",
         "enValue": "Space before colon in foreach"
       },
       {
         "key": "editor.appearance.show.chain.call.type.hints.toggle.on",
-        "cnValue": "Show hints for chain calls",
+        "cnValue": "显示链式调用的提示",
         "enValue": "Show hints for chain calls"
       },
       {
         "key": "checkbox.show.file.extension.in.editor.tabs",
-        "cnValue": "Show file extension",
+        "cnValue": "显示文件扩展名",
         "enValue": "Show file extension"
       },
       {
@@ -1798,32 +1798,32 @@
       },
       {
         "key": "editor.appearance.show.inferred.annotations",
-        "cnValue": "Show inferred annotations inline",
+        "cnValue": "显示内联的推断注释",
         "enValue": "Show inferred annotations inline"
       },
       {
         "key": "settings.code.style.general.default.options",
-        "cnValue": "Default Options",
+        "cnValue": "默认选项",
         "enValue": "Default Options"
       },
       {
         "key": "file.status.color.menu.reset.to.default",
-        "cnValue": "Default",
+        "cnValue": "默认",
         "enValue": "Default"
       },
       {
         "key": "checkbox.tab.exists.brackets.and.quotes",
-        "cnValue": "Jump outside closing bracket/quote with Tab",
+        "cnValue": "跳转到闭合括号/引用Tab",
         "enValue": "Jump outside closing bracket/quote with Tab"
       },
       {
         "key": "color.scheme.theme.change.confirmation",
-        "cnValue": "Looks like you have set a {0} editor color scheme.\nWould you like to set {0} theme for entire {1}?",
+        "cnValue": "看起来您已设置{0}编辑器颜色方案.\n是否要为整个{1}设置{0}主题?",
         "enValue": "Looks like you have set a {0} editor color scheme.\nWould you like to set {0} theme for entire {1}?"
       },
       {
         "key": "tabs.close.button.placement",
-        "cnValue": "Close button position:",
+        "cnValue": "关闭按钮位置:",
         "enValue": "Close button position:"
       },
       {
@@ -1833,22 +1833,22 @@
       },
       {
         "key": "file.status.color.menu.choose.color",
-        "cnValue": "Custom...",
+        "cnValue": "默认...",
         "enValue": "Custom..."
       },
       {
         "key": "editbox.autopopup.javadoc.in",
-        "cnValue": "Show the documentation popup in",
+        "cnValue": "显示文档弹出窗口",
         "enValue": "Show the documentation popup in"
       },
       {
         "key": "editor.appearance.show.chain.call.type.hints",
-        "cnValue": "Show chain call type hints",
+        "cnValue": "显示链调用类型提示",
         "enValue": "Show chain call type hints"
       },
       {
         "key": "settings.editor.console.font.overwrite",
-        "cnValue": "Use console font instead of the",
+        "cnValue": "使用控制台字体而不是",
         "enValue": "Use console font instead of the"
       },
       {
@@ -1858,7 +1858,7 @@
       },
       {
         "key": "settings.default.value.prefix",
-        "cnValue": "Default: {0}",
+        "cnValue": "默认: {0}",
         "enValue": "Default: {0}"
       },
       {
@@ -1873,12 +1873,12 @@
       },
       {
         "key": "checkbox.show.directory.for.non.unique.files",
-        "cnValue": "Show directory for non-unique file names",
+        "cnValue": "显示非唯一文件名的目录",
         "enValue": "Show directory for non-unique file names"
       },
       {
         "key": "combobox.crlf.windows",
-        "cnValue": "Windows (\\r\\n)",
+        "cnValue": "窗口 (\\r\\n)",
         "enValue": "Windows (\\r\\n)"
       },
       {
@@ -1888,7 +1888,7 @@
       },
       {
         "key": "wrapping.case.statements.on.one.line",
-        "cnValue": "'case' on new line",
+        "cnValue": "'case' 在新行",
         "enValue": "'case' on new line"
       },
       {
@@ -1898,7 +1898,7 @@
       },
       {
         "key": "editor.appearance.show.external.annotations",
-        "cnValue": "Show external annotations inline",
+        "cnValue": "内联显示外部注释",
         "enValue": "Show external annotations inline"
       },
       {
@@ -1908,7 +1908,7 @@
       },
       {
         "key": "settings.editor.font.overwrite",
-        "cnValue": "Use color scheme font instead of the",
+        "cnValue": "使用颜色方案字体而不是",
         "enValue": "Use color scheme font instead of the"
       },
       {
@@ -1923,12 +1923,12 @@
       },
       {
         "key": "settings.code.style.general.indents.detection",
-        "cnValue": "Indents Detection",
+        "cnValue": "缩进检测",
         "enValue": "Indents Detection"
       },
       {
         "key": "checkbox.smart.tab.reuse.inline.help",
-        "cnValue": "When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes.",
+        "cnValue": "导航到方法/类/变量声明时, 如果没有更改，包含声明的源文件将替换当前选项卡.",
         "enValue": "When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes."
       }
     ]
