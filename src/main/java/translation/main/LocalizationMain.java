@@ -3,7 +3,6 @@ package translation.main;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import com.sun.nio.zipfs.ZipPath;
 import translation.bo.LanguageResource;
 import translation.bo.ResourceFile;
 import translation.bo.Resources;
@@ -18,7 +17,6 @@ import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.zip.ZipFile;
 
 import static translation.util.PropertiesUtils.buildTranslationMap;
 import static translation.util.PropertiesUtils.saveObjToJson;
@@ -37,24 +35,28 @@ public class LocalizationMain {
 
     public static void main(String[] args) throws IOException {
         String resourcePath = "src/main/resources";
+        String enResourcePath = "/Users/t/workspace/idea_l10n/2018.2.5/resources_en";
+        String storagePath = "/Users/t/workspace/idea_l10n/2018.2.5/test";
         Path cnPath = Paths.get(resourcePath);
 
-        String enResourcePath = "/Users/t/workspace/idea_l10n/2018.2.5/resources_en";
         Path enPath = Paths.get(enResourcePath);
 //
 //        generateResources(cnPath, enPath, cnPath);
 
-        String storagePath = "/Users/t/workspace/idea_l10n/2018.2.5/test";
 
-        Resources resources = JsonUtils.fromJson(Paths.get(cnPath.toString(), ALL_JSON_FILE_NAME), Resources.class);
+        generateResourceJar(resourcePath, cnPath);
+    }
 
-        Path diffPath = Paths.get(cnPath.toString(), DIFF_JSON_FILE_NAME);
+    private static void generateResourceJar(String savePath, Path resouecePath) {
+        Resources resources = JsonUtils.fromJson(Paths.get(resouecePath.toString(), ALL_JSON_FILE_NAME), Resources.class);
+
+        Path diffPath = Paths.get(resouecePath.toString(), DIFF_JSON_FILE_NAME);
         if (Files.exists(diffPath)) {
-            List<ResourceFile> diff = JsonUtils.fromJson(Paths.get(cnPath.toString(), DIFF_JSON_FILE_NAME), new TypeToken<List<ResourceFile>>() {
+            List<ResourceFile> diff = JsonUtils.fromJson(Paths.get(resouecePath.toString(), DIFF_JSON_FILE_NAME), new TypeToken<List<ResourceFile>>() {
             }.getType());
             resources.setDiff(diff);
         }
-        generateFiles(Paths.get(storagePath), resources);
+        generateFiles(Paths.get(savePath), resources);
     }
 
 
@@ -158,7 +160,7 @@ public class LocalizationMain {
             ResourceFile diffFile = new ResourceFile();
             diffFile.setPath(filepath);
             diffFile.setName(Paths.get(filepath).getFileName().toString());
-            diff.add(diffFile);
+
 
             enProp.stringPropertyNames()
                 .forEach(key -> {
@@ -175,6 +177,10 @@ public class LocalizationMain {
                         diffFile.addProp(languageResource);
                     }
                 });
+            if (diffFile.getProps() == null || diffFile.getProps().isEmpty()) {
+                return;
+            }
+            diff.add(diffFile);
         });
 
         Resources resources = new Resources();

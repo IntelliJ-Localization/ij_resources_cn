@@ -2,9 +2,9 @@ package translation.util;
 
 import com.google.gson.reflect.TypeToken;
 
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
@@ -23,8 +23,9 @@ public class PropertiesUtils {
 
     public static void saveProperties(Path path, Properties properties) {
 
-        try (FileWriter fileWriter = new FileWriter(path.toFile())) {
-            properties.store(fileWriter, "");
+
+        try (OutputStream outputStream = Files.newOutputStream(path)) {
+            properties.store(outputStream, "");
         } catch (IOException e) {
             e.printStackTrace();
         }
