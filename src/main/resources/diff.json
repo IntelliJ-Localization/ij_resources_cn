@@ -198,22 +198,22 @@
       },
       {
         "key": "run.anything.run.debug.title",
-        "cnValue": "Debug:",
+        "cnValue": "调试:",
         "enValue": "Debug:"
       },
       {
         "key": "change.memory.large",
-        "cnValue": "The value should be less than 800 for 32 bit system.",
+        "cnValue": "对于32位系统，该值应小于800.",
         "enValue": "The value should be less than 800 for 32 bit system."
       },
       {
         "key": "plugins.auto.enabled.notification.content",
-        "cnValue": "{0} and {1} plugins are enabled.",
+        "cnValue": "已启用 {0} 和 {1} 插件.",
         "enValue": "{0} and {1} plugins are enabled."
       },
       {
         "key": "run.anything.ad.run.with.debug",
-        "cnValue": "{0} to debug",
+        "cnValue": "{0} 进行调试",
         "enValue": "{0} to debug"
       },
       {
@@ -223,12 +223,12 @@
       },
       {
         "key": "low.memory.notification.title",
-        "cnValue": "Low Memory",
+        "cnValue": "内存不足",
         "enValue": "Low Memory"
       },
       {
         "key": "updates.no.updates.snaps.message",
-        "cnValue": "<html>All plugins are up to date.<br> {0} updates are managed by Snaps.<br> Run the 'snap refresh' command to check for updates.</html>",
+        "cnValue": "<html>所有插件都是最新的.<br> {0} 更新由Snaps管理.<br> 运行'snap refresh'命令检查更新.</html>",
         "enValue": "<html>All plugins are up to date.<br> {0} updates are managed by Snaps.<br> Run the 'snap refresh' command to check for updates.</html>"
       },
       {
@@ -243,7 +243,7 @@
       },
       {
         "key": "low.memory.notification.action",
-        "cnValue": "Configure",
+        "cnValue": "配置",
         "enValue": "Configure"
       },
       {
@@ -258,37 +258,37 @@
       },
       {
         "key": "run.anything.run.in.context.title",
-        "cnValue": "Run in Context:",
+        "cnValue": "在上下文中运行:",
         "enValue": "Run in Context:"
       },
       {
         "key": "change.memory.usage",
-        "cnValue": "High memory usage detected (free {0} of {1} MB)",
+        "cnValue": "检测到高内存使用率（全部 {1} MB, 空闲 {0} MB）",
         "enValue": "High memory usage detected (free {0} of {1} MB)"
       },
       {
         "key": "plugins.auto.enabled.notification.title",
-        "cnValue": "Required plugins are enabled",
+        "cnValue": "启用所需的插件",
         "enValue": "Required plugins are enabled"
       },
       {
         "key": "change.memory.restart",
-        "cnValue": "Memory settings will be applied after restart.",
+        "cnValue": "重启后将应用内存设置.",
         "enValue": "Memory settings will be applied after restart."
       },
       {
         "key": "searcheverywhere.nothing.found.for.contributor",
-        "cnValue": "No {0} found.",
+        "cnValue": "找不到 {0} .",
         "enValue": "No {0} found."
       },
       {
         "key": "title.plugin.evaluation.license.expired",
-        "cnValue": "Plugin {0} Evaluation License Expired",
+        "cnValue": "插件 {0} 评估许可证已过期",
         "enValue": "Plugin {0} Evaluation License Expired"
       },
       {
         "key": "run.anything.group.title.commands",
-        "cnValue": "Recent commands",
+        "cnValue": "最近的命令",
         "enValue": "Recent commands"
       },
       {
@@ -303,37 +303,37 @@
       },
       {
         "key": "run.anything.actions.undefined",
-        "cnValue": "Undefined",
+        "cnValue": "未定义",
         "enValue": "Undefined"
       },
       {
         "key": "run.anything.console.process.finished",
-        "cnValue": "\nProcess finished with exit code {0}.",
+        "cnValue": "\n进程以退出代码 {0} 结束.",
         "enValue": "\nProcess finished with exit code {0}."
       },
       {
         "key": "plugins.auto.disabled.notification.title",
-        "cnValue": "Dependent plugins are disabled",
+        "cnValue": "依赖插件被禁用",
         "enValue": "Dependent plugins are disabled"
       },
       {
         "key": "checkboox.dark.window.headers",
-        "cnValue": "Use dark window headers",
+        "cnValue": "使用黑暗的窗口标题",
         "enValue": "Use dark window headers"
       },
       {
         "key": "run.anything.run.configurations.group.title",
-        "cnValue": "Run configurations",
+        "cnValue": "运行配置",
         "enValue": "Run configurations"
       },
       {
         "key": "checkbox.show.welcome.screen",
-        "cnValue": "Show Welcome screen",
+        "cnValue": "显示欢迎屏幕",
         "enValue": "Show Welcome screen"
       },
       {
         "key": "title.plugin.license.expired",
-        "cnValue": "Plugin {0} License Expired",
+        "cnValue": "插件{0}许可证已过期",
         "enValue": "Plugin {0} License Expired"
       },
       {
@@ -394,12 +394,12 @@
     "props": [
       {
         "key": "related.file",
-        "cnValue": "Related file",
+        "cnValue": "相关文件",
         "enValue": "Related file"
       },
       {
         "key": "type.cook.ratio.generified",
-        "cnValue": "{0,choice,-1#not calculated|0#{0,number} of {1}}",
+        "cnValue": "{0,choice,-1#没有计算|0#{0,number} of {1}}",
         "enValue": "{0,choice,-1#not calculated|0#{0,number} of {1}}"
       },
       {
@@ -409,7 +409,7 @@
       },
       {
         "key": "refactoring.extract.method.dialog.duplicates.pending",
-        "cnValue": "Searching for duplicates...",
+        "cnValue": "搜索重复项...",
         "enValue": "Searching for duplicates..."
       },
       {
@@ -429,7 +429,7 @@
       },
       {
         "key": "refactoring.cannot.be.applied.to.native.methods",
-        "cnValue": "{0} refactoring cannot be applied to native methods",
+        "cnValue": "{0} 重构不能应用于本机方法",
         "enValue": "{0} refactoring cannot be applied to native methods"
       },
       {
@@ -439,42 +439,42 @@
       },
       {
         "key": "refactoring.extract.method.preview.group.duplicates",
-        "cnValue": "Duplicate code fragments",
+        "cnValue": "重复的代码片段",
         "enValue": "Duplicate code fragments"
       },
       {
         "key": "refactoring.extract.method.dialog.duplicates.progress",
-        "cnValue": "Searching for Duplicates",
+        "cnValue": "搜索重复项",
         "enValue": "Searching for Duplicates"
       },
       {
         "key": "generate.module.descriptors.build.required.message",
-        "cnValue": "Couldn't generate module descriptors because the project hasn't been built yet",
+        "cnValue": "无法生成模块描述符，因为尚未构建项目",
         "enValue": "Couldn't generate module descriptors because the project hasn't been built yet"
       },
       {
         "key": "generate.module.descriptors.preparing.message",
-        "cnValue": "Preparing Code",
+        "cnValue": "准备代码",
         "enValue": "Preparing Code"
       },
       {
         "key": "enum.description",
-        "cnValue": "enum {0}",
+        "cnValue": "枚举 {0}",
         "enValue": "enum {0}"
       },
       {
         "key": "refactoring.extract.method.preview.button.refactor",
-        "cnValue": "&Do Refactor",
+        "cnValue": "重构 (&D)",
         "enValue": "&Do Refactor"
       },
       {
         "key": "auto.rename.module.dialog.description",
-        "cnValue": "Rename Java modules with the following names to:",
+        "cnValue": "使用以下名称重命名Java模块:",
         "enValue": "Rename Java modules with the following names to:"
       },
       {
         "key": "generate.module.descriptors.scanning.message",
-        "cnValue": "Scanning Compiler Output",
+        "cnValue": "扫描编译器输出",
         "enValue": "Scanning Compiler Output"
       },
       {
@@ -489,32 +489,32 @@
       },
       {
         "key": "all.invocations.keep.the.method",
-        "cnValue": "Inline all and k&eep the method",
+        "cnValue": "内联所有并保留方法 (&E)",
         "enValue": "Inline all and k&eep the method"
       },
       {
         "key": "generate.module.descriptors.title",
-        "cnValue": "Generate Module Descriptors",
+        "cnValue": "生成模块描述",
         "enValue": "Generate Module Descriptors"
       },
       {
         "key": "safe.delete.conflict.title",
-        "cnValue": "Potentially unsafe to delete references found in code",
+        "cnValue": "删除代码中可能不安全的引用",
         "enValue": "Potentially unsafe to delete references found in code"
       },
       {
         "key": "generate.module.descriptors.analysing.message",
-        "cnValue": "Analysing Dependencies",
+        "cnValue": "分析依赖关系",
         "enValue": "Analysing Dependencies"
       },
       {
         "key": "all.references.keep.field",
-        "cnValue": "Inline all and k&eep the field",
+        "cnValue": "内联所有并保持字段 (&E)",
         "enValue": "Inline all and k&eep the field"
       },
       {
         "key": "generate.module.descriptors.no.suitable.modules.message",
-        "cnValue": "Found no modules which may contain module-info",
+        "cnValue": "找不到可能包含module-info的模块",
         "enValue": "Found no modules which may contain module-info"
       },
       {
@@ -524,7 +524,7 @@
       },
       {
         "key": "generate.module.descriptors.collecting.message",
-        "cnValue": "Collecting Dependencies",
+        "cnValue": "收集依赖关系",
         "enValue": "Collecting Dependencies"
       },
       {
@@ -539,27 +539,27 @@
       },
       {
         "key": "generate.module.descriptors.command.title",
-        "cnValue": "Generate module-info Descriptors",
+        "cnValue": "生成模块信息描述符",
         "enValue": "Generate module-info Descriptors"
       },
       {
         "key": "refactoring.extract.method.preview.group.original",
-        "cnValue": "Original code fragment",
+        "cnValue": "原始代码片段",
         "enValue": "Original code fragment"
       },
       {
         "key": "auto.rename.module.dialog.title",
-        "cnValue": "Rename Java Modules",
+        "cnValue": "重命名Java模块",
         "enValue": "Rename Java Modules"
       },
       {
         "key": "refactoring.extract.method.preview.button.rerun",
-        "cnValue": "R&erun Refactoring",
+        "cnValue": "重新运行重构 (&E)",
         "enValue": "R&erun Refactoring"
       },
       {
         "key": "refactoring.extract.method.preview.group.method",
-        "cnValue": "Method to extract",
+        "cnValue": "提取方法",
         "enValue": "Method to extract"
       }
     ]
@@ -3484,7 +3484,7 @@
       },
       {
         "key": "patch.apply.conflict.patched.somehow.version",
-        "cnValue": "Result",
+        "cnValue": "结果",
         "enValue": "Result"
       },
       {
@@ -3499,37 +3499,37 @@
       },
       {
         "key": "column.name.revision.list.date",
-        "cnValue": "Date",
+        "cnValue": "日期",
         "enValue": "Date"
       },
       {
         "key": "executable.project.override.reset.message",
-        "cnValue": "Path to executable configured for this project can be set as the global path for all projects or reverted to the current global executable",
+        "cnValue": "为此项目配置的可执行文件的路径可以设置为所有项目的全局路径, 也可以还原为当前的全局可执行文件",
         "enValue": "Path to executable configured for this project can be set as the global path for all projects or reverted to the current global executable"
       },
       {
         "key": "executable.test",
-        "cnValue": "Test",
+        "cnValue": "测试",
         "enValue": "Test"
       },
       {
         "key": "executable.project.override.reset.title",
-        "cnValue": "Project Executable",
+        "cnValue": "项目可执行文件",
         "enValue": "Project Executable"
       },
       {
         "key": "executable.select.title",
-        "cnValue": "Select Executable",
+        "cnValue": "选择可执行文件",
         "enValue": "Select Executable"
       },
       {
         "key": "patch.apply.conflict.patch",
-        "cnValue": "Patch",
+        "cnValue": "补丁",
         "enValue": "Patch"
       },
       {
         "key": "executable.project.override.reset.revert",
-        "cnValue": "Revert",
+        "cnValue": "还原",
         "enValue": "Revert"
       }
     ]
@@ -4143,42 +4143,42 @@
     "props": [
       {
         "key": "local.history.remove.orphan.modules",
-        "cnValue": "Remove orphan modules after import",
+        "cnValue": "导入后删除孤儿模块",
         "enValue": "Remove orphan modules after import"
       },
       {
         "key": "orphan.modules.dialog.title",
-        "cnValue": "Orphan Modules",
+        "cnValue": "孤儿模块",
         "enValue": "Orphan Modules"
       },
       {
         "key": "debugger.status.connected",
-        "cnValue": "Connected to the VM started by ''{0}'' {1}",
+        "cnValue": "已连接到由 ''{0}'' {1} 启动的VM",
         "enValue": "Connected to the VM started by ''{0}'' {1}"
       },
       {
         "key": "orphan.modules.dialog.text",
-        "cnValue": "<html>The modules below were removed from the project.<br/>Select the ones you need to restore.<html>",
+        "cnValue": "<html>以下模块已从项目中删除.<br/>选择您需要还原的那些.<html>",
         "enValue": "<html>The modules below were removed from the project.<br/>Select the ones you need to restore.<html>"
       },
       {
         "key": "notification.project.build.fail.title",
-        "cnValue": "{0} ''{1}'' project build failed",
+        "cnValue": "{0}' '{1}'' 项目构建失败",
         "enValue": "{0} ''{1}'' project build failed"
       },
       {
         "key": "external.system.java.home.env",
-        "cnValue": "Use JAVA_HOME",
+        "cnValue": "使用 JAVA_HOME",
         "enValue": "Use JAVA_HOME"
       },
       {
         "key": "external.system.java.internal.jre",
-        "cnValue": "Use Internal JRE",
+        "cnValue": "使用内部JRE",
         "enValue": "Use Internal JRE"
       },
       {
         "key": "debugger.open.session.tab",
-        "cnValue": "Open the debugger session tab",
+        "cnValue": "打开调试器会话选项卡",
         "enValue": "Open the debugger session tab"
       },
       {
@@ -4199,12 +4199,12 @@
       },
       {
         "key": "action.module.dependencies.tests",
-        "cnValue": "Include Test Dependencies",
+        "cnValue": "引入测试依赖关系",
         "enValue": "Include Test Dependencies"
       },
       {
         "key": "scope.option.uncommitted.files",
-        "cnValue": "&Uncommitted files",
+        "cnValue": "未提交的文件 (&U)",
         "enValue": "&Uncommitted files"
       }
     ]
@@ -4215,7 +4215,7 @@
     "props": [
       {
         "key": "default.visibility.presentation",
-        "cnValue": "default",
+        "cnValue": "默认",
         "enValue": "default"
       },
       {
@@ -4306,7 +4306,7 @@
       },
       {
         "key": "inspection.wrapper.type.may.be.primitive.fix.name",
-        "cnValue": "Convert wrapper type to primitive",
+        "cnValue": "转换包装器类型为基元",
         "enValue": "Convert wrapper type to primitive"
       },
       {
@@ -4326,7 +4326,7 @@
       },
       {
         "key": "inspection.class.getclass.fix.replace.name",
-        "cnValue": "Replace with 'Class.class'",
+        "cnValue": "用 'Class.class' 替换",
         "enValue": "Replace with 'Class.class'"
       },
       {
@@ -4696,7 +4696,7 @@
       },
       {
         "key": "inspection.conditional.break.in.infinite.loop",
-        "cnValue": "Move condition to loop",
+        "cnValue": "将条件移动到循环",
         "enValue": "Move condition to loop"
       },
       {
@@ -4706,17 +4706,17 @@
       },
       {
         "key": "inspection.edit.severities.text",
-        "cnValue": "Edit severities...",
+        "cnValue": "编辑 severities...",
         "enValue": "Edit severities..."
       },
       {
         "key": "inspection.redundant.comparator.comparing.fix.replace.name",
-        "cnValue": "Remove ''{0}()'' call and use ''{1}()''",
+        "cnValue": "移除 ''{0}()'' 调用和使用 ''{1}()''",
         "enValue": "Remove ''{0}()'' call and use ''{1}()''"
       },
       {
         "key": "inspection.visibility.private.inner.members",
-        "cnValue": "<html>Suggest private for inner class members when referenced from outer class only</html>",
+        "cnValue": "<html>仅在从外部类引用时为内部类成员建议private</html>",
         "enValue": "<html>Suggest private for inner class members when referenced from outer class only</html>"
       },
       {
@@ -4731,27 +4731,27 @@
       },
       {
         "key": "inspection.undeclared.service.usage.name",
-        "cnValue": "Usage of service not declared in module-info",
+        "cnValue": "未在module-info中声明的服务的使用",
         "enValue": "Usage of service not declared in module-info"
       },
       {
         "key": "dataflow.message.contract.fail",
-        "cnValue": "The call to '#ref' always fails, according to its method contracts",
+        "cnValue": "根据方法合同，对'#ref'的调用总是失败",
         "enValue": "The call to '#ref' always fails, according to its method contracts"
       },
       {
         "key": "inspection.redundant.null.check.fix.family.name",
-        "cnValue": "Remove redundant null-check",
+        "cnValue": "删除冗余的null检查",
         "enValue": "Remove redundant null-check"
       },
       {
         "key": "inspection.redundant.explicit.close.fix.name",
-        "cnValue": "Remove redundant close",
+        "cnValue": "删除冗余的关闭",
         "enValue": "Remove redundant close"
       },
       {
         "key": "inspection.redundant.comparator.comparing.fix.family.name",
-        "cnValue": "Remove redundant call",
+        "cnValue": "删除冗余的调用",
         "enValue": "Remove redundant call"
       },
       {
@@ -4766,7 +4766,7 @@
       },
       {
         "key": "inspection.class.getclass.fix.remove.name",
-        "cnValue": "Remove 'getClass()' call",
+        "cnValue": "移除 'getClass()' 调用",
         "enValue": "Remove 'getClass()' call"
       }
     ]
@@ -4797,7 +4797,7 @@
       },
       {
         "key": "sm.test.runner.ui.tests.tree.presentation.labels.all.but.ignored.passed",
-        "cnValue": "All Tests Passed (except ignored)",
+        "cnValue": "所有测试通过 (忽略除外)",
         "enValue": "All Tests Passed (except ignored)"
       }
     ]
@@ -4808,22 +4808,22 @@
     "props": [
       {
         "key": "auth.password",
-        "cnValue": "Password",
+        "cnValue": "密码",
         "enValue": "Password"
       },
       {
         "key": "auth.keypair.note",
-        "cnValue": "OpenSSH or PuTTY",
+        "cnValue": "OpenSSH 或 PuTTY",
         "enValue": "OpenSSH or PuTTY"
       },
       {
         "key": "auth.openssh",
-        "cnValue": "OpenSSH config and authentication agent",
+        "cnValue": "OpenSSH配置和身份验证代理",
         "enValue": "OpenSSH config and authentication agent"
       },
       {
         "key": "auth.keypair",
-        "cnValue": "Key pair",
+        "cnValue": "钥匙对",
         "enValue": "Key pair"
       }
     ]
@@ -4834,7 +4834,7 @@
     "props": [
       {
         "key": "find.replace.this.file.action",
-        "cnValue": "Replace All in This &File",
+        "cnValue": "在当前文件中替换全部 (&F)",
         "enValue": "Replace All in This &File"
       },
       {
@@ -4844,17 +4844,17 @@
       },
       {
         "key": "find.replace.skip.this.file.action",
-        "cnValue": "&Skip This File",
+        "cnValue": "跳过当前文件 (&S)",
         "enValue": "&Skip This File"
       },
       {
         "key": "find.what.implicit.to.string.checkbox",
-        "cnValue": "I&mplicit calls",
+        "cnValue": "隐式调用 (&M)",
         "enValue": "I&mplicit calls"
       },
       {
         "key": "find.recursively.hint",
-        "cnValue": "Search recursively in directory",
+        "cnValue": "在目录中递归搜索",
         "enValue": "Search recursively in directory"
       }
     ]
@@ -4895,12 +4895,12 @@
       },
       {
         "key": "button.accept",
-        "cnValue": "Accept",
+        "cnValue": "接受",
         "enValue": "Accept"
       },
       {
         "key": "undo.conflicting.change.confirmation.message",
-        "cnValue": "Other files affected by this action have been already changed.",
+        "cnValue": "受此操作影响的其它文件已更改.",
         "enValue": "Other files affected by this action have been already changed."
       }
     ]
@@ -4916,7 +4916,7 @@
       },
       {
         "key": "header.reference.invalid",
-        "cnValue": "Invalid reference",
+        "cnValue": "引用无效",
         "enValue": "Invalid reference"
       },
       {
