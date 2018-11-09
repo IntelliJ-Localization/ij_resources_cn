@@ -2126,7 +2126,7 @@
         },
         {
           "key": "plugins.auto.switch.action.name",
-          "cnValue": "Undo",
+          "cnValue": "还原",
           "enValue": "Undo"
         },
         {
@@ -4211,7 +4211,7 @@
         },
         {
           "key": "checkbox.disabled.included",
-          "cnValue": "Include &disabled actions",
+          "cnValue": "引入已禁用的操作 (&D)",
           "enValue": "Include &disabled actions"
         },
         {
@@ -4221,7 +4221,7 @@
         },
         {
           "key": "update.snap.message.with.blog.post",
-          "cnValue": "The IDE has been updated by Snap. <a href=\"{0}\">Blog post</a>.",
+          "cnValue": "IDE已由Snap更新. <a href=\"{0}\">博客文章</a>.",
           "enValue": "The IDE has been updated by Snap. <a href=\"{0}\">Blog post</a>."
         },
         {
@@ -4316,7 +4316,7 @@
         },
         {
           "key": "run.anything.ad.run.in.context",
-          "cnValue": "Press {0} to run in the current file context",
+          "cnValue": "按{0}在当前文件上下文中运行",
           "enValue": "Press {0} to run in the current file context"
         },
         {
@@ -4341,7 +4341,7 @@
         },
         {
           "key": "third.party.plugins.privacy.note.title",
-          "cnValue": "Third-party Plugins Privacy Note",
+          "cnValue": "第三方插件隐私说明",
           "enValue": "Third-party Plugins Privacy Note"
         },
         {
@@ -4386,12 +4386,12 @@
         },
         {
           "key": "sys.health.acknowledge.action",
-          "cnValue": "Don't Show Again",
+          "cnValue": "不要再显示",
           "enValue": "Don't Show Again"
         },
         {
           "key": "change.memory.title",
-          "cnValue": "Memory Settings Dialog",
+          "cnValue": "内存设置对话框",
           "enValue": "Memory Settings Dialog"
         },
         {
@@ -4401,7 +4401,7 @@
         },
         {
           "key": "run.anything.group.settings.title",
-          "cnValue": "Show ''{0}''",
+          "cnValue": "显示 ''{0}''",
           "enValue": "Show ''{0}''"
         },
         {
@@ -4411,7 +4411,7 @@
         },
         {
           "key": "searcheverywhere.nothing.found.for.all",
-          "cnValue": "Nothing found.",
+          "cnValue": "什么都没找到.",
           "enValue": "Nothing found."
         },
         {
@@ -4421,7 +4421,7 @@
         },
         {
           "key": "searcheverywhere.found.targets.title",
-          "cnValue": "Unsorted results",
+          "cnValue": "未排序的结果",
           "enValue": "Unsorted results"
         },
         {
@@ -4446,7 +4446,7 @@
         },
         {
           "key": "updates.no.updates.toolbox.message",
-          "cnValue": "<html>All plugins are up to date.<br> {0} updates are managed by Toolbox App.<br> Launch it to check if updates are available.</html>",
+          "cnValue": "<html>所有插件都是最新的.<br> {0}更新由Toolbox App管理.<br> 启动它以检查更新是否可用.</html>",
           "enValue": "<html>All plugins are up to date.<br> {0} updates are managed by Toolbox App.<br> Launch it to check if updates are available.</html>"
         },
         {
@@ -4561,7 +4561,7 @@
         },
         {
           "key": "message.plugin.license.expired.shutdown",
-          "cnValue": "Your plugin license has expired. Plugin {0} will be disabled.",
+          "cnValue": "您的插件许可证已过期. 插件{0}将被禁用.",
           "enValue": "Your plugin license has expired. Plugin {0} will be disabled."
         },
         {
@@ -4776,7 +4776,7 @@
         },
         {
           "key": "run.anything.run.debug.title",
-          "cnValue": "Debug:",
+          "cnValue": "调试:",
           "enValue": "Debug:"
         },
         {
@@ -4836,7 +4836,7 @@
         },
         {
           "key": "change.memory.large",
-          "cnValue": "The value should be less than 800 for 32 bit system.",
+          "cnValue": "对于32位系统，该值应小于800.",
           "enValue": "The value should be less than 800 for 32 bit system."
         },
         {
@@ -4906,7 +4906,7 @@
         },
         {
           "key": "plugins.auto.enabled.notification.content",
-          "cnValue": "{0} and {1} plugins are enabled.",
+          "cnValue": "已启用 {0} 和 {1} 插件.",
           "enValue": "{0} and {1} plugins are enabled."
         },
         {
@@ -5026,7 +5026,7 @@
         },
         {
           "key": "run.anything.ad.run.with.debug",
-          "cnValue": "{0} to debug",
+          "cnValue": "{0} 进行调试",
           "enValue": "{0} to debug"
         },
         {
@@ -5576,7 +5576,7 @@
         },
         {
           "key": "low.memory.notification.title",
-          "cnValue": "Low Memory",
+          "cnValue": "内存不足",
           "enValue": "Low Memory"
         },
         {
@@ -5621,7 +5621,7 @@
         },
         {
           "key": "updates.no.updates.snaps.message",
-          "cnValue": "<html>All plugins are up to date.<br> {0} updates are managed by Snaps.<br> Run the 'snap refresh' command to check for updates.</html>",
+          "cnValue": "<html>所有插件都是最新的.<br> {0} 更新由Snaps管理.<br> 运行'snap refresh'命令检查更新.</html>",
           "enValue": "<html>All plugins are up to date.<br> {0} updates are managed by Snaps.<br> Run the 'snap refresh' command to check for updates.</html>"
         },
         {
@@ -5741,7 +5741,7 @@
         },
         {
           "key": "low.memory.notification.action",
-          "cnValue": "Configure",
+          "cnValue": "配置",
           "enValue": "Configure"
         },
         {
@@ -6016,7 +6016,7 @@
         },
         {
           "key": "run.anything.run.in.context.title",
-          "cnValue": "Run in Context:",
+          "cnValue": "在上下文中运行:",
           "enValue": "Run in Context:"
         },
         {
@@ -6026,7 +6026,7 @@
         },
         {
           "key": "change.memory.usage",
-          "cnValue": "High memory usage detected (free {0} of {1} MB)",
+          "cnValue": "检测到高内存使用率（全部 {1} MB, 空闲 {0} MB）",
           "enValue": "High memory usage detected (free {0} of {1} MB)"
         },
         {
@@ -6036,7 +6036,7 @@
         },
         {
           "key": "plugins.auto.enabled.notification.title",
-          "cnValue": "Required plugins are enabled",
+          "cnValue": "启用所需的插件",
           "enValue": "Required plugins are enabled"
         },
         {
@@ -6046,7 +6046,7 @@
         },
         {
           "key": "change.memory.restart",
-          "cnValue": "Memory settings will be applied after restart.",
+          "cnValue": "重启后将应用内存设置.",
           "enValue": "Memory settings will be applied after restart."
         },
         {
@@ -6056,7 +6056,7 @@
         },
         {
           "key": "searcheverywhere.nothing.found.for.contributor",
-          "cnValue": "No {0} found.",
+          "cnValue": "找不到 {0} .",
           "enValue": "No {0} found."
         },
         {
@@ -6081,12 +6081,12 @@
         },
         {
           "key": "title.plugin.evaluation.license.expired",
-          "cnValue": "Plugin {0} Evaluation License Expired",
+          "cnValue": "插件 {0} 评估许可证已过期",
           "enValue": "Plugin {0} Evaluation License Expired"
         },
         {
           "key": "run.anything.group.title.commands",
-          "cnValue": "Recent commands",
+          "cnValue": "最近的命令",
           "enValue": "Recent commands"
         },
         {
@@ -6246,7 +6246,7 @@
         },
         {
           "key": "vmoptions.warn.message",
-          "cnValue": "Code cache size of {0} MB is too low. Increase it to {1} MB or more to avoid performance issues.",
+          "cnValue": "代码的缓存大小{0}MB太低. 将其增加到{1}MB或更多以避免性能问题.",
           "enValue": "Code cache size of {0} MB is too low. Increase it to {1} MB or more to avoid performance issues."
         },
         {
@@ -6336,7 +6336,7 @@
         },
         {
           "key": "searcheverywhere.found.matches.title",
-          "cnValue": "Found matches for pattern ''{0}'' in [{1}]",
+          "cnValue": "找到[{1}]中模式''{0}''的匹配项",
           "enValue": "Found matches for pattern ''{0}'' in [{1}]"
         },
         {
@@ -6356,7 +6356,7 @@
         },
         {
           "key": "run.anything.actions.undefined",
-          "cnValue": "Undefined",
+          "cnValue": "未定义",
           "enValue": "Undefined"
         },
         {
@@ -6491,7 +6491,7 @@
         },
         {
           "key": "run.anything.console.process.finished",
-          "cnValue": "\nProcess finished with exit code {0}.",
+          "cnValue": "\n进程以退出代码 {0} 结束.",
           "enValue": "\nProcess finished with exit code {0}."
         },
         {
@@ -6541,7 +6541,7 @@
         },
         {
           "key": "plugins.auto.disabled.notification.title",
-          "cnValue": "Dependent plugins are disabled",
+          "cnValue": "依赖插件被禁用",
           "enValue": "Dependent plugins are disabled"
         },
         {
@@ -6551,7 +6551,7 @@
         },
         {
           "key": "checkboox.dark.window.headers",
-          "cnValue": "Use dark window headers",
+          "cnValue": "使用黑暗的窗口标题",
           "enValue": "Use dark window headers"
         },
         {
@@ -6586,7 +6586,7 @@
         },
         {
           "key": "run.anything.run.configurations.group.title",
-          "cnValue": "Run configurations",
+          "cnValue": "运行配置",
           "enValue": "Run configurations"
         },
         {
@@ -6696,7 +6696,7 @@
         },
         {
           "key": "checkbox.show.welcome.screen",
-          "cnValue": "Show Welcome screen",
+          "cnValue": "显示欢迎屏幕",
           "enValue": "Show Welcome screen"
         },
         {
@@ -6716,7 +6716,7 @@
         },
         {
           "key": "title.plugin.license.expired",
-          "cnValue": "Plugin {0} License Expired",
+          "cnValue": "插件{0}许可证已过期",
           "enValue": "Plugin {0} License Expired"
         },
         {
@@ -6791,7 +6791,7 @@
         },
         {
           "key": "new.plugin.manager.incompatible.deps.tooltip",
-          "cnValue": "Not loaded. The required {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} disabled.",
+          "cnValue": "未载入. 所需{0, choice, 1#插件|2#插件} {1} {0, choice, 1#是|2#是}禁用的.",
           "enValue": "Not loaded. The required {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} disabled."
         },
         {
@@ -6866,7 +6866,7 @@
         },
         {
           "key": "updates.settings.external",
-          "cnValue": "IDE updates are managed externally by {0}",
+          "cnValue": "IDE更新由{0}外部管理",
           "enValue": "IDE updates are managed externally by {0}"
         },
         {
@@ -6941,7 +6941,7 @@
         },
         {
           "key": "run.anything.main.list.empty.primary.text",
-          "cnValue": "Run command or configuration",
+          "cnValue": "运行命令或配置",
           "enValue": "Run command or configuration"
         },
         {
@@ -7081,7 +7081,7 @@
         },
         {
           "key": "ide.sigint.ignored.message",
-          "cnValue": "The IDE ignores SIGINT: the \"Stop\" button in run configurations may not work.",
+          "cnValue": "IDE忽略SIGINT：运行配置中的\"停止\"按钮可能不起作用.",
           "enValue": "The IDE ignores SIGINT: the \"Stop\" button in run configurations may not work."
         },
         {
@@ -7116,7 +7116,7 @@
         },
         {
           "key": "vmoptions.edit.action",
-          "cnValue": "Edit Custom VM Options",
+          "cnValue": "编辑自定义VM选项",
           "enValue": "Edit Custom VM Options"
         },
         {
@@ -7216,7 +7216,7 @@
         },
         {
           "key": "updates.version.info",
-          "cnValue": "{0} (build {1})",
+          "cnValue": "{0} (构建 {1})",
           "enValue": "{0} (build {1})"
         },
         {
@@ -7312,7 +7312,7 @@
         },
         {
           "key": "related.file",
-          "cnValue": "Related file",
+          "cnValue": "相关文件",
           "enValue": "Related file"
         },
         {
@@ -7337,7 +7337,7 @@
         },
         {
           "key": "type.cook.ratio.generified",
-          "cnValue": "{0,choice,-1#not calculated|0#{0,number} of {1}}",
+          "cnValue": "{0,choice,-1#没有计算|0#{0,number} of {1}}",
           "enValue": "{0,choice,-1#not calculated|0#{0,number} of {1}}"
         },
         {
@@ -7662,7 +7662,7 @@
         },
         {
           "key": "refactoring.extract.method.dialog.duplicates.pending",
-          "cnValue": "Searching for duplicates...",
+          "cnValue": "搜索重复项...",
           "enValue": "Searching for duplicates..."
         },
         {
@@ -8732,7 +8732,7 @@
         },
         {
           "key": "refactoring.cannot.be.applied.to.native.methods",
-          "cnValue": "{0} refactoring cannot be applied to native methods",
+          "cnValue": "{0} 重构不能应用于本机方法",
           "enValue": "{0} refactoring cannot be applied to native methods"
         },
         {
@@ -8982,7 +8982,7 @@
         },
         {
           "key": "refactoring.extract.method.preview.group.duplicates",
-          "cnValue": "Duplicate code fragments",
+          "cnValue": "重复的代码片段",
           "enValue": "Duplicate code fragments"
         },
         {
@@ -9117,7 +9117,7 @@
         },
         {
           "key": "refactoring.extract.method.dialog.duplicates.progress",
-          "cnValue": "Searching for Duplicates",
+          "cnValue": "搜索重复项",
           "enValue": "Searching for Duplicates"
         },
         {
@@ -9127,7 +9127,7 @@
         },
         {
           "key": "generate.module.descriptors.build.required.message",
-          "cnValue": "Couldn't generate module descriptors because the project hasn't been built yet",
+          "cnValue": "无法生成模块描述符，因为尚未构建项目",
           "enValue": "Couldn't generate module descriptors because the project hasn't been built yet"
         },
         {
@@ -9232,7 +9232,7 @@
         },
         {
           "key": "generate.module.descriptors.preparing.message",
-          "cnValue": "Preparing Code",
+          "cnValue": "准备代码",
           "enValue": "Preparing Code"
         },
         {
@@ -9637,7 +9637,7 @@
         },
         {
           "key": "enum.description",
-          "cnValue": "enum {0}",
+          "cnValue": "枚举 {0}",
           "enValue": "enum {0}"
         },
         {
@@ -9722,7 +9722,7 @@
         },
         {
           "key": "refactoring.extract.method.preview.button.refactor",
-          "cnValue": "&Do Refactor",
+          "cnValue": "重构 (&D)",
           "enValue": "&Do Refactor"
         },
         {
@@ -9732,7 +9732,7 @@
         },
         {
           "key": "auto.rename.module.dialog.description",
-          "cnValue": "Rename Java modules with the following names to:",
+          "cnValue": "使用以下名称重命名Java模块:",
           "enValue": "Rename Java modules with the following names to:"
         },
         {
@@ -9757,7 +9757,7 @@
         },
         {
           "key": "generate.module.descriptors.scanning.message",
-          "cnValue": "Scanning Compiler Output",
+          "cnValue": "扫描编译器输出",
           "enValue": "Scanning Compiler Output"
         },
         {
@@ -10092,7 +10092,7 @@
         },
         {
           "key": "all.invocations.keep.the.method",
-          "cnValue": "Inline all and k&eep the method",
+          "cnValue": "内联所有并保留方法 (&E)",
           "enValue": "Inline all and k&eep the method"
         },
         {
@@ -10372,7 +10372,7 @@
         },
         {
           "key": "generate.module.descriptors.title",
-          "cnValue": "Generate Module Descriptors",
+          "cnValue": "生成模块描述",
           "enValue": "Generate Module Descriptors"
         },
         {
@@ -10412,7 +10412,7 @@
         },
         {
           "key": "safe.delete.conflict.title",
-          "cnValue": "Potentially unsafe to delete references found in code",
+          "cnValue": "删除代码中可能不安全的引用",
           "enValue": "Potentially unsafe to delete references found in code"
         },
         {
@@ -10567,7 +10567,7 @@
         },
         {
           "key": "generate.module.descriptors.analysing.message",
-          "cnValue": "Analysing Dependencies",
+          "cnValue": "分析依赖关系",
           "enValue": "Analysing Dependencies"
         },
         {
@@ -10602,7 +10602,7 @@
         },
         {
           "key": "all.references.keep.field",
-          "cnValue": "Inline all and k&eep the field",
+          "cnValue": "内联所有并保持字段 (&E)",
           "enValue": "Inline all and k&eep the field"
         },
         {
@@ -10652,7 +10652,7 @@
         },
         {
           "key": "generate.module.descriptors.no.suitable.modules.message",
-          "cnValue": "Found no modules which may contain module-info",
+          "cnValue": "找不到可能包含module-info的模块",
           "enValue": "Found no modules which may contain module-info"
         },
         {
@@ -10857,7 +10857,7 @@
         },
         {
           "key": "generate.module.descriptors.collecting.message",
-          "cnValue": "Collecting Dependencies",
+          "cnValue": "收集依赖关系",
           "enValue": "Collecting Dependencies"
         },
         {
@@ -11032,7 +11032,7 @@
         },
         {
           "key": "generate.module.descriptors.command.title",
-          "cnValue": "Generate module-info Descriptors",
+          "cnValue": "生成模块信息描述符",
           "enValue": "Generate module-info Descriptors"
         },
         {
@@ -11077,7 +11077,7 @@
         },
         {
           "key": "refactoring.extract.method.preview.group.original",
-          "cnValue": "Original code fragment",
+          "cnValue": "原始代码片段",
           "enValue": "Original code fragment"
         },
         {
@@ -11162,7 +11162,7 @@
         },
         {
           "key": "auto.rename.module.dialog.title",
-          "cnValue": "Rename Java Modules",
+          "cnValue": "重命名Java模块",
           "enValue": "Rename Java Modules"
         },
         {
@@ -11207,7 +11207,7 @@
         },
         {
           "key": "refactoring.extract.method.preview.button.rerun",
-          "cnValue": "R&erun Refactoring",
+          "cnValue": "重新运行重构 (&E)",
           "enValue": "R&erun Refactoring"
         },
         {
@@ -11307,7 +11307,7 @@
         },
         {
           "key": "refactoring.extract.method.preview.group.method",
-          "cnValue": "Method to extract",
+          "cnValue": "提取方法",
           "enValue": "Method to extract"
         },
         {
@@ -11914,7 +11914,7 @@
         },
         {
           "key": "options.general.color.descriptor.vcs.diff.type.tag.prefix",
-          "cnValue": "Changed lines//",
+          "cnValue": "改变行//",
           "enValue": "Changed lines//"
         },
         {
@@ -14206,7 +14206,7 @@
         },
         {
           "key": "predefined.configuration.assert.without.description",
-          "cnValue": "assert statement without description",
+          "cnValue": "声明声明没有描述",
           "enValue": "assert statement without description"
         },
         {
@@ -15682,7 +15682,7 @@
         },
         {
           "key": "application.configuration.include.provided.scope",
-          "cnValue": "Include dependencies with \"Provided\" scope",
+          "cnValue": "引入具有\"Provided\"范围的依赖项",
           "enValue": "Include dependencies with \"Provided\" scope"
         },
         {
@@ -17037,7 +17037,7 @@
         },
         {
           "key": "add.new.run.configuration.action2.name",
-          "cnValue": "Add New Configuration",
+          "cnValue": "添加新配置",
           "enValue": "Add New Configuration"
         },
         {
@@ -17454,7 +17454,7 @@
       "props": [
         {
           "key": "merge.version.title.base",
-          "cnValue": "Base version",
+          "cnValue": "基础版本",
           "enValue": "Base version"
         },
         {
@@ -17489,7 +17489,7 @@
         },
         {
           "key": "merge.version.title.merged",
-          "cnValue": "Merged version",
+          "cnValue": "合并版本",
           "enValue": "Merged version"
         },
         {
@@ -17509,7 +17509,7 @@
         },
         {
           "key": "merge.version.title.their.with.revision",
-          "cnValue": "Changes from server (revision {0})",
+          "cnValue": "变更来自服务器 (版本 {0})",
           "enValue": "Changes from server (revision {0})"
         },
         {
@@ -17544,7 +17544,7 @@
         },
         {
           "key": "merge.version.title.their",
-          "cnValue": "Changes from server",
+          "cnValue": "变更来自服务器",
           "enValue": "Changes from server"
         },
         {
@@ -17624,7 +17624,7 @@
         },
         {
           "key": "merge.version.title.our",
-          "cnValue": "Your version",
+          "cnValue": "你的版本",
           "enValue": "Your version"
         },
         {
@@ -17764,7 +17764,7 @@
         },
         {
           "key": "merge.version.title.merged.result",
-          "cnValue": "Result",
+          "cnValue": "结果",
           "enValue": "Result"
         },
         {
@@ -17844,7 +17844,7 @@
         },
         {
           "key": "diff.inactive.count.differences.status.text",
-          "cnValue": "({0} inactive)",
+          "cnValue": "({0} 待用)",
           "enValue": "({0} inactive)"
         },
         {
@@ -17965,7 +17965,7 @@
         },
         {
           "key": "use.single.dictionary",
-          "cnValue": "Use single dictionary for saving words",
+          "cnValue": "使用单个字典来保存单词",
           "enValue": "Use single dictionary for saving words"
         },
         {
@@ -17995,22 +17995,22 @@
         },
         {
           "key": "save.0.to.1",
-          "cnValue": "Save {0} to {1}",
+          "cnValue": "保存 {0} 到 {1}",
           "enValue": "Save {0} to {1}"
         },
         {
           "key": "no.custom.dictionaries",
-          "cnValue": "No custom dictionaries",
+          "cnValue": "没有自定义词典",
           "enValue": "No custom dictionaries"
         },
         {
           "key": "add.dictionary.description",
-          "cnValue": "Add custom dictionaries: plain text word lists",
+          "cnValue": "添加自定义词典：纯文本词列表",
           "enValue": "Add custom dictionaries: plain text word lists"
         },
         {
           "key": "add.custom.dictionaries",
-          "cnValue": "Add custom dictionaries",
+          "cnValue": "添加自定义词典",
           "enValue": "Add custom dictionaries"
         },
         {
@@ -19143,12 +19143,12 @@
       "props": [
         {
           "key": "json.schema.conflicting.mappings",
-          "cnValue": "Warning: conflicting mappings. <a href=\"#\">Show details</a>",
+          "cnValue": "警告：映射冲突. <a href=\"#\">显示详请</a>",
           "enValue": "Warning: conflicting mappings. <a href=\"#\">Show details</a>"
         },
         {
           "key": "inspection.compliance.msg.trailing.comma",
-          "cnValue": "JSON standard does not allow trailing comma",
+          "cnValue": "JSON标准不允许使用尾随逗号",
           "enValue": "JSON standard does not allow trailing comma"
         },
         {
@@ -19158,7 +19158,7 @@
         },
         {
           "key": "syntax.error.illegal.unicode.escape.sequence",
-          "cnValue": "Illegal unicode escape sequence",
+          "cnValue": "非法的unicode转义序列",
           "enValue": "Illegal unicode escape sequence"
         },
         {
@@ -19168,37 +19168,37 @@
         },
         {
           "key": "json.schema.inspection.case.insensitive.enum",
-          "cnValue": "Case insensitive matching for enum values",
+          "cnValue": "枚举值的不区分大小写匹配",
           "enValue": "Case insensitive matching for enum values"
         },
         {
           "key": "settings.json.schema.remove.mapping",
-          "cnValue": "Remove mapping",
+          "cnValue": "删除映射",
           "enValue": "Remove mapping"
         },
         {
           "key": "inspection.compliance.option.trailing.comma",
-          "cnValue": "Warn about trailing commas",
+          "cnValue": "警告尾随逗号",
           "enValue": "Warn about trailing commas"
         },
         {
           "key": "inspection.compliance.option.multiple.top.level.values",
-          "cnValue": "Warn about multiple top-level values",
+          "cnValue": "警告多个顶级值",
           "enValue": "Warn about multiple top-level values"
         },
         {
           "key": "settings.json.schema.edit.mapping",
-          "cnValue": "Edit mapping",
+          "cnValue": "编辑映射",
           "enValue": "Edit mapping"
         },
         {
           "key": "formatter.align.properties.caption",
-          "cnValue": "Align",
+          "cnValue": "对齐",
           "enValue": "Align"
         },
         {
           "key": "json.schema.file.selector.title",
-          "cnValue": "Schema file or URL:",
+          "cnValue": "Schema文件或URL:",
           "enValue": "Schema file or URL:"
         },
         {
@@ -19208,22 +19208,22 @@
         },
         {
           "key": "json.schema.add.schema.chooser.title",
-          "cnValue": "Select JSON Schema File",
+          "cnValue": "选择JSON Schema文件",
           "enValue": "Select JSON Schema File"
         },
         {
           "key": "inspection.compliance.name",
-          "cnValue": "Compliance with JSON standard",
+          "cnValue": "符合JSON标准",
           "enValue": "Compliance with JSON standard"
         },
         {
           "key": "quickfix.add.double.quotes.desc",
-          "cnValue": "Wrap with double quotes",
+          "cnValue": "用双引号括起来",
           "enValue": "Wrap with double quotes"
         },
         {
           "key": "json.schema.file.not.found",
-          "cnValue": "File not found",
+          "cnValue": "文件未找到",
           "enValue": "File not found"
         },
         {
@@ -19555,7 +19555,7 @@
         },
         {
           "key": "error.dialog.notice.label.expanded",
-          "cnValue": "<html><b>Privacy policy</b></html>",
+          "cnValue": "<html><b>隐私政策</b></html>",
           "enValue": "<html><b>Privacy policy</b></html>"
         },
         {
@@ -19575,7 +19575,7 @@
         },
         {
           "key": "error.list.message.submitting",
-          "cnValue": "Submitting...",
+          "cnValue": "提交...",
           "enValue": "Submitting..."
         },
         {
@@ -19605,22 +19605,22 @@
         },
         {
           "key": "error.dialog.foreign.plugin.warning.vendor",
-          "cnValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>{0}</a>.</html>",
+          "cnValue": "<html>这个插件不是JetBrains的产品。请报告问题 <a>{0}</a>.</html>",
           "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>{0}</a>.</html>"
         },
         {
           "key": "error.report.impossible.action",
-          "cnValue": "Report exception",
+          "cnValue": "报告异常",
           "enValue": "Report exception"
         },
         {
           "key": "error.dialog.disable.plugin.no.restart",
-          "cnValue": "Please restart the IDE to apply changes in plugin configuration.",
+          "cnValue": "请重新启动IDE以应用插件配置中的更改.",
           "enValue": "Please restart the IDE to apply changes in plugin configuration."
         },
         {
           "key": "error.dialog.notice.anonymous",
-          "cnValue": "<html>I agree to my hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains improve its products and to provide you with support service in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data.</html>",
+          "cnValue": "<html>我同意我的硬件配置, 软件配置, 产品信息以及JetBrains s.r.o使用的上述错误详细信息. (\"JetBrains\") 让JetBrains改进其产品, 并根据<a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains异常分析器</a>. 报告的异常数据预计不包含任何个人数据.</html>",
           "enValue": "<html>I agree to my hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains improve its products and to provide you with support service in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data.</html>"
         },
         {
@@ -19650,7 +19650,7 @@
         },
         {
           "key": "error.dialog.notice.named",
-          "cnValue": "<html>I agree to my names, email address, username, password, hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains associate the reported data with my account in JetBrains Exception Analyzer and make it available to me in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data except those listed above.</html>",
+          "cnValue": "<html>我同意我的姓名, 电子邮件地址, 用户名, 密码, 硬件配置, 软件配置, 产品信息以及JetBrains s.r.o使用的上述错误详细信息. (\"JetBrains \")让JetBrains将报告的数据与我在JetBrains Exception Analyzer中的帐户相关联，并根据<a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains异常分析器</a>. 报告的异常数据预计不包含除上面列出的任何个人数据. </html>",
           "enValue": "<html>I agree to my names, email address, username, password, hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains associate the reported data with my account in JetBrains Exception Analyzer and make it available to me in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data except those listed above.</html>"
         },
         {
@@ -19695,7 +19695,7 @@
         },
         {
           "key": "error.report.impossible.tooltip",
-          "cnValue": "The plugin vendor didn't implement the exception reporting component.",
+          "cnValue": "插件供应商未实现异常报告组件.",
           "enValue": "The plugin vendor didn't implement the exception reporting component."
         },
         {
@@ -19710,12 +19710,12 @@
         },
         {
           "key": "error.dialog.submit.named",
-          "cnValue": "<html>Submit as <b>{0}</b> or <a>change account</a></html>",
+          "cnValue": "<html>提交为 <b>{0}</b> or <a>变更账户</a></html>",
           "enValue": "<html>Submit as <b>{0}</b> or <a>change account</a></html>"
         },
         {
           "key": "error.dialog.foreign.plugin.warning",
-          "cnValue": "<html>This plugin is not a production of JetBrains. Please report the problem to plugin vendor.</html>",
+          "cnValue": "<html>这个插件不是JetBrains的产品。请将问题报告给插件供应商.</html>",
           "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to plugin vendor.</html>"
         },
         {
@@ -19735,7 +19735,7 @@
         },
         {
           "key": "error.dialog.attachments.prompt",
-          "cnValue": "<html>Please review the data included in this exception report:</html>",
+          "cnValue": "<html>请查看此异常报告中包含的数据:</html>",
           "enValue": "<html>Please review the data included in this exception report:</html>"
         },
         {
@@ -19765,7 +19765,7 @@
         },
         {
           "key": "error.dialog.disable.prompt.deps",
-          "cnValue": "Functionality provided by this and dependent plugins will no longer be available.",
+          "cnValue": "此插件和相关插件提供的功能将不再可用.",
           "enValue": "Functionality provided by this and dependent plugins will no longer be available."
         },
         {
@@ -19810,17 +19810,17 @@
         },
         {
           "key": "error.dialog.disable.plugin.can.restart",
-          "cnValue": "Changes in plugin configuration will take an effect after restart.",
+          "cnValue": "插件配置的更改将在重新启动后生效.",
           "enValue": "Changes in plugin configuration will take an effect after restart."
         },
         {
           "key": "diagnostic.out.of.memory.dump",
-          "cnValue": "Memory Dump",
+          "cnValue": "内存转储",
           "enValue": "Memory Dump"
         },
         {
           "key": "error.dialog.disable.prompt",
-          "cnValue": "Are you sure you want to disable plugin <b>{0}</b>?",
+          "cnValue": "您确定要禁用插件吗 <b>{0}</b>?",
           "enValue": "Are you sure you want to disable plugin <b>{0}</b>?"
         },
         {
@@ -19835,7 +19835,7 @@
         },
         {
           "key": "error.dialog.submit.anonymous",
-          "cnValue": "<html>Submit anonymously or use <a>JetBrains Account</a></html>",
+          "cnValue": "<html>匿名提交或使用 <a>JetBrains账户</a></html>",
           "enValue": "<html>Submit anonymously or use <a>JetBrains Account</a></html>"
         },
         {
@@ -19855,7 +19855,7 @@
         },
         {
           "key": "error.dialog.foreign.plugin.warning.unknown",
-          "cnValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>plugin vendor</a>.</html>",
+          "cnValue": "<html>这个插件不是JetBrains的产品。请将问题报告给<a>插件供应商</a>.</html>",
           "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>plugin vendor</a>.</html>"
         },
         {
@@ -19865,7 +19865,7 @@
         },
         {
           "key": "error.dialog.disable.prompt.lone",
-          "cnValue": "Functionality provided by the plugin will no longer be available.",
+          "cnValue": "插件提供的功能将不再可用.",
           "enValue": "Functionality provided by the plugin will no longer be available."
         },
         {
@@ -19925,7 +19925,7 @@
         },
         {
           "key": "error.dialog.notice.label",
-          "cnValue": "<html><b>By submitting this report, you agree to the terms and conditions of the privacy policy</b></html>",
+          "cnValue": "<html><b>提交此报告即表示您同意隐私政策的条款和条件</b></html>",
           "enValue": "<html><b>By submitting this report, you agree to the terms and conditions of the privacy policy</b></html>"
         },
         {
@@ -20118,7 +20118,7 @@
         },
         {
           "key": "stats.notification.content",
-          "cnValue": "<html>To improve your experience, we would like to collect data on the plugins and features you use. No personal data will be collected. An archive of a few kilobytes will be sent weekly.",
+          "cnValue": "<html>为了改善您的体验, 我们希望收集有关您使用的插件和功能的数据. 不会收集任何个人数据. 每周将发送几千字节的存档.",
           "enValue": "<html>To improve your experience, we would like to collect data on the plugins and features you use. No personal data will be collected. An archive of a few kilobytes will be sent weekly."
         },
         {
@@ -20128,7 +20128,7 @@
         },
         {
           "key": "stats.notification.title",
-          "cnValue": "<html>Help Make {0} Better",
+          "cnValue": "<html>帮助使{0}更好",
           "enValue": "<html>Help Make {0} Better"
         },
         {
@@ -20564,7 +20564,7 @@
         },
         {
           "key": "prefer.key.position",
-          "cnValue": "Prefer key position over key char with national layout",
+          "cnValue": "首选关键字符位置与国家布局的关键字符",
           "enValue": "Prefer key position over key char with national layout"
         },
         {
@@ -20860,7 +20860,7 @@
         },
         {
           "key": "color.scheme.theme.change.confirmation.title",
-          "cnValue": "Change {0} Theme",
+          "cnValue": "更改{0}主题",
           "enValue": "Change {0} Theme"
         },
         {
@@ -21020,7 +21020,7 @@
         },
         {
           "key": "checkbox.collapse.entities",
-          "cnValue": "XML entities",
+          "cnValue": "XML实体",
           "enValue": "XML entities"
         },
         {
@@ -21800,7 +21800,7 @@
         },
         {
           "key": "editor.appearance.show.chain.call.type.hints.toggle.off",
-          "cnValue": "Hide hints for chain calls",
+          "cnValue": "隐藏链式调用的提示",
           "enValue": "Hide hints for chain calls"
         },
         {
@@ -21855,7 +21855,7 @@
         },
         {
           "key": "checkbox.spaces.before.colon.in.foreach",
-          "cnValue": "Space before colon in foreach",
+          "cnValue": "foreach冒号前的空格",
           "enValue": "Space before colon in foreach"
         },
         {
@@ -22000,7 +22000,7 @@
         },
         {
           "key": "editor.appearance.show.chain.call.type.hints.toggle.on",
-          "cnValue": "Show hints for chain calls",
+          "cnValue": "显示链式调用的提示",
           "enValue": "Show hints for chain calls"
         },
         {
@@ -22050,7 +22050,7 @@
         },
         {
           "key": "checkbox.show.file.extension.in.editor.tabs",
-          "cnValue": "Show file extension",
+          "cnValue": "显示文件扩展名",
           "enValue": "Show file extension"
         },
         {
@@ -22220,7 +22220,7 @@
         },
         {
           "key": "editor.appearance.show.inferred.annotations",
-          "cnValue": "Show inferred annotations inline",
+          "cnValue": "显示内联的推断注释",
           "enValue": "Show inferred annotations inline"
         },
         {
@@ -22325,7 +22325,7 @@
         },
         {
           "key": "settings.code.style.general.default.options",
-          "cnValue": "Default Options",
+          "cnValue": "默认选项",
           "enValue": "Default Options"
         },
         {
@@ -22365,7 +22365,7 @@
         },
         {
           "key": "file.status.color.menu.reset.to.default",
-          "cnValue": "Default",
+          "cnValue": "默认",
           "enValue": "Default"
         },
         {
@@ -22455,7 +22455,7 @@
         },
         {
           "key": "checkbox.tab.exists.brackets.and.quotes",
-          "cnValue": "Jump outside closing bracket/quote with Tab",
+          "cnValue": "跳转到闭合括号/引用Tab",
           "enValue": "Jump outside closing bracket/quote with Tab"
         },
         {
@@ -22625,7 +22625,7 @@
         },
         {
           "key": "color.scheme.theme.change.confirmation",
-          "cnValue": "Looks like you have set a {0} editor color scheme.\nWould you like to set {0} theme for entire {1}?",
+          "cnValue": "看起来您已设置{0}编辑器颜色方案.\n是否要为整个{1}设置{0}主题?",
           "enValue": "Looks like you have set a {0} editor color scheme.\nWould you like to set {0} theme for entire {1}?"
         },
         {
@@ -22660,7 +22660,7 @@
         },
         {
           "key": "tabs.close.button.placement",
-          "cnValue": "Close button position:",
+          "cnValue": "关闭按钮位置:",
           "enValue": "Close button position:"
         },
         {
@@ -22765,7 +22765,7 @@
         },
         {
           "key": "file.status.color.menu.choose.color",
-          "cnValue": "Custom...",
+          "cnValue": "默认...",
           "enValue": "Custom..."
         },
         {
@@ -22830,7 +22830,7 @@
         },
         {
           "key": "editbox.autopopup.javadoc.in",
-          "cnValue": "Show the documentation popup in",
+          "cnValue": "显示文档弹出窗口",
           "enValue": "Show the documentation popup in"
         },
         {
@@ -23015,7 +23015,7 @@
         },
         {
           "key": "editor.appearance.show.chain.call.type.hints",
-          "cnValue": "Show chain call type hints",
+          "cnValue": "显示链调用类型提示",
           "enValue": "Show chain call type hints"
         },
         {
@@ -23045,7 +23045,7 @@
         },
         {
           "key": "settings.editor.console.font.overwrite",
-          "cnValue": "Use console font instead of the",
+          "cnValue": "使用控制台字体而不是",
           "enValue": "Use console font instead of the"
         },
         {
@@ -23315,7 +23315,7 @@
         },
         {
           "key": "settings.default.value.prefix",
-          "cnValue": "Default: {0}",
+          "cnValue": "默认: {0}",
           "enValue": "Default: {0}"
         },
         {
@@ -23390,7 +23390,7 @@
         },
         {
           "key": "checkbox.show.directory.for.non.unique.files",
-          "cnValue": "Show directory for non-unique file names",
+          "cnValue": "显示非唯一文件名的目录",
           "enValue": "Show directory for non-unique file names"
         },
         {
@@ -23500,7 +23500,7 @@
         },
         {
           "key": "wrapping.case.statements.on.one.line",
-          "cnValue": "'case' on new line",
+          "cnValue": "'case' 在新行",
           "enValue": "'case' on new line"
         },
         {
@@ -23575,7 +23575,7 @@
         },
         {
           "key": "editor.appearance.show.external.annotations",
-          "cnValue": "Show external annotations inline",
+          "cnValue": "内联显示外部注释",
           "enValue": "Show external annotations inline"
         },
         {
@@ -23620,7 +23620,7 @@
         },
         {
           "key": "settings.editor.font.overwrite",
-          "cnValue": "Use color scheme font instead of the",
+          "cnValue": "使用颜色方案字体而不是",
           "enValue": "Use color scheme font instead of the"
         },
         {
@@ -24135,7 +24135,7 @@
         },
         {
           "key": "settings.code.style.general.indents.detection",
-          "cnValue": "Indents Detection",
+          "cnValue": "缩进检测",
           "enValue": "Indents Detection"
         },
         {
@@ -24470,7 +24470,7 @@
         },
         {
           "key": "checkbox.smart.tab.reuse.inline.help",
-          "cnValue": "When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes.",
+          "cnValue": "导航到方法/类/变量声明时, 如果没有更改，包含声明的源文件将替换当前选项卡.",
           "enValue": "When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes."
         },
         {
@@ -31629,7 +31629,7 @@
         },
         {
           "key": "patch.apply.conflict.patched.somehow.version",
-          "cnValue": "Result",
+          "cnValue": "结果",
           "enValue": "Result"
         },
         {
@@ -32124,7 +32124,7 @@
         },
         {
           "key": "column.name.revision.list.date",
-          "cnValue": "Date",
+          "cnValue": "日期",
           "enValue": "Date"
         },
         {
@@ -32384,7 +32384,7 @@
         },
         {
           "key": "executable.project.override.reset.message",
-          "cnValue": "Path to executable configured for this project can be set as the global path for all projects or reverted to the current global executable",
+          "cnValue": "为此项目配置的可执行文件的路径可以设置为所有项目的全局路径, 也可以还原为当前的全局可执行文件",
           "enValue": "Path to executable configured for this project can be set as the global path for all projects or reverted to the current global executable"
         },
         {
@@ -32509,7 +32509,7 @@
         },
         {
           "key": "executable.test",
-          "cnValue": "Test",
+          "cnValue": "测试",
           "enValue": "Test"
         },
         {
@@ -32574,7 +32574,7 @@
         },
         {
           "key": "executable.project.override.reset.title",
-          "cnValue": "Project Executable",
+          "cnValue": "项目可执行文件",
           "enValue": "Project Executable"
         },
         {
@@ -32594,7 +32594,7 @@
         },
         {
           "key": "executable.select.title",
-          "cnValue": "Select Executable",
+          "cnValue": "选择可执行文件",
           "enValue": "Select Executable"
         },
         {
@@ -32664,7 +32664,7 @@
         },
         {
           "key": "patch.apply.conflict.patch",
-          "cnValue": "Patch",
+          "cnValue": "补丁",
           "enValue": "Patch"
         },
         {
@@ -32724,7 +32724,7 @@
         },
         {
           "key": "executable.project.override.reset.revert",
-          "cnValue": "Revert",
+          "cnValue": "还原",
           "enValue": "Revert"
         },
         {
@@ -39686,7 +39686,7 @@
         },
         {
           "key": "local.history.remove.orphan.modules",
-          "cnValue": "Remove orphan modules after import",
+          "cnValue": "导入后删除孤儿模块",
           "enValue": "Remove orphan modules after import"
         },
         {
@@ -39721,12 +39721,12 @@
         },
         {
           "key": "orphan.modules.dialog.title",
-          "cnValue": "Orphan Modules",
+          "cnValue": "孤儿模块",
           "enValue": "Orphan Modules"
         },
         {
           "key": "debugger.status.connected",
-          "cnValue": "Connected to the VM started by ''{0}'' {1}",
+          "cnValue": "已连接到由 ''{0}'' {1} 启动的VM",
           "enValue": "Connected to the VM started by ''{0}'' {1}"
         },
         {
@@ -39786,7 +39786,7 @@
         },
         {
           "key": "orphan.modules.dialog.text",
-          "cnValue": "<html>The modules below were removed from the project.<br/>Select the ones you need to restore.<html>",
+          "cnValue": "<html>以下模块已从项目中删除.<br/>选择您需要还原的那些.<html>",
           "enValue": "<html>The modules below were removed from the project.<br/>Select the ones you need to restore.<html>"
         },
         {
@@ -39841,7 +39841,7 @@
         },
         {
           "key": "notification.project.build.fail.title",
-          "cnValue": "{0} ''{1}'' project build failed",
+          "cnValue": "{0}' '{1}'' 项目构建失败",
           "enValue": "{0} ''{1}'' project build failed"
         },
         {
@@ -39981,12 +39981,12 @@
         },
         {
           "key": "external.system.java.home.env",
-          "cnValue": "Use JAVA_HOME",
+          "cnValue": "使用 JAVA_HOME",
           "enValue": "Use JAVA_HOME"
         },
         {
           "key": "external.system.java.internal.jre",
-          "cnValue": "Use Internal JRE",
+          "cnValue": "使用内部JRE",
           "enValue": "Use Internal JRE"
         },
         {
@@ -39996,7 +39996,7 @@
         },
         {
           "key": "debugger.open.session.tab",
-          "cnValue": "Open the debugger session tab",
+          "cnValue": "打开调试器会话选项卡",
           "enValue": "Open the debugger session tab"
         },
         {
@@ -40232,7 +40232,7 @@
         },
         {
           "key": "action.module.dependencies.tests",
-          "cnValue": "Include Test Dependencies",
+          "cnValue": "引入测试依赖关系",
           "enValue": "Include Test Dependencies"
         },
         {
@@ -40407,7 +40407,7 @@
         },
         {
           "key": "scope.option.uncommitted.files",
-          "cnValue": "&Uncommitted files",
+          "cnValue": "未提交的文件 (&U)",
           "enValue": "&Uncommitted files"
         },
         {
@@ -40719,7 +40719,7 @@
         },
         {
           "key": "default.visibility.presentation",
-          "cnValue": "default",
+          "cnValue": "默认",
           "enValue": "default"
         },
         {
@@ -41280,7 +41280,7 @@
         },
         {
           "key": "inspection.wrapper.type.may.be.primitive.fix.name",
-          "cnValue": "Convert wrapper type to primitive",
+          "cnValue": "转换包装器类型为基元",
           "enValue": "Convert wrapper type to primitive"
         },
         {
@@ -41430,7 +41430,7 @@
         },
         {
           "key": "inspection.class.getclass.fix.replace.name",
-          "cnValue": "Replace with 'Class.class'",
+          "cnValue": "用 'Class.class' 替换",
           "enValue": "Replace with 'Class.class'"
         },
         {
@@ -43490,7 +43490,7 @@
         },
         {
           "key": "inspection.redundant.comparator.comparing.fix.remove.name",
-          "cnValue": "Remove ''{0}()'' call",
+          "cnValue": "移除 ''{0}()'' 调用",
           "enValue": "Remove ''{0}()'' call"
         },
         {
@@ -44770,7 +44770,7 @@
         },
         {
           "key": "inspection.conditional.break.in.infinite.loop",
-          "cnValue": "Move condition to loop",
+          "cnValue": "将条件移动到循环",
           "enValue": "Move condition to loop"
         },
         {
@@ -44900,7 +44900,7 @@
         },
         {
           "key": "inspection.edit.severities.text",
-          "cnValue": "Edit severities...",
+          "cnValue": "编辑 severities...",
           "enValue": "Edit severities..."
         },
         {
@@ -44920,12 +44920,12 @@
         },
         {
           "key": "inspection.redundant.comparator.comparing.fix.replace.name",
-          "cnValue": "Remove ''{0}()'' call and use ''{1}()''",
+          "cnValue": "移除 ''{0}()'' 调用和使用 ''{1}()''",
           "enValue": "Remove ''{0}()'' call and use ''{1}()''"
         },
         {
           "key": "inspection.visibility.private.inner.members",
-          "cnValue": "<html>Suggest private for inner class members when referenced from outer class only</html>",
+          "cnValue": "<html>仅在从外部类引用时为内部类成员建议private</html>",
           "enValue": "<html>Suggest private for inner class members when referenced from outer class only</html>"
         },
         {
@@ -44975,7 +44975,7 @@
         },
         {
           "key": "inspection.undeclared.service.usage.name",
-          "cnValue": "Usage of service not declared in module-info",
+          "cnValue": "未在module-info中声明的服务的使用",
           "enValue": "Usage of service not declared in module-info"
         },
         {
@@ -45095,7 +45095,7 @@
         },
         {
           "key": "dataflow.message.contract.fail",
-          "cnValue": "The call to '#ref' always fails, according to its method contracts",
+          "cnValue": "根据方法合同，对'#ref'的调用总是失败",
           "enValue": "The call to '#ref' always fails, according to its method contracts"
         },
         {
@@ -45145,7 +45145,7 @@
         },
         {
           "key": "inspection.redundant.null.check.fix.family.name",
-          "cnValue": "Remove redundant null-check",
+          "cnValue": "删除冗余的null检查",
           "enValue": "Remove redundant null-check"
         },
         {
@@ -45245,7 +45245,7 @@
         },
         {
           "key": "inspection.redundant.explicit.close.fix.name",
-          "cnValue": "Remove redundant close",
+          "cnValue": "删除冗余的关闭",
           "enValue": "Remove redundant close"
         },
         {
@@ -45265,7 +45265,7 @@
         },
         {
           "key": "inspection.redundant.comparator.comparing.fix.family.name",
-          "cnValue": "Remove redundant call",
+          "cnValue": "删除冗余的调用",
           "enValue": "Remove redundant call"
         },
         {
@@ -45345,7 +45345,7 @@
         },
         {
           "key": "inspection.class.getclass.fix.remove.name",
-          "cnValue": "Remove 'getClass()' call",
+          "cnValue": "移除 'getClass()' 调用",
           "enValue": "Remove 'getClass()' call"
         },
         {
@@ -45511,7 +45511,7 @@
         },
         {
           "key": "sm.test.runner.ui.tests.tree.presentation.labels.all.but.ignored.passed",
-          "cnValue": "All Tests Passed (except ignored)",
+          "cnValue": "所有测试通过 (忽略除外)",
           "enValue": "All Tests Passed (except ignored)"
         },
         {
@@ -45577,22 +45577,22 @@
       "props": [
         {
           "key": "auth.password",
-          "cnValue": "Password",
+          "cnValue": "密码",
           "enValue": "Password"
         },
         {
           "key": "auth.keypair.note",
-          "cnValue": "OpenSSH or PuTTY",
+          "cnValue": "OpenSSH 或 PuTTY",
           "enValue": "OpenSSH or PuTTY"
         },
         {
           "key": "auth.openssh",
-          "cnValue": "OpenSSH config and authentication agent",
+          "cnValue": "OpenSSH配置和身份验证代理",
           "enValue": "OpenSSH config and authentication agent"
         },
         {
           "key": "auth.keypair",
-          "cnValue": "Key pair",
+          "cnValue": "钥匙对",
           "enValue": "Key pair"
         }
       ]
@@ -45793,7 +45793,7 @@
         },
         {
           "key": "find.replace.this.file.action",
-          "cnValue": "Replace All in This &File",
+          "cnValue": "在当前文件中替换全部 (&F)",
           "enValue": "Replace All in This &File"
         },
         {
@@ -45918,7 +45918,7 @@
         },
         {
           "key": "find.replace.skip.this.file.action",
-          "cnValue": "&Skip This File",
+          "cnValue": "跳过当前文件 (&S)",
           "enValue": "&Skip This File"
         },
         {
@@ -45983,7 +45983,7 @@
         },
         {
           "key": "find.what.implicit.to.string.checkbox",
-          "cnValue": "I&mplicit calls",
+          "cnValue": "隐式调用 (&M)",
           "enValue": "I&mplicit calls"
         },
         {
@@ -46313,7 +46313,7 @@
         },
         {
           "key": "find.recursively.hint",
-          "cnValue": "Search recursively in directory",
+          "cnValue": "在目录中递归搜索",
           "enValue": "Search recursively in directory"
         },
         {
@@ -47160,7 +47160,7 @@
         },
         {
           "key": "button.accept",
-          "cnValue": "Accept",
+          "cnValue": "接受",
           "enValue": "Accept"
         },
         {
@@ -47365,7 +47365,7 @@
         },
         {
           "key": "undo.conflicting.change.confirmation.message",
-          "cnValue": "Other files affected by this action have been already changed.",
+          "cnValue": "受此操作影响的其它文件已更改.",
           "enValue": "Other files affected by this action have been already changed."
         },
         {
@@ -47717,7 +47717,7 @@
         },
         {
           "key": "header.reference.invalid",
-          "cnValue": "Invalid reference",
+          "cnValue": "引用无效",
           "enValue": "Invalid reference"
         },
         {
@@ -51184,7 +51184,7 @@
         },
         {
           "key": "action.ToggleReadOnlyAttribute.dirs",
-          "cnValue": "使 {3,choice,1#目录|2#目录} {0,choice,0#只读|1#可写}",
+          "cnValue": "Make {3,choice,1#Directory|2#Directories} {0,choice,0#Read-only|1#Writeable}",
           "enValue": "Make {3,choice,1#Directory|2#Directories} {0,choice,0#Read-only|1#Writeable}"
         },
         {
@@ -55874,11 +55874,6 @@
           "enValue": "General"
         },
         {
-          "key": "plugins.auto.switch.action.name",
-          "cnValue": "Undo",
-          "enValue": "Undo"
-        },
-        {
           "key": "run.anything.console.title",
           "cnValue": "Run anything command",
           "enValue": "Run anything command"
@@ -55909,49 +55904,9 @@
           "enValue": "Chrome"
         },
         {
-          "key": "checkbox.disabled.included",
-          "cnValue": "Include &disabled actions",
-          "enValue": "Include &disabled actions"
-        },
-        {
-          "key": "update.snap.message.with.blog.post",
-          "cnValue": "The IDE has been updated by Snap. <a href=\"{0}\">Blog post</a>.",
-          "enValue": "The IDE has been updated by Snap. <a href=\"{0}\">Blog post</a>."
-        },
-        {
           "key": "about.box.powered.by",
           "cnValue": "Powered by ",
           "enValue": "Powered by "
-        },
-        {
-          "key": "run.anything.ad.run.in.context",
-          "cnValue": "Press {0} to run in the current file context",
-          "enValue": "Press {0} to run in the current file context"
-        },
-        {
-          "key": "third.party.plugins.privacy.note.title",
-          "cnValue": "Third-party Plugins Privacy Note",
-          "enValue": "Third-party Plugins Privacy Note"
-        },
-        {
-          "key": "sys.health.acknowledge.action",
-          "cnValue": "Don't Show Again",
-          "enValue": "Don't Show Again"
-        },
-        {
-          "key": "change.memory.title",
-          "cnValue": "Memory Settings Dialog",
-          "enValue": "Memory Settings Dialog"
-        },
-        {
-          "key": "run.anything.group.settings.title",
-          "cnValue": "Show ''{0}''",
-          "enValue": "Show ''{0}''"
-        },
-        {
-          "key": "searcheverywhere.nothing.found.for.all",
-          "cnValue": "Nothing found.",
-          "enValue": "Nothing found."
         },
         {
           "key": "searcheverywhere.allelements.tab.name",
@@ -55959,24 +55914,9 @@
           "enValue": "All"
         },
         {
-          "key": "searcheverywhere.found.targets.title",
-          "cnValue": "Unsorted results",
-          "enValue": "Unsorted results"
-        },
-        {
-          "key": "updates.no.updates.toolbox.message",
-          "cnValue": "<html>All plugins are up to date.<br> {0} updates are managed by Toolbox App.<br> Launch it to check if updates are available.</html>",
-          "enValue": "<html>All plugins are up to date.<br> {0} updates are managed by Toolbox App.<br> Launch it to check if updates are available.</html>"
-        },
-        {
           "key": "go.to.class.kind.text",
           "cnValue": "class",
           "enValue": "class"
-        },
-        {
-          "key": "message.plugin.license.expired.shutdown",
-          "cnValue": "Your plugin license has expired. Plugin {0} will be disabled.",
-          "enValue": "Your plugin license has expired. Plugin {0} will be disabled."
         },
         {
           "key": "browsers.safari",
@@ -55989,39 +55929,9 @@
           "enValue": "IntelliJ"
         },
         {
-          "key": "run.anything.run.debug.title",
-          "cnValue": "Debug:",
-          "enValue": "Debug:"
-        },
-        {
-          "key": "change.memory.large",
-          "cnValue": "The value should be less than 800 for 32 bit system.",
-          "enValue": "The value should be less than 800 for 32 bit system."
-        },
-        {
-          "key": "plugins.auto.enabled.notification.content",
-          "cnValue": "{0} and {1} plugins are enabled.",
-          "enValue": "{0} and {1} plugins are enabled."
-        },
-        {
-          "key": "run.anything.ad.run.with.debug",
-          "cnValue": "{0} to debug",
-          "enValue": "{0} to debug"
-        },
-        {
           "key": "about.box.jre",
           "cnValue": "JRE: {0} {1}",
           "enValue": "JRE: {0} {1}"
-        },
-        {
-          "key": "low.memory.notification.title",
-          "cnValue": "Low Memory",
-          "enValue": "Low Memory"
-        },
-        {
-          "key": "updates.no.updates.snaps.message",
-          "cnValue": "<html>All plugins are up to date.<br> {0} updates are managed by Snaps.<br> Run the 'snap refresh' command to check for updates.</html>",
-          "enValue": "<html>All plugins are up to date.<br> {0} updates are managed by Snaps.<br> Run the 'snap refresh' command to check for updates.</html>"
         },
         {
           "key": "run.anything.custom.activity.notification.group.id",
@@ -56034,11 +55944,6 @@
           "enValue": "IDE:"
         },
         {
-          "key": "low.memory.notification.action",
-          "cnValue": "Configure",
-          "enValue": "Configure"
-        },
-        {
           "key": "browsers.explorer",
           "cnValue": "Internet Explorer",
           "enValue": "Internet Explorer"
@@ -56047,101 +55952,6 @@
           "key": "browsers.firefox",
           "cnValue": "Firefox",
           "enValue": "Firefox"
-        },
-        {
-          "key": "run.anything.run.in.context.title",
-          "cnValue": "Run in Context:",
-          "enValue": "Run in Context:"
-        },
-        {
-          "key": "change.memory.usage",
-          "cnValue": "High memory usage detected (free {0} of {1} MB)",
-          "enValue": "High memory usage detected (free {0} of {1} MB)"
-        },
-        {
-          "key": "plugins.auto.enabled.notification.title",
-          "cnValue": "Required plugins are enabled",
-          "enValue": "Required plugins are enabled"
-        },
-        {
-          "key": "change.memory.restart",
-          "cnValue": "Memory settings will be applied after restart.",
-          "enValue": "Memory settings will be applied after restart."
-        },
-        {
-          "key": "searcheverywhere.nothing.found.for.contributor",
-          "cnValue": "No {0} found.",
-          "enValue": "No {0} found."
-        },
-        {
-          "key": "title.plugin.evaluation.license.expired",
-          "cnValue": "Plugin {0} Evaluation License Expired",
-          "enValue": "Plugin {0} Evaluation License Expired"
-        },
-        {
-          "key": "run.anything.group.title.commands",
-          "cnValue": "Recent commands",
-          "enValue": "Recent commands"
-        },
-        {
-          "key": "vmoptions.warn.message",
-          "cnValue": "Code cache size of {0} MB is too low. Increase it to {1} MB or more to avoid performance issues.",
-          "enValue": "Code cache size of {0} MB is too low. Increase it to {1} MB or more to avoid performance issues."
-        },
-        {
-          "key": "searcheverywhere.found.matches.title",
-          "cnValue": "Found matches for pattern ''{0}'' in [{1}]",
-          "enValue": "Found matches for pattern ''{0}'' in [{1}]"
-        },
-        {
-          "key": "run.anything.actions.undefined",
-          "cnValue": "Undefined",
-          "enValue": "Undefined"
-        },
-        {
-          "key": "run.anything.console.process.finished",
-          "cnValue": "\nProcess finished with exit code {0}.",
-          "enValue": "\nProcess finished with exit code {0}."
-        },
-        {
-          "key": "plugins.auto.disabled.notification.title",
-          "cnValue": "Dependent plugins are disabled",
-          "enValue": "Dependent plugins are disabled"
-        },
-        {
-          "key": "checkboox.dark.window.headers",
-          "cnValue": "Use dark window headers",
-          "enValue": "Use dark window headers"
-        },
-        {
-          "key": "run.anything.run.configurations.group.title",
-          "cnValue": "Run configurations",
-          "enValue": "Run configurations"
-        },
-        {
-          "key": "checkbox.show.welcome.screen",
-          "cnValue": "Show Welcome screen",
-          "enValue": "Show Welcome screen"
-        },
-        {
-          "key": "title.plugin.license.expired",
-          "cnValue": "Plugin {0} License Expired",
-          "enValue": "Plugin {0} License Expired"
-        },
-        {
-          "key": "new.plugin.manager.incompatible.deps.tooltip",
-          "cnValue": "Not loaded. The required {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} disabled.",
-          "enValue": "Not loaded. The required {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} disabled."
-        },
-        {
-          "key": "updates.settings.external",
-          "cnValue": "IDE updates are managed externally by {0}",
-          "enValue": "IDE updates are managed externally by {0}"
-        },
-        {
-          "key": "run.anything.main.list.empty.primary.text",
-          "cnValue": "Run command or configuration",
-          "enValue": "Run command or configuration"
         },
         {
           "key": "action.create.new.module-info.title",
@@ -56162,21 +55972,6 @@
           "key": "action.compact.directories.text",
           "cnValue": "Compact Directories",
           "enValue": "Compact Directories"
-        },
-        {
-          "key": "ide.sigint.ignored.message",
-          "cnValue": "The IDE ignores SIGINT: the \"Stop\" button in run configurations may not work.",
-          "enValue": "The IDE ignores SIGINT: the \"Stop\" button in run configurations may not work."
-        },
-        {
-          "key": "vmoptions.edit.action",
-          "cnValue": "Edit Custom VM Options",
-          "enValue": "Edit Custom VM Options"
-        },
-        {
-          "key": "updates.version.info",
-          "cnValue": "{0} (build {1})",
-          "enValue": "{0} (build {1})"
         }
       ]
     },
@@ -56185,24 +55980,9 @@
       "name": "RefactoringBundle.properties",
       "props": [
         {
-          "key": "related.file",
-          "cnValue": "Related file",
-          "enValue": "Related file"
-        },
-        {
-          "key": "type.cook.ratio.generified",
-          "cnValue": "{0,choice,-1#not calculated|0#{0,number} of {1}}",
-          "enValue": "{0,choice,-1#not calculated|0#{0,number} of {1}}"
-        },
-        {
           "key": "encapsulate.fields.field.column.name",
           "cnValue": "Field",
           "enValue": "Field"
-        },
-        {
-          "key": "refactoring.extract.method.dialog.duplicates.pending",
-          "cnValue": "Searching for duplicates...",
-          "enValue": "Searching for duplicates..."
         },
         {
           "key": "interface.description",
@@ -56220,54 +56000,9 @@
           "enValue": "Setter"
         },
         {
-          "key": "refactoring.cannot.be.applied.to.native.methods",
-          "cnValue": "{0} refactoring cannot be applied to native methods",
-          "enValue": "{0} refactoring cannot be applied to native methods"
-        },
-        {
           "key": "auto.rename.module.entity",
           "cnValue": "Java Module",
           "enValue": "Java Module"
-        },
-        {
-          "key": "refactoring.extract.method.preview.group.duplicates",
-          "cnValue": "Duplicate code fragments",
-          "enValue": "Duplicate code fragments"
-        },
-        {
-          "key": "refactoring.extract.method.dialog.duplicates.progress",
-          "cnValue": "Searching for Duplicates",
-          "enValue": "Searching for Duplicates"
-        },
-        {
-          "key": "generate.module.descriptors.build.required.message",
-          "cnValue": "Couldn't generate module descriptors because the project hasn't been built yet",
-          "enValue": "Couldn't generate module descriptors because the project hasn't been built yet"
-        },
-        {
-          "key": "generate.module.descriptors.preparing.message",
-          "cnValue": "Preparing Code",
-          "enValue": "Preparing Code"
-        },
-        {
-          "key": "enum.description",
-          "cnValue": "enum {0}",
-          "enValue": "enum {0}"
-        },
-        {
-          "key": "refactoring.extract.method.preview.button.refactor",
-          "cnValue": "&Do Refactor",
-          "enValue": "&Do Refactor"
-        },
-        {
-          "key": "auto.rename.module.dialog.description",
-          "cnValue": "Rename Java modules with the following names to:",
-          "enValue": "Rename Java modules with the following names to:"
-        },
-        {
-          "key": "generate.module.descriptors.scanning.message",
-          "cnValue": "Scanning Compiler Output",
-          "enValue": "Scanning Compiler Output"
         },
         {
           "key": "extractSuperInterface.javadoc",
@@ -56280,44 +56015,9 @@
           "enValue": "Getter"
         },
         {
-          "key": "all.invocations.keep.the.method",
-          "cnValue": "Inline all and k&eep the method",
-          "enValue": "Inline all and k&eep the method"
-        },
-        {
-          "key": "generate.module.descriptors.title",
-          "cnValue": "Generate Module Descriptors",
-          "enValue": "Generate Module Descriptors"
-        },
-        {
-          "key": "safe.delete.conflict.title",
-          "cnValue": "Potentially unsafe to delete references found in code",
-          "enValue": "Potentially unsafe to delete references found in code"
-        },
-        {
-          "key": "generate.module.descriptors.analysing.message",
-          "cnValue": "Analysing Dependencies",
-          "enValue": "Analysing Dependencies"
-        },
-        {
-          "key": "all.references.keep.field",
-          "cnValue": "Inline all and k&eep the field",
-          "enValue": "Inline all and k&eep the field"
-        },
-        {
-          "key": "generate.module.descriptors.no.suitable.modules.message",
-          "cnValue": "Found no modules which may contain module-info",
-          "enValue": "Found no modules which may contain module-info"
-        },
-        {
           "key": "occurences.string",
           "cnValue": "({0,choice,1#1 occurrence|2#{0,number} occurrences})",
           "enValue": "({0,choice,1#1 occurrence|2#{0,number} occurrences})"
-        },
-        {
-          "key": "generate.module.descriptors.collecting.message",
-          "cnValue": "Collecting Dependencies",
-          "enValue": "Collecting Dependencies"
         },
         {
           "key": "occurrences.string",
@@ -56328,31 +56028,6 @@
           "key": "generate.module.descriptors.rebuild.message",
           "cnValue": "The project needs to be built for better accuracy of dependencies calculation. \nStart the build before generating module-info descriptors?",
           "enValue": "The project needs to be built for better accuracy of dependencies calculation. \nStart the build before generating module-info descriptors?"
-        },
-        {
-          "key": "generate.module.descriptors.command.title",
-          "cnValue": "Generate module-info Descriptors",
-          "enValue": "Generate module-info Descriptors"
-        },
-        {
-          "key": "refactoring.extract.method.preview.group.original",
-          "cnValue": "Original code fragment",
-          "enValue": "Original code fragment"
-        },
-        {
-          "key": "auto.rename.module.dialog.title",
-          "cnValue": "Rename Java Modules",
-          "enValue": "Rename Java Modules"
-        },
-        {
-          "key": "refactoring.extract.method.preview.button.rerun",
-          "cnValue": "R&erun Refactoring",
-          "enValue": "R&erun Refactoring"
-        },
-        {
-          "key": "refactoring.extract.method.preview.group.method",
-          "cnValue": "Method to extract",
-          "enValue": "Method to extract"
         }
       ]
     },
@@ -56386,11 +56061,6 @@
       "path": "/messages/OptionsBundle.properties",
       "name": "OptionsBundle.properties",
       "props": [
-        {
-          "key": "options.general.color.descriptor.vcs.diff.type.tag.prefix",
-          "cnValue": "Changed lines//",
-          "enValue": "Changed lines//"
-        },
         {
           "key": "configurable.group.other.settings.weight",
           "cnValue": "-10",
@@ -56609,11 +56279,6 @@
       "name": "SSRBundle.properties",
       "props": [
         {
-          "key": "predefined.configuration.assert.without.description",
-          "cnValue": "assert statement without description",
-          "enValue": "assert statement without description"
-        },
-        {
           "key": "predefined.configuration.ejb.interface",
           "cnValue": "ejb interface",
           "enValue": "ejb interface"
@@ -56765,11 +56430,6 @@
           "enValue": "Group By"
         },
         {
-          "key": "application.configuration.include.provided.scope",
-          "cnValue": "Include dependencies with \"Provided\" scope",
-          "enValue": "Include dependencies with \"Provided\" scope"
-        },
-        {
           "key": "junit.configuration.display.name",
           "cnValue": "JUnit",
           "enValue": "JUnit"
@@ -56815,11 +56475,6 @@
           "enValue": "URL"
         },
         {
-          "key": "add.new.run.configuration.action2.name",
-          "cnValue": "Add New Configuration",
-          "enValue": "Add New Configuration"
-        },
-        {
           "key": "junit.runing.info.passed.count.message",
           "cnValue": "P:{0}",
           "enValue": "P:{0}"
@@ -56827,75 +56482,9 @@
       ]
     },
     {
-      "path": "/messages/DiffBundle.properties",
-      "name": "DiffBundle.properties",
-      "props": [
-        {
-          "key": "merge.version.title.base",
-          "cnValue": "Base version",
-          "enValue": "Base version"
-        },
-        {
-          "key": "merge.version.title.merged",
-          "cnValue": "Merged version",
-          "enValue": "Merged version"
-        },
-        {
-          "key": "merge.version.title.their.with.revision",
-          "cnValue": "Changes from server (revision {0})",
-          "enValue": "Changes from server (revision {0})"
-        },
-        {
-          "key": "merge.version.title.their",
-          "cnValue": "Changes from server",
-          "enValue": "Changes from server"
-        },
-        {
-          "key": "merge.version.title.our",
-          "cnValue": "Your version",
-          "enValue": "Your version"
-        },
-        {
-          "key": "merge.version.title.merged.result",
-          "cnValue": "Result",
-          "enValue": "Result"
-        },
-        {
-          "key": "diff.inactive.count.differences.status.text",
-          "cnValue": "({0} inactive)",
-          "enValue": "({0} inactive)"
-        }
-      ]
-    },
-    {
       "path": "/com/intellij/spellchecker/util/SpellCheckerBundle.properties",
       "name": "SpellCheckerBundle.properties",
       "props": [
-        {
-          "key": "use.single.dictionary",
-          "cnValue": "Use single dictionary for saving words",
-          "enValue": "Use single dictionary for saving words"
-        },
-        {
-          "key": "save.0.to.1",
-          "cnValue": "Save {0} to {1}",
-          "enValue": "Save {0} to {1}"
-        },
-        {
-          "key": "no.custom.dictionaries",
-          "cnValue": "No custom dictionaries",
-          "enValue": "No custom dictionaries"
-        },
-        {
-          "key": "add.dictionary.description",
-          "cnValue": "Add custom dictionaries: plain text word lists",
-          "enValue": "Add custom dictionaries: plain text word lists"
-        },
-        {
-          "key": "add.custom.dictionaries",
-          "cnValue": "Add custom dictionaries",
-          "enValue": "Add custom dictionaries"
-        },
         {
           "key": "words.list.dictionary",
           "cnValue": "word list",
@@ -57154,84 +56743,14 @@
       "name": "JsonBundle.properties",
       "props": [
         {
-          "key": "json.schema.conflicting.mappings",
-          "cnValue": "Warning: conflicting mappings. <a href=\"#\">Show details</a>",
-          "enValue": "Warning: conflicting mappings. <a href=\"#\">Show details</a>"
-        },
-        {
-          "key": "inspection.compliance.msg.trailing.comma",
-          "cnValue": "JSON standard does not allow trailing comma",
-          "enValue": "JSON standard does not allow trailing comma"
-        },
-        {
           "key": "surround.with.object.literal.desc",
           "cnValue": "object literal",
           "enValue": "object literal"
         },
         {
-          "key": "syntax.error.illegal.unicode.escape.sequence",
-          "cnValue": "Illegal unicode escape sequence",
-          "enValue": "Illegal unicode escape sequence"
-        },
-        {
-          "key": "json.schema.inspection.case.insensitive.enum",
-          "cnValue": "Case insensitive matching for enum values",
-          "enValue": "Case insensitive matching for enum values"
-        },
-        {
-          "key": "settings.json.schema.remove.mapping",
-          "cnValue": "Remove mapping",
-          "enValue": "Remove mapping"
-        },
-        {
-          "key": "inspection.compliance.option.trailing.comma",
-          "cnValue": "Warn about trailing commas",
-          "enValue": "Warn about trailing commas"
-        },
-        {
-          "key": "inspection.compliance.option.multiple.top.level.values",
-          "cnValue": "Warn about multiple top-level values",
-          "enValue": "Warn about multiple top-level values"
-        },
-        {
-          "key": "settings.json.schema.edit.mapping",
-          "cnValue": "Edit mapping",
-          "enValue": "Edit mapping"
-        },
-        {
-          "key": "formatter.align.properties.caption",
-          "cnValue": "Align",
-          "enValue": "Align"
-        },
-        {
-          "key": "json.schema.file.selector.title",
-          "cnValue": "Schema file or URL:",
-          "enValue": "Schema file or URL:"
-        },
-        {
           "key": "json.template.context.type",
           "cnValue": "JSON",
           "enValue": "JSON"
-        },
-        {
-          "key": "json.schema.add.schema.chooser.title",
-          "cnValue": "Select JSON Schema File",
-          "enValue": "Select JSON Schema File"
-        },
-        {
-          "key": "inspection.compliance.name",
-          "cnValue": "Compliance with JSON standard",
-          "enValue": "Compliance with JSON standard"
-        },
-        {
-          "key": "quickfix.add.double.quotes.desc",
-          "cnValue": "Wrap with double quotes",
-          "enValue": "Wrap with double quotes"
-        },
-        {
-          "key": "json.schema.file.not.found",
-          "cnValue": "File not found",
-          "enValue": "File not found"
         },
         {
           "key": "formatter.align.properties.on.colon",
@@ -57351,107 +56870,6 @@
       ]
     },
     {
-      "path": "/messages/DiagnosticBundle.properties",
-      "name": "DiagnosticBundle.properties",
-      "props": [
-        {
-          "key": "error.dialog.notice.label.expanded",
-          "cnValue": "<html><b>Privacy policy</b></html>",
-          "enValue": "<html><b>Privacy policy</b></html>"
-        },
-        {
-          "key": "error.list.message.submitting",
-          "cnValue": "Submitting...",
-          "enValue": "Submitting..."
-        },
-        {
-          "key": "error.dialog.foreign.plugin.warning.vendor",
-          "cnValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>{0}</a>.</html>",
-          "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>{0}</a>.</html>"
-        },
-        {
-          "key": "error.report.impossible.action",
-          "cnValue": "Report exception",
-          "enValue": "Report exception"
-        },
-        {
-          "key": "error.dialog.disable.plugin.no.restart",
-          "cnValue": "Please restart the IDE to apply changes in plugin configuration.",
-          "enValue": "Please restart the IDE to apply changes in plugin configuration."
-        },
-        {
-          "key": "error.dialog.notice.anonymous",
-          "cnValue": "<html>I agree to my hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains improve its products and to provide you with support service in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data.</html>",
-          "enValue": "<html>I agree to my hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains improve its products and to provide you with support service in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data.</html>"
-        },
-        {
-          "key": "error.dialog.notice.named",
-          "cnValue": "<html>I agree to my names, email address, username, password, hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains associate the reported data with my account in JetBrains Exception Analyzer and make it available to me in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data except those listed above.</html>",
-          "enValue": "<html>I agree to my names, email address, username, password, hardware configuration, software configuration, product information, and the error details shown above being used by JetBrains s.r.o. (\"JetBrains\") to let JetBrains associate the reported data with my account in JetBrains Exception Analyzer and make it available to me in accordance with the end-user agreement of <a href=\"https://www.jetbrains.com/legal/agreements/exception_analyzer.html\">JetBrains Exception Analyzer</a>. The reported exception data are not expected to contain any personal data except those listed above.</html>"
-        },
-        {
-          "key": "error.report.impossible.tooltip",
-          "cnValue": "The plugin vendor didn't implement the exception reporting component.",
-          "enValue": "The plugin vendor didn't implement the exception reporting component."
-        },
-        {
-          "key": "error.dialog.submit.named",
-          "cnValue": "<html>Submit as <b>{0}</b> or <a>change account</a></html>",
-          "enValue": "<html>Submit as <b>{0}</b> or <a>change account</a></html>"
-        },
-        {
-          "key": "error.dialog.foreign.plugin.warning",
-          "cnValue": "<html>This plugin is not a production of JetBrains. Please report the problem to plugin vendor.</html>",
-          "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to plugin vendor.</html>"
-        },
-        {
-          "key": "error.dialog.attachments.prompt",
-          "cnValue": "<html>Please review the data included in this exception report:</html>",
-          "enValue": "<html>Please review the data included in this exception report:</html>"
-        },
-        {
-          "key": "error.dialog.disable.prompt.deps",
-          "cnValue": "Functionality provided by this and dependent plugins will no longer be available.",
-          "enValue": "Functionality provided by this and dependent plugins will no longer be available."
-        },
-        {
-          "key": "error.dialog.disable.plugin.can.restart",
-          "cnValue": "Changes in plugin configuration will take an effect after restart.",
-          "enValue": "Changes in plugin configuration will take an effect after restart."
-        },
-        {
-          "key": "diagnostic.out.of.memory.dump",
-          "cnValue": "Memory Dump",
-          "enValue": "Memory Dump"
-        },
-        {
-          "key": "error.dialog.disable.prompt",
-          "cnValue": "Are you sure you want to disable plugin <b>{0}</b>?",
-          "enValue": "Are you sure you want to disable plugin <b>{0}</b>?"
-        },
-        {
-          "key": "error.dialog.submit.anonymous",
-          "cnValue": "<html>Submit anonymously or use <a>JetBrains Account</a></html>",
-          "enValue": "<html>Submit anonymously or use <a>JetBrains Account</a></html>"
-        },
-        {
-          "key": "error.dialog.foreign.plugin.warning.unknown",
-          "cnValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>plugin vendor</a>.</html>",
-          "enValue": "<html>This plugin is not a production of JetBrains. Please report the problem to <a>plugin vendor</a>.</html>"
-        },
-        {
-          "key": "error.dialog.disable.prompt.lone",
-          "cnValue": "Functionality provided by the plugin will no longer be available.",
-          "enValue": "Functionality provided by the plugin will no longer be available."
-        },
-        {
-          "key": "error.dialog.notice.label",
-          "cnValue": "<html><b>By submitting this report, you agree to the terms and conditions of the privacy policy</b></html>",
-          "enValue": "<html><b>By submitting this report, you agree to the terms and conditions of the privacy policy</b></html>"
-        }
-      ]
-    },
-    {
       "path": "/com/intellij/tasks/TaskBundle.properties",
       "name": "TaskBundle.properties",
       "props": [
@@ -57463,22 +56881,6 @@
       ]
     },
     {
-      "path": "/messages/StatisticsBundle.properties",
-      "name": "StatisticsBundle.properties",
-      "props": [
-        {
-          "key": "stats.notification.content",
-          "cnValue": "<html>To improve your experience, we would like to collect data on the plugins and features you use. No personal data will be collected. An archive of a few kilobytes will be sent weekly.",
-          "enValue": "<html>To improve your experience, we would like to collect data on the plugins and features you use. No personal data will be collected. An archive of a few kilobytes will be sent weekly."
-        },
-        {
-          "key": "stats.notification.title",
-          "cnValue": "<html>Help Make {0} Better",
-          "enValue": "<html>Help Make {0} Better"
-        }
-      ]
-    },
-    {
       "path": "/messages/KeyMapBundle.properties",
       "name": "KeyMapBundle.properties",
       "props": [
@@ -57486,11 +56888,6 @@
           "key": "dialog.mouse.pad.shortcut.text",
           "cnValue": "<html><center> <br>{0}<br><br>",
           "enValue": "<html><center> <br>{0}<br><br>"
-        },
-        {
-          "key": "prefer.key.position",
-          "cnValue": "Prefer key position over key char with national layout",
-          "enValue": "Prefer key position over key char with national layout"
         }
       ]
     },
@@ -57517,16 +56914,6 @@
           "key": "combobox.force.braces.for",
           "cnValue": "for ():",
           "enValue": "for ():"
-        },
-        {
-          "key": "color.scheme.theme.change.confirmation.title",
-          "cnValue": "Change {0} Theme",
-          "enValue": "Change {0} Theme"
-        },
-        {
-          "key": "checkbox.collapse.entities",
-          "cnValue": "XML entities",
-          "enValue": "XML entities"
         },
         {
           "key": "combobox.force.braces.if",
@@ -57559,26 +56946,6 @@
           "enValue": "Before class end:"
         },
         {
-          "key": "editor.appearance.show.chain.call.type.hints.toggle.off",
-          "cnValue": "Hide hints for chain calls",
-          "enValue": "Hide hints for chain calls"
-        },
-        {
-          "key": "checkbox.spaces.before.colon.in.foreach",
-          "cnValue": "Space before colon in foreach",
-          "enValue": "Space before colon in foreach"
-        },
-        {
-          "key": "editor.appearance.show.chain.call.type.hints.toggle.on",
-          "cnValue": "Show hints for chain calls",
-          "enValue": "Show hints for chain calls"
-        },
-        {
-          "key": "checkbox.show.file.extension.in.editor.tabs",
-          "cnValue": "Show file extension",
-          "enValue": "Show file extension"
-        },
-        {
           "key": "title.naming.functional.expressions",
           "cnValue": "Lambda Body",
           "enValue": "Lambda Body"
@@ -57589,69 +56956,14 @@
           "enValue": "while ():"
         },
         {
-          "key": "editor.appearance.show.inferred.annotations",
-          "cnValue": "Show inferred annotations inline",
-          "enValue": "Show inferred annotations inline"
-        },
-        {
-          "key": "settings.code.style.general.default.options",
-          "cnValue": "Default Options",
-          "enValue": "Default Options"
-        },
-        {
-          "key": "file.status.color.menu.reset.to.default",
-          "cnValue": "Default",
-          "enValue": "Default"
-        },
-        {
-          "key": "checkbox.tab.exists.brackets.and.quotes",
-          "cnValue": "Jump outside closing bracket/quote with Tab",
-          "enValue": "Jump outside closing bracket/quote with Tab"
-        },
-        {
-          "key": "color.scheme.theme.change.confirmation",
-          "cnValue": "Looks like you have set a {0} editor color scheme.\nWould you like to set {0} theme for entire {1}?",
-          "enValue": "Looks like you have set a {0} editor color scheme.\nWould you like to set {0} theme for entire {1}?"
-        },
-        {
-          "key": "tabs.close.button.placement",
-          "cnValue": "Close button position:",
-          "enValue": "Close button position:"
-        },
-        {
           "key": "combobox.crlf.mac",
           "cnValue": "Classic Mac (\\r)",
           "enValue": "Classic Mac (\\r)"
         },
         {
-          "key": "file.status.color.menu.choose.color",
-          "cnValue": "Custom...",
-          "enValue": "Custom..."
-        },
-        {
-          "key": "editbox.autopopup.javadoc.in",
-          "cnValue": "Show the documentation popup in",
-          "enValue": "Show the documentation popup in"
-        },
-        {
-          "key": "editor.appearance.show.chain.call.type.hints",
-          "cnValue": "Show chain call type hints",
-          "enValue": "Show chain call type hints"
-        },
-        {
-          "key": "settings.editor.console.font.overwrite",
-          "cnValue": "Use console font instead of the",
-          "enValue": "Use console font instead of the"
-        },
-        {
           "key": "combobox.force.braces.do.while",
           "cnValue": "do ... while():",
           "enValue": "do ... while():"
-        },
-        {
-          "key": "settings.default.value.prefix",
-          "cnValue": "Default: {0}",
-          "enValue": "Default: {0}"
         },
         {
           "key": "editbox.scheme.type.name",
@@ -57664,11 +56976,6 @@
           "enValue": "<html>@SuppressWarnings</html>"
         },
         {
-          "key": "checkbox.show.directory.for.non.unique.files",
-          "cnValue": "Show directory for non-unique file names",
-          "enValue": "Show directory for non-unique file names"
-        },
-        {
           "key": "combobox.crlf.windows",
           "cnValue": "Windows (\\r\\n)",
           "enValue": "Windows (\\r\\n)"
@@ -57679,29 +56986,14 @@
           "enValue": "VCS"
         },
         {
-          "key": "wrapping.case.statements.on.one.line",
-          "cnValue": "'case' on new line",
-          "enValue": "'case' on new line"
-        },
-        {
           "key": "wrapping.force.braces",
           "cnValue": "Force braces",
           "enValue": "Force braces"
         },
         {
-          "key": "editor.appearance.show.external.annotations",
-          "cnValue": "Show external annotations inline",
-          "enValue": "Show external annotations inline"
-        },
-        {
           "key": "title.html",
           "cnValue": "HTML",
           "enValue": "HTML"
-        },
-        {
-          "key": "settings.editor.font.overwrite",
-          "cnValue": "Use color scheme font instead of the",
-          "enValue": "Use color scheme font instead of the"
         },
         {
           "key": "integer.field.value.default",
@@ -57712,16 +57004,6 @@
           "key": "title.javadoc",
           "cnValue": "JavaDoc",
           "enValue": "JavaDoc"
-        },
-        {
-          "key": "settings.code.style.general.indents.detection",
-          "cnValue": "Indents Detection",
-          "enValue": "Indents Detection"
-        },
-        {
-          "key": "checkbox.smart.tab.reuse.inline.help",
-          "cnValue": "When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes.",
-          "enValue": "When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes."
         }
       ]
     },
@@ -59275,11 +58557,6 @@
           "enValue": "Partial Commit Is Not Supported"
         },
         {
-          "key": "patch.apply.conflict.patched.somehow.version",
-          "cnValue": "Result",
-          "enValue": "Result"
-        },
-        {
           "key": "vcs.shelf.move.text",
           "cnValue": "Move shelves to the new location",
           "enValue": "Move shelves to the new location"
@@ -59288,41 +58565,6 @@
           "key": "commit.dialog.partial.commit.warning.body",
           "cnValue": "Partial commit is not supported for ''{0}''.\nAll changes in the selected files will be committed.",
           "enValue": "Partial commit is not supported for ''{0}''.\nAll changes in the selected files will be committed."
-        },
-        {
-          "key": "column.name.revision.list.date",
-          "cnValue": "Date",
-          "enValue": "Date"
-        },
-        {
-          "key": "executable.project.override.reset.message",
-          "cnValue": "Path to executable configured for this project can be set as the global path for all projects or reverted to the current global executable",
-          "enValue": "Path to executable configured for this project can be set as the global path for all projects or reverted to the current global executable"
-        },
-        {
-          "key": "executable.test",
-          "cnValue": "Test",
-          "enValue": "Test"
-        },
-        {
-          "key": "executable.project.override.reset.title",
-          "cnValue": "Project Executable",
-          "enValue": "Project Executable"
-        },
-        {
-          "key": "executable.select.title",
-          "cnValue": "Select Executable",
-          "enValue": "Select Executable"
-        },
-        {
-          "key": "patch.apply.conflict.patch",
-          "cnValue": "Patch",
-          "enValue": "Patch"
-        },
-        {
-          "key": "executable.project.override.reset.revert",
-          "cnValue": "Revert",
-          "enValue": "Revert"
         }
       ]
     },
@@ -59934,46 +59176,6 @@
       "name": "ExternalSystemBundle.properties",
       "props": [
         {
-          "key": "local.history.remove.orphan.modules",
-          "cnValue": "Remove orphan modules after import",
-          "enValue": "Remove orphan modules after import"
-        },
-        {
-          "key": "orphan.modules.dialog.title",
-          "cnValue": "Orphan Modules",
-          "enValue": "Orphan Modules"
-        },
-        {
-          "key": "debugger.status.connected",
-          "cnValue": "Connected to the VM started by ''{0}'' {1}",
-          "enValue": "Connected to the VM started by ''{0}'' {1}"
-        },
-        {
-          "key": "orphan.modules.dialog.text",
-          "cnValue": "<html>The modules below were removed from the project.<br/>Select the ones you need to restore.<html>",
-          "enValue": "<html>The modules below were removed from the project.<br/>Select the ones you need to restore.<html>"
-        },
-        {
-          "key": "notification.project.build.fail.title",
-          "cnValue": "{0} ''{1}'' project build failed",
-          "enValue": "{0} ''{1}'' project build failed"
-        },
-        {
-          "key": "external.system.java.home.env",
-          "cnValue": "Use JAVA_HOME",
-          "enValue": "Use JAVA_HOME"
-        },
-        {
-          "key": "external.system.java.internal.jre",
-          "cnValue": "Use Internal JRE",
-          "enValue": "Use Internal JRE"
-        },
-        {
-          "key": "debugger.open.session.tab",
-          "cnValue": "Open the debugger session tab",
-          "enValue": "Open the debugger session tab"
-        },
-        {
           "key": "progress.update.text",
           "cnValue": "{0}: {1}",
           "enValue": "{0}: {1}"
@@ -59988,16 +59190,6 @@
           "key": "package.dependencies.node.items.count",
           "cnValue": "{0, choice, 1#1 entry|2#{0, number} entries}",
           "enValue": "{0, choice, 1#1 entry|2#{0, number} entries}"
-        },
-        {
-          "key": "action.module.dependencies.tests",
-          "cnValue": "Include Test Dependencies",
-          "enValue": "Include Test Dependencies"
-        },
-        {
-          "key": "scope.option.uncommitted.files",
-          "cnValue": "&Uncommitted files",
-          "enValue": "&Uncommitted files"
         }
       ]
     },
@@ -60005,11 +59197,6 @@
       "path": "/messages/PsiBundle.properties",
       "name": "PsiBundle.properties",
       "props": [
-        {
-          "key": "default.visibility.presentation",
-          "cnValue": "default",
-          "enValue": "default"
-        },
         {
           "key": "abstract.visibility.presentation",
           "cnValue": "abstract",
@@ -60097,11 +59284,6 @@
           "enValue": "Expression <code>#ref</code> might evaluate to null but is stored to an array of @NotNull elements"
         },
         {
-          "key": "inspection.wrapper.type.may.be.primitive.fix.name",
-          "cnValue": "Convert wrapper type to primitive",
-          "enValue": "Convert wrapper type to primitive"
-        },
-        {
           "key": "inspection.capturing.cleaner",
           "cnValue": "Runnable passed to Cleaner.register() captures ''{0}'' reference",
           "enValue": "Runnable passed to Cleaner.register() captures ''{0}'' reference"
@@ -60115,11 +59297,6 @@
           "key": "inspection.reference.default.package",
           "cnValue": "<default>",
           "enValue": "<default>"
-        },
-        {
-          "key": "inspection.class.getclass.fix.replace.name",
-          "cnValue": "Replace with 'Class.class'",
-          "enValue": "Replace with 'Class.class'"
         },
         {
           "key": "inspection.visibility.package.private.top.level.classes",
@@ -60270,11 +59447,6 @@
           "key": "inspection.wrapper.type.may.be.primitive.name",
           "cnValue": "Type may be primitive",
           "enValue": "Type may be primitive"
-        },
-        {
-          "key": "inspection.redundant.comparator.comparing.fix.remove.name",
-          "cnValue": "Remove ''{0}()'' call",
-          "enValue": "Remove ''{0}()'' call"
         },
         {
           "key": "group.names.language.level.specific.issues.and.migration.aids12",
@@ -60487,29 +59659,9 @@
           "enValue": "Usage of service ''{0}'' is not declared in module-info"
         },
         {
-          "key": "inspection.conditional.break.in.infinite.loop",
-          "cnValue": "Move condition to loop",
-          "enValue": "Move condition to loop"
-        },
-        {
           "key": "inspection.tool.in.browser.id.title",
           "cnValue": "ID",
           "enValue": "ID"
-        },
-        {
-          "key": "inspection.edit.severities.text",
-          "cnValue": "Edit severities...",
-          "enValue": "Edit severities..."
-        },
-        {
-          "key": "inspection.redundant.comparator.comparing.fix.replace.name",
-          "cnValue": "Remove ''{0}()'' call and use ''{1}()''",
-          "enValue": "Remove ''{0}()'' call and use ''{1}()''"
-        },
-        {
-          "key": "inspection.visibility.private.inner.members",
-          "cnValue": "<html>Suggest private for inner class members when referenced from outer class only</html>",
-          "enValue": "<html>Suggest private for inner class members when referenced from outer class only</html>"
         },
         {
           "key": "inspection.dead.code.option.servlet",
@@ -60522,31 +59674,6 @@
           "enValue": "Module"
         },
         {
-          "key": "inspection.undeclared.service.usage.name",
-          "cnValue": "Usage of service not declared in module-info",
-          "enValue": "Usage of service not declared in module-info"
-        },
-        {
-          "key": "dataflow.message.contract.fail",
-          "cnValue": "The call to '#ref' always fails, according to its method contracts",
-          "enValue": "The call to '#ref' always fails, according to its method contracts"
-        },
-        {
-          "key": "inspection.redundant.null.check.fix.family.name",
-          "cnValue": "Remove redundant null-check",
-          "enValue": "Remove redundant null-check"
-        },
-        {
-          "key": "inspection.redundant.explicit.close.fix.name",
-          "cnValue": "Remove redundant close",
-          "enValue": "Remove redundant close"
-        },
-        {
-          "key": "inspection.redundant.comparator.comparing.fix.family.name",
-          "cnValue": "Remove redundant call",
-          "enValue": "Remove redundant call"
-        },
-        {
           "key": "inspection.cast.can.be.removed.narrowing.variable.type.name",
           "cnValue": "Too weak variable type leads to unnecessary cast",
           "enValue": "Too weak variable type leads to unnecessary cast"
@@ -60555,11 +59682,6 @@
           "key": "inspection.cast.can.be.removed.narrowing.variable.type.fix.name",
           "cnValue": "Change type of ''{0}'' to ''{1}'' and remove cast",
           "enValue": "Change type of ''{0}'' to ''{1}'' and remove cast"
-        },
-        {
-          "key": "inspection.class.getclass.fix.remove.name",
-          "cnValue": "Remove 'getClass()' call",
-          "enValue": "Remove 'getClass()' call"
         }
       ]
     },
@@ -60586,37 +59708,6 @@
           "key": "sm.test.runner.ui.tabs.statistics.columns.results.count.msg.ignored",
           "cnValue": "I:{0}",
           "enValue": "I:{0}"
-        },
-        {
-          "key": "sm.test.runner.ui.tests.tree.presentation.labels.all.but.ignored.passed",
-          "cnValue": "All Tests Passed (except ignored)",
-          "enValue": "All Tests Passed (except ignored)"
-        }
-      ]
-    },
-    {
-      "path": "/messages/SshBundle.properties",
-      "name": "SshBundle.properties",
-      "props": [
-        {
-          "key": "auth.password",
-          "cnValue": "Password",
-          "enValue": "Password"
-        },
-        {
-          "key": "auth.keypair.note",
-          "cnValue": "OpenSSH or PuTTY",
-          "enValue": "OpenSSH or PuTTY"
-        },
-        {
-          "key": "auth.openssh",
-          "cnValue": "OpenSSH config and authentication agent",
-          "enValue": "OpenSSH config and authentication agent"
-        },
-        {
-          "key": "auth.keypair",
-          "cnValue": "Key pair",
-          "enValue": "Key pair"
         }
       ]
     },
@@ -60625,29 +59716,9 @@
       "name": "FindBundle.properties",
       "props": [
         {
-          "key": "find.replace.this.file.action",
-          "cnValue": "Replace All in This &File",
-          "enValue": "Replace All in This &File"
-        },
-        {
           "key": "find.context.presentation.scope.label",
           "cnValue": " ({0})",
           "enValue": " ({0})"
-        },
-        {
-          "key": "find.replace.skip.this.file.action",
-          "cnValue": "&Skip This File",
-          "enValue": "&Skip This File"
-        },
-        {
-          "key": "find.what.implicit.to.string.checkbox",
-          "cnValue": "I&mplicit calls",
-          "enValue": "I&mplicit calls"
-        },
-        {
-          "key": "find.recursively.hint",
-          "cnValue": "Search recursively in directory",
-          "enValue": "Search recursively in directory"
         }
       ]
     },
@@ -60684,16 +59755,6 @@
           "key": "format.file.size.bytes",
           "cnValue": "{0}b",
           "enValue": "{0}b"
-        },
-        {
-          "key": "button.accept",
-          "cnValue": "Accept",
-          "enValue": "Accept"
-        },
-        {
-          "key": "undo.conflicting.change.confirmation.message",
-          "cnValue": "Other files affected by this action have been already changed.",
-          "enValue": "Other files affected by this action have been already changed."
         }
       ]
     },
@@ -60705,11 +59766,6 @@
           "key": "header.pre-main.class.invalid",
           "cnValue": "Invalid pre-main class",
           "enValue": "Invalid pre-main class"
-        },
-        {
-          "key": "header.reference.invalid",
-          "cnValue": "Invalid reference",
-          "enValue": "Invalid reference"
         },
         {
           "key": "manifest.header.expected",
