@@ -83,7 +83,7 @@
       },
       {
         "key": "plugins.auto.switch.action.name",
-        "cnValue": "Undo",
+        "cnValue": "还原",
         "enValue": "Undo"
       },
       {
@@ -118,12 +118,12 @@
       },
       {
         "key": "checkbox.disabled.included",
-        "cnValue": "Include &disabled actions",
+        "cnValue": "引入已禁用的操作 (&D)",
         "enValue": "Include &disabled actions"
       },
       {
         "key": "update.snap.message.with.blog.post",
-        "cnValue": "The IDE has been updated by Snap. <a href=\"{0}\">Blog post</a>.",
+        "cnValue": "IDE已由Snap更新. <a href=\"{0}\">博客文章</a>.",
         "enValue": "The IDE has been updated by Snap. <a href=\"{0}\">Blog post</a>."
       },
       {
@@ -133,22 +133,22 @@
       },
       {
         "key": "run.anything.ad.run.in.context",
-        "cnValue": "Press {0} to run in the current file context",
+        "cnValue": "按{0}在当前文件上下文中运行",
         "enValue": "Press {0} to run in the current file context"
       },
       {
         "key": "third.party.plugins.privacy.note.title",
-        "cnValue": "Third-party Plugins Privacy Note",
+        "cnValue": "第三方插件隐私说明",
         "enValue": "Third-party Plugins Privacy Note"
       },
       {
         "key": "sys.health.acknowledge.action",
-        "cnValue": "Don't Show Again",
+        "cnValue": "不要再显示",
         "enValue": "Don't Show Again"
       },
       {
         "key": "change.memory.title",
-        "cnValue": "Memory Settings Dialog",
+        "cnValue": "内存设置对话框",
         "enValue": "Memory Settings Dialog"
       },
       {
@@ -158,7 +158,7 @@
       },
       {
         "key": "searcheverywhere.nothing.found.for.all",
-        "cnValue": "Nothing found.",
+        "cnValue": "什么都没找到.",
         "enValue": "Nothing found."
       },
       {
@@ -168,12 +168,12 @@
       },
       {
         "key": "searcheverywhere.found.targets.title",
-        "cnValue": "Unsorted results",
+        "cnValue": "未排序的结果",
         "enValue": "Unsorted results"
       },
       {
         "key": "updates.no.updates.toolbox.message",
-        "cnValue": "<html>All plugins are up to date.<br> {0} updates are managed by Toolbox App.<br> Launch it to check if updates are available.</html>",
+        "cnValue": "<html>所有插件都是最新的.<br> {0}更新由Toolbox App管理.<br> 启动它以检查更新是否可用.</html>",
         "enValue": "<html>All plugins are up to date.<br> {0} updates are managed by Toolbox App.<br> Launch it to check if updates are available.</html>"
       },
       {
@@ -183,7 +183,7 @@
       },
       {
         "key": "message.plugin.license.expired.shutdown",
-        "cnValue": "Your plugin license has expired. Plugin {0} will be disabled.",
+        "cnValue": "您的插件许可证已过期. 插件{0}将被禁用.",
         "enValue": "Your plugin license has expired. Plugin {0} will be disabled."
       },
       {
@@ -293,12 +293,12 @@
       },
       {
         "key": "vmoptions.warn.message",
-        "cnValue": "Code cache size of {0} MB is too low. Increase it to {1} MB or more to avoid performance issues.",
+        "cnValue": "代码的缓存大小{0}MB太低. 将其增加到{1}MB或更多以避免性能问题.",
         "enValue": "Code cache size of {0} MB is too low. Increase it to {1} MB or more to avoid performance issues."
       },
       {
         "key": "searcheverywhere.found.matches.title",
-        "cnValue": "Found matches for pattern ''{0}'' in [{1}]",
+        "cnValue": "找到[{1}]中模式''{0}''的匹配项",
         "enValue": "Found matches for pattern ''{0}'' in [{1}]"
       },
       {
@@ -338,17 +338,17 @@
       },
       {
         "key": "new.plugin.manager.incompatible.deps.tooltip",
-        "cnValue": "Not loaded. The required {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} disabled.",
+        "cnValue": "未载入. 所需{0, choice, 1#插件|2#插件} {1} {0, choice, 1#是|2#是}禁用的.",
         "enValue": "Not loaded. The required {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} disabled."
       },
       {
         "key": "updates.settings.external",
-        "cnValue": "IDE updates are managed externally by {0}",
+        "cnValue": "IDE更新由{0}外部管理",
         "enValue": "IDE updates are managed externally by {0}"
       },
       {
         "key": "run.anything.main.list.empty.primary.text",
-        "cnValue": "Run command or configuration",
+        "cnValue": "运行命令或配置",
         "enValue": "Run command or configuration"
       },
       {
@@ -373,17 +373,17 @@
       },
       {
         "key": "ide.sigint.ignored.message",
-        "cnValue": "The IDE ignores SIGINT: the \"Stop\" button in run configurations may not work.",
+        "cnValue": "IDE忽略SIGINT：运行配置中的\"停止\"按钮可能不起作用.",
         "enValue": "The IDE ignores SIGINT: the \"Stop\" button in run configurations may not work."
       },
       {
         "key": "vmoptions.edit.action",
-        "cnValue": "Edit Custom VM Options",
+        "cnValue": "编辑自定义VM选项",
         "enValue": "Edit Custom VM Options"
       },
       {
         "key": "updates.version.info",
-        "cnValue": "{0} (build {1})",
+        "cnValue": "{0} (构建 {1})",
         "enValue": "{0} (build {1})"
       }
     ]
@@ -596,7 +596,7 @@
     "props": [
       {
         "key": "options.general.color.descriptor.vcs.diff.type.tag.prefix",
-        "cnValue": "Changed lines//",
+        "cnValue": "改变行//",
         "enValue": "Changed lines//"
       },
       {
@@ -818,7 +818,7 @@
     "props": [
       {
         "key": "predefined.configuration.assert.without.description",
-        "cnValue": "assert statement without description",
+        "cnValue": "声明声明没有描述",
         "enValue": "assert statement without description"
       },
       {
@@ -974,7 +974,7 @@
       },
       {
         "key": "application.configuration.include.provided.scope",
-        "cnValue": "Include dependencies with \"Provided\" scope",
+        "cnValue": "引入具有\"Provided\"范围的依赖项",
         "enValue": "Include dependencies with \"Provided\" scope"
       },
       {
@@ -1024,7 +1024,7 @@
       },
       {
         "key": "add.new.run.configuration.action2.name",
-        "cnValue": "Add New Configuration",
+        "cnValue": "添加新配置",
         "enValue": "Add New Configuration"
       },
       {
@@ -1040,37 +1040,37 @@
     "props": [
       {
         "key": "merge.version.title.base",
-        "cnValue": "Base version",
+        "cnValue": "基础版本",
         "enValue": "Base version"
       },
       {
         "key": "merge.version.title.merged",
-        "cnValue": "Merged version",
+        "cnValue": "合并版本",
         "enValue": "Merged version"
       },
       {
         "key": "merge.version.title.their.with.revision",
-        "cnValue": "Changes from server (revision {0})",
+        "cnValue": "变更来自服务器 (版本 {0})",
         "enValue": "Changes from server (revision {0})"
       },
       {
         "key": "merge.version.title.their",
-        "cnValue": "Changes from server",
+        "cnValue": "变更来自服务器",
         "enValue": "Changes from server"
       },
       {
         "key": "merge.version.title.our",
-        "cnValue": "Your version",
+        "cnValue": "你的版本",
         "enValue": "Your version"
       },
       {
         "key": "merge.version.title.merged.result",
-        "cnValue": "Result",
+        "cnValue": "结果",
         "enValue": "Result"
       },
       {
         "key": "diff.inactive.count.differences.status.text",
-        "cnValue": "({0} inactive)",
+        "cnValue": "({0} 待用)",
         "enValue": "({0} inactive)"
       }
     ]
@@ -1081,27 +1081,27 @@
     "props": [
       {
         "key": "use.single.dictionary",
-        "cnValue": "Use single dictionary for saving words",
+        "cnValue": "使用单个字典来保存单词",
         "enValue": "Use single dictionary for saving words"
       },
       {
         "key": "save.0.to.1",
-        "cnValue": "Save {0} to {1}",
+        "cnValue": "保存 {0} 到 {1}",
         "enValue": "Save {0} to {1}"
       },
       {
         "key": "no.custom.dictionaries",
-        "cnValue": "No custom dictionaries",
+        "cnValue": "没有自定义词典",
         "enValue": "No custom dictionaries"
       },
       {
         "key": "add.dictionary.description",
-        "cnValue": "Add custom dictionaries: plain text word lists",
+        "cnValue": "添加自定义词典：纯文本词列表",
         "enValue": "Add custom dictionaries: plain text word lists"
       },
       {
         "key": "add.custom.dictionaries",
-        "cnValue": "Add custom dictionaries",
+        "cnValue": "添加自定义词典",
         "enValue": "Add custom dictionaries"
       },
       {
