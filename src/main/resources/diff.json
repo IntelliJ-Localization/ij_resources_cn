@@ -474,11 +474,6 @@
         "key": "feature.statistics.not.applicable",
         "cnValue": "N/A",
         "enValue": "N/A"
-      },
-      {
-        "key": "feature.statistics.usage.count",
-        "cnValue": "{0,choice, 0#从不|1#一次|2#两次|3#{0,number}次}",
-        "enValue": "{0,choice, 0#Never|1#Once|2#Twice|3#{0,number} times}"
       }
     ]
   },
@@ -694,134 +689,9 @@
     "name": "SpellCheckerBundle.properties",
     "props": [
       {
-        "key": "words.list.dictionary",
-        "cnValue": "词汇表",
-        "enValue": "word list"
-      },
-      {
-        "key": "show.changes.action.title",
-        "cnValue": "打开词典",
-        "enValue": "Open dictionary"
-      },
-      {
-        "key": "dictionary.filetype.description",
-        "cnValue": "拼写检查词典",
-        "enValue": "Spell Checker Dictionary"
-      },
-      {
-        "key": "revert.action.title",
-        "cnValue": "还原",
-        "enValue": "Revert"
-      },
-      {
-        "key": "advanced.settings",
-        "cnValue": "高级设置",
-        "enValue": "Advanced settings"
-      },
-      {
         "key": "0.in.qoutes",
         "cnValue": "''{0}''",
         "enValue": "''{0}''"
-      },
-      {
-        "key": "dictionary.not.found.title",
-        "cnValue": "找不到词典",
-        "enValue": "Dictionary Is Not Found"
-      },
-      {
-        "key": "user.dictionaries.title",
-        "cnValue": "用户词典",
-        "enValue": "User Dictionaries"
-      },
-      {
-        "key": "custom.dictionary.title",
-        "cnValue": "自定义词典",
-        "enValue": "Custom Dictionary"
-      },
-      {
-        "key": "max.number.of.corrections",
-        "cnValue": "最大建议数量",
-        "enValue": "Maximum number of suggestions"
-      },
-      {
-        "key": "select.dictionary.title",
-        "cnValue": "选择词典",
-        "enValue": "Select dictionary"
-      },
-      {
-        "key": "app.dictionary",
-        "cnValue": "应用程序级词典",
-        "enValue": "Application-level dictionary"
-      },
-      {
-        "key": "dictionary.filetype.name",
-        "cnValue": "字典",
-        "enValue": "Dictionary"
-      },
-      {
-        "key": "custom.dictionary.not.found",
-        "cnValue": "在路径{0}中找不到自定义词典",
-        "enValue": "Custom dictionary is not found at path {0}"
-      },
-      {
-        "key": "changed.dict.title",
-        "cnValue": "{0}词典已更改",
-        "enValue": "{0} dictionary is changed"
-      },
-      {
-        "key": "built.in.dictionary",
-        "cnValue": "内置的",
-        "enValue": "built-in"
-      },
-      {
-        "key": "bundled.dictionaries.title",
-        "cnValue": "绑定词典",
-        "enValue": "Bundled Dictionaries"
-      },
-      {
-        "key": "spellchecker",
-        "cnValue": "拼写检查",
-        "enValue": "Spellchecker"
-      },
-      {
-        "key": "hunspell.description",
-        "cnValue": "hunspell词典",
-        "enValue": "hunspell dictionaries"
-      },
-      {
-        "key": "custom.dictionaries.title",
-        "cnValue": "自定义词典",
-        "enValue": "Custom Dictionaries"
-      },
-      {
-        "key": "custom.dictionary.not.found.title",
-        "cnValue": "没有找到自定义词典",
-        "enValue": "Custom Dictionary Is Not Found"
-      },
-      {
-        "key": "edit.custom.dictionary",
-        "cnValue": "编辑自定义词典",
-        "enValue": "Edit custom dictionary"
-      },
-      {
-        "key": "dictionary.not.found",
-        "cnValue": "在路径{0}中找不到词典",
-        "enValue": "Dictionary is not found at path {0}"
-      },
-      {
-        "key": "project.dictionary",
-        "cnValue": "项目级词典",
-        "enValue": "Project-level dictionary"
-      },
-      {
-        "key": "remove.custom.dictionaries",
-        "cnValue": "删除自定义词典",
-        "enValue": "Remove custom dictionaries"
-      },
-      {
-        "key": "new.word.description",
-        "cnValue": "''{0}''被添加到{1}词典",
-        "enValue": "''{0}'' is added to {1} dictionary"
       }
     ]
   },
@@ -870,19 +740,9 @@
         "enValue": "View {0} processes"
       },
       {
-        "key": "xbreakpoints.log.message.label",
-        "cnValue": "日志:",
-        "enValue": "Log:"
-      },
-      {
         "key": "xdebugger.attach.action.items.error.message",
         "cnValue": "Failed to get list of processes running on the host",
         "enValue": "Failed to get list of processes running on the host"
-      },
-      {
-        "key": "xdebugger.attach.popup.selectDebugger.title",
-        "cnValue": "调试器",
-        "enValue": "Debugger"
       },
       {
         "key": "debugger.hotswap.display.name",
@@ -895,11 +755,6 @@
         "enValue": "Confirm removal of conditional or logging breakpoints"
       },
       {
-        "key": "xdebugger.attach.popup.emptyText",
-        "cnValue": "没有要附加的进程",
-        "enValue": "No processes to attach to"
-      },
-      {
         "key": "message.confirm.breakpoint.removal.message",
         "cnValue": "<html>Breakpoint contains",
         "enValue": "<html>Breakpoint contains"
@@ -910,11 +765,6 @@
         "enValue": "Attach To"
       },
       {
-        "key": "xdebugger.shortcuts.text.delimiter",
-        "cnValue": "或",
-        "enValue": " or "
-      },
-      {
         "key": "xbreakpoints.restore.label",
         "cnValue": "Restore previous breakpoint",
         "enValue": "Restore previous breakpoint"
@@ -923,11 +773,6 @@
         "key": "xbreakpoint.tooltip.log.stack",
         "cnValue": "Log stack: yes",
         "enValue": "Log stack: yes"
-      },
-      {
-        "key": "xdebugger.attach.popup.recent",
-        "cnValue": "最近",
-        "enValue": "Recent"
       },
       {
         "key": "xdebugger.attach.popup.title",
@@ -2670,24 +2515,9 @@
     "name": "VcsBundle.properties",
     "props": [
       {
-        "key": "lst.inactive.ranges.damaged.notification",
-        "cnValue": "部分更改已移至活动更改列表",
-        "enValue": "Part of the changes were moved to active changelist"
-      },
-      {
-        "key": "executable.select.label",
-        "cnValue": "可执行的路径 (&P)",
-        "enValue": "&Path to executable"
-      },
-      {
         "key": "shelve.changes.progress.title",
         "cnValue": "Shelving Changes...",
         "enValue": "Shelving Changes..."
-      },
-      {
-        "key": "settings.partial.changelists.enable.checkbox",
-        "cnValue": "分别跟踪文本文件中的已更改块",
-        "enValue": "Track changed blocks in text files separately"
       },
       {
         "key": "update.tree.node.size.statistics",
@@ -2710,11 +2540,6 @@
         "enValue": "&VCS"
       },
       {
-        "key": "executable.project.override.reset.globalize",
-        "cnValue": "设为全局",
-        "enValue": "Set as Global"
-      },
-      {
         "key": "executable.project.override",
         "cnValue": "Set this path only for the current project",
         "enValue": "Set this path only for the current project"
@@ -2723,16 +2548,6 @@
         "key": "file.status.name.suppressed",
         "cnValue": "Suppressed",
         "enValue": "Suppressed"
-      },
-      {
-        "key": "checkbox.show.changed.revisions.only",
-        "cnValue": "仅限更改",
-        "enValue": "Changes only"
-      },
-      {
-        "key": "settings.highlight.files.from.non.active.changelist.checkbox",
-        "cnValue": "高亮来自非活动变更列表的文件 (&N)",
-        "enValue": "Highlight files from &non-active changelists"
       },
       {
         "key": "settings.highlight.files.with.conflicts.checkbox",
@@ -2806,11 +2621,6 @@
         "enValue": "On-demand"
       },
       {
-        "key": "label.debugger.launching.configurable.force.classic.vm",
-        "cnValue": "强制JDK 1.3.x及更早版本的经典VM (&I)",
-        "enValue": "Force Class&ic VM for JDK 1.3.x and earlier"
-      },
-      {
         "key": "error.class.circularity.error",
         "cnValue": "Class circularity error : {0}",
         "enValue": "Class circularity error : {0}"
@@ -2831,29 +2641,9 @@
         "enValue": ""
       },
       {
-        "key": "evaluation.error.cannot.find.source",
-        "cnValue": "找不到源类{0}",
-        "enValue": "Cannot find source class for {0}"
-      },
-      {
-        "key": "button.copy",
-        "cnValue": "复制",
-        "enValue": "Copy"
-      },
-      {
         "key": "progress.hot.swap.title",
         "cnValue": "Hot Swap",
         "enValue": "Hot Swap"
-      },
-      {
-        "key": "label.base.renderer.configurable.populate.throwable.stack",
-        "cnValue": "自动填充Throwable对象的堆栈跟踪",
-        "enValue": "Auto populate Throwable object's stack trace"
-      },
-      {
-        "key": "frame.panel.thread.finished",
-        "cnValue": "线程已完成执行",
-        "enValue": "Thread has finished execution"
       },
       {
         "key": "status.thread.unknown",
@@ -2876,11 +2666,6 @@
         "enValue": "tid=0x{0}"
       },
       {
-        "key": "frame.panel.async.stacktrace",
-        "cnValue": "异步堆栈跟踪",
-        "enValue": "Async stack trace"
-      },
-      {
         "key": "message.node.toString",
         "cnValue": "… toString()",
         "enValue": "… toString()"
@@ -2889,11 +2674,6 @@
         "key": "breakpoint.exception.breakpoint.display.name",
         "cnValue": "''{0}''",
         "enValue": "''{0}''"
-      },
-      {
-        "key": "label.base.renderer.configurable.show.val.fields.as.locals",
-        "cnValue": "$val 字段作为局部变量 (&V)",
-        "enValue": "$val fields as local &variables"
       },
       {
         "key": "exception.breakpoint.console.message.location.info",
@@ -2906,11 +2686,6 @@
         "enValue": "MONITOR"
       },
       {
-        "key": "caller.filters.dialog.title",
-        "cnValue": "调用者过滤器",
-        "enValue": "Caller Filters"
-      },
-      {
         "key": "status.thread.wait",
         "cnValue": "WAIT",
         "enValue": "WAIT"
@@ -2919,11 +2694,6 @@
         "key": "status.thread.sleeping",
         "cnValue": "SLEEPING",
         "enValue": "SLEEPING"
-      },
-      {
-        "key": "filters.not.configured",
-        "cnValue": "没有配置过滤器",
-        "enValue": "No filters configured"
       },
       {
         "key": "status.thread.zombie",
@@ -2936,11 +2706,6 @@
         "enValue": "<None>"
       },
       {
-        "key": "label.debugger.launching.configurable.shmem",
-        "cnValue": "共享内存 (&M)",
-        "enValue": "Shared &memory"
-      },
-      {
         "key": "label.thread.node",
         "cnValue": "\"{0}\"@{1}: {2}",
         "enValue": "\"{0}\"@{1}: {2}"
@@ -2949,16 +2714,6 @@
         "key": "status.thread.undefined",
         "cnValue": "UNDEFINED",
         "enValue": "UNDEFINED"
-      },
-      {
-        "key": "message.node.evaluate",
-        "cnValue": "… 评估",
-        "enValue": "… Evaluate"
-      },
-      {
-        "key": "error.throw.exception",
-        "cnValue": "抛出异常时出错: {0}",
-        "enValue": "Error while throwing exception: {0}"
       },
       {
         "key": "threads.export.attribute.label.nid",
@@ -3047,21 +2802,6 @@
         "enValue": "fileNameWithoutExtension()"
       },
       {
-        "key": "annotate.intention.chooser.title",
-        "cnValue": "选择要添加的注解",
-        "enValue": "Choose annotation to add"
-      },
-      {
-        "key": "livetemplate.description.thr",
-        "cnValue": "抛出新",
-        "enValue": "throw new"
-      },
-      {
-        "key": "generate.getter.template",
-        "cnValue": "&Getter模板:",
-        "enValue": "&Getter template:"
-      },
-      {
         "key": "macro.firstWord.string",
         "cnValue": "firstWord(String)",
         "enValue": "firstWord(String)"
@@ -3077,16 +2817,6 @@
         "enValue": "for"
       },
       {
-        "key": "template.shortcut.custom",
-        "cnValue": "自定义",
-        "enValue": "Custom"
-      },
-      {
-        "key": "collapse.selection.overlapping.warning.cancel",
-        "cnValue": "取消",
-        "enValue": "Cancel"
-      },
-      {
         "key": "surround.with.if.expression.template",
         "cnValue": "if (expr) {...}",
         "enValue": "if (expr) {...}"
@@ -3095,16 +2825,6 @@
         "key": "collapse.selection.overlapping.warning.text",
         "cnValue": "Overlapping fold region(s) exist",
         "enValue": "Overlapping fold region(s) exist"
-      },
-      {
-        "key": "templates.postfix.editable.description",
-        "cnValue": "用户定义的后缀模板",
-        "enValue": "User-defined postfix template"
-      },
-      {
-        "key": "collapse.selection.overlapping.warning.ok",
-        "cnValue": "移除",
-        "enValue": "Remove"
       },
       {
         "key": "template.shortcut.tab",
@@ -3140,11 +2860,6 @@
         "key": "collapse.selection.existing.autogenerated.region",
         "cnValue": "Cannot remove auto-generated fold region",
         "enValue": "Cannot remove auto-generated fold region"
-      },
-      {
-        "key": "generate.setter.template",
-        "cnValue": "&Setter模板:",
-        "enValue": "&Setter template:"
       },
       {
         "key": "macro.iterable.component.type",
@@ -3343,11 +3058,6 @@
         "enValue": "{0,number,####} of {1,number,####}M"
       },
       {
-        "key": "tool.window.name.version.control",
-        "cnValue": "版本控制",
-        "enValue": "Version Control"
-      },
-      {
         "key": "tool.window.name.todo",
         "cnValue": "TODO",
         "enValue": "TODO"
@@ -3366,16 +3076,6 @@
         "key": "welcome.screen.plugins.panel.learn.more.link",
         "cnValue": "<html><body><u>...</u></body></html>",
         "enValue": "<html><body><u>...</u></body></html>"
-      },
-      {
-        "key": "tool.window.name.extract.method",
-        "cnValue": "提取方法",
-        "enValue": "Extract Method"
-      },
-      {
-        "key": "tool.window.name.project",
-        "cnValue": "项目",
-        "enValue": "Project"
       }
     ]
   },
@@ -3387,17 +3087,6 @@
         "key": "progress.update.text",
         "cnValue": "{0}: {1}",
         "enValue": "{0}: {1}"
-      }
-    ]
-  },
-  {
-    "path": "/messages/AnalysisScopeBundle.properties",
-    "name": "AnalysisScopeBundle.properties",
-    "props": [
-      {
-        "key": "package.dependencies.node.items.count",
-        "cnValue": "{0, number}个条目",
-        "enValue": "{0, choice, 1#1 entry|2#{0, number} entries}"
       }
     ]
   },
@@ -3971,11 +3660,6 @@
     "name": "ManifestBundle.properties",
     "props": [
       {
-        "key": "header.pre-main.class.invalid",
-        "cnValue": "pre-main类无效",
-        "enValue": "Invalid pre-main class"
-      },
-      {
         "key": "manifest.header.expected",
         "cnValue": "Header expected",
         "enValue": "Header expected"
@@ -4002,104 +3686,14 @@
         "enValue": "_Delegate Methods..."
       },
       {
-        "key": "action.SilentCodeCleanup.text",
-        "cnValue": "无用代码清理",
-        "enValue": "Silent Code Cleanup"
-      },
-      {
-        "key": "action.GotoNextElementUnderCaretUsage.description",
-        "cnValue": "导航到下一个高亮的元素用法",
-        "enValue": "Navigate to the next highlighted element usage"
-      },
-      {
-        "key": "action.GenerateModuleDescriptors.description",
-        "cnValue": "为项目中的所有模块生成模块信息文件 (适用于Java 9及更高版本) ",
-        "enValue": "Generate module-info files for all modules in the project (for Java 9 and higher)"
-      },
-      {
-        "key": "action.Debugger.ThrowException.description",
-        "cnValue": "抛出异常",
-        "enValue": "Throw an exception"
-      },
-      {
-        "key": "action.GenerateEquals.text",
-        "cnValue": "equals() 和 hashCode()",
-        "enValue": "equals() and hashCode()"
-      },
-      {
-        "key": "action.WelcomeScreen.Configure.VMOptions.text",
-        "cnValue": "编辑自定义VM选项...",
-        "enValue": "Edit Custom VM Options..."
-      },
-      {
-        "key": "action.CheckinFiles.description",
-        "cnValue": "提交所选文件或目录",
-        "enValue": "Commit selected files or directories"
-      },
-      {
         "key": "action.ExpandAllToLevel4.text",
         "cnValue": "_4",
         "enValue": "_4"
       },
       {
-        "key": "action.GenerateConstructor.text",
-        "cnValue": "构造函数",
-        "enValue": "Constructor"
-      },
-      {
         "key": "action.ExpandToLevel4.text",
         "cnValue": "_4",
         "enValue": "_4"
-      },
-      {
-        "key": "action.SetShortcutAction.text",
-        "cnValue": "添加快捷方式...",
-        "enValue": "Add shortcut..."
-      },
-      {
-        "key": "action.GenerateSuperMethodCall.text",
-        "cnValue": "超级方法调用",
-        "enValue": "Super Method Call"
-      },
-      {
-        "key": "action.BraceOrQuoteOut.text",
-        "cnValue": "跳到当前括号/引号",
-        "enValue": "Jump Outside Current Bracket/Quote"
-      },
-      {
-        "key": "action.Debugger.RestoreBreakpoint.text",
-        "cnValue": "恢复断点",
-        "enValue": "Restore Breakpoint"
-      },
-      {
-        "key": "action.GenerateGetterAndSetter.text",
-        "cnValue": "Getter 和 Setter",
-        "enValue": "Getter and Setter"
-      },
-      {
-        "key": "action.OverrideMethods.text",
-        "cnValue": "覆盖方法... (_O)",
-        "enValue": "_Override Methods..."
-      },
-      {
-        "key": "action.TemplateProjectStructure.description.template",
-        "cnValue": "为所有新{0}配置默认结构",
-        "enValue": "Configure default structure for all new {0}s"
-      },
-      {
-        "key": "action.GotoNextElementUnderCaretUsage.text",
-        "cnValue": "转到下一个高亮的元素用法",
-        "enValue": "Go to next highlighted element usage"
-      },
-      {
-        "key": "action.Debugger.ThrowException.text",
-        "cnValue": "抛出异常",
-        "enValue": "Throw Exception"
-      },
-      {
-        "key": "action.GotoPrevElementUnderCaretUsage.description",
-        "cnValue": "导航到上一个高亮的元素用法",
-        "enValue": "Navigate to the previous highlighted element usage"
       },
       {
         "key": "action.ExpandAllToLevel1.text",
@@ -4112,26 +3706,6 @@
         "enValue": "_1"
       },
       {
-        "key": "action.ToggleReadOnlyAttribute.dirs",
-        "cnValue": "设置目录{0,choice,0#只读|1#可写}",
-        "enValue": "Make {3,choice,1#Directory|2#Directories} {0,choice,0#Read-only|1#Writeable}"
-      },
-      {
-        "key": "action.Vcs.MoveChangedLinesToChangelist.description",
-        "cnValue": "将所选行中的更改移动到另一个变更列表",
-        "enValue": "Move changes in selected lines to another changelist"
-      },
-      {
-        "key": "action.Vcs.Diff.ExcludeChangedLinesFromCommit.text",
-        "cnValue": "从提交中排除行",
-        "enValue": "Exclude Lines from Commit"
-      },
-      {
-        "key": "action.WelcomeScreen.Configure.Properties.text",
-        "cnValue": "编辑自定义属性...",
-        "enValue": "Edit Custom Properties..."
-      },
-      {
         "key": "action.ExpandAllToLevel3.text",
         "cnValue": "_3",
         "enValue": "_3"
@@ -4142,39 +3716,9 @@
         "enValue": "_3"
       },
       {
-        "key": "action.TemplateProjectStructure.text.template",
-        "cnValue": "新{0}的结构...",
-        "enValue": "Structure for New {0}s..."
-      },
-      {
-        "key": "action.TemplateProjectProperties.description.template",
-        "cnValue": "配置所有新{0}的默认设置",
-        "enValue": "Configure default settings for all new {0}s"
-      },
-      {
-        "key": "action.SwitchBootJdk.description",
-        "cnValue": "允许选择Java版本以启动IDE.",
-        "enValue": "Allows to choose a Java version to start the IDE with."
-      },
-      {
-        "key": "action.ShowBlankDiffWindow.description",
-        "cnValue": "并排打开两个编辑器并比较它们的内容",
-        "enValue": "Open two editors side-by-side and compare their content"
-      },
-      {
-        "key": "action.SilentCodeCleanup.description",
-        "cnValue": "运行清理检查并使用当前检查配置文件应用快速修复",
-        "enValue": "Run cleanup inspections and apply quick fixes with current inspection profile"
-      },
-      {
         "key": "action.GenerateSetter.text",
         "cnValue": "Setter",
         "enValue": "Setter"
-      },
-      {
-        "key": "action.CaptureCPUUsageData.description.ext",
-        "cnValue": "捕获CPU使用率数据 (按住SHIFT键使用跟踪代替采样) ",
-        "enValue": "Capture CPU usage data (hold SHIFT to use tracing instead of sampling)"
       },
       {
         "key": "action.ExpandToLevel5.text",
@@ -4185,46 +3729,6 @@
         "key": "action.GenerateGetter.text",
         "cnValue": "Getter",
         "enValue": "Getter"
-      },
-      {
-        "key": "action.ShowRecentTests.text",
-        "cnValue": "最近的测试",
-        "enValue": "Recent Tests"
-      },
-      {
-        "key": "action.GenerateModuleDescriptors.text",
-        "cnValue": "生成模块信息描述符",
-        "enValue": "Generate module-info Descriptors"
-      },
-      {
-        "key": "action.GotoPrevElementUnderCaretUsage.text",
-        "cnValue": "转到上一个高亮的元素用法",
-        "enValue": "Go to previous highlighted element usage"
-      },
-      {
-        "key": "action.Debugger.RestoreBreakpoint.description",
-        "cnValue": "恢复上次删除的断点",
-        "enValue": "Restore last deleted breakpoint"
-      },
-      {
-        "key": "action.ToggleReadOnlyAttribute.files",
-        "cnValue": "设置文件{0,choice,0#只读|1#可写}",
-        "enValue": "Make {2,choice,1#File|2#Files} {0,choice,0#Read-only|1#Writeable}"
-      },
-      {
-        "key": "action.ImplementMethods.text",
-        "cnValue": "实现方法... (_I)",
-        "enValue": "_Implement Methods..."
-      },
-      {
-        "key": "action.Vcs.MoveChangedLinesToChangelist.text",
-        "cnValue": "将行移动到另一个变更列表...",
-        "enValue": "Move Lines to Another Changelist..."
-      },
-      {
-        "key": "action.ShowBlankDiffWindow.text",
-        "cnValue": "打开空白差异窗口",
-        "enValue": "Open Blank Diff Window"
       },
       {
         "key": "action.GenerateCreateUI.text",
@@ -4240,11 +3744,6 @@
         "key": "action.ExpandToLevel2.text",
         "cnValue": "_2",
         "enValue": "_2"
-      },
-      {
-        "key": "action.TemplateProjectProperties.text.template",
-        "cnValue": "新{1}的{0}...",
-        "enValue": "{0} for New {1}s..."
       },
       {
         "key": "action.ExpandAllToLevel5.text",
