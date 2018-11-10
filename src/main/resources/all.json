@@ -19595,7 +19595,7 @@
         },
         {
           "key": "error.dialog.comment.prompt",
-          "cnValue": "<html><u>P</u>填写任何细节,可能是重要的:当问题发生时,您在做什么等.</html>",
+          "cnValue": "<html>填写任何细节,可能是重要的:当问题发生时,您在做什么操作.<u>P</u></html>",
           "enValue": "<html>Please fill in any details that may be important (steps to reproduce, what were you doing when the exception occurred, etc.):</html>"
         },
         {

@@ -477,7 +477,7 @@
       },
       {
         "key": "feature.statistics.usage.count",
-        "cnValue": "{0,choice, 0#Never|1#Once|2#Twice|3#{0,number} times}",
+        "cnValue": "{0,choice, 0#从不|1#一次|2#两次|3#{0,number}次}",
         "enValue": "{0,choice, 0#Never|1#Once|2#Twice|3#{0,number} times}"
       }
     ]
@@ -695,27 +695,27 @@
     "props": [
       {
         "key": "words.list.dictionary",
-        "cnValue": "word list",
+        "cnValue": "词汇表",
         "enValue": "word list"
       },
       {
         "key": "show.changes.action.title",
-        "cnValue": "Open dictionary",
+        "cnValue": "打开词典",
         "enValue": "Open dictionary"
       },
       {
         "key": "dictionary.filetype.description",
-        "cnValue": "Spell Checker Dictionary",
+        "cnValue": "拼写检查词典",
         "enValue": "Spell Checker Dictionary"
       },
       {
         "key": "revert.action.title",
-        "cnValue": "Revert",
+        "cnValue": "还原",
         "enValue": "Revert"
       },
       {
         "key": "advanced.settings",
-        "cnValue": "Advanced settings",
+        "cnValue": "高级设置",
         "enValue": "Advanced settings"
       },
       {
@@ -725,102 +725,102 @@
       },
       {
         "key": "dictionary.not.found.title",
-        "cnValue": "Dictionary Is Not Found",
+        "cnValue": "找不到词典",
         "enValue": "Dictionary Is Not Found"
       },
       {
         "key": "user.dictionaries.title",
-        "cnValue": "User Dictionaries",
+        "cnValue": "用户词典",
         "enValue": "User Dictionaries"
       },
       {
         "key": "custom.dictionary.title",
-        "cnValue": "Custom Dictionary",
+        "cnValue": "自定义词典",
         "enValue": "Custom Dictionary"
       },
       {
         "key": "max.number.of.corrections",
-        "cnValue": "Maximum number of suggestions",
+        "cnValue": "最大建议数量",
         "enValue": "Maximum number of suggestions"
       },
       {
         "key": "select.dictionary.title",
-        "cnValue": "Select dictionary",
+        "cnValue": "选择词典",
         "enValue": "Select dictionary"
       },
       {
         "key": "app.dictionary",
-        "cnValue": "Application-level dictionary",
+        "cnValue": "应用程序级词典",
         "enValue": "Application-level dictionary"
       },
       {
         "key": "dictionary.filetype.name",
-        "cnValue": "Dictionary",
+        "cnValue": "字典",
         "enValue": "Dictionary"
       },
       {
         "key": "custom.dictionary.not.found",
-        "cnValue": "Custom dictionary is not found at path {0}",
+        "cnValue": "在路径{0}中找不到自定义词典",
         "enValue": "Custom dictionary is not found at path {0}"
       },
       {
         "key": "changed.dict.title",
-        "cnValue": "{0} dictionary is changed",
+        "cnValue": "{0}词典已更改",
         "enValue": "{0} dictionary is changed"
       },
       {
         "key": "built.in.dictionary",
-        "cnValue": "built-in",
+        "cnValue": "内置的",
         "enValue": "built-in"
       },
       {
         "key": "bundled.dictionaries.title",
-        "cnValue": "Bundled Dictionaries",
+        "cnValue": "绑定词典",
         "enValue": "Bundled Dictionaries"
       },
       {
         "key": "spellchecker",
-        "cnValue": "Spellchecker",
+        "cnValue": "拼写检查",
         "enValue": "Spellchecker"
       },
       {
         "key": "hunspell.description",
-        "cnValue": "hunspell dictionaries",
+        "cnValue": "hunspell词典",
         "enValue": "hunspell dictionaries"
       },
       {
         "key": "custom.dictionaries.title",
-        "cnValue": "Custom Dictionaries",
+        "cnValue": "自定义词典",
         "enValue": "Custom Dictionaries"
       },
       {
         "key": "custom.dictionary.not.found.title",
-        "cnValue": "Custom Dictionary Is Not Found",
+        "cnValue": "没有找到自定义词典",
         "enValue": "Custom Dictionary Is Not Found"
       },
       {
         "key": "edit.custom.dictionary",
-        "cnValue": "Edit custom dictionary",
+        "cnValue": "编辑自定义词典",
         "enValue": "Edit custom dictionary"
       },
       {
         "key": "dictionary.not.found",
-        "cnValue": "Dictionary is not found at path {0}",
+        "cnValue": "在路径{0}中找不到词典",
         "enValue": "Dictionary is not found at path {0}"
       },
       {
         "key": "project.dictionary",
-        "cnValue": "Project-level dictionary",
+        "cnValue": "项目级词典",
         "enValue": "Project-level dictionary"
       },
       {
         "key": "remove.custom.dictionaries",
-        "cnValue": "Remove custom dictionaries",
+        "cnValue": "删除自定义词典",
         "enValue": "Remove custom dictionaries"
       },
       {
         "key": "new.word.description",
-        "cnValue": "''{0}'' is added to {1} dictionary",
+        "cnValue": "''{0}''被添加到{1}词典",
         "enValue": "''{0}'' is added to {1} dictionary"
       }
     ]
@@ -871,7 +871,7 @@
       },
       {
         "key": "xbreakpoints.log.message.label",
-        "cnValue": "Log:",
+        "cnValue": "日志:",
         "enValue": "Log:"
       },
       {
@@ -881,7 +881,7 @@
       },
       {
         "key": "xdebugger.attach.popup.selectDebugger.title",
-        "cnValue": "Debugger",
+        "cnValue": "调试器",
         "enValue": "Debugger"
       },
       {
@@ -896,7 +896,7 @@
       },
       {
         "key": "xdebugger.attach.popup.emptyText",
-        "cnValue": "No processes to attach to",
+        "cnValue": "没有要附加的进程",
         "enValue": "No processes to attach to"
       },
       {
@@ -911,7 +911,7 @@
       },
       {
         "key": "xdebugger.shortcuts.text.delimiter",
-        "cnValue": " or ",
+        "cnValue": "或",
         "enValue": " or "
       },
       {
@@ -926,7 +926,7 @@
       },
       {
         "key": "xdebugger.attach.popup.recent",
-        "cnValue": "Recent",
+        "cnValue": "最近",
         "enValue": "Recent"
       },
       {
@@ -2671,12 +2671,12 @@
     "props": [
       {
         "key": "lst.inactive.ranges.damaged.notification",
-        "cnValue": "Part of the changes were moved to active changelist",
+        "cnValue": "部分更改已移至活动更改列表",
         "enValue": "Part of the changes were moved to active changelist"
       },
       {
         "key": "executable.select.label",
-        "cnValue": "&Path to executable",
+        "cnValue": "可执行的路径 (&P)",
         "enValue": "&Path to executable"
       },
       {
@@ -2686,7 +2686,7 @@
       },
       {
         "key": "settings.partial.changelists.enable.checkbox",
-        "cnValue": "Track changed blocks in text files separately",
+        "cnValue": "分别跟踪文本文件中的已更改块",
         "enValue": "Track changed blocks in text files separately"
       },
       {
@@ -2711,7 +2711,7 @@
       },
       {
         "key": "executable.project.override.reset.globalize",
-        "cnValue": "Set as Global",
+        "cnValue": "设为全局",
         "enValue": "Set as Global"
       },
       {
@@ -2726,12 +2726,12 @@
       },
       {
         "key": "checkbox.show.changed.revisions.only",
-        "cnValue": "Changes only",
+        "cnValue": "仅限更改",
         "enValue": "Changes only"
       },
       {
         "key": "settings.highlight.files.from.non.active.changelist.checkbox",
-        "cnValue": "Highlight files from &non-active changelists",
+        "cnValue": "高亮来自非活动变更列表的文件 (&N)",
         "enValue": "Highlight files from &non-active changelists"
       },
       {
@@ -2807,7 +2807,7 @@
       },
       {
         "key": "label.debugger.launching.configurable.force.classic.vm",
-        "cnValue": "Force Class&ic VM for JDK 1.3.x and earlier",
+        "cnValue": "强制JDK 1.3.x及更早版本的经典VM (&I)",
         "enValue": "Force Class&ic VM for JDK 1.3.x and earlier"
       },
       {
@@ -2832,12 +2832,12 @@
       },
       {
         "key": "evaluation.error.cannot.find.source",
-        "cnValue": "Cannot find source class for {0}",
+        "cnValue": "找不到源类{0}",
         "enValue": "Cannot find source class for {0}"
       },
       {
         "key": "button.copy",
-        "cnValue": "Copy",
+        "cnValue": "复制",
         "enValue": "Copy"
       },
       {
@@ -2847,12 +2847,12 @@
       },
       {
         "key": "label.base.renderer.configurable.populate.throwable.stack",
-        "cnValue": "Auto populate Throwable object's stack trace",
+        "cnValue": "自动填充Throwable对象的堆栈跟踪",
         "enValue": "Auto populate Throwable object's stack trace"
       },
       {
         "key": "frame.panel.thread.finished",
-        "cnValue": "Thread has finished execution",
+        "cnValue": "线程已完成执行",
         "enValue": "Thread has finished execution"
       },
       {
@@ -2877,7 +2877,7 @@
       },
       {
         "key": "frame.panel.async.stacktrace",
-        "cnValue": "Async stack trace",
+        "cnValue": "异步堆栈跟踪",
         "enValue": "Async stack trace"
       },
       {
@@ -2892,7 +2892,7 @@
       },
       {
         "key": "label.base.renderer.configurable.show.val.fields.as.locals",
-        "cnValue": "$val fields as local &variables",
+        "cnValue": "$val 字段作为局部变量 (&V)",
         "enValue": "$val fields as local &variables"
       },
       {
@@ -2907,7 +2907,7 @@
       },
       {
         "key": "caller.filters.dialog.title",
-        "cnValue": "Caller Filters",
+        "cnValue": "调用者过滤器",
         "enValue": "Caller Filters"
       },
       {
@@ -2922,7 +2922,7 @@
       },
       {
         "key": "filters.not.configured",
-        "cnValue": "No filters configured",
+        "cnValue": "没有配置过滤器",
         "enValue": "No filters configured"
       },
       {
@@ -2937,7 +2937,7 @@
       },
       {
         "key": "label.debugger.launching.configurable.shmem",
-        "cnValue": "Shared &memory",
+        "cnValue": "共享内存 (&M)",
         "enValue": "Shared &memory"
       },
       {
@@ -2952,12 +2952,12 @@
       },
       {
         "key": "message.node.evaluate",
-        "cnValue": "… Evaluate",
+        "cnValue": "… 评估",
         "enValue": "… Evaluate"
       },
       {
         "key": "error.throw.exception",
-        "cnValue": "Error while throwing exception: {0}",
+        "cnValue": "抛出异常时出错: {0}",
         "enValue": "Error while throwing exception: {0}"
       },
       {
@@ -3048,17 +3048,17 @@
       },
       {
         "key": "annotate.intention.chooser.title",
-        "cnValue": "Choose annotation to add",
+        "cnValue": "选择要添加的注解",
         "enValue": "Choose annotation to add"
       },
       {
         "key": "livetemplate.description.thr",
-        "cnValue": "throw new",
+        "cnValue": "抛出新",
         "enValue": "throw new"
       },
       {
         "key": "generate.getter.template",
-        "cnValue": "&Getter template:",
+        "cnValue": "&Getter模板:",
         "enValue": "&Getter template:"
       },
       {
@@ -3078,12 +3078,12 @@
       },
       {
         "key": "template.shortcut.custom",
-        "cnValue": "Custom",
+        "cnValue": "自定义",
         "enValue": "Custom"
       },
       {
         "key": "collapse.selection.overlapping.warning.cancel",
-        "cnValue": "Cancel",
+        "cnValue": "取消",
         "enValue": "Cancel"
       },
       {
@@ -3098,12 +3098,12 @@
       },
       {
         "key": "templates.postfix.editable.description",
-        "cnValue": "User-defined postfix template",
+        "cnValue": "用户定义的后缀模板",
         "enValue": "User-defined postfix template"
       },
       {
         "key": "collapse.selection.overlapping.warning.ok",
-        "cnValue": "Remove",
+        "cnValue": "移除",
         "enValue": "Remove"
       },
       {
@@ -3143,7 +3143,7 @@
       },
       {
         "key": "generate.setter.template",
-        "cnValue": "&Setter template:",
+        "cnValue": "&Setter模板:",
         "enValue": "&Setter template:"
       },
       {
@@ -3344,7 +3344,7 @@
       },
       {
         "key": "tool.window.name.version.control",
-        "cnValue": "Version Control",
+        "cnValue": "版本控制",
         "enValue": "Version Control"
       },
       {
@@ -3369,12 +3369,12 @@
       },
       {
         "key": "tool.window.name.extract.method",
-        "cnValue": "Extract Method",
+        "cnValue": "提取方法",
         "enValue": "Extract Method"
       },
       {
         "key": "tool.window.name.project",
-        "cnValue": "Project",
+        "cnValue": "项目",
         "enValue": "Project"
       }
     ]
@@ -3396,7 +3396,7 @@
     "props": [
       {
         "key": "package.dependencies.node.items.count",
-        "cnValue": "{0, choice, 1#1 entry|2#{0, number} entries}",
+        "cnValue": "{0, number}个条目",
         "enValue": "{0, choice, 1#1 entry|2#{0, number} entries}"
       }
     ]
@@ -3972,7 +3972,7 @@
     "props": [
       {
         "key": "header.pre-main.class.invalid",
-        "cnValue": "Invalid pre-main class",
+        "cnValue": "pre-main类无效",
         "enValue": "Invalid pre-main class"
       },
       {
@@ -4003,37 +4003,37 @@
       },
       {
         "key": "action.SilentCodeCleanup.text",
-        "cnValue": "Silent Code Cleanup",
+        "cnValue": "无用代码清理",
         "enValue": "Silent Code Cleanup"
       },
       {
         "key": "action.GotoNextElementUnderCaretUsage.description",
-        "cnValue": "Navigate to the next highlighted element usage",
+        "cnValue": "导航到下一个高亮的元素用法",
         "enValue": "Navigate to the next highlighted element usage"
       },
       {
         "key": "action.GenerateModuleDescriptors.description",
-        "cnValue": "Generate module-info files for all modules in the project (for Java 9 and higher)",
+        "cnValue": "为项目中的所有模块生成模块信息文件 (适用于Java 9及更高版本) ",
         "enValue": "Generate module-info files for all modules in the project (for Java 9 and higher)"
       },
       {
         "key": "action.Debugger.ThrowException.description",
-        "cnValue": "Throw an exception",
+        "cnValue": "抛出异常",
         "enValue": "Throw an exception"
       },
       {
         "key": "action.GenerateEquals.text",
-        "cnValue": "equals() and hashCode()",
+        "cnValue": "equals() 和 hashCode()",
         "enValue": "equals() and hashCode()"
       },
       {
         "key": "action.WelcomeScreen.Configure.VMOptions.text",
-        "cnValue": "Edit Custom VM Options...",
+        "cnValue": "编辑自定义VM选项...",
         "enValue": "Edit Custom VM Options..."
       },
       {
         "key": "action.CheckinFiles.description",
-        "cnValue": "Commit selected files or directories",
+        "cnValue": "提交所选文件或目录",
         "enValue": "Commit selected files or directories"
       },
       {
@@ -4043,7 +4043,7 @@
       },
       {
         "key": "action.GenerateConstructor.text",
-        "cnValue": "Constructor",
+        "cnValue": "构造函数",
         "enValue": "Constructor"
       },
       {
@@ -4053,52 +4053,52 @@
       },
       {
         "key": "action.SetShortcutAction.text",
-        "cnValue": "Add shortcut...",
+        "cnValue": "添加快捷方式...",
         "enValue": "Add shortcut..."
       },
       {
         "key": "action.GenerateSuperMethodCall.text",
-        "cnValue": "Super Method Call",
+        "cnValue": "超级方法调用",
         "enValue": "Super Method Call"
       },
       {
         "key": "action.BraceOrQuoteOut.text",
-        "cnValue": "Jump Outside Current Bracket/Quote",
+        "cnValue": "跳到当前括号/引号",
         "enValue": "Jump Outside Current Bracket/Quote"
       },
       {
         "key": "action.Debugger.RestoreBreakpoint.text",
-        "cnValue": "Restore Breakpoint",
+        "cnValue": "恢复断点",
         "enValue": "Restore Breakpoint"
       },
       {
         "key": "action.GenerateGetterAndSetter.text",
-        "cnValue": "Getter and Setter",
+        "cnValue": "Getter 和 Setter",
         "enValue": "Getter and Setter"
       },
       {
         "key": "action.OverrideMethods.text",
-        "cnValue": "_Override Methods...",
+        "cnValue": "覆盖方法... (_O)",
         "enValue": "_Override Methods..."
       },
       {
         "key": "action.TemplateProjectStructure.description.template",
-        "cnValue": "Configure default structure for all new {0}s",
+        "cnValue": "为所有新{0}配置默认结构",
         "enValue": "Configure default structure for all new {0}s"
       },
       {
         "key": "action.GotoNextElementUnderCaretUsage.text",
-        "cnValue": "Go to next highlighted element usage",
+        "cnValue": "转到下一个高亮的元素用法",
         "enValue": "Go to next highlighted element usage"
       },
       {
         "key": "action.Debugger.ThrowException.text",
-        "cnValue": "Throw Exception",
+        "cnValue": "抛出异常",
         "enValue": "Throw Exception"
       },
       {
         "key": "action.GotoPrevElementUnderCaretUsage.description",
-        "cnValue": "Navigate to the previous highlighted element usage",
+        "cnValue": "导航到上一个高亮的元素用法",
         "enValue": "Navigate to the previous highlighted element usage"
       },
       {
@@ -4113,22 +4113,22 @@
       },
       {
         "key": "action.ToggleReadOnlyAttribute.dirs",
-        "cnValue": "Make {3,choice,1#Directory|2#Directories} {0,choice,0#Read-only|1#Writeable}",
+        "cnValue": "设置目录{0,choice,0#只读|1#可写}",
         "enValue": "Make {3,choice,1#Directory|2#Directories} {0,choice,0#Read-only|1#Writeable}"
       },
       {
         "key": "action.Vcs.MoveChangedLinesToChangelist.description",
-        "cnValue": "Move changes in selected lines to another changelist",
+        "cnValue": "将所选行中的更改移动到另一个变更列表",
         "enValue": "Move changes in selected lines to another changelist"
       },
       {
         "key": "action.Vcs.Diff.ExcludeChangedLinesFromCommit.text",
-        "cnValue": "Exclude Lines from Commit",
+        "cnValue": "从提交中排除行",
         "enValue": "Exclude Lines from Commit"
       },
       {
         "key": "action.WelcomeScreen.Configure.Properties.text",
-        "cnValue": "Edit Custom Properties...",
+        "cnValue": "编辑自定义属性...",
         "enValue": "Edit Custom Properties..."
       },
       {
@@ -4143,27 +4143,27 @@
       },
       {
         "key": "action.TemplateProjectStructure.text.template",
-        "cnValue": "Structure for New {0}s...",
+        "cnValue": "新{0}的结构...",
         "enValue": "Structure for New {0}s..."
       },
       {
         "key": "action.TemplateProjectProperties.description.template",
-        "cnValue": "Configure default settings for all new {0}s",
+        "cnValue": "配置所有新{0}的默认设置",
         "enValue": "Configure default settings for all new {0}s"
       },
       {
         "key": "action.SwitchBootJdk.description",
-        "cnValue": "Allows to choose a Java version to start the IDE with.",
+        "cnValue": "允许选择Java版本以启动IDE.",
         "enValue": "Allows to choose a Java version to start the IDE with."
       },
       {
         "key": "action.ShowBlankDiffWindow.description",
-        "cnValue": "Open two editors side-by-side and compare their content",
+        "cnValue": "并排打开两个编辑器并比较它们的内容",
         "enValue": "Open two editors side-by-side and compare their content"
       },
       {
         "key": "action.SilentCodeCleanup.description",
-        "cnValue": "Run cleanup inspections and apply quick fixes with current inspection profile",
+        "cnValue": "运行清理检查并使用当前检查配置文件应用快速修复",
         "enValue": "Run cleanup inspections and apply quick fixes with current inspection profile"
       },
       {
@@ -4173,7 +4173,7 @@
       },
       {
         "key": "action.CaptureCPUUsageData.description.ext",
-        "cnValue": "Capture CPU usage data (hold SHIFT to use tracing instead of sampling)",
+        "cnValue": "捕获CPU使用率数据 (按住SHIFT键使用跟踪代替采样) ",
         "enValue": "Capture CPU usage data (hold SHIFT to use tracing instead of sampling)"
       },
       {
@@ -4188,42 +4188,42 @@
       },
       {
         "key": "action.ShowRecentTests.text",
-        "cnValue": "Recent Tests",
+        "cnValue": "最近的测试",
         "enValue": "Recent Tests"
       },
       {
         "key": "action.GenerateModuleDescriptors.text",
-        "cnValue": "Generate module-info Descriptors",
+        "cnValue": "生成模块信息描述符",
         "enValue": "Generate module-info Descriptors"
       },
       {
         "key": "action.GotoPrevElementUnderCaretUsage.text",
-        "cnValue": "Go to previous highlighted element usage",
+        "cnValue": "转到上一个高亮的元素用法",
         "enValue": "Go to previous highlighted element usage"
       },
       {
         "key": "action.Debugger.RestoreBreakpoint.description",
-        "cnValue": "Restore last deleted breakpoint",
+        "cnValue": "恢复上次删除的断点",
         "enValue": "Restore last deleted breakpoint"
       },
       {
         "key": "action.ToggleReadOnlyAttribute.files",
-        "cnValue": "Make {2,choice,1#File|2#Files} {0,choice,0#Read-only|1#Writeable}",
+        "cnValue": "设置文件{0,choice,0#只读|1#可写}",
         "enValue": "Make {2,choice,1#File|2#Files} {0,choice,0#Read-only|1#Writeable}"
       },
       {
         "key": "action.ImplementMethods.text",
-        "cnValue": "_Implement Methods...",
+        "cnValue": "实现方法... (_I)",
         "enValue": "_Implement Methods..."
       },
       {
         "key": "action.Vcs.MoveChangedLinesToChangelist.text",
-        "cnValue": "Move Lines to Another Changelist...",
+        "cnValue": "将行移动到另一个变更列表...",
         "enValue": "Move Lines to Another Changelist..."
       },
       {
         "key": "action.ShowBlankDiffWindow.text",
-        "cnValue": "Open Blank Diff Window",
+        "cnValue": "打开空白差异窗口",
         "enValue": "Open Blank Diff Window"
       },
       {
@@ -4243,7 +4243,7 @@
       },
       {
         "key": "action.TemplateProjectProperties.text.template",
-        "cnValue": "{0} for New {1}s...",
+        "cnValue": "新{1}的{0}...",
         "enValue": "{0} for New {1}s..."
       },
       {
