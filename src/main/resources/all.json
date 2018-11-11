@@ -1821,7 +1821,7 @@
         },
         {
           "key": "node.todo.summary",
-          "cnValue": "找到{0}条TODO项, 位于{1}个文件",
+          "cnValue": "{0,choice,0#未找到TODO|2#找到{0,number}条TODO, 位于{1}个文件}",
           "enValue": "Found {0} TODO {0,choice,0#items|1#item|2#items} in {1} {1,choice,0#files|1#file|2#files}"
         },
         {

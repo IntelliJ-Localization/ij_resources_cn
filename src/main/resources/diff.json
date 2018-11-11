@@ -797,7 +797,7 @@
     "props": [
       {
         "key": "surround.with.object.literal.desc",
-        "cnValue": "object literal",
+        "cnValue": "对象文字",
         "enValue": "object literal"
       },
       {
@@ -807,82 +807,82 @@
       },
       {
         "key": "formatter.align.properties.on.colon",
-        "cnValue": "On colon",
+        "cnValue": "在冒号",
         "enValue": "On colon"
       },
       {
         "key": "inspection.compliance.msg.single.quoted.strings",
-        "cnValue": "JSON standard does not allow single quoted strings",
+        "cnValue": "JSON标准不允许使用单引号字符串",
         "enValue": "JSON standard does not allow single quoted strings"
       },
       {
         "key": "inspection.compliance.option.comments",
-        "cnValue": "Warn about comments",
+        "cnValue": "警告注释",
         "enValue": "Warn about comments"
       },
       {
         "key": "formatter.align.properties.none",
-        "cnValue": "Do not align",
+        "cnValue": "不要对齐",
         "enValue": "Do not align"
       },
       {
         "key": "json.copy.to.clipboard",
-        "cnValue": "Copy {0} to clipboard",
+        "cnValue": "将{0}复制到剪贴板",
         "enValue": "Copy {0} to clipboard"
       },
       {
         "key": "syntax.error.illegal.floating.point.literal",
-        "cnValue": "Illegal floating point literal",
+        "cnValue": "非法浮点字面量",
         "enValue": "Illegal floating point literal"
       },
       {
         "key": "inspection.compliance.option.nan.infinity",
-        "cnValue": "Warn about NaN and Infinity/-Infinity numeric values",
+        "cnValue": "警告 NaN和Infinity/-Infinity 数值",
         "enValue": "Warn about NaN and Infinity/-Infinity numeric values"
       },
       {
         "key": "inspection.compliance.msg.illegal.property.key",
-        "cnValue": "JSON standard allows only double quoted string as property key",
+        "cnValue": "JSON标准仅允许双引号字符串作为属性键",
         "enValue": "JSON standard allows only double quoted string as property key"
       },
       {
         "key": "settings.json.schema.add.mapping",
-        "cnValue": "Add mapping",
+        "cnValue": "添加映射",
         "enValue": "Add mapping"
       },
       {
         "key": "inspection.compliance.msg.bad.token",
-        "cnValue": "JSON standard does not allow such tokens",
+        "cnValue": "JSON标准不允许这样的标记",
         "enValue": "JSON standard does not allow such tokens"
       },
       {
         "key": "inspection.duplicate.keys.msg.duplicate.keys",
-        "cnValue": "Object contains duplicate keys \"{0}\"",
+        "cnValue": "对象包含重复键 \"{0}\"",
         "enValue": "Object contains duplicate keys \"{0}\""
       },
       {
         "key": "inspection.duplicate.keys.name",
-        "cnValue": "Duplicate keys in object literals",
+        "cnValue": "复制对象文字中的键",
         "enValue": "Duplicate keys in object literals"
       },
       {
         "key": "json.schema.inspection.compliance.name",
-        "cnValue": "Compliance with JSON schema",
+        "cnValue": "符合JSON模式",
         "enValue": "Compliance with JSON schema"
       },
       {
         "key": "formatter.align.properties.on.value",
-        "cnValue": "On value",
+        "cnValue": "在值",
         "enValue": "On value"
       },
       {
         "key": "inspection.compliance5.name",
-        "cnValue": "Compliance with JSON5 standard",
+        "cnValue": "符合JSON5标准",
         "enValue": "Compliance with JSON5 standard"
       },
       {
         "key": "json.array",
-        "cnValue": "array",
+        "cnValue": "数组",
         "enValue": "array"
       },
       {
@@ -892,32 +892,32 @@
       },
       {
         "key": "syntax.error.missing.closing.quote",
-        "cnValue": "Missing closing quote",
+        "cnValue": "缺少关闭符",
         "enValue": "Missing closing quote"
       },
       {
         "key": "json.object",
-        "cnValue": "object",
+        "cnValue": "对象",
         "enValue": "object"
       },
       {
         "key": "inspection.compliance.msg.comments",
-        "cnValue": "JSON standard does not allow comments. Use JSMin or similar tool to remove comments before parsing.",
+        "cnValue": "JSON标准不允许注释. 在解析之前使用JSMin或类似工具删除注释.",
         "enValue": "JSON standard does not allow comments. Use JSMin or similar tool to remove comments before parsing."
       },
       {
         "key": "json.schema.annotation.not.allowed.property",
-        "cnValue": "Property ''{0}'' is not allowed",
+        "cnValue": "不允许使用''{0}''属性",
         "enValue": "Property ''{0}'' is not allowed"
       },
       {
         "key": "inspection.compliance.msg.multiple.top.level.values",
-        "cnValue": "JSON standard allows only one top-level value",
+        "cnValue": "JSON标准只允许一个顶级值",
         "enValue": "JSON standard allows only one top-level value"
       },
       {
         "key": "json.property",
-        "cnValue": "property",
+        "cnValue": "属性",
         "enValue": "property"
       }
     ]
@@ -990,7 +990,7 @@
       },
       {
         "key": "ligatures.jre.warning",
-        "cnValue": "<html>The JRE you are running {0} with<br>is known to have performance issues<br>related to ligatures support.<br>Use <a href=\"https://confluence.jetbrains.com/display/IDEADEV/JetBrains+Runtime+Environment\">JetBrains Runtime</a> instead to enable ligatures.",
+        "cnValue": "<html>The JRE you are running {0} with is known to have performance issues related to ligatures support.<br>Use <a href=\"https://confluence.jetbrains.com/display/IDEADEV/JetBrains+Runtime+Environment\">JetBrains Runtime</a> instead to enable ligatures.",
         "enValue": "<html>The JRE you are running {0} with<br>is known to have performance issues<br>related to ligatures support.<br>Use <a href=\"https://confluence.jetbrains.com/display/IDEADEV/JetBrains+Runtime+Environment\">JetBrains Runtime</a> instead to enable ligatures."
       },
       {
